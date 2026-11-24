@@ -80,3 +80,10 @@ def test_le_fette_coprono_tutti_i_token(monkeypatch, tmp_path):
     fette = [set(lab.scarica_candele(foto, 10**12, parte=k, parti=4)) for k in range(4)]
     assert set().union(*fette) == {f"T{i}" for i in range(40)}
     assert sum(len(f) for f in fette) == 40
+
+
+def test_pulisci_toglie_i_picchi_impossibili_ma_tiene_i_crolli():
+    from bot.notte.laboratorio import pulisci
+    candele = [[0, 1, 1.1, 0.9, 1.0, 5], [60, 1, 1.2, 1, 1.1, 5], [120, 1.1, 2500, 1.1, 2500, 1],
+               [180, 1.1, 30, 0.01, 0.02, 9]]
+    assert pulisci(candele) == [[0, 1, 1.1, 0.9, 1.0, 5], [60, 1, 1.2, 1, 1.1, 5], [180, 1.1, 1.1, 0.01, 0.02, 9]]

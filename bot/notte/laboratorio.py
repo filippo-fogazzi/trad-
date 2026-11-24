@@ -100,6 +100,24 @@ def _scarica(http: requests.Session, pool: str, limite: int, prima_di: int, scad
     return None
 
 
+SALTO_MAX = 10  # oltre 10 volte il prezzo del minuto prima: dato sbagliato o prezzo irraggiungibile
+
+
+def pulisci(candele: list) -> list:
+    """Toglie i picchi impossibili (es. x2500 in un minuto quando la liquidità sparisce):
+    a quel prezzo non si vende davvero, e da soli falsavano i risultati di migliaia di %.
+    Candela: [ts, apertura, massimo, minimo, chiusura, volume]. I crolli restano: sono rug veri."""
+    pulite, prima = [], None
+    for c in candele:
+        if prima is not None and c[4] > SALTO_MAX * prima:
+            continue
+        if prima is not None and c[2] > SALTO_MAX * prima:
+            c = [c[0], c[1], max(c[1], c[4]), c[3], c[4], c[5]]
+        pulite.append(c)
+        prima = c[4]
+    return pulite
+
+
 # --- simulazione di una operazione ------------------------------------------
 
 def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict | None:
@@ -283,6 +301,7 @@ def main() -> None:
     print(f"prezzi successivi disponibili per {len(candele)} token")
     if a.solo_candele:
         return
+    candele = {token: pulisci(lista) for token, lista in candele.items()}
     capitale = 50 * 1.1  # circa 50€ in dollari
     risultati = []
     for nome, regole in varianti(tutte):

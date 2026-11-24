@@ -23,9 +23,9 @@
   "nome": "Compra tutto (senza filtri né controlli)",
   "n": 264,
   "eseguite": 14,
-  "vincenti_pct": 32.6,
-  "ritorno_medio_pct": 560.0,
-  "profit_factor": 19.33,
+  "vincenti_pct": 33.0,
+  "ritorno_medio_pct": -9.11,
+  "profit_factor": 0.7,
   "capitale_finale_usd": 10.98,
   "variazione_pct": -80.0
  },
