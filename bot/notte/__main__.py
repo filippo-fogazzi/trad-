@@ -293,6 +293,17 @@ def calcola_fine(regole: dict, minuti: int | None) -> datetime:
     return fine if fine > adesso else fine + timedelta(days=1)
 
 
+def unisci(base: dict, modifiche: dict) -> dict:
+    """Copia di base con le modifiche applicate, anche nei livelli interni."""
+    risultato = dict(base)
+    for chiave, valore in modifiche.items():
+        if isinstance(valore, dict) and isinstance(base.get(chiave), dict):
+            risultato[chiave] = unisci(base[chiave], valore)
+        elif chiave != "descrizione":
+            risultato[chiave] = valore
+    return risultato
+
+
 def data_della_notte() -> str:
     """Le ore dopo mezzanotte appartengono alla notte iniziata il giorno prima."""
     adesso = datetime.now(ITALIA)
@@ -303,9 +314,14 @@ if __name__ == "__main__":
     argomenti = argparse.ArgumentParser(description="Esperimento notturno memecoin su carta")
     argomenti.add_argument("--minuti", type=int, help="durata in minuti (default: fino all'ora di fine)")
     argomenti.add_argument("--max-minuti", type=int, help="ferma questo turno dopo N minuti senza chiudere le posizioni")
+    argomenti.add_argument("--variante", help="strategia alternativa da regole.yaml → notte_meme_varianti (es. b)")
     argomenti.add_argument("--nome", help="nome della cartella dei risultati (default: data della notte)")
     a = argomenti.parse_args()
-    regole = carica_regole()["notte_meme"]
-    cartella = RADICE / "risultati" / "notte" / (a.nome or data_della_notte())
+    tutte = carica_regole()
+    regole = tutte["notte_meme"]
+    if a.variante:
+        regole = unisci(regole, tutte["notte_meme_varianti"][a.variante])
+    nome = a.nome or data_della_notte() + (f"-{a.variante}" if a.variante else "")
+    cartella = RADICE / "risultati" / "notte" / nome
     pausa = datetime.now(ITALIA) + timedelta(minutes=a.max_minuti) if a.max_minuti else None
     Notte(regole, calcola_fine(regole, a.minuti), cartella, pausa=pausa).gira()

@@ -10,7 +10,7 @@
  },
  "holder": {},
  "conteggio_filtri": {
-  "liquidit\u00e0 troppo bassa": 19,
+  "liquidit\u00e0 troppo bassa": 21,
   "coppia troppo vecchia": 29,
   "nessun prezzo disponibile": 1,
   "volume 5 min troppo basso": 1
@@ -18,6 +18,7 @@
  "visti": [
   "1PPQkxYy2wUvKkUXMnDkiDrqx5Hfp2nbDju11cvHeFW",
   "2FukWzFuyPzctmkxoHaESfd1ZGfo1yr8DFLHxC1fpump",
+  "2M3CsCP97Le187KQC5jhZG3c6bFzCZ51NP8bscrupump",
   "33xKs5zTHW4pppqvUKjvHuC8cHjSUb1JzVbzxYFHpump",
   "3QUrDTez1H6UyhLS5tMHBZgS79j9fJvwm7EPG2Fbpump",
   "4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump",
@@ -51,6 +52,7 @@
   "DTLJXMxGdD1tMhKXurxbS7aqX3j79YkCkGQsQu5Zpump",
   "DU9Q7K3TqLTW1xS36S45TPj3FVwym2F5wAbF5tHkpump",
   "DerEwFpXm6J39QCB3312fQ3b6fE3PDCWpnnEV5dwpump",
+  "DiaLLB3UDAH7M3qEgCkAzSMc1k5Gt8ccPTYVLoErnqRZ",
   "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
   "EAxsoqyVTYXjCxiPmSqQ9eGqRaHERPbRPegKmErUpump",
   "FzjDzFNwCHW9nnQymbfqYpxVYGCeBdo91ra7UcEXpump",
@@ -200,10 +202,43 @@
    "senza_segnali": 0,
    "comprati": 0,
    "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:22:50",
+   "guardati": 49,
+   "nuovi": 1,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:23:50",
+   "guardati": 49,
+   "nuovi": 1,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:24:50",
+   "guardati": 49,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
   }
  ],
  "contatori": {
-  "guardati": 582,
+  "guardati": 729,
   "nel_perimetro": 0,
   "controllati": 0,
   "bocciati": 0,

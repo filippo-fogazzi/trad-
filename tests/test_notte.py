@@ -194,3 +194,13 @@ def test_un_giro_dello_scanner_compra_e_conta(tmp_path):
                                "senza_segnali": 0, "rifiutati_dimensione": 0, "comprati": 1}
     assert notte.attivita[-1]["comprati"] == 1
     assert "ENTRA" in (tmp_path / "diario.log").read_text()
+
+
+def test_variante_b_cambia_solo_i_numeri_indicati():
+    from bot.notte.__main__ import unisci
+    tutte = carica_regole()
+    b = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["b"])
+    assert b["universo"]["liquidita_min_usd"] == 15000
+    assert b["universo"]["eta_max_ore"] == R["universo"]["eta_max_ore"]
+    assert b["dimensione"]["pct_capitale"] == 40 and b["dimensione"]["max_posizioni"] == 2
+    assert "descrizione" not in b

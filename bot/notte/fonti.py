@@ -10,6 +10,9 @@ import requests
 DEXSCREENER = "https://api.dexscreener.com"
 RUGCHECK = "https://api.rugcheck.xyz/v1"
 BINANCE = "https://data-api.binance.vision/api/v3"
+GECKOTERMINAL = "https://api.geckoterminal.com/api/v2/networks/solana"
+# GeckoTerminal: pool appena creati e pool di tendenza (gratis, circa 30 richieste al minuto).
+ELENCHI_POOL = ("/new_pools?page=1", "/new_pools?page=2", "/trending_pools?duration=5m", "/trending_pools?duration=1h")
 
 # DexScreener non ha un elenco ufficiale di "tutte le coppie nuove": usiamo i token che
 # hanno appena creato un profilo, comprato visibilità o avuto un cambio di comunità.
@@ -26,6 +29,7 @@ class Fonti:
     def __init__(self, pausa_rugcheck: float = 1.5):
         self.http = requests.Session()
         self.http.headers["User-Agent"] = "trad-paper-bot"
+        self.http.headers["Accept"] = "application/json"
         self.pausa_rugcheck = pausa_rugcheck
         self._ultima_rugcheck = 0.0
 
@@ -37,6 +41,15 @@ class Fonti:
             except requests.RequestException:
                 continue
             indirizzi += [t["tokenAddress"] for t in elenco if isinstance(t, dict) and t.get("chainId") == "solana"]
+        for percorso in ELENCHI_POOL:
+            try:
+                pool = self._leggi(GECKOTERMINAL + percorso).get("data") or []
+            except requests.RequestException:
+                continue
+            for p in pool:
+                token = ((p.get("relationships") or {}).get("base_token") or {}).get("data", {}).get("id", "")
+                if token.startswith("solana_"):
+                    indirizzi.append(token.removeprefix("solana_"))
         return list(dict.fromkeys(indirizzi))
 
     def coppie(self, indirizzi: list[str]) -> dict[str, dict]:
