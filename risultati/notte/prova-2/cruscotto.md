@@ -1,10 +1,10 @@
-# Cruscotto notte — aggiornato 24/11 17:13:08
+# Cruscotto notte — aggiornato 24/11 17:19:29
 
 **SOLDI FINTI, PREZZI VERI.**
 
 | Capitale | Operazioni | Vinte | Perse | Token visti | Stato |
 |---|---|---|---|---|---|
-| $54.89 (≈ 50.00€) su $54.89 | 0 | 0 | 0 | 49 | attivo |
+| $54.89 (≈ 50.00€) su $54.89 | 0 | 0 | 0 | 50 | attivo |
 
 ## Posizioni aperte
 

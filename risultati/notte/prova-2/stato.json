@@ -11,7 +11,7 @@
  "holder": {},
  "conteggio_filtri": {
   "liquidit\u00e0 troppo bassa": 19,
-  "coppia troppo vecchia": 28,
+  "coppia troppo vecchia": 29,
   "nessun prezzo disponibile": 1,
   "volume 5 min troppo basso": 1
  },
@@ -42,6 +42,7 @@
   "9scVbbC7HUwXaBmo8bnYfm2Pa5oouZpjy2NvrvwLpump",
   "AQsH4RUQreNQ59ZDGFgCDxaENL9y2jhHkd4CPtC1pump",
   "ArTHx2XxPadBjkJw9WacfwPTEoaeG5jMakX26tzEpump",
+  "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto",
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
   "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
   "CBhuYzoXmaFHiRxLWjiJCVTCVHBrQGmCfAfrY5ELpump",
@@ -100,10 +101,76 @@
    "senza_segnali": 0,
    "comprati": 0,
    "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:13:48",
+   "guardati": 48,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:14:48",
+   "guardati": 48,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:15:48",
+   "guardati": 48,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:16:48",
+   "guardati": 49,
+   "nuovi": 1,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:17:49",
+   "guardati": 49,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:18:49",
+   "guardati": 49,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
   }
  ],
  "contatori": {
-  "guardati": 144,
+  "guardati": 435,
   "nel_perimetro": 0,
   "controllati": 0,
   "bocciati": 0,
