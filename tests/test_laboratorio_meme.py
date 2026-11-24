@@ -50,3 +50,33 @@ def test_statistiche_massimo_due_posizioni():
     ops = [{"ms": T0 * 1000 + i, "minuti": 30, "ritorno_pct": 10} for i in range(3)]
     s = statistiche(ops, R, 55)
     assert s["eseguite"] == 2 and s["n"] == 3
+
+
+def test_scarica_riprova_dopo_troppe_richieste(monkeypatch):
+    import bot.notte.laboratorio as lab
+
+    class Risposta:
+        def __init__(self, codice):
+            self.status_code = codice
+
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {"data": {"attributes": {"ohlcv_list": [[2, 1, 1, 1, 1, 5], [1, 1, 1, 1, 1, 5]]}}}
+
+    codici = iter([429, 429, 200])
+    http = type("Http", (), {"get": lambda self, *a, **k: Risposta(next(codici))})()
+    monkeypatch.setattr(lab.time, "sleep", lambda s: None)
+    assert lab._scarica(http, "pool", 10, 0, lab.time.time() + 60) == [[1, 1, 1, 1, 1, 5], [2, 1, 1, 1, 1, 5]]
+
+
+def test_le_fette_coprono_tutti_i_token(monkeypatch, tmp_path):
+    import bot.notte.laboratorio as lab
+    monkeypatch.setattr(lab, "CARTELLA_CANDELE", tmp_path)
+    foto = [{"token": f"T{i}", "ms": 0, "coppia": {"pairAddress": f"P{i}"}} for i in range(40)]
+    for i in range(40):
+        (tmp_path / f"P{i}_0.json").write_text("[]")
+    fette = [set(lab.scarica_candele(foto, 10**12, parte=k, parti=4)) for k in range(4)]
+    assert set().union(*fette) == {f"T{i}" for i in range(40)}
+    assert sum(len(f) for f in fette) == 40

@@ -5,11 +5,14 @@ e simula: filtri, controllo anti-truffa, segnali, poi uscite (-stop, 2x/4x, trai
 tempo massimo) con commissioni e slippage stimati.
 
 Uso: python -m bot.notte.laboratorio
+     python -m bot.notte.laboratorio --solo-candele --parte 0 --parti 4   (solo prezzi, una fetta)
 Scrive: risultati/laboratorio_meme.md e risultati/laboratorio_meme.json
 """
+import argparse
 import itertools
 import json
 import time
+import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -37,9 +40,12 @@ def carica_foto() -> list[dict]:
     return sorted(foto, key=lambda f: f["ms"])
 
 
-def scarica_candele(foto: list[dict], adesso_ms: int, max_minuti: float = 55) -> dict[str, list]:
+def scarica_candele(foto: list[dict], adesso_ms: int, max_minuti: float = 55,
+                    parte: int = 0, parti: int = 1) -> dict[str, list]:
     """Una richiesta per token, che copre tutte le sue foto più 150 minuti. Usa una copia locale se c'è.
-    Dopo max_minuti smette di scaricare: i token mancanti verranno presi al giro successivo."""
+    Dopo max_minuti smette di scaricare: i token mancanti verranno presi al giro successivo.
+    Con parti > 1 scarica solo la sua fetta di token, così più macchine (con indirizzi diversi,
+    quindi limiti di GeckoTerminal separati) lavorano in parallelo."""
     scadenza = time.time() + max_minuti * 60
     CARTELLA_CANDELE.mkdir(parents=True, exist_ok=True)
     per_token: dict[str, list[dict]] = {}
@@ -49,6 +55,8 @@ def scarica_candele(foto: list[dict], adesso_ms: int, max_minuti: float = 55) ->
     http.headers.update({"Accept": "application/json", "User-Agent": "trad-paper-bot"})
     candele: dict[str, list] = {}
     for token, sue in per_token.items():
+        if zlib.crc32(token.encode()) % parti != parte:
+            continue
         ultima = max(f["ms"] for f in sue)
         if adesso_ms < ultima + FINESTRA_MINUTI * 60_000:
             continue  # il futuro di questa foto non è ancora successo
@@ -63,23 +71,33 @@ def scarica_candele(foto: list[dict], adesso_ms: int, max_minuti: float = 55) ->
             continue
         prima = min(f["ms"] for f in sue)
         limite = min(1000, int((ultima - prima) / 60_000) + FINESTRA_MINUTI + 5)
-        try:
-            r = http.get(f"{GECKOTERMINAL}/pools/{pool}/ohlcv/minute",
-                         params={"aggregate": 1, "limit": limite, "currency": "usd",
-                                 "before_timestamp": int(ultima / 1000) + FINESTRA_MINUTI * 60}, timeout=20)
-            if r.status_code == 429:
-                time.sleep(30)
-                continue
-            r.raise_for_status()
-            lista = sorted(r.json()["data"]["attributes"]["ohlcv_list"])
-        except (requests.RequestException, KeyError, ValueError):
-            lista = None
-        finally:
-            time.sleep(PAUSA_GECKO)
+        lista = _scarica(http, pool, limite, int(ultima / 1000) + FINESTRA_MINUTI * 60, scadenza)
         if lista is not None:
             cache.write_text(json.dumps(lista, separators=(",", ":")))
             candele[token] = lista
     return candele
+
+
+def _scarica(http: requests.Session, pool: str, limite: int, prima_di: int, scadenza: float) -> list | None:
+    """Candele al minuto di un pool. Se GeckoTerminal dice "troppe richieste" (429) aspetta e riprova
+    lo stesso token, invece di saltarlo. None = non disponibile adesso (si riprova la volta dopo)."""
+    attesa = 15
+    while time.time() < scadenza:
+        try:
+            r = http.get(f"{GECKOTERMINAL}/pools/{pool}/ohlcv/minute",
+                         params={"aggregate": 1, "limit": limite, "currency": "usd", "before_timestamp": prima_di},
+                         timeout=20)
+            if r.status_code == 429:
+                time.sleep(attesa)
+                attesa = min(attesa * 2, 60)
+                continue
+            r.raise_for_status()
+            return sorted(r.json()["data"]["attributes"]["ohlcv_list"])
+        except (requests.RequestException, KeyError, ValueError):
+            return None
+        finally:
+            time.sleep(PAUSA_GECKO)
+    return None
 
 
 # --- simulazione di una operazione ------------------------------------------
@@ -252,11 +270,19 @@ def rapporto(risultati: list[dict], n_foto: int, n_token: int, n_candele: int) -
 
 
 def main() -> None:
+    argomenti = argparse.ArgumentParser(description="Laboratorio meme: riprova le strategie sulle foto")
+    argomenti.add_argument("--solo-candele", action="store_true", help="scarica i prezzi e basta")
+    argomenti.add_argument("--parte", type=int, default=0)
+    argomenti.add_argument("--parti", type=int, default=1)
+    argomenti.add_argument("--max-minuti", type=float, default=55)
+    a = argomenti.parse_args()
     tutte = carica_regole()
     foto = carica_foto()
     print(f"{len(foto)} foto di {len({f['token'] for f in foto})} token")
-    candele = scarica_candele(foto, int(time.time() * 1000))
+    candele = scarica_candele(foto, int(time.time() * 1000), a.max_minuti, a.parte, a.parti)
     print(f"prezzi successivi disponibili per {len(candele)} token")
+    if a.solo_candele:
+        return
     capitale = 50 * 1.1  # circa 50€ in dollari
     risultati = []
     for nome, regole in varianti(tutte):
