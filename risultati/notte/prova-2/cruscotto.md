@@ -1,4 +1,4 @@
-# Cruscotto notte — aggiornato 24/11 17:12:58
+# Cruscotto notte — aggiornato 24/11 17:13:08
 
 **SOLDI FINTI, PREZZI VERI.**
 
