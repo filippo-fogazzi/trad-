@@ -1,0 +1,54 @@
+[
+ {
+  "motivo": "liquidità troppo bassa",
+  "token": 252
+ },
+ {
+  "motivo": "coppia troppo vecchia",
+  "token": 48
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
+  "token": 12
+ },
+ {
+  "motivo": "nessun prezzo disponibile",
+  "token": 7
+ },
+ {
+  "motivo": "volume 5 min troppo basso",
+  "token": 5
+ },
+ {
+  "motivo": "DEX non previsto",
+  "token": 4
+ },
+ {
+  "motivo": "già +300% nell'ultima ora, niente inseguimento",
+  "token": 3
+ },
+ {
+  "motivo": "5 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "4 portafogli insider collegati; RugCheck: Creator history of rugged tokens",
+  "token": 2
+ },
+ {
+  "motivo": "segnali 1/2",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "6 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "7 portafogli insider collegati",
+  "token": 1
+ }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  "notte": "prova-2",
+  "capitale_iniziale_usd": 54.89,
+  "capitale_usd": 54.89,
+  "capitale_iniziale_eur": 50.0,
+  "capitale_eur": 50.0,
+  "variazione_pct": 0.0,
+  "operazioni": 0,
+  "vinte": 0,
+  "perse": 0,
+  "posizioni_aperte": 0,
+  "token_guardati": 54,
+  "stato": "finita",
+  "cambio_eur_usd": 1.0978,
+  "aggiornato": "24/11/2026 17:40"
+ }
+]

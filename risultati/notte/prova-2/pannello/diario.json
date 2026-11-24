@@ -1,0 +1,12 @@
+[
+ {
+  "ora": "17:10:47",
+  "tipo": "AVVIO",
+  "testo": "capitale $54.89, fine alle 17:40, questo turno fino alle 17:40"
+ },
+ {
+  "ora": "17:40:52",
+  "tipo": "RIEPILOGO",
+  "testo": "scritto in /home/user/trad-/risultati/notte/prova-2/riepilogo.md"
+ }
+]

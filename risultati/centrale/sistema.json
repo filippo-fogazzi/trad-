@@ -1,0 +1,50 @@
+[
+ {
+  "id": "notte_a",
+  "attivita": "Bot notturno A · regole Grok",
+  "stato": "in attesa",
+  "dettaglio": "Nessuna notte registrata ancora.",
+  "ultimo": "—",
+  "prossimo": "stanotte alle 23:00"
+ },
+ {
+  "id": "notte_b",
+  "attivita": "Bot notturno B · più largo e rischioso",
+  "stato": "in attesa",
+  "dettaglio": "Nessuna notte registrata ancora.",
+  "ultimo": "—",
+  "prossimo": "stanotte alle 23:00"
+ },
+ {
+  "id": "registratore",
+  "attivita": "Registratore 24/7",
+  "stato": "attivo",
+  "dettaglio": "96 foto di 62 memecoin",
+  "ultimo": "24/11 18:13",
+  "prossimo": "riparte ogni 6 ore"
+ },
+ {
+  "id": "lab_meme",
+  "attivita": "Laboratorio meme",
+  "stato": "in attesa",
+  "dettaglio": "Servono 2,5 ore di prezzi dopo le prime foto.",
+  "ultimo": "—",
+  "prossimo": "dopo il primo turno del registratore"
+ },
+ {
+  "id": "lab_binance",
+  "attivita": "Laboratorio Binance",
+  "stato": "fatto",
+  "dettaglio": "0 strategie promosse su 45 (BTC, ETH, SOL, DOGE, PEPE)",
+  "ultimo": "2026-11-24",
+  "prossimo": "su richiesta"
+ },
+ {
+  "id": "aggiornamento",
+  "attivita": "Aggiornamento del pannello",
+  "stato": "programmato",
+  "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
+  "ultimo": "24/11 18:14",
+  "prossimo": "domani alle 07:08"
+ }
+]

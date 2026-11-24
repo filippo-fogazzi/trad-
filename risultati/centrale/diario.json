@@ -1,0 +1,147 @@
+[
+ {
+  "ora": "17:24:51",
+  "tipo": "AVVIO",
+  "testo": "capitale $54.91, fine alle 17:39, questo turno fino alle 17:39"
+ },
+ {
+  "ora": "17:26:02",
+  "tipo": "FILTRATO",
+  "testo": "$Wanted non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "17:26:03",
+  "tipo": "FILTRATO",
+  "testo": "$wif non comprato · motivo: 5 portafogli insider collegati"
+ },
+ {
+  "ora": "17:26:04",
+  "tipo": "FILTRATO",
+  "testo": "$PI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:26:05",
+  "tipo": "FILTRATO",
+  "testo": "$JIMMY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:26:07",
+  "tipo": "FILTRATO",
+  "testo": "$SuperELON non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:26:08",
+  "tipo": "FILTRATO",
+  "testo": "$SOLGORITHM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:27:49",
+  "tipo": "FILTRATO",
+  "testo": "$UGOS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "17:29:45",
+  "tipo": "FILTRATO",
+  "testo": "$Wanted non comprato · motivo: segnali 1/2 (acquisti 92%)"
+ },
+ {
+  "ora": "17:29:47",
+  "tipo": "FILTRATO",
+  "testo": "$UGOS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "17:31:09",
+  "tipo": "ENTRA",
+  "testo": "$Wanted $21.96 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 92% + holder +8% · rug check PASS · https://dexscreener.com/solana/exarvvp7biwztlqspp8fzgnij7u8v1a2ukuurh3ierit"
+ },
+ {
+  "ora": "17:31:13",
+  "tipo": "FILTRATO",
+  "testo": "$uzicat non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:31:13",
+  "tipo": "FILTRATO",
+  "testo": "$INU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "17:31:16",
+  "tipo": "FILTRATO",
+  "testo": "$BOB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:31:19",
+  "tipo": "PARZIALE",
+  "testo": "$Wanted seconda metà comprata a $0.0002344"
+ },
+ {
+  "ora": "17:33:51",
+  "tipo": "FILTRATO",
+  "testo": "$wif non comprato · motivo: 6 portafogli insider collegati"
+ },
+ {
+  "ora": "17:33:52",
+  "tipo": "FILTRATO",
+  "testo": "$poor dog non comprato · motivo: 5 portafogli insider collegati"
+ },
+ {
+  "ora": "17:33:54",
+  "tipo": "FILTRATO",
+  "testo": "$Democat non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:35:07",
+  "tipo": "FILTRATO",
+  "testo": "$wif non comprato · motivo: 7 portafogli insider collegati"
+ },
+ {
+  "ora": "17:35:07",
+  "tipo": "FILTRATO",
+  "testo": "$WORTHLESS non comprato · motivo: 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "17:35:09",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:37:04",
+  "tipo": "FILTRATO",
+  "testo": "$poor dog non comprato · motivo: 5 portafogli insider collegati"
+ },
+ {
+  "ora": "17:37:06",
+  "tipo": "FILTRATO",
+  "testo": "$Leek Coin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:37:07",
+  "tipo": "FILTRATO",
+  "testo": "$WORTHLESS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:37:09",
+  "tipo": "FILTRATO",
+  "testo": "$GCUL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:39:02",
+  "tipo": "FILTRATO",
+  "testo": "$WORTHLESS non comprato · motivo: 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "17:40:12",
+  "tipo": "FILTRATO",
+  "testo": "$DOG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:40:26",
+  "tipo": "ESCE",
+  "testo": "$Wanted +1.66$ motivo: fine della notte"
+ },
+ {
+  "ora": "17:40:26",
+  "tipo": "RIEPILOGO",
+  "testo": "scritto in /home/user/trad-/risultati/notte/prova-b/riepilogo.md"
+ }
+]
