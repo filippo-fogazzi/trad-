@@ -45,3 +45,63 @@ promozione:
   min_profit_factor: 1.2      # Per ogni 1€ perso, almeno 1,20€ guadagnato (dopo i costi).
   max_drawdown_pct: 15        # Il capitale non deve mai scendere più del 15% dal suo massimo.
   positiva_in_entrambe_le_meta: true  # Deve guadagnare sia nella prima che nella seconda metà del periodo.
+
+# ==========================================================================
+#  ESPERIMENTO NOTTURNO MEMECOIN (solo carta)
+#  Replica le regole del prompt "Grok Bot" per vedere se funzionano davvero.
+#  ATTENZIONE: queste regole rischiano MOLTO più dello Scudo qui sopra
+#  (33% del capitale a operazione invece dell'1%). Valgono SOLO su carta.
+# ==========================================================================
+notte_meme:
+  capitale_euro: 50            # Capitale finto di partenza.
+  inizio: "23:00"              # Ora italiana.
+  fine: "07:00"
+
+  universo:                    # Quali token vengono anche solo guardati
+    eta_max_ore: 6             # Coppia creata o migrata nelle ultime 6 ore.
+    dex: [pumpswap, pumpfun, raydium, meteora, meteoradbc]
+    liquidita_min_usd: 40000
+    volume_5min_min_usd: 25000
+    holder_min: 300
+
+  segnali:                     # Ne servono almeno 2 per entrare
+    minimi_richiesti: 2
+    picco_volume_x: 5          # Volume degli ultimi 5 min > 5 volte la media oraria.
+    acquisti_min_pct: 70       # Almeno il 70% delle operazioni degli ultimi 5 min sono acquisti...
+    transazioni_min_5min: 20   # ...su almeno 20 operazioni.
+    crescita_holder_pct: 5     # Holder cresciuti del 5% dall'ultimo controllo.
+    # Non disponibili gratis (servono servizi a pagamento): "smart money" e portafogli KOL.
+
+  controllo_truffe:            # Senza PASS non si compra nulla
+    sviluppatore_max_pct: 5
+    top10_max_pct: 35          # Esclusi i conti del pool (AMM).
+    lp_bloccata_min_pct: 90
+    no_mint_authority: true
+    no_freeze_authority: true
+    no_rischi_gravi: true      # Nessun rischio "danger" secondo RugCheck (es. creatore con truffe passate).
+    no_insider_rilevati: true  # Approssima il "lancio a pacchetti" (bundled launch).
+
+  dimensione:
+    pct_capitale: 33           # Ogni operazione usa il 33% del capitale attuale.
+    max_posizioni: 2
+    dimezza_dopo_perdite: 2    # Dopo 2 perdite di fila la dimensione si dimezza, fino alla prossima vincita.
+
+  uscite:
+    stop_pct: 12               # Vende tutto a -12% (ma se il prezzo crolla di colpo si esce più in basso).
+    vendi_40pct_a: 2.0         # Vende il 40% quando il prezzo raddoppia.
+    vendi_30pct_a: 4.0         # Vende un altro 30% a 4 volte.
+    trailing_resto_pct: 25     # Il 30% rimasto esce se scende del 25% dal suo massimo.
+    tempo_max_minuti: 25       # Se dopo 25 minuti non ha raddoppiato, vende tutto.
+    no_inseguire_pct_1h: 300   # Salta i token già saliti del 300% nell'ultima ora senza ritracciamento.
+    stop_notte_pct: 30         # Se il capitale scende del 30% dal suo massimo, il bot si ferma.
+
+  costi:                       # STIME, non costi misurati
+    slippage_ritardo_pct: 1.0  # Il prezzo si muove tra quando il bot vede e quando compra.
+    slippage_max_pct: 2.5      # Se lo slippage stimato supera il 2.5%, non compra.
+    commissione_dex_pct: 1.0   # Commissione del DEX per ogni compravendita (stima prudente).
+    rete_usd_per_ordine: 0.10  # Commissione di rete Solana + priorità per ogni ordine (stima).
+    perdita_se_rug_pct: 90     # Se la liquidità sparisce, si assume di recuperare solo il 10%.
+
+  ritmo_secondi:               # Ogni quanto si controlla
+    ricerca: 60
+    posizioni: 10

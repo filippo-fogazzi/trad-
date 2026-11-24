@@ -1,0 +1,51 @@
+# Esperimento notturno memecoin SU CARTA (soldi finti, prezzi veri).
+# GitHub ferma ogni lavoro dopo 6 ore, quindi la notte è divisa in due turni:
+# il primo salva lo stato, il secondo riparte da lì fino alle 07:00 italiane.
+name: Notte su carta
+
+on:
+  schedule:
+    - cron: "0 22 * * *"    # turno 1: 23:00 in Italia (ora solare)
+    - cron: "45 3 * * *"    # turno 2: 04:45 in Italia, fino alle 07:00
+  workflow_dispatch:
+    inputs:
+      minuti:
+        description: "Durata della prova in minuti"
+        default: "30"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notte
+  cancel-in-progress: false
+
+jobs:
+  notte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Gira il bot
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m bot.notte --minuti "${{ inputs.minuti }}" --nome "prova-$(date +%Y-%m-%d-%H%M)"
+          elif [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then
+            python -m bot.notte --max-minuti 340
+          else
+            python -m bot.notte
+          fi
+      - name: Salva i risultati nel repository
+        if: always()
+        run: |
+          git config user.name "notte-bot"
+          git config user.email "notte-bot@users.noreply.github.com"
+          git add risultati/notte
+          git diff --cached --quiet && exit 0
+          git commit -m "Risultati notte su carta $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
