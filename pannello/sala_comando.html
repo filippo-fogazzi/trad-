@@ -1,34 +1,30 @@
 <meta name="dash-one-writer">
 <meta name="dash-form" content="freeform">
 <style>
-  /* Sala comando: una plancia scura a tre colonne (sistemi · capitale e flusso · registro in diretta),
-     una striscia di indicatori e schede per i dettagli. Un solo look scuro, voluto, in entrambi i temi. */
-  #dash-root { --dash-gutter: 0; }
+  /* Sala comando: plancia a tre colonne (sistemi · capitale e flusso · registro in diretta), una riga di
+     indicatori e schede per i dettagli. Segue il tema di claude.ai: bianca in chiaro, scura in scuro. */
   .sc {
-    --bg: #070C16; --panel: #0C1423; --panel2: #101B2E; --line: #1A2640; --line2: #26375A;
-    --fg: #E8EEF8; --muted: #8C99B0; --dim: #5A6781;
-    --cyan: #4CD6F0; --green: #34D69A; --amber: #F6B44B; --red: #FF5D7D; --violet: #A28CFB; --orange: #FF8A4C;
+    --bg: var(--color-bg); --panel: var(--color-panel); --line: var(--color-border-line);
+    --panel2: color-mix(in srgb, var(--color-fg) 3.5%, var(--color-panel));
+    --line2: color-mix(in srgb, var(--color-fg) 16%, var(--color-panel));
+    --fg: var(--color-fg); --muted: var(--color-fg-muted); --dim: color-mix(in srgb, var(--color-fg-muted) 75%, var(--color-panel));
+    --cyan: #1E8FD6; --green: #13A26A; --amber: #D4900F; --red: #E2385C; --violet: #7A5AE6; --orange: #E8672E;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 4px 16px -6px rgba(16, 24, 40, .08);
     --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
     --sans: var(--font-anthropic-sans, system-ui, sans-serif);
     --r: 14px;
-    color-scheme: dark;
-    background:
-      radial-gradient(1200px 500px at 85% -10%, rgba(76, 214, 240, .10), transparent 60%),
-      radial-gradient(900px 400px at -10% 110%, rgba(162, 140, 251, .08), transparent 60%),
-      linear-gradient(var(--bg), var(--bg));
     color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.45;
-    padding-block: 18px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
-    display: grid; gap: 16px; min-width: 0;
+    padding-block: 4px 32px; display: grid; gap: 16px; min-width: 0;
   }
   .sc *, .sc *::before, .sc *::after { box-sizing: border-box; }
-  .sc ::selection { background: rgba(76, 214, 240, .3); }
+  .sc ::selection { background: color-mix(in srgb, var(--cyan) 25%, transparent); }
 
   /* --- barra superiore --- */
   .sc-top { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; padding: 12px 16px; border: 1px solid var(--line);
-    border-radius: var(--r); background: linear-gradient(180deg, rgba(255,255,255,.03), transparent), var(--panel); }
+    border-radius: var(--r); background: var(--panel); box-shadow: var(--shadow); }
   .sc-brand { display: flex; align-items: center; gap: 12px; margin-right: auto; min-width: 0; }
   .sc-logo { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; flex: none;
-    background: conic-gradient(from 200deg, var(--cyan), var(--violet), var(--green), var(--cyan)); box-shadow: 0 0 24px -6px var(--cyan); }
+    background: conic-gradient(from 200deg, var(--cyan), var(--violet), var(--green), var(--cyan)); box-shadow: 0 4px 14px -4px color-mix(in srgb, var(--cyan) 60%, transparent); }
   .sc-logo span { width: 26px; height: 26px; border-radius: 7px; background: var(--panel); display: grid; place-items: center; }
   .sc-logo svg { width: 16px; height: 16px; color: var(--cyan); }
   .sc-brand h1 { margin: 0; font-size: 15px; font-weight: 650; letter-spacing: .02em; }
@@ -36,34 +32,32 @@
   .sc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
   .sc-pill { display: inline-flex; align-items: center; gap: 7px; padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line2); background: var(--panel2); white-space: nowrap; letter-spacing: .04em; }
   .sc-pill b { color: var(--fg); font-weight: 600; }
-  .sc-pill.paper { border-color: rgba(246, 180, 75, .45); color: var(--amber); }
+  .sc-pill.paper { border-color: color-mix(in srgb, var(--amber) 45%, transparent); color: var(--amber); background: color-mix(in srgb, var(--amber) 8%, var(--panel)); }
   .sc-clock { font-variant-numeric: tabular-nums; color: var(--fg); }
 
   .sc-led { width: 8px; height: 8px; border-radius: 50%; background: var(--dim); flex: none; position: relative; }
-  .sc-led.on { background: var(--green); box-shadow: 0 0 10px var(--green); }
-  .sc-led.warn { background: var(--amber); box-shadow: 0 0 10px var(--amber); }
-  .sc-led.off { background: var(--red); box-shadow: 0 0 10px var(--red); }
+  .sc-led.on { background: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 20%, transparent); }
+  .sc-led.warn { background: var(--amber); box-shadow: 0 0 0 3px color-mix(in srgb, var(--amber) 20%, transparent); }
+  .sc-led.off { background: var(--red); box-shadow: 0 0 0 3px color-mix(in srgb, var(--red) 20%, transparent); }
   @media (prefers-reduced-motion: no-preference) {
     .sc-led.on::after { content: ""; position: absolute; inset: -5px; border-radius: 50%; border: 1px solid var(--green); animation: sc-ping 2.4s ease-out infinite; }
     @keyframes sc-ping { from { transform: scale(.4); opacity: .9; } to { transform: scale(1.5); opacity: 0; } }
   }
 
   /* --- schede --- */
-  .sc-tabs { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); overflow-x: auto; scrollbar-width: none; }
+  .sc-tabs { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel2); overflow-x: auto; scrollbar-width: none; }
   .sc-tabs::-webkit-scrollbar { display: none; }
   .sc-tab { appearance: none; border: 0; background: transparent; color: var(--muted); font: 500 13px var(--sans); padding: 8px 14px; border-radius: 9px;
     cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center; gap: 8px; transition: background .15s, color .15s; }
-  .sc-tab:hover { color: var(--fg); background: rgba(255,255,255,.04); }
-  .sc-tab[aria-selected="true"] { color: var(--fg); background: var(--panel2); box-shadow: inset 0 0 0 1px var(--line2); }
-  .sc-tab[aria-selected="true"] i { background: var(--cyan); box-shadow: 0 0 8px var(--cyan); }
+  .sc-tab:hover { color: var(--fg); background: color-mix(in srgb, var(--color-fg) 5%, transparent); }
+  .sc-tab[aria-selected="true"] { color: var(--fg); background: var(--panel); box-shadow: var(--shadow), inset 0 0 0 1px var(--line); }
+  .sc-tab[aria-selected="true"] i { background: var(--cyan); }
   .sc-tab i { width: 6px; height: 6px; border-radius: 50%; background: var(--dim); }
   .sc-tab:focus-visible, .sc a:focus-visible, .sc summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 
   /* --- moduli --- */
-  .sc-mod { position: relative; border: 1px solid var(--line); border-radius: var(--r); background: var(--panel); padding: 16px; min-width: 0;
-    display: grid; gap: 12px; align-content: start; }
-  .sc-mod::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
-    background: linear-gradient(180deg, rgba(255,255,255,.025), transparent 40%); }
+  .sc-mod { position: relative; border: 1px solid var(--line); border-radius: var(--r); background: var(--panel); padding: 18px; min-width: 0;
+    display: grid; gap: 12px; align-content: start; box-shadow: var(--shadow); }
   .sc-mod-h { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
   .sc-label { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
   .sc-label em { font-style: normal; color: var(--dim); }
@@ -71,15 +65,19 @@
   .sc-note { margin: 0; font-size: 12.5px; color: var(--muted); max-width: 72ch; }
   .sc-empty { margin: 0; padding: 18px; border: 1px dashed var(--line2); border-radius: 10px; color: var(--muted); font-size: 13px; }
 
-  .sc-grid { display: grid; gap: 16px; grid-template-columns: minmax(250px, 300px) minmax(0, 1fr) minmax(280px, 360px); align-items: start; }
+  .sc-grid { display: grid; gap: 16px; grid-template-columns: minmax(250px, 1fr) minmax(0, 2.1fr) minmax(270px, 1.2fr); align-items: start; }
   @media (max-width: 1180px) { .sc-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .sc-center { grid-column: 1 / -1; order: -1; } }
   @media (max-width: 720px) { .sc-grid { grid-template-columns: minmax(0, 1fr); } }
   .sc-center { display: grid; gap: 16px; min-width: 0; }
 
   /* sistemi */
   .sc-sys { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
-  .sc-sys li { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto; gap: 4px 10px; align-items: center; padding: 10px; border-radius: 10px; }
-  .sc-sys li:hover { background: rgba(255,255,255,.03); }
+  .sc-sys li { --c: var(--muted); display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 10px 8px; border-radius: 12px; }
+  .sc-sys li:hover { background: var(--panel2); }
+  .sc-sys .ico { grid-row: span 3; align-self: start; width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; position: relative;
+    color: var(--c); background: color-mix(in srgb, var(--c) 12%, var(--panel)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 28%, transparent); }
+  .sc-sys .ico svg { width: 18px; height: 18px; }
+  .sc-sys .ico .sc-led { position: absolute; right: -3px; top: -3px; width: 9px; height: 9px; border: 2px solid var(--panel); box-sizing: content-box; }
   .sc-sys strong { font-size: 13px; font-weight: 600; min-width: 0; }
   .sc-sys .st { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
   .sc-sys p { grid-column: 2 / -1; margin: 0; font-size: 12px; color: var(--muted); }
@@ -90,7 +88,7 @@
   @media (max-width: 560px) { .sc-cap { grid-template-columns: minmax(0, 1fr); } }
   .sc-big { font-size: clamp(40px, 6vw, 60px); font-weight: 300; letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; }
   .sc-delta { display: inline-flex; gap: 8px; align-items: center; font-family: var(--mono); font-size: 12px; color: var(--muted); }
-  .sc-delta b { padding: 2px 8px; border-radius: 6px; font-weight: 600; background: rgba(255,255,255,.05); }
+  .sc-delta b { padding: 2px 8px; border-radius: 6px; font-weight: 600; background: var(--panel2); }
   .sc-up { color: var(--green); } .sc-down { color: var(--red); }
   .sc-spark { min-height: 110px; position: relative; }
   .sc-subline { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
@@ -100,10 +98,13 @@
   .sc-flow { min-height: 150px; position: relative; }
 
   /* indicatori */
-  .sc-kpis { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); }
-  .sc-kpi { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 12px; display: grid; gap: 4px; min-width: 0; position: relative; overflow: hidden; }
-  .sc-kpi::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--k, var(--cyan)); box-shadow: 0 0 12px var(--k, var(--cyan)); }
-  .sc-kpi .v { font-size: 19px; font-weight: 500; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  .sc-kpis { display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 16px; }
+  @media (max-width: 1100px) { .sc-kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 720px) { .sc-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .sc-kpi:last-child { grid-column: 1 / -1; } .sc .sc-kpi .v, .sc .sc-kpi .sc-label { white-space: normal; overflow-wrap: anywhere; } }
+  .sc-kpi { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+  .sc-kpi::after { content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 3px; border-radius: 0 3px 3px 0; background: var(--k, var(--cyan)); }
+  .sc-kpi .sc-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sc-kpi .v { font-size: clamp(18px, 1.6vw, 24px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
   .sc-kpi .d { font-size: 12px; color: var(--muted); }
 
   /* registro in diretta */
@@ -112,16 +113,16 @@
   .sc-feed li:last-child { border-bottom: 0; }
   .sc-feed time { color: var(--dim); font-variant-numeric: tabular-nums; }
   .sc-feed b { font-weight: 600; letter-spacing: .04em; }
-  .sc-feed span { grid-column: 2; color: #C4CDDC; overflow-wrap: anywhere; }
+  .sc-feed span { grid-column: 2; color: var(--fg); overflow-wrap: anywhere; }
 
   /* squadra */
   .sc-team { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
-  .sc-agent { --c: var(--cyan); border: 1px solid var(--line); border-radius: var(--r); background:
-      radial-gradient(240px 120px at 0% 0%, color-mix(in srgb, var(--c) 16%, transparent), transparent 70%), var(--panel);
+  .sc-agent { --c: var(--cyan); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); background:
+      radial-gradient(260px 120px at 0% 0%, color-mix(in srgb, var(--c) 10%, transparent), transparent 70%), var(--panel);
     padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
   .sc-agent header { display: flex; align-items: center; gap: 12px; }
   .sc-ico { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; flex: none; color: var(--c);
-    background: color-mix(in srgb, var(--c) 14%, var(--panel2)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 40%, transparent); }
+    background: color-mix(in srgb, var(--c) 12%, var(--panel)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 28%, transparent); }
   .sc-ico svg { width: 19px; height: 19px; }
   .sc-agent h3 { margin: 0; font-size: 14px; font-weight: 600; }
   .sc-agent header p { margin: 0; font-size: 12px; color: var(--muted); }
@@ -143,17 +144,17 @@
   .sc svg text { fill: var(--muted); font-family: var(--mono); font-size: 10.5px; }
   .sc-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
   .sc-legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
-  .sc-tip { position: absolute; z-index: 3; pointer-events: none; background: #0A1220; border: 1px solid var(--line2); border-radius: 8px; padding: 6px 9px;
-    font-family: var(--mono); font-size: 11px; color: var(--fg); white-space: nowrap; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+  .sc-tip { position: absolute; z-index: 3; pointer-events: none; background: var(--cds-surface-popover, var(--panel)); border: 1px solid var(--line2); border-radius: 8px; padding: 6px 9px;
+    font-family: var(--mono); font-size: 11px; color: var(--fg); white-space: nowrap; box-shadow: var(--cds-shadow-popover, 0 8px 24px rgba(0,0,0,.15)); }
   .sc-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
   .sc-table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 12.5px; font-variant-numeric: tabular-nums; }
   .sc-table th { background: var(--panel2); text-align: left; font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: .08em;
     text-transform: uppercase; color: var(--muted); padding: 10px 12px; border-bottom: 1px solid var(--line2); white-space: nowrap; }
   .sc-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
   .sc-table tr:last-child td { border-bottom: 0; }
-  .sc-table tbody tr:hover td { background: rgba(255,255,255,.02); }
+  .sc-table tbody tr:hover td { background: var(--panel2); }
   .sc-table .num { text-align: right; white-space: nowrap; }
-  .sc-table .grp td { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--cyan); background: rgba(76,214,240,.05); }
+  .sc-table .grp td { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--cyan); background: color-mix(in srgb, var(--cyan) 6%, var(--panel)); }
 
   .sc-works { list-style: none; margin: 0; padding: 0; display: grid; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
   .sc-works li { display: grid; grid-template-columns: 92px 120px minmax(0, 1fr); gap: 10px; padding: 11px 14px; border-bottom: 1px solid var(--line); font-size: 13px; }
@@ -163,7 +164,7 @@
   .sc-works .who i { width: 7px; height: 7px; border-radius: 50%; }
   @media (max-width: 560px) { .sc-works li { grid-template-columns: 1fr; gap: 3px; } }
 
-  .sc-rules { margin: 10px 0 0; padding-left: 1.1em; display: grid; gap: 6px; color: #C4CDDC; font-size: 13px; max-width: 80ch; }
+  .sc-rules { margin: 10px 0 0; padding-left: 1.1em; display: grid; gap: 6px; color: var(--fg); font-size: 13px; max-width: 80ch; }
   .sc-foot { margin: 0; font-family: var(--mono); font-size: 11px; color: var(--dim); text-align: center; }
   @media print { .sc-tabs { display: none; } }
 </style>
@@ -221,13 +222,6 @@
           <div class="sc-flow" data-draw="flusso" data-source="imbuto"></div>
           <p class="sc-note" data-draw="flusso-frase" data-source="imbuto">—</p>
         </div>
-        <div class="sc-kpis" id="indicatori">
-          <div class="sc-kpi" style="--k: var(--orange)"><span class="sc-label">Foto registrate</span><span class="v" data-draw="k-foto" data-source="registro_ore">—</span><span class="d" data-draw="k-foto-d" data-source="registro_ore">—</span></div>
-          <div class="sc-kpi" style="--k: var(--red)"><span class="sc-label">Token guardati · ultima notte</span><span class="v" data-draw="k-guardati" data-source="riepilogo" data-field="token_guardati" data-row="0">—</span><span class="d">quasi tutti scartati dai filtri</span></div>
-          <div class="sc-kpi" style="--k: var(--violet)"><span class="sc-label">Laboratorio meme</span><span class="v" data-draw="k-lab" data-source="lab_meme">—</span><span class="d" data-draw="k-lab-d" data-source="lab_meme">—</span></div>
-          <div class="sc-kpi" style="--k: var(--amber)"><span class="sc-label">Laboratorio Binance</span><span class="v" data-draw="k-binance" data-source="sistema" data-where="id=lab_binance" data-field="dettaglio">—</span><span class="d">strategie classiche, dopo i costi</span></div>
-          <div class="sc-kpi" style="--k: var(--cyan)"><span class="sc-label">Prossimo aggiornamento</span><span class="v" data-draw="k-prossimo" data-source="sistema" data-where="id=aggiornamento" data-field="prossimo">—</span><span class="d">con notifica sul telefono</span></div>
-        </div>
       </div>
 
       <aside class="sc-mod" id="diretta">
@@ -235,7 +229,13 @@
         <ul class="sc-feed" data-draw="feed" data-source="diario"></ul>
       </aside>
     </div>
-
+    <div class="sc-kpis" id="indicatori">
+      <div class="sc-kpi" style="--k: var(--orange)"><span class="sc-label">Foto registrate</span><span class="v" data-draw="k-foto" data-source="registro_ore">—</span><span class="d" data-draw="k-foto-d" data-source="registro_ore">—</span></div>
+      <div class="sc-kpi" style="--k: var(--red)"><span class="sc-label">Token guardati</span><span class="v" data-draw="k-guardati" data-source="riepilogo" data-field="token_guardati" data-row="0">—</span><span class="d">nell'ultima notte, quasi tutti scartati</span></div>
+      <div class="sc-kpi" style="--k: var(--violet)"><span class="sc-label">Laboratorio meme</span><span class="v" data-draw="k-lab" data-source="lab_meme">—</span><span class="d" data-draw="k-lab-d" data-source="lab_meme">—</span></div>
+      <div class="sc-kpi" style="--k: var(--amber)"><span class="sc-label">Laboratorio Binance</span><span class="v" data-draw="k-binance" data-source="sistema" data-where="id=lab_binance" data-field="dettaglio">—</span><span class="d">strategie classiche, dopo i costi</span></div>
+      <div class="sc-kpi" style="--k: var(--cyan)"><span class="sc-label">Aggiornamento</span><span class="v" data-draw="k-prossimo" data-source="sistema" data-where="id=aggiornamento" data-field="prossimo">—</span><span class="d">prossimo, con notifica sul telefono</span></div>
+    </div>
   </section>
 
   <section id="squadra" role="tabpanel" aria-labelledby="t-squadra" data-pannello hidden>
@@ -276,7 +276,7 @@
     <div class="sc-two">
       <div class="sc-mod" id="g-capitale"><span class="sc-label">Capitale dopo ogni operazione</span><p class="sc-note">In euro, dopo i costi stimati. Il tratteggio è la partenza.</p><div class="sc-chart" data-draw="curva" data-source="operazioni riepilogo"></div></div>
       <div class="sc-mod" id="g-attivita"><span class="sc-label">Giri dello scanner</span>
-        <div class="sc-legend"><span><i style="background:#2A3A5C"></i>guardati</span><span><i style="background:var(--orange)"></i>nel perimetro</span><span><i style="background:var(--red)"></i>controllati</span><span><i style="background:var(--green)"></i>comprati</span></div>
+        <div class="sc-legend"><span><i style="background:var(--line2)"></i>guardati</span><span><i style="background:var(--orange)"></i>nel perimetro</span><span><i style="background:var(--red)"></i>controllati</span><span><i style="background:var(--green)"></i>comprati</span></div>
         <div class="sc-chart" data-draw="attivita" data-source="attivita"></div></div>
       <div class="sc-mod" id="g-scarti"><span class="sc-label">Perché i token sono stati scartati</span><p class="sc-note">Ogni token contato una volta per motivo.</p><div class="sc-chart" data-draw="filtri" data-source="filtri"></div></div>
     </div>
@@ -356,7 +356,7 @@
     const vuoto = (el, t) => { const p = document.createElement('p'); p.className = 'sc-empty'; p.textContent = t; el.replaceChildren(p); };
     const ON = ['attivo', 'in corso', 'pronto', 'programmato', 'in posizione'];
     const led = (stato) => { const s = document.createElement('span'); s.className = 'sc-led' + (ON.includes(stato) ? ' on' : stato === 'fermo' ? ' off' : stato === 'in attesa' || stato === 'in pausa' ? ' warn' : ''); return s; };
-    const C = { cyan: '#4CD6F0', green: '#34D69A', amber: '#F6B44B', red: '#FF5D7D', violet: '#A28CFB', orange: '#FF8A4C', line: '#1A2640', line2: '#26375A', muted: '#8C99B0', dim: '#5A6781' };
+    const C = { cyan: '#1E8FD6', green: '#13A26A', amber: '#D4900F', red: '#E2385C', violet: '#7A5AE6', orange: '#E8672E', line: 'var(--line)', line2: 'var(--line2)', muted: 'var(--muted)', dim: 'var(--dim)', fg: 'var(--fg)' };
     return { eur, usd, pct, num, riga, agente, sistema, vuoto, ON, led, C };
   })();
 
@@ -394,17 +394,35 @@
   });
   dash.draw('attivi', (el) => { const s = dash.data('sistema'); el.textContent = s.status === 'ok' ? `${s.data.filter((r) => sc.ON.includes(r.stato)).length}/${s.data.length}` : '—'; });
 
+  const ICONE = {
+    notte_a: { c: 'var(--green)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z'] },
+    notte_b: { c: 'var(--violet)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z', 'M17 3l.9 1.9 1.9.9-1.9.9L17 8.6l-.9-1.9-1.9-.9 1.9-.9z'] },
+    registratore: { c: 'var(--orange)', d: ['M4 8h3l2-2.5h6L17 8h3v11H4z', 'M12 16.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z'] },
+    lab_meme: { c: 'var(--red)', d: ['M9.5 3h5', 'M10.5 3v6L5 19a1.5 1.5 0 0 0 1.3 2h11.4a1.5 1.5 0 0 0 1.3-2l-5.5-10V3', 'M7.5 15h9'] },
+    lab_binance: { c: 'var(--amber)', d: ['M4 20h16', 'M6 16v-5', 'M10 16V7', 'M14 16v-4', 'M18 16V5'] },
+    aggiornamento: { c: 'var(--cyan)', d: ['M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z', 'M10 20a2 2 0 0 0 4 0'] },
+  };
+  const icona = (id) => {
+    const NS = 'http://www.w3.org/2000/svg', def = ICONE[id] || { c: 'var(--muted)', d: ['M5 12h14'] };
+    const svg = document.createElementNS(NS, 'svg');
+    [['viewBox', '0 0 24 24'], ['fill', 'none'], ['stroke', 'currentColor'], ['stroke-width', '1.9'], ['stroke-linecap', 'round'], ['stroke-linejoin', 'round'], ['aria-hidden', 'true']]
+      .forEach(([k, v]) => svg.setAttribute(k, v));
+    def.d.forEach((d) => { const p = document.createElementNS(NS, 'path'); p.setAttribute('d', d); svg.append(p); });
+    return { svg, c: def.c };
+  };
   dash.draw('sistemi', (el) => {
     const s = dash.data('sistema');
     if (s.status === 'error') return sc.vuoto(el, 'Stato dei sistemi non disponibile.');
     if (s.status !== 'ok') { el.replaceChildren(); return; }
     el.replaceChildren(...s.data.map((r) => {
       const li = document.createElement('li'); li.dataset.source = 'sistema'; li.dataset.where = 'id=' + encodeURIComponent(r.id);
+      const { svg, c } = icona(r.id); li.style.setProperty('--c', c);
+      const ico = document.createElement('span'); ico.className = 'ico'; ico.append(svg, sc.led(r.stato));
       const nome = document.createElement('strong'); nome.textContent = r.attivita;
       const st = document.createElement('span'); st.className = 'st'; st.textContent = r.stato;
       const p = document.createElement('p'); p.textContent = r.dettaglio;
       const sm = document.createElement('small'); sm.textContent = `ultimo ${r.ultimo} · prossimo ${r.prossimo}`;
-      li.append(sc.led(r.stato), nome, st, p, sm); return li;
+      li.append(ico, nome, st, p, sm); return li;
     }));
   });
 
@@ -442,18 +460,18 @@
     grad.append('stop').attr('offset', '100%').attr('stop-color', colore).attr('stop-opacity', 0);
     if (assi) {
       svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r)).tickFormat((v) => sc.eur(v).replace(',00', '')))
-        .call((g) => { g.select('.domain').remove(); g.selectAll('line').attr('stroke', sc.C.line); });
+        .call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
       svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(Math.min(punti.length - 1, 8)).tickFormat(d3.format('d')).tickSize(0).tickPadding(8))
-        .call((g) => g.select('.domain').attr('stroke', sc.C.line2));
+        .call((g) => g.select('.domain').style('stroke', sc.C.line2));
     }
-    svg.append('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y(base)).attr('y2', y(base)).attr('stroke', sc.C.dim).attr('stroke-dasharray', '3 4');
+    svg.append('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y(base)).attr('y2', y(base)).style('stroke', sc.C.dim).attr('stroke-dasharray', '3 4');
     if (punti.length > 1) {
       svg.append('path').datum(punti).attr('d', d3.area().x((p) => x(p.i)).y0(h - m.b).y1((p) => y(p.v))).attr('fill', `url(#${id})`);
       svg.append('path').datum(punti).attr('d', d3.line().x((p) => x(p.i)).y((p) => y(p.v))).attr('fill', 'none').attr('stroke', colore).attr('stroke-width', 2);
     }
     const tip = document.createElement('div'); tip.className = 'sc-tip'; tip.hidden = true;
     svg.append('g').selectAll('circle').data(assi ? punti : punti.slice(-1)).join('circle').attr('cx', (p) => x(p.i)).attr('cy', (p) => y(p.v)).attr('r', assi ? 4 : 5)
-      .attr('fill', (p) => !p.op ? sc.C.dim : +p.op.risultato_usd >= 0 ? sc.C.green : sc.C.red).attr('stroke', '#070C16').attr('stroke-width', 2)
+      .style('fill', (p) => !p.op ? sc.C.dim : +p.op.risultato_usd >= 0 ? sc.C.green : sc.C.red).style('stroke', 'var(--panel)').attr('stroke-width', 2)
       .on('pointerenter', (ev, p) => { tip.textContent = p.op ? `#${p.op.n} ${p.op.moneta} ${sc.usd(+p.op.risultato_usd)} → ${sc.eur(p.v)}` : `partenza ${sc.eur(p.v)}`; tip.hidden = false;
         tip.style.left = Math.max(0, Math.min(x(p.i) + 8, w - 220)) + 'px'; tip.style.top = Math.max(0, y(p.v) - 34) + 'px'; })
       .on('pointerleave', () => { tip.hidden = true; });
@@ -487,7 +505,7 @@
           svg.append('path').attr('d', `M${x1},${cy - sx(p.n) / 2} L${x2},${cy - sx(q.n) / 2} L${x2},${cy + sx(q.n) / 2} L${x1},${cy + sx(p.n) / 2}Z`).attr('fill', p.c).attr('opacity', 0.18);
         }
         svg.append('rect').attr('x', x0).attr('width', bw).attr('y', cy - sx(p.n) / 2).attr('height', sx(p.n)).attr('rx', 6).attr('fill', p.c).attr('opacity', 0.9);
-        svg.append('text').attr('x', x0 + bw / 2).attr('y', 22).attr('text-anchor', 'middle').text(sc.num(p.n)).style('fill', '#E8EEF8').style('font-size', '18px');
+        svg.append('text').attr('x', x0 + bw / 2).attr('y', 22).attr('text-anchor', 'middle').text(sc.num(p.n)).style('fill', 'var(--fg)').style('font-size', '18px');
         const parole = p.nome.split(' '), meta = Math.ceil(parole.length / 2);
         const t = svg.append('text').attr('x', x0 + bw / 2).attr('y', h - 22).attr('text-anchor', 'middle');
         (parole.length > 1 && bw < 140 ? [parole.slice(0, meta).join(' '), parole.slice(meta).join(' ')] : [p.nome])
@@ -501,7 +519,7 @@
         const y0 = i * riga;
         svg.append('text').attr('x', 0).attr('y', y0 + 20).text(p.nome);
         svg.append('rect').attr('x', 150).attr('y', y0 + 8).attr('height', 16).attr('width', Math.max(p.n ? 3 : 1, sx(p.n))).attr('rx', 4).attr('fill', p.c);
-        svg.append('text').attr('x', w).attr('y', y0 + 21).attr('text-anchor', 'end').text(sc.num(p.n)).style('fill', '#E8EEF8');
+        svg.append('text').attr('x', w).attr('y', y0 + 21).attr('text-anchor', 'end').text(sc.num(p.n)).style('fill', 'var(--fg)');
       });
     }
     el.replaceChildren(svg.node());
@@ -565,11 +583,11 @@
     const x = d3.scaleBand().domain(giri.map((g) => g.i)).range([m.l, w - m.r]).padding(0.25);
     const y = d3.scaleLinear().domain([0, d3.max(giri, (g) => g.guardati) || 1]).nice(4).range([h - m.b, m.t]);
     const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', `${giri.length} giri dello scanner`);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').attr('stroke', sc.C.line); });
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
     const passo = Math.max(1, Math.ceil(giri.length / Math.max(2, Math.floor((w - m.l) / 56))));
-    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(giri.filter((g, k) => k % passo === 0).map((g) => g.i)).tickFormat((i) => giri[i].ora).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').attr('stroke', sc.C.line2));
-    [['guardati', '#2A3A5C'], ['perimetro', sc.C.orange], ['controllati', sc.C.red]].forEach(([k, c]) => {
-      svg.append('g').selectAll('rect').data(giri).join('rect').attr('x', (g) => x(g.i)).attr('width', x.bandwidth()).attr('y', (g) => y(g[k])).attr('height', (g) => y(0) - y(g[k])).attr('rx', 2).attr('fill', c);
+    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(giri.filter((g, k) => k % passo === 0).map((g) => g.i)).tickFormat((i) => giri[i].ora).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').style('stroke', sc.C.line2));
+    [['guardati', 'var(--line2)'], ['perimetro', sc.C.orange], ['controllati', sc.C.red]].forEach(([k, c]) => {
+      svg.append('g').selectAll('rect').data(giri).join('rect').attr('x', (g) => x(g.i)).attr('width', x.bandwidth()).attr('y', (g) => y(g[k])).attr('height', (g) => y(0) - y(g[k])).attr('rx', 2).style('fill', c);
     });
     svg.append('g').selectAll('circle').data(giri.filter((g) => g.comprati > 0)).join('circle').attr('cx', (g) => x(g.i) + x.bandwidth() / 2).attr('cy', m.t).attr('r', 4.5).attr('fill', sc.C.green);
     const tip = document.createElement('div'); tip.className = 'sc-tip'; tip.hidden = true;
@@ -589,10 +607,10 @@
     const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Scarti per motivo: ' + righe.map((r) => `${r.motivo} ${r.n}`).join(', '));
     const g = svg.selectAll('g').data(righe).join('g').attr('transform', (r, i) => `translate(0,${i * gap})`);
     const lmax = Math.max(20, Math.floor(w / 7.2));
-    g.append('text').attr('x', 0).attr('y', 11).text((r) => (r.motivo.length > lmax ? r.motivo.slice(0, lmax - 2) + '…' : r.motivo)).style('fill', '#C4CDDC').style('font-size', '11.5px');
-    g.append('rect').attr('x', 0).attr('y', 18).attr('height', 6).attr('width', w - 44).attr('rx', 3).attr('fill', sc.C.line);
+    g.append('text').attr('x', 0).attr('y', 11).text((r) => (r.motivo.length > lmax ? r.motivo.slice(0, lmax - 2) + '…' : r.motivo)).style('fill', 'var(--fg)').style('font-size', '11.5px');
+    g.append('rect').attr('x', 0).attr('y', 18).attr('height', 6).attr('width', w - 44).attr('rx', 3).style('fill', sc.C.line);
     g.append('rect').attr('x', 0).attr('y', 18).attr('height', 6).attr('width', (r) => Math.max(3, x(r.n))).attr('rx', 3).attr('fill', sc.C.red);
-    g.append('text').attr('x', w).attr('y', 25).attr('text-anchor', 'end').text((r) => sc.num(r.n)).style('fill', '#E8EEF8');
+    g.append('text').attr('x', w).attr('y', 25).attr('text-anchor', 'end').text((r) => sc.num(r.n)).style('fill', 'var(--fg)');
     el.replaceChildren(svg.node());
   });
 
@@ -631,12 +649,12 @@
     const ext = d3.extent(righe.map((r) => r.v).concat(0));
     const x = d3.scaleLinear().domain(ext).nice().range([et, w - 56]);
     const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Capitale finale per strategia: ' + righe.map((r) => `${r.nome} ${sc.pct(r.v)}`).join(', '));
-    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', h).attr('stroke', sc.C.line2);
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', h).style('stroke', sc.C.line2);
     const lmax = Math.max(16, Math.floor(et / 6.6));
     const g = svg.selectAll('g.r').data(righe).join('g').attr('class', 'r').attr('transform', (r, i) => `translate(0,${i * riga})`);
-    g.append('text').attr('x', et - 10).attr('y', 14).attr('text-anchor', 'end').text((r) => (r.nome.length > lmax ? r.nome.slice(0, lmax - 2) + '…' : r.nome)).style('fill', (r) => (r.rif ? '#E8EEF8' : '#8C99B0'));
+    g.append('text').attr('x', et - 10).attr('y', 14).attr('text-anchor', 'end').text((r) => (r.nome.length > lmax ? r.nome.slice(0, lmax - 2) + '…' : r.nome)).style('fill', (r) => (r.rif ? 'var(--fg)' : 'var(--muted)'));
     g.append('rect').attr('x', (r) => Math.min(x(0), x(r.v))).attr('width', (r) => Math.max(2, Math.abs(x(r.v) - x(0)))).attr('y', 4).attr('height', 13).attr('rx', 3).attr('fill', (r) => (r.v >= 0 ? sc.C.green : sc.C.red)).attr('opacity', (r) => (r.rif ? 1 : 0.7));
-    g.append('text').attr('x', (r) => Math.max(x(0), x(r.v)) + 6).attr('y', 14).text((r) => sc.pct(r.v)).style('fill', '#E8EEF8');
+    g.append('text').attr('x', (r) => Math.max(x(0), x(r.v)) + 6).attr('y', 14).text((r) => sc.pct(r.v)).style('fill', 'var(--fg)');
     el.replaceChildren(svg.node());
   });
   dash.draw('lab-vuoto', (el) => { el.textContent = dash.data('lab_meme').status === 'error' ? 'Laboratorio non disponibile.' : 'Il laboratorio non ha ancora risultati: ogni foto deve avere 2,5 ore di prezzi successivi. Arrivano stasera.'; });
@@ -661,9 +679,9 @@
     const x = d3.scaleBand().domain(ore.map((o) => o.ora)).range([m.l, w - m.r]).padding(0.22);
     const y = d3.scaleLinear().domain([0, d3.max(ore, (o) => o.foto) || 1]).nice(4).range([h - m.b, m.t]);
     const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Foto per ora: ' + ore.map((o) => `${o.ora} ${o.foto}`).join(', '));
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').attr('stroke', sc.C.line); });
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
     const passo = Math.max(1, Math.ceil(ore.length / Math.max(2, Math.floor((w - m.l) / 70))));
-    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(ore.filter((o, k) => k % passo === 0).map((o) => o.ora)).tickFormat((v) => v.slice(6)).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').attr('stroke', sc.C.line2));
+    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(ore.filter((o, k) => k % passo === 0).map((o) => o.ora)).tickFormat((v) => v.slice(6)).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').style('stroke', sc.C.line2));
     const bw = x.bandwidth() / 2;
     svg.append('g').selectAll('rect').data(ore).join('rect').attr('x', (o) => x(o.ora)).attr('width', Math.max(1, bw - 2)).attr('y', (o) => y(o.foto)).attr('height', (o) => y(0) - y(o.foto)).attr('rx', 3).attr('fill', sc.C.orange);
     svg.append('g').selectAll('rect').data(ore).join('rect').attr('x', (o) => x(o.ora) + bw).attr('width', Math.max(1, bw - 2)).attr('y', (o) => y(o.token)).attr('height', (o) => y(0) - y(o.token)).attr('rx', 3).attr('fill', sc.C.cyan);
