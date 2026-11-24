@@ -27,8 +27,8 @@
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "A: +0.0% su 0 operazioni · 12 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "24/11 22:55",
+  "dettaglio": "A: +0.0% su 0 operazioni · 8 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "25/11 00:56",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -44,7 +44,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "24/11 22:55",
-  "prossimo": "domani alle 07:08"
+  "ultimo": "25/11 00:56",
+  "prossimo": "25/11 alle 07:08"
  }
 ]
