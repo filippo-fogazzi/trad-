@@ -1,0 +1,5 @@
+dati/
+__pycache__/
+.pytest_cache/
+STOP
+.env

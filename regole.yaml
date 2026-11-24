@@ -1,0 +1,47 @@
+# ==========================================================================
+#  REGOLE DEL BOT
+#  Questo è l'unico file che ti serve leggere. Ogni numero ha accanto la sua
+#  spiegazione. Per cambiare una regola, chiedi a Claude di cambiare il numero.
+# ==========================================================================
+
+# "carta" = soldi finti, prezzi veri. I soldi veri NON esistono nel codice:
+# verranno aggiunti solo quando scriverai "go live", e non prima di 2 settimane
+# di prove su carta superate.
+modalita: carta
+
+# Il capitale (finto) di partenza, in euro.
+capitale_euro: 500
+
+# --- SCUDO: i limiti che nessuno può superare ------------------------------
+rischio:
+  per_operazione_pct: 1       # Massima perdita su UNA operazione: 1% di 500€ = 5€.
+  stop_giornaliero_pct: 3     # Se oggi perdi il 3% (15€), il bot non apre più nulla fino a domani.
+  max_perdite_di_fila: 3      # Dopo 3 perdite di fila, il bot si ferma fino a domani.
+  max_esposizione_pct: 50     # Una singola operazione non può usare più di metà del capitale.
+  ordine_minimo_euro: 5       # Binance rifiuta ordini sotto circa 5€: il bot li salta.
+  fuso_orario: Europe/Rome    # "Oggi" si calcola sull'ora italiana.
+
+# --- COSTI: sono STIME, non costi reali misurati ---------------------------
+costi:
+  commissione_pct: 0.1        # Commissione spot standard di Binance per ogni acquisto e ogni vendita (stima: livello base).
+  slippage_pct:               # Differenza tra il prezzo che vedi e quello che ottieni davvero (stima).
+    principali: 0.05          # Monete molto scambiate: differenza piccola.
+    meme: 0.20                # Memecoin: differenza più grande, perché ci sono meno ordini.
+
+# --- MERCATI: solo coppie in euro su Binance, solo acquisto (niente vendite allo scoperto) ---
+mercati:
+  principali: [BTCEUR, ETHEUR, SOLEUR]
+  meme: [DOGEEUR, PEPEEUR]
+
+# --- STORIA DA TESTARE: quanti giorni indietro per ogni tipo di grafico ----
+timeframe:
+  1h: 365
+  15m: 90
+  1m: 14
+
+# --- ESAME DEL LABORATORIO: una strategia "passa" solo se rispetta TUTTO ---
+promozione:
+  min_operazioni: 30          # Meno di 30 operazioni = potrebbe essere fortuna.
+  min_profit_factor: 1.2      # Per ogni 1€ perso, almeno 1,20€ guadagnato (dopo i costi).
+  max_drawdown_pct: 15        # Il capitale non deve mai scendere più del 15% dal suo massimo.
+  positiva_in_entrambe_le_meta: true  # Deve guadagnare sia nella prima che nella seconda metà del periodo.
