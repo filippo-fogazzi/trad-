@@ -26,9 +26,9 @@ def universo(coppia: dict, regole: dict, adesso_ms: int) -> tuple[bool, str]:
     if prezzo(coppia) is None:
         return False, "nessun prezzo disponibile"
     if liquidita(coppia) < u["liquidita_min_usd"]:
-        return False, f"liquidità ${liquidita(coppia):,.0f} sotto ${u['liquidita_min_usd']:,}"
+        return False, f"liquidità troppo bassa (${liquidita(coppia):,.0f}, minimo ${u['liquidita_min_usd']:,})"
     if volume_5m < u["volume_5min_min_usd"]:
-        return False, f"volume 5 min ${volume_5m:,.0f} sotto ${u['volume_5min_min_usd']:,}"
+        return False, f"volume 5 min troppo basso (${volume_5m:,.0f}, minimo ${u['volume_5min_min_usd']:,})"
     return True, "ok"
 
 

@@ -43,6 +43,9 @@ class Notte:
         self.ultimo_controllo_svil = 0.0
         self.saldi_svil: dict[str, float] = {}
         self.dati_mancanti: dict[str, int] = {}
+        self.attivita: list[dict] = []              # un riga per ogni giro dello scanner
+        self.contatori = {"guardati": 0, "nel_perimetro": 0, "controllati": 0, "bocciati": 0,
+                          "senza_segnali": 0, "rifiutati_dimensione": 0, "comprati": 0}
         self.portafoglio = self._carica_o_crea()
 
     # --- ciclo principale ----------------------------------------------------
@@ -80,8 +83,20 @@ class Notte:
         token = self.fonti.token_recenti()
         coppie = self.fonti.coppie(token)
         adesso_ms = _ms()
+        giro = {"ora": datetime.now(ITALIA).strftime("%H:%M:%S"), "guardati": len(coppie), "nuovi": 0,
+                "nel_perimetro": 0, "controllati": 0, "bocciati": 0, "senza_segnali": 0, "comprati": 0}
+        try:
+            self._cerca(coppie, adesso_ms, giro)
+        finally:
+            for chiave in self.contatori:
+                self.contatori[chiave] += giro.get(chiave, 0)
+            giro["capitale_usd"] = round(self.portafoglio.capitale(), 2)
+            self.attivita = (self.attivita + [giro])[-2000:]
+
+    def _cerca(self, coppie: dict, adesso_ms: int, giro: dict) -> None:
         for indirizzo, coppia in coppie.items():
             simbolo = coppia["baseToken"].get("symbol") or indirizzo[:6]
+            giro["nuovi"] += indirizzo not in self.visti
             self.visti.add(indirizzo)
             if indirizzo in self.portafoglio.posizioni:
                 continue
@@ -89,31 +104,38 @@ class Notte:
             if not ok:
                 self.filtra(indirizzo, simbolo, motivo, scrivi=False)
                 continue
+            giro["nel_perimetro"] += 1
             if insegue(coppia, self.r):
                 self.filtra(indirizzo, simbolo, "già +300% nell'ultima ora, niente inseguimento")
                 continue
             rapporto = self.fonti.rapporto_rugcheck(indirizzo)
+            giro["controllati"] += 1
             holder_prima, holder_ora = self.holder.get(indirizzo), rapporto.get("totalHolders")
             if holder_ora:
                 self.holder[indirizzo] = holder_ora
             passa, motivi = controllo_truffe(rapporto, self.r)
             if not passa:
+                giro["bocciati"] += 1
                 self.filtra(indirizzo, simbolo, "; ".join(motivi))
                 continue
             accesi = segnali(coppia, holder_ora, holder_prima, self.r)
             if len(accesi) < self.r["segnali"]["minimi_richiesti"]:
+                giro["senza_segnali"] += 1
                 self.filtra(indirizzo, simbolo, f"segnali {len(accesi)}/2 ({', '.join(accesi) or 'nessuno'})")
                 continue
             permesso, perche = self.portafoglio.puo_aprire()
             if not permesso:
+                giro["rifiutati_dimensione"] = giro.get("rifiutati_dimensione", 0) + 1
                 self.filtra(indirizzo, simbolo, perche)
                 continue
             motivo_ingresso = " + ".join(accesi) + " · rug check PASS"
             aperta, dettaglio = self.portafoglio.apri(coppia, simbolo, motivo_ingresso, adesso_ms,
                                                       float(rapporto.get("creatorBalance") or 0))
             if aperta:
+                giro["comprati"] += 1
                 self.scrivi("ENTRA", f"${simbolo} {dettaglio} · motivo: {motivo_ingresso} · {coppia.get('url', '')}")
             else:
+                giro["rifiutati_dimensione"] = giro.get("rifiutati_dimensione", 0) + 1
                 self.filtra(indirizzo, simbolo, dettaglio)
 
     def filtra(self, token: str, simbolo: str, motivo: str, scrivi: bool = True) -> None:
@@ -164,7 +186,8 @@ class Notte:
     def salva(self) -> None:
         stato = {"portafoglio": self.portafoglio.a_dizionario(), "holder": self.holder,
                  "conteggio_filtri": self.conteggio_filtri, "visti": sorted(self.visti),
-                 "cambio_eur_usd": self.cambio}
+                 "cambio_eur_usd": self.cambio,
+                 "attivita": self.attivita, "contatori": self.contatori}
         (self.cartella / "stato.json").write_text(json.dumps(stato, indent=1))
         (self.cartella / "cruscotto.md").write_text(self.cruscotto(), encoding="utf-8")
 
@@ -176,6 +199,8 @@ class Notte:
             self.conteggio_filtri = stato["conteggio_filtri"]
             self.visti = set(stato["visti"])
             self.cambio = stato["cambio_eur_usd"]
+            self.attivita = stato.get("attivita", [])
+            self.contatori.update(stato.get("contatori", {}))
             return Portafoglio.da_dizionario(self.r, stato["portafoglio"])
         self.cambio = self.fonti.euro_in_dollari()
         dollari = self.r["capitale_euro"] * self.cambio

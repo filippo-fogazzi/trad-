@@ -156,3 +156,41 @@ def test_salva_e_ricarica():
     apri(p)
     copia = Portafoglio.da_dizionario(R, p.a_dizionario())
     assert copia.capitale() == pytest.approx(p.capitale())
+
+
+# --- giro completo con dati finti -----------------------------------------
+
+class FontiFinte:
+    def __init__(self, coppie, rapporto):
+        self._coppie, self._rapporto = coppie, rapporto
+
+    def token_recenti(self):
+        return list(self._coppie)
+
+    def coppie(self, indirizzi):
+        return {t: c for t, c in self._coppie.items() if t in indirizzi}
+
+    def rapporto_rugcheck(self, token):
+        return self._rapporto
+
+    def euro_in_dollari(self):
+        return 1.1
+
+
+def test_un_giro_dello_scanner_compra_e_conta(tmp_path):
+    import time
+    from datetime import datetime, timedelta
+    from bot.notte.__main__ import ITALIA, Notte
+
+    adesso = int(time.time() * 1000)
+    buona = coppia(pairCreatedAt=adesso - 3_600_000)
+    vecchia = dict(coppia(pairCreatedAt=adesso - 30 * 3_600_000), baseToken={"address": "VECCHIA", "symbol": "OLD"})
+    notte = Notte(R, datetime.now(ITALIA) + timedelta(minutes=1), tmp_path,
+                  fonti=FontiFinte({"TOKEN": buona, "VECCHIA": vecchia}, rapporto_pulito()))
+    notte.cerca()
+    notte.salva()
+    assert "TOKEN" in notte.portafoglio.posizioni
+    assert notte.contatori == {"guardati": 2, "nel_perimetro": 1, "controllati": 1, "bocciati": 0,
+                               "senza_segnali": 0, "rifiutati_dimensione": 0, "comprati": 1}
+    assert notte.attivita[-1]["comprati"] == 1
+    assert "ENTRA" in (tmp_path / "diario.log").read_text()

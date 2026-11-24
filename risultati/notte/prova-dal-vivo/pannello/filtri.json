@@ -1,0 +1,18 @@
+[
+ {
+  "motivo": "coppia troppo vecchia",
+  "token": 28
+ },
+ {
+  "motivo": "liquidità troppo bassa",
+  "token": 22
+ },
+ {
+  "motivo": "nessun prezzo disponibile",
+  "token": 1
+ },
+ {
+  "motivo": "volume 5 min troppo basso",
+  "token": 1
+ }
+]
