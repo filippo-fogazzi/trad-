@@ -189,10 +189,21 @@
    "senza_segnali": 0,
    "comprati": 0,
    "capitale_usd": 54.89
+  },
+  {
+   "ora": "17:21:49",
+   "guardati": 49,
+   "nuovi": 0,
+   "nel_perimetro": 0,
+   "controllati": 0,
+   "bocciati": 0,
+   "senza_segnali": 0,
+   "comprati": 0,
+   "capitale_usd": 54.89
   }
  ],
  "contatori": {
-  "guardati": 533,
+  "guardati": 582,
   "nel_perimetro": 0,
   "controllati": 0,
   "bocciati": 0,
