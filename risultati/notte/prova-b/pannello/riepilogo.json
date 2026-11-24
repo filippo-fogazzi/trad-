@@ -1,0 +1,18 @@
+[
+ {
+  "notte": "prova-b",
+  "capitale_iniziale_usd": 54.91,
+  "capitale_usd": 56.57,
+  "capitale_iniziale_eur": 50.0,
+  "capitale_eur": 51.51,
+  "variazione_pct": 3.02,
+  "operazioni": 1,
+  "vinte": 1,
+  "perse": 0,
+  "posizioni_aperte": 0,
+  "token_guardati": 328,
+  "stato": "finita",
+  "cambio_eur_usd": 1.0982,
+  "aggiornato": "24/11/2026 17:40"
+ }
+]

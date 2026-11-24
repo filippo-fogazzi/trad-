@@ -1,0 +1,110 @@
+[
+ {
+  "ora": "17:26:02",
+  "guardati": 86,
+  "nuovi": 86,
+  "nel_perimetro": 6,
+  "controllati": 5,
+  "bocciati": 5,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 54.91,
+  "capitale_eur": 50.0
+ },
+ {
+  "ora": "17:27:49",
+  "guardati": 89,
+  "nuovi": 22,
+  "nel_perimetro": 6,
+  "controllati": 4,
+  "bocciati": 4,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 54.91,
+  "capitale_eur": 50.0
+ },
+ {
+  "ora": "17:29:44",
+  "guardati": 102,
+  "nuovi": 39,
+  "nel_perimetro": 3,
+  "controllati": 2,
+  "bocciati": 1,
+  "senza_segnali": 1,
+  "comprati": 0,
+  "capitale_usd": 54.91,
+  "capitale_eur": 50.0
+ },
+ {
+  "ora": "17:31:08",
+  "guardati": 104,
+  "nuovi": 37,
+  "nel_perimetro": 7,
+  "controllati": 7,
+  "bocciati": 6,
+  "senza_segnali": 0,
+  "comprati": 1,
+  "capitale_usd": 54.59,
+  "capitale_eur": 49.71
+ },
+ {
+  "ora": "17:33:51",
+  "guardati": 86,
+  "nuovi": 29,
+  "nel_perimetro": 3,
+  "controllati": 3,
+  "bocciati": 3,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 54.26,
+  "capitale_eur": 49.41
+ },
+ {
+  "ora": "17:35:06",
+  "guardati": 89,
+  "nuovi": 24,
+  "nel_perimetro": 4,
+  "controllati": 4,
+  "bocciati": 4,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 56.48,
+  "capitale_eur": 51.43
+ },
+ {
+  "ora": "17:37:03",
+  "guardati": 95,
+  "nuovi": 33,
+  "nel_perimetro": 5,
+  "controllati": 5,
+  "bocciati": 5,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 58.15,
+  "capitale_eur": 52.95
+ },
+ {
+  "ora": "17:39:01",
+  "guardati": 90,
+  "nuovi": 27,
+  "nel_perimetro": 3,
+  "controllati": 3,
+  "bocciati": 3,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 57.96,
+  "capitale_eur": 52.78
+ },
+ {
+  "ora": "17:40:06",
+  "guardati": 101,
+  "nuovi": 31,
+  "nel_perimetro": 6,
+  "controllati": 6,
+  "bocciati": 6,
+  "senza_segnali": 0,
+  "comprati": 0,
+  "capitale_usd": 55.2,
+  "capitale_eur": 50.26
+ }
+]
