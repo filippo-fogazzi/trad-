@@ -2,7 +2,9 @@
 # Ogni 6 ore: registra foto delle memecoin nuove per 340 minuti (quasi senza pause).
 # Poi 4 macchine scaricano in parallelo i prezzi successivi (ognuna ha il suo limite
 # gratuito su GeckoTerminal) e alla fine il laboratorio riprova tutte le strategie.
-# Il turno dopo può iniziare a registrare mentre questo scarica i prezzi.
+# Il turno dopo può iniziare a registrare mentre questo scarica i prezzi: ogni turno lancia
+# lui stesso il successivo (gli orari programmati di GitHub a volte saltano). L'orario
+# programmato resta come riserva: se c'è già un turno in coda, GitHub ne tiene uno solo.
 name: Registratore e laboratorio
 
 on:
@@ -13,9 +15,14 @@ on:
       minuti:
         description: "Minuti di registrazione (0 = solo prezzi e laboratorio)"
         default: "60"
+      continua:
+        description: "Alla fine lancia il turno successivo (registrazione continua)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   registra:
@@ -43,10 +50,15 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Registro: foto $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((RANDOM % 20 + 5)); done
+      - name: Lancia il turno successivo
+        if: ${{ !cancelled() && (github.event_name == 'schedule' || inputs.continua) }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run registratore.yml --ref "${{ github.ref_name }}" -f minuti=340 -f continua=true
 
   prezzi:
     needs: registra
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
@@ -75,7 +87,7 @@ jobs:
 
   laboratorio:
     needs: prezzi
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
