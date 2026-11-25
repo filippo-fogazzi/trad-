@@ -122,6 +122,8 @@ def lavori(limite: int = 40) -> list[dict]:
     righe = []
     for riga in uscita.splitlines():
         ts, autore, oggetto = riga.split("\t", 2)
+        if oggetto.startswith(("Bot su carta: salvataggio intermedio", "Prezzi per il laboratorio")):
+            continue  # salvataggi automatici frequenti: nascondono i lavori veri
         righe.append({"n": len(righe) + 1, "quando": _ora_it(datetime.fromtimestamp(int(ts), timezone.utc)),
                       "chi": chi.get(autore, "Claude"), "cosa": TRADUZIONI.get(oggetto, oggetto)})
     return righe
