@@ -1,27 +1,8 @@
 [
  {
-  "id": "A",
-  "nome": "Prudente",
-  "frase": "Le regole del prompt Grok: controlli anti-truffa severi, compra solo monete grandi e già seguite.",
-  "compra": "Monete con almeno 40k $ di liquidità e 300 holder, controllo anti-truffa severo",
-  "vende": "A −12%, oppure dopo 25 minuti se non è raddoppiata",
-  "punta": "33% del capitale per operazione",
-  "notti": 1,
-  "notte": "2026-11-24",
-  "capitale_eur": 43.26,
-  "variazione_pct": -13.5,
-  "operazioni": 4,
-  "vinte": 2,
-  "perse": 2,
-  "totale_pct": -13.5,
-  "lab_operazioni": 0,
-  "lab_variazione_pct": 0.0,
-  "lab_media_pct": 0.0
- },
- {
   "id": "B",
   "nome": "Aggressiva",
-  "frase": "Come la A ma con filtri più larghi e puntate più grandi: compra più spesso, rischia di più.",
+  "frase": "Le regole Grok ma con filtri più larghi e puntate più grandi: compra spesso, rischia di più.",
   "compra": "Monete con almeno 15k $ di liquidità e 150 holder, controllo anti-truffa severo",
   "vende": "A −15%, oppure dopo 20 minuti se non è raddoppiata",
   "punta": "40% del capitale per operazione",
@@ -33,6 +14,7 @@
   "vinte": 5,
   "perse": 9,
   "totale_pct": 11.4,
+  "in_corso": false,
   "lab_operazioni": 20,
   "lab_variazione_pct": 38.4,
   "lab_media_pct": 6.57
@@ -52,6 +34,7 @@
   "vinte": 0,
   "perse": 0,
   "totale_pct": null,
+  "in_corso": false,
   "lab_operazioni": 44,
   "lab_variazione_pct": 422.9,
   "lab_media_pct": 27.57

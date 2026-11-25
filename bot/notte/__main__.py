@@ -1,7 +1,7 @@
 """Esperimento notturno memecoin SU CARTA.
 
 Uso:
-  python -m bot.notte                 # gira fino all'ora di fine in regole.yaml (07:00)
+  python -m bot.notte                 # gira fino all'ora di fine in regole.yaml (07:00): giornate di 24 ore
   python -m bot.notte --minuti 30     # gira 30 minuti (prova)
 
 Scrive in risultati/notte/<data>/:
@@ -304,10 +304,9 @@ def unisci(base: dict, modifiche: dict) -> dict:
     return risultato
 
 
-def data_della_notte() -> str:
-    """Le ore dopo mezzanotte appartengono alla notte iniziata il giorno prima."""
-    adesso = datetime.now(ITALIA)
-    return (adesso - timedelta(days=1) if adesso.hour < 12 else adesso).strftime("%Y-%m-%d")
+def data_della_notte(ora_fine: int = 7) -> str:
+    """La giornata va dalle 07:00 alle 07:00 del giorno dopo: le ore prima delle 7 appartengono al giorno prima."""
+    return (datetime.now(ITALIA) - timedelta(hours=ora_fine)).strftime("%Y-%m-%d")
 
 
 if __name__ == "__main__":
@@ -321,7 +320,7 @@ if __name__ == "__main__":
     regole = tutte["notte_meme"]
     if a.variante:
         regole = unisci(regole, tutte["notte_meme_varianti"][a.variante])
-    nome = a.nome or data_della_notte() + (f"-{a.variante}" if a.variante else "")
+    nome = a.nome or data_della_notte(int(regole["fine"].split(":")[0])) + (f"-{a.variante}" if a.variante else "")
     cartella = RADICE / "risultati" / "notte" / nome
     pausa = datetime.now(ITALIA) + timedelta(minutes=a.max_minuti) if a.max_minuti else None
     Notte(regole, calcola_fine(regole, a.minuti), cartella, pausa=pausa).gira()

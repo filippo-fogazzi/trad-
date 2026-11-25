@@ -1,27 +1,19 @@
 [
  {
-  "id": "notte_a",
-  "attivita": "Bot notturno A · regole Grok",
-  "stato": "finita",
-  "dettaglio": "Notte 2026-11-24: 4 operazioni, capitale 43,26 €",
-  "ultimo": "25/11 12:29",
-  "prossimo": "stanotte alle 23:00"
- },
- {
   "id": "notte_b",
-  "attivita": "Bot notturno B · più largo e rischioso",
+  "attivita": "Bot B · Aggressiva",
   "stato": "finita",
-  "dettaglio": "Notte 2026-11-24: 14 operazioni, capitale 55,71 €",
+  "dettaglio": "Giornata 2026-11-24: 14 operazioni, capitale 55,71 €",
   "ultimo": "25/11 12:29",
-  "prossimo": "stanotte alle 23:00"
+  "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "notte_c",
-  "attivita": "Bot notturno C · il migliore del laboratorio",
+  "attivita": "Bot C · Dal laboratorio",
   "stato": "in attesa",
-  "dettaglio": "Nessuna notte registrata ancora.",
+  "dettaglio": "Nessuna giornata registrata ancora.",
   "ultimo": "—",
-  "prossimo": "stanotte alle 23:00"
+  "prossimo": "gira 24 ore su 24"
  },
  {
   "id": "registratore",
@@ -35,8 +27,8 @@
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "A: +0.0% su 0 operazioni · 23 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 12:59",
+  "dettaglio": "C: +422.9% su 44 operazioni · 23 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "25/11 13:10",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -52,7 +44,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 12:59",
+  "ultimo": "25/11 13:10",
   "prossimo": "domani alle 07:08"
  }
 ]

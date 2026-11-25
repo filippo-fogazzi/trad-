@@ -44,23 +44,22 @@ def _foto() -> list[dict]:
 
 def _riga_notte(id_: str, nome: str, cartella: Path | None) -> dict:
     if not cartella:
-        return {"id": id_, "attivita": nome, "stato": "in attesa", "dettaglio": "Nessuna notte registrata ancora.",
-                "ultimo": "—", "prossimo": "stanotte alle 23:00"}
+        return {"id": id_, "attivita": nome, "stato": "in attesa", "dettaglio": "Nessuna giornata registrata ancora.",
+                "ultimo": "—", "prossimo": "gira 24 ore su 24"}
     stato = json.loads((cartella / "stato.json").read_text())
     p, cambio = stato["portafoglio"], stato["cambio_eur_usd"]
     capitale = (p["contanti"] + sum(x["quantita"] * x["ultimo_prezzo"] for x in p["posizioni"])) / cambio
     finita = (cartella / "riepilogo.md").exists()
     return {"id": id_, "attivita": nome, "stato": "finita" if finita else "in corso",
-            "dettaglio": f"Notte {cartella.name[:10]}: {len(p['chiusure'])} operazioni, capitale {capitale:.2f} €".replace(".", ","),
+            "dettaglio": f"Giornata {cartella.name[:10]}: {len(p['chiusure'])} operazioni, capitale {capitale:.2f} €".replace(".", ","),
             "ultimo": _ora_it(datetime.fromtimestamp((cartella / "stato.json").stat().st_mtime, timezone.utc)),
-            "prossimo": "stanotte alle 23:00"}
+            "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"}
 
 
 def sistema(foto: list[dict]) -> list[dict]:
     adesso = datetime.now(timezone.utc)
-    righe = [_riga_notte("notte_a", "Bot notturno A · regole Grok", _ultima_notte()),
-             _riga_notte("notte_b", "Bot notturno B · più largo e rischioso", _ultima_notte("-b")),
-             _riga_notte("notte_c", "Bot notturno C · il migliore del laboratorio", _ultima_notte("-c"))]
+    righe = [_riga_notte("notte_b", "Bot B · Aggressiva", _ultima_notte("-b")),
+             _riga_notte("notte_c", "Bot C · Dal laboratorio", _ultima_notte("-c"))]
     if foto:
         ultima = datetime.fromtimestamp(foto[-1]["ms"] / 1000, timezone.utc)
         attivo = adesso - ultima < timedelta(hours=7)  # le foto arrivano su GitHub a fine turno (circa ogni 6 ore)
@@ -73,10 +72,10 @@ def sistema(foto: list[dict]) -> list[dict]:
     lab = RADICE / "risultati" / "laboratorio_meme.json"
     if lab.exists():
         risultati = json.loads(lab.read_text())
-        a = next((r for r in risultati if r["nome"].startswith("A ")), None)
+        a = next((r for r in risultati if r["nome"].startswith("C ")), None)
         griglia = [r for r in risultati if r["nome"].startswith("liq ")]
         positive = sum(1 for r in griglia if r["n"] >= 20 and r["variazione_pct"] > 0)
-        dettaglio = (f"A: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
+        dettaglio = (f"C: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
                     f"{positive} varianti su {len(griglia)} in positivo (con almeno 20 operazioni)"
         righe.append({"id": "lab_meme", "attivita": "Laboratorio meme", "stato": "pronto", "dettaglio": dettaglio,
                       "ultimo": _ora_it(datetime.fromtimestamp(lab.stat().st_mtime, timezone.utc)), "prossimo": "dopo ogni turno del registratore"})
@@ -140,8 +139,7 @@ def registro_ore(foto: list[dict]) -> list[dict]:
 
 # Le tre strategie in parole semplici. I numeri delle regole vengono da regole.yaml, così restano veri.
 STRATEGIE = [
-    ("A", "", "Prudente", "Le regole del prompt Grok: controlli anti-truffa severi, compra solo monete grandi e già seguite."),
-    ("B", "b", "Aggressiva", "Come la A ma con filtri più larghi e puntate più grandi: compra più spesso, rischia di più."),
+    ("B", "b", "Aggressiva", "Le regole Grok ma con filtri più larghi e puntate più grandi: compra spesso, rischia di più."),
     ("C", "c", "Dal laboratorio", "La regola che ha reso di più nei test sul passato: monete grandi, stop stretto, la tiene fino a un'ora."),
 ]
 
@@ -181,12 +179,12 @@ def strategie() -> list[dict]:
         notti = _notti(suffisso)
         riga = {"id": lettera, "nome": nome, "frase": frase, "compra": compra, "vende": vende, "punta": punta,
                 "notti": len(notti), "notte": "", "capitale_eur": None, "variazione_pct": None,
-                "operazioni": 0, "vinte": 0, "perse": 0, "totale_pct": None}
+                "operazioni": 0, "vinte": 0, "perse": 0, "totale_pct": None, "in_corso": False}
         if notti:
             capitale, n, vinte, perse = _capitale_eur(notti[-1])
             partenza = base["capitale_euro"]
             totale = sum(_capitale_eur(c)[0] - partenza for c in notti)  # ogni notte riparte da 50 €
-            riga.update(notte=notti[-1].name[:10], capitale_eur=round(capitale, 2),
+            riga.update(notte=notti[-1].name[:10], capitale_eur=round(capitale, 2), in_corso=not (notti[-1] / "riepilogo.md").exists(),
                         variazione_pct=round((capitale / partenza - 1) * 100, 1), operazioni=n, vinte=vinte, perse=perse,
                         totale_pct=round(totale / (partenza * len(notti)) * 100, 1))
         test = next((r for r in lab if r["nome"].startswith(lettera + " ")), None)
@@ -197,7 +195,7 @@ def strategie() -> list[dict]:
 
 
 def operazioni_di_tutti() -> list[dict]:
-    """Le operazioni dell'ultima notte di A, B e C in un'unica tabella, con la colonna del bot."""
+    """Le operazioni dell'ultima giornata di B e C in un'unica tabella, con la colonna del bot."""
     righe = []
     for lettera, suffisso, _, _ in STRATEGIE:
         notti = _notti(suffisso)
@@ -225,7 +223,7 @@ def main() -> None:
     # prima l'ultima notte vera; se non c'è ancora, la prova più recente che ha fatto operazioni
     prove = [p for p in NOTTI.glob("prova*") if (p / "stato.json").exists()]
     con_operazioni = lambda p: bool(json.loads((p / "stato.json").read_text())["portafoglio"]["chiusure"])
-    notte = _ultima_notte() or max(prove, key=lambda p: (con_operazioni(p), (p / "stato.json").stat().st_mtime), default=None)
+    notte = _ultima_notte("-b") or max(prove, key=lambda p: (con_operazioni(p), (p / "stato.json").stat().st_mtime), default=None)
     file = {"sistema": sistema(foto), "lavori": lavori(), "registro_ore": registro_ore(foto), "lab_meme": lab_meme(),
             "strategie": strategie()}
     if notte:

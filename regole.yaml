@@ -54,8 +54,8 @@ promozione:
 # ==========================================================================
 notte_meme:
   capitale_euro: 50            # Capitale finto di partenza.
-  inizio: "23:00"              # Ora italiana.
-  fine: "07:00"
+  inizio: "07:00"              # Ora italiana. I bot girano 24 ore su 24: ogni giornata va dalle 07:00
+  fine: "07:00"                # alle 07:00 del giorno dopo e riparte con 50 € finti.
 
   universo:                    # Quali token vengono anche solo guardati
     eta_max_ore: 6             # Coppia creata o migrata nelle ultime 6 ore.
@@ -93,7 +93,7 @@ notte_meme:
     trailing_resto_pct: 25     # Il 30% rimasto esce se scende del 25% dal suo massimo.
     tempo_max_minuti: 25       # Se dopo 25 minuti non ha raddoppiato, vende tutto.
     no_inseguire_pct_1h: 300   # Salta i token già saliti del 300% nell'ultima ora senza ritracciamento.
-    stop_notte_pct: 30         # Se il capitale scende del 30% dal suo massimo, il bot si ferma.
+    stop_notte_pct: 30         # Se il capitale scende del 30% dal suo massimo, il bot si ferma fino alla giornata dopo.
 
   costi:                       # STIME, non costi misurati
     slippage_ritardo_pct: 1.0  # Il prezzo si muove tra quando il bot vede e quando compra.
@@ -106,8 +106,9 @@ notte_meme:
     ricerca: 60
     posizioni: 10
 
-# --- STRATEGIE B e C: girano in parallelo alla A (quella del prompt Grok) per confrontarle ---
-# Cambia solo i numeri scritti qui sotto; tutto il resto è uguale alla A.
+# --- STRATEGIE B e C: sono quelle che girano davvero (24 ore su 24) ---
+# La A (le regole qui sopra, dal prompt Grok) non gira più dal 25/11: filtri troppo severi, ha perso.
+# Resta come base: B e C cambiano solo i numeri scritti qui sotto, tutto il resto è uguale alla A.
 # È PIÙ RISCHIOSA: filtri più larghi, puntate più grandi. Solo carta.
 notte_meme_varianti:
   b:

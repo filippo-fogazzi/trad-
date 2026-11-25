@@ -1,15 +1,5 @@
 [
  {
-  "nome": "A · Prudente (regole Grok)",
-  "n": 0,
-  "eseguite": 0,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": 0.0,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 55.0,
-  "variazione_pct": 0.0
- },
- {
   "nome": "B · Aggressiva",
   "n": 20,
   "eseguite": 20,

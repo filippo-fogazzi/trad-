@@ -147,7 +147,7 @@
   <header class="sc-top" id="barra">
     <div class="sc-brand">
       <div class="sc-logo" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-9"/><path d="M15 7h5v5"/></svg></span></div>
-      <div><h1>Sala comando</h1><small>memecoin su Solana · tre strategie a confronto</small></div>
+      <div><h1>Sala comando</h1><small>memecoin su Solana · due strategie a confronto</small></div>
     </div>
     <div class="sc-meta">
       <span class="sc-pill paper">● SOLDI FINTI</span>
@@ -165,17 +165,17 @@
   <section id="strategie" role="tabpanel" aria-labelledby="t-strategie" data-pannello>
     <div style="display:grid; gap:16px">
       <div class="sc-intro">
-        <p>Ogni notte, dalle 23 alle 7, <b>tre bot</b> giocano con <b>50 € finti ciascuno</b> sulle memecoin vere. Ognuno segue una strategia diversa: qui vedi come è andata.</p>
+        <p><b>Due bot</b> giocano <b>24 ore su 24</b> sulle memecoin vere, con <b>50 € finti ciascuno</b> ogni giorno (la giornata va dalle 7 alle 7). Ognuno segue una strategia diversa: qui vedi come va.</p>
         <div class="sc-stato" data-draw="stato" data-source="sistema"></div>
       </div>
       <div class="sc-strats" data-draw="carte" data-source="strategie"></div>
-      <p class="sc-avviso"><b>Come leggerla.</b> «Ultima notte» è la prova dal vivo, su monete che nessuno conosceva prima. «Test sul passato» riprova le stesse regole sui dati già raccolti: è veloce, ma può ingannare. Ci fidiamo di una strategia solo quando vince <b>per più notti di fila</b>.</p>
+      <p class="sc-avviso"><b>Come leggerla.</b> «Giornata» è la prova dal vivo, su monete che nessuno conosceva prima. «Test sul passato» riprova le stesse regole sui dati già raccolti: è veloce, ma può ingannare. Ci fidiamo di una strategia solo quando vince <b>per più giornate di fila</b>.</p>
     </div>
   </section>
 
   <section id="operazioni" role="tabpanel" aria-labelledby="t-operazioni" data-pannello hidden>
     <div class="sc-mod">
-      <h2 class="sc-h">Ogni acquisto e vendita dell'ultima notte</h2>
+      <h2 class="sc-h">Ogni acquisto e vendita dell'ultima giornata</h2>
       <p class="sc-note">Una riga per operazione, con il bot che l'ha fatta e i motivi. Risultato in dollari, dopo i costi stimati.</p>
       <div class="sc-scroll" id="ops-box">
         <table class="sc-table" data-source="operazioni" data-row-key="n">
@@ -319,9 +319,9 @@
     const s = dash.data('sistema');
     if (s.status !== 'ok') { el.replaceChildren(); return; }
     const voce = (led, testo) => { const x = el_('span'); x.append(sc.led(led), document.createTextNode(testo)); return x; };
-    const notte = s.data.find((r) => r.id === 'notte_a'), reg = s.data.find((r) => r.id === 'registratore'), agg = s.data.find((r) => r.id === 'aggiornamento');
+    const notte = s.data.find((r) => r.id === 'notte_b'), reg = s.data.find((r) => r.id === 'registratore'), agg = s.data.find((r) => r.id === 'aggiornamento');
     const out = [];
-    if (notte) out.push(voce(notte.stato, notte.stato === 'in corso' ? 'Bot al lavoro adesso' : 'Prossima notte: ' + notte.prossimo));
+    if (notte) out.push(voce(notte.stato === 'fermo' ? 'fermo' : 'attivo', 'Bot al lavoro 24 ore su 24'));
     if (reg) out.push(voce('attivo', 'Registratore: ' + reg.dettaglio));
     if (agg) out.push(voce('programmato', 'Aggiornamento ' + agg.prossimo));
     el.replaceChildren(...out);
@@ -338,14 +338,15 @@
       const nomi = el_('div'); nomi.append(el_('small', '', 'Strategia ' + r.id), el_('h3', '', r.nome));
       const v = r.variazione_pct;
       const verdetto = r.notti ? el_('span', 'sc-verdetto ' + (v > 0 ? 'su' : v < 0 ? 'giu' : ''), v > 0 ? 'In guadagno' : v < 0 ? 'In perdita' : 'In pari')
-                               : el_('span', 'sc-verdetto', 'Prima prova stanotte');
+                               : el_('span', 'sc-verdetto', 'Prima prova in corso');
       testa.append(el_('span', 'sc-lettera', r.id), nomi, verdetto);
 
       const notte = el_('div', 'sc-num');
-      notte.append(el_('span', 'lab', r.notti ? 'Ultima notte · ' + r.notte.split('-').reverse().slice(0, 2).join('/') : 'Ultima notte'));
+      const giorno = r.notti ? r.notte.split('-').reverse().slice(0, 2).join('/') : '';
+      notte.append(el_('span', 'lab', !r.notti ? 'Dal vivo' : r.in_corso ? `Giornata del ${giorno} · in corso` : `Giornata del ${giorno}`));
       if (r.notti) {
         const val = el_('span', 'val', sc.eur(+r.capitale_eur)); val.append(el_('em', segno(v), sc.pct(+v)));
-        notte.append(val, el_('span', 'sub', `${r.operazioni} operazioni: ${r.vinte} vinte, ${r.perse} perse` + (r.notti > 1 ? ` · media di ${r.notti} notti ${sc.pct(+r.totale_pct)}` : '')));
+        notte.append(val, el_('span', 'sub', `${r.operazioni} operazioni: ${r.vinte} vinte, ${r.perse} perse` + (r.notti > 1 ? ` · media di ${r.notti} giornate ${sc.pct(+r.totale_pct)}` : '')));
       } else {
         notte.append(el_('span', 'val', '—'), el_('span', 'sub', 'Non ha ancora giocato dal vivo.'));
       }
@@ -373,7 +374,7 @@
       this.replaceChildren(bot, td(o.moneta), td(o.entrata), td(o.uscita), td(sc.usd(+o.speso_usd), 'num'), td(sc.usd(+o.risultato_usd), 'num ' + (+o.risultato_usd >= 0 ? 'sc-up' : 'sc-down')), td(o.motivo_ingresso), td(o.motivo_uscita));
     });
   });
-  dash.draw('ops-vuoto', (el) => { el.textContent = dash.data('operazioni').status === 'error' ? 'Operazioni non disponibili.' : 'Nessuna operazione nell\'ultima notte.'; });
+  dash.draw('ops-vuoto', (el) => { el.textContent = dash.data('operazioni').status === 'error' ? 'Operazioni non disponibili.' : 'Nessuna operazione nell\'ultima giornata.'; });
 
   const rigaLab = (r) => {
     const tr = document.createElement('tr'); tr.dataset.key = r.n_riga;

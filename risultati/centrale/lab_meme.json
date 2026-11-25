@@ -1,17 +1,5 @@
 [
  {
-  "nome": "A · Prudente (regole Grok)",
-  "n": 0,
-  "eseguite": 0,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": 0.0,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 55.0,
-  "variazione_pct": 0.0,
-  "gruppo": "riferimento",
-  "n_riga": 1
- },
- {
   "nome": "B · Aggressiva",
   "n": 20,
   "eseguite": 20,
@@ -21,7 +9,7 @@
   "capitale_finale_usd": 76.14,
   "variazione_pct": 38.4,
   "gruppo": "riferimento",
-  "n_riga": 2
+  "n_riga": 1
  },
  {
   "nome": "C · Dal laboratorio",
@@ -33,7 +21,7 @@
   "capitale_finale_usd": 287.58,
   "variazione_pct": 422.9,
   "gruppo": "riferimento",
-  "n_riga": 3
+  "n_riga": 2
  },
  {
   "nome": "Compra tutto (senza filtri né controlli)",
@@ -45,7 +33,7 @@
   "capitale_finale_usd": 13.19,
   "variazione_pct": -76.0,
   "gruppo": "riferimento",
-  "n_riga": 4
+  "n_riga": 3
  },
  {
   "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
@@ -56,7 +44,7 @@
   "profit_factor": 5.12,
   "capitale_finale_usd": 287.58,
   "variazione_pct": 422.9,
-  "n_riga": 5,
+  "n_riga": 4,
   "gruppo": "migliori"
  },
  {
@@ -68,7 +56,7 @@
   "profit_factor": 5.12,
   "capitale_finale_usd": 287.58,
   "variazione_pct": 422.9,
-  "n_riga": 6,
+  "n_riga": 5,
   "gruppo": "migliori"
  },
  {
@@ -80,7 +68,7 @@
   "profit_factor": 5.12,
   "capitale_finale_usd": 287.58,
   "variazione_pct": 422.9,
-  "n_riga": 7,
+  "n_riga": 6,
   "gruppo": "migliori"
  },
  {
@@ -92,7 +80,7 @@
   "profit_factor": 4.79,
   "capitale_finale_usd": 280.01,
   "variazione_pct": 409.1,
-  "n_riga": 8,
+  "n_riga": 7,
   "gruppo": "migliori"
  },
  {
@@ -104,7 +92,7 @@
   "profit_factor": 4.79,
   "capitale_finale_usd": 280.01,
   "variazione_pct": 409.1,
-  "n_riga": 9,
+  "n_riga": 8,
   "gruppo": "migliori"
  },
  {
@@ -116,7 +104,7 @@
   "profit_factor": 4.79,
   "capitale_finale_usd": 280.01,
   "variazione_pct": 409.1,
-  "n_riga": 10,
+  "n_riga": 9,
   "gruppo": "migliori"
  },
  {
@@ -128,7 +116,7 @@
   "profit_factor": 4.53,
   "capitale_finale_usd": 269.42,
   "variazione_pct": 389.9,
-  "n_riga": 11,
+  "n_riga": 10,
   "gruppo": "migliori"
  },
  {
@@ -140,7 +128,7 @@
   "profit_factor": 4.53,
   "capitale_finale_usd": 269.42,
   "variazione_pct": 389.9,
-  "n_riga": 12,
+  "n_riga": 11,
   "gruppo": "migliori"
  },
  {
@@ -152,7 +140,7 @@
   "profit_factor": 4.53,
   "capitale_finale_usd": 269.42,
   "variazione_pct": 389.9,
-  "n_riga": 13,
+  "n_riga": 12,
   "gruppo": "migliori"
  },
  {
@@ -164,7 +152,7 @@
   "profit_factor": 2.06,
   "capitale_finale_usd": 187.53,
   "variazione_pct": 241.0,
-  "n_riga": 14,
+  "n_riga": 13,
   "gruppo": "migliori"
  }
 ]

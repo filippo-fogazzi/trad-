@@ -245,7 +245,7 @@ def statistiche(operazioni: list[dict], regole: dict, capitale_usd: float) -> di
 
 def varianti(tutte: dict) -> list[tuple[str, dict]]:
     base = tutte["notte_meme"]
-    elenco = [("A · Prudente (regole Grok)", base), ("B · Aggressiva", unisci(base, tutte["notte_meme_varianti"]["b"])),
+    elenco = [("B · Aggressiva", unisci(base, tutte["notte_meme_varianti"]["b"])),
               ("C · Dal laboratorio", unisci(base, tutte["notte_meme_varianti"]["c"]))]
     elenco.append(("Compra tutto (senza filtri né controlli)", unisci(base, {
         "universo": {"liquidita_min_usd": 0, "volume_5min_min_usd": 0, "holder_min": 0},

@@ -56,26 +56,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run registratore.yml --ref "${{ github.ref_name }}" -f minuti=340 -f continua=true
 
-  # Sveglia della notte: l'orario programmato di GitHub è arrivato con 7 ore di ritardo, quindi
-  # il turno del registratore che copre le 23:00 italiane aspetta quell'ora e fa partire la notte.
-  # Se parte anche l'orario programmato, GitHub mette in coda e ne tiene uno solo.
-  sveglia:
-    runs-on: ubuntu-latest
-    timeout-minutes: 358
-    if: ${{ github.event_name == 'schedule' || inputs.continua }}
-    steps:
-      - name: Aspetta le 23:00 italiane e lancia la notte
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          ADESSO=$(date +%s)
-          OBIETTIVO=$(TZ=Europe/Rome date -d "today 23:00" +%s)
-          [ "$OBIETTIVO" -le "$ADESSO" ] && OBIETTIVO=$(TZ=Europe/Rome date -d "tomorrow 23:00" +%s)
-          ATTESA=$((OBIETTIVO - ADESSO))
-          if [ "$ATTESA" -gt $((350 * 60)) ]; then echo "La notte non cade in questo turno."; exit 0; fi
-          echo "Aspetto $((ATTESA / 60)) minuti"; sleep "$ATTESA"
-          gh workflow run notte.yml --repo "${{ github.repository }}" --ref "${{ github.ref_name }}" -f turno=1
-
   prezzi:
     needs: registra
     if: ${{ !cancelled() }}
