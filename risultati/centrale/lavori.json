@@ -1,146 +1,146 @@
 [
  {
   "n": 1,
+  "quando": "25/11 19:21",
+  "chi": "Claude",
+  "cosa": "C con il controllo sulla liquidità bloccata, nuova strategia D senza"
+ },
+ {
+  "n": 2,
   "quando": "25/11 19:07",
   "chi": "Claude",
   "cosa": "Sala comando: prime operazioni di B e C nella giornata 24 ore"
  },
  {
-  "n": 2,
+  "n": 3,
   "quando": "25/11 18:52",
   "chi": "Bot notturno",
   "cosa": "Risultati bot su carta 2026-11-25T17:52Z"
  },
  {
-  "n": 3,
+  "n": 4,
   "quando": "25/11 17:30",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-25T16:30Z"
  },
  {
-  "n": 4,
+  "n": 5,
   "quando": "25/11 17:24",
   "chi": "Claude",
   "cosa": "Bot su carta: salvataggio ogni ora, le operazioni si vedono anche a turno in corso"
  },
  {
-  "n": 5,
+  "n": 6,
   "quando": "25/11 16:49",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-25T15:49Z"
  },
  {
-  "n": 6,
+  "n": 7,
   "quando": "25/11 13:11",
   "chi": "Claude",
   "cosa": "Sala comando: dati aggiornati con B e C"
  },
  {
-  "n": 7,
+  "n": 8,
   "quando": "25/11 13:10",
   "chi": "Claude",
   "cosa": "Bot B e C 24 ore su 24, la A non gira più"
  },
  {
-  "n": 8,
+  "n": 9,
   "quando": "25/11 13:00",
   "chi": "Claude",
   "cosa": "Sala comando più semplice: le tre strategie spiegate a parole, 4 schede invece di 7"
  },
  {
-  "n": 9,
+  "n": 10,
   "quando": "25/11 12:55",
   "chi": "Claude",
   "cosa": "Sveglia della notte: il registratore fa partire la notte alle 23:00 italiane"
  },
  {
-  "n": 10,
+  "n": 11,
   "quando": "25/11 12:55",
   "chi": "Claude",
   "cosa": "Bot notturno C: la variante migliore del laboratorio, su carta stanotte con A e B"
  },
  {
-  "n": 11,
+  "n": 12,
   "quando": "25/11 12:32",
   "chi": "Claude",
   "cosa": "Sala comando: dati della prima notte vera e del laboratorio su 2119 foto"
  },
  {
-  "n": 12,
+  "n": 13,
   "quando": "25/11 11:52",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-25T10:52Z"
  },
  {
-  "n": 13,
+  "n": 14,
   "quando": "25/11 11:09",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-25T10:09Z"
  },
  {
-  "n": 14,
+  "n": 15,
   "quando": "25/11 07:00",
   "chi": "Bot notturno",
   "cosa": "Risultati notte su carta 2026-11-25T06:00Z"
  },
  {
-  "n": 15,
+  "n": 16,
   "quando": "25/11 05:54",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-25T04:54Z"
  },
  {
-  "n": 16,
+  "n": 17,
   "quando": "25/11 05:53",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-25T04:53Z"
  },
  {
-  "n": 17,
+  "n": 18,
   "quando": "25/11 05:29",
   "chi": "Bot notturno",
   "cosa": "Risultati notte su carta 2026-11-25T04:29Z"
  },
  {
-  "n": 18,
+  "n": 19,
   "quando": "25/11 05:28",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-25T04:28Z"
  },
  {
-  "n": 19,
+  "n": 20,
   "quando": "25/11 00:57",
   "chi": "Claude",
   "cosa": "Sala comando: dati del laboratorio su tutti i 267 token"
  },
  {
-  "n": 20,
+  "n": 21,
   "quando": "25/11 00:56",
   "chi": "Claude",
   "cosa": "Laboratorio meme: scarta i picchi di prezzo impossibili (x10 in un minuto)"
  },
  {
-  "n": 21,
+  "n": 22,
   "quando": "24/11 23:57",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-24T22:57Z"
  },
  {
-  "n": 22,
+  "n": 23,
   "quando": "24/11 23:48",
   "chi": "Claude",
   "cosa": "Turni a catena: ogni turno del registratore e della notte lancia il successivo"
  },
  {
-  "n": 23,
+  "n": 24,
   "quando": "24/11 23:46",
   "chi": "Claude",
   "cosa": "Laboratorio più veloce: prezzi scaricati da 4 macchine in parallelo, registratore quasi 24/7"
- },
- {
-  "n": 24,
-  "quando": "24/11 22:56",
-  "chi": "Claude",
-  "cosa": "Sala comando: dati aggiornati con i primi risultati del laboratorio"
  }
 ]
