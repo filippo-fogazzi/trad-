@@ -147,7 +147,7 @@
   <header class="sc-top" id="barra">
     <div class="sc-brand">
       <div class="sc-logo" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-9"/><path d="M15 7h5v5"/></svg></span></div>
-      <div><h1>Sala comando</h1><small>memecoin su Solana · due strategie a confronto</small></div>
+      <div><h1>Sala comando</h1><small>memecoin su Solana · tre strategie a confronto</small></div>
     </div>
     <div class="sc-meta">
       <span class="sc-pill paper">● SOLDI FINTI</span>
@@ -165,7 +165,7 @@
   <section id="strategie" role="tabpanel" aria-labelledby="t-strategie" data-pannello>
     <div style="display:grid; gap:16px">
       <div class="sc-intro">
-        <p><b>Due bot</b> giocano <b>24 ore su 24</b> sulle memecoin vere, con <b>50 € finti ciascuno</b> ogni giorno (la giornata va dalle 7 alle 7). Ognuno segue una strategia diversa: qui vedi come va.</p>
+        <p><b>Tre bot</b> giocano <b>24 ore su 24</b> sulle memecoin vere, con <b>50 € finti ciascuno</b> ogni giorno (la giornata va dalle 7 alle 7). Ognuno segue una strategia diversa: qui vedi come va.</p>
         <div class="sc-stato" data-draw="stato" data-source="sistema"></div>
       </div>
       <div class="sc-strats" data-draw="carte" data-source="strategie"></div>
@@ -281,6 +281,7 @@
     notte_a: { c: 'var(--green)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z'] },
     notte_b: { c: 'var(--violet)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z', 'M17 3l.9 1.9 1.9.9-1.9.9L17 8.6l-.9-1.9-1.9-.9 1.9-.9z'] },
     notte_c: { c: 'var(--orange)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z', 'M17 3l.9 1.9 1.9.9-1.9.9L17 8.6l-.9-1.9-1.9-.9 1.9-.9z', 'M21 9.5l.6 1.2 1.2.6-1.2.6-.6 1.2-.6-1.2-1.2-.6 1.2-.6z'] },
+    notte_d: { c: 'var(--cyan)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z', 'M17 3l.9 1.9 1.9.9-1.9.9L17 8.6l-.9-1.9-1.9-.9 1.9-.9z', 'M21 9.5l.6 1.2 1.2.6-1.2.6-.6 1.2-.6-1.2-1.2-.6 1.2-.6z'] },
     registratore: { c: 'var(--orange)', d: ['M4 8h3l2-2.5h6L17 8h3v11H4z', 'M12 16.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z'] },
     lab_meme: { c: 'var(--red)', d: ['M9.5 3h5', 'M10.5 3v6L5 19a1.5 1.5 0 0 0 1.3 2h11.4a1.5 1.5 0 0 0 1.3-2l-5.5-10V3', 'M7.5 15h9'] },
     lab_binance: { c: 'var(--amber)', d: ['M4 20h16', 'M6 16v-5', 'M10 16V7', 'M14 16v-4', 'M18 16V5'] },
@@ -311,7 +312,7 @@
   });
 
 
-  const COLORI = { A: 'var(--green)', B: 'var(--violet)', C: 'var(--orange)' };
+  const COLORI = { A: 'var(--green)', B: 'var(--violet)', C: 'var(--orange)', D: 'var(--cyan)' };
   const el_ = (tag, cls, testo) => { const n = document.createElement(tag); if (cls) n.className = cls; if (testo !== undefined) n.textContent = testo; return n; };
   const segno = (v) => (v > 0 ? 'sc-up' : v < 0 ? 'sc-down' : '');
 

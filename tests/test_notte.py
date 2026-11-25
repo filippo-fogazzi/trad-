@@ -206,15 +206,15 @@ def test_variante_b_cambia_solo_i_numeri_indicati():
     assert "descrizione" not in b
 
 
-def test_variante_c_e_la_migliore_del_laboratorio():
+def test_varianti_c_e_d_coincidono_con_la_griglia_del_laboratorio():
     from bot.notte.__main__ import unisci
     from bot.notte.laboratorio import varianti
     tutte = carica_regole()
     c = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["c"])
-    assert c["universo"]["liquidita_min_usd"] == 40000 and c["universo"]["volume_5min_min_usd"] == 1000
-    assert c["controllo_truffe"]["lp_bloccata_min_pct"] == 0 and c["controllo_truffe"]["no_mint_authority"]
-    assert c["uscite"]["stop_pct"] == 8 and c["uscite"]["tempo_max_minuti"] == 60
-    # nel laboratorio C deve dare gli stessi numeri della variante della griglia da cui è nata
+    d = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["d"])
+    assert c["controllo_truffe"]["lp_bloccata_min_pct"] == 90 and c["controllo_truffe"]["no_rischi_gravi"]
+    assert d["controllo_truffe"]["lp_bloccata_min_pct"] == 0 and d["controllo_truffe"]["no_mint_authority"]
+    assert d["universo"]["liquidita_min_usd"] == 5000 and d["uscite"]["stop_pct"] == 20
     tutte_le_varianti = dict(varianti(tutte))
-    griglia = tutte_le_varianti["liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min"]
-    assert tutte_le_varianti["C · Dal laboratorio"] == griglia
+    assert tutte_le_varianti["C · Grandi e protette"] == tutte_le_varianti["liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 60 min"]
+    assert tutte_le_varianti["D · Piccole e veloci"] == tutte_le_varianti["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min"]

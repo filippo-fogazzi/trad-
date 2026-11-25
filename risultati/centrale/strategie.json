@@ -21,9 +21,9 @@
  },
  {
   "id": "C",
-  "nome": "Dal laboratorio",
-  "frase": "La regola che ha reso di più nei test sul passato: monete grandi, stop stretto, la tiene fino a un'ora.",
-  "compra": "Monete con almeno 40k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
+  "nome": "Grandi e protette",
+  "frase": "Monete grandi e solo con la liquidità bloccata (niente rug), stop stretto, la tiene fino a un'ora.",
+  "compra": "Monete con almeno 40k $ di liquidità e 150 holder, controllo anti-truffa severo",
   "vende": "A −8%, oppure dopo 60 minuti se non è raddoppiata",
   "punta": "33% del capitale per operazione",
   "notti": 1,
@@ -35,8 +35,28 @@
   "perse": 2,
   "totale_pct": -31.6,
   "in_corso": true,
-  "lab_operazioni": 66,
-  "lab_variazione_pct": 336.3,
-  "lab_media_pct": 23.96
+  "lab_operazioni": 0,
+  "lab_variazione_pct": 0.0,
+  "lab_media_pct": 0.0
+ },
+ {
+  "id": "D",
+  "nome": "Piccole e veloci",
+  "frase": "Monete piccole, senza guardare la liquidità bloccata: stop largo, vende entro 25 minuti. Rischiosa.",
+  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
+  "vende": "A −20%, oppure dopo 25 minuti se non è raddoppiata",
+  "punta": "33% del capitale per operazione",
+  "notti": 0,
+  "notte": "",
+  "capitale_eur": null,
+  "variazione_pct": null,
+  "operazioni": 0,
+  "vinte": 0,
+  "perse": 0,
+  "totale_pct": null,
+  "in_corso": false,
+  "lab_operazioni": 523,
+  "lab_variazione_pct": 440.0,
+  "lab_media_pct": 23.87
  }
 ]

@@ -1,4 +1,4 @@
-# Laboratorio meme — 25/11/2026 16:30 UTC
+# Laboratorio meme — 25/11/2026 18:19 UTC
 
 **Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.
 
@@ -9,7 +9,8 @@ Foto: **2583** di **1718** token · token con prezzi successivi disponibili: **1
 | Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |
 |---|---|---|---|---|---|
 | B · Aggressiva | 21 | 28.6% | +5.4% | 1.39 | +28.2% |
-| C · Dal laboratorio | 66 | 65.2% | +24.0% | 3.85 | +336.3% |
+| C · Grandi e protette | 0 | 0.0% | +0.0% | 0.0 | +0.0% |
+| D · Piccole e veloci | 523 | 60.6% | +23.9% | 2.14 | +440.0% |
 | Compra tutto (senza filtri né controlli) | 1609 | 53.5% | +22.8% | 1.97 | -64.8% |
 
 ## Le 10 varianti migliori (almeno 20 operazioni)

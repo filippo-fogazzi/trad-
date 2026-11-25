@@ -12,16 +12,28 @@
   "n_riga": 1
  },
  {
-  "nome": "C · Dal laboratorio",
-  "n": 66,
-  "eseguite": 20,
-  "vincenti_pct": 65.2,
-  "ritorno_medio_pct": 23.96,
-  "profit_factor": 3.85,
-  "capitale_finale_usd": 239.98,
-  "variazione_pct": 336.3,
+  "nome": "C · Grandi e protette",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
   "gruppo": "riferimento",
   "n_riga": 2
+ },
+ {
+  "nome": "D · Piccole e veloci",
+  "n": 523,
+  "eseguite": 35,
+  "vincenti_pct": 60.6,
+  "ritorno_medio_pct": 23.87,
+  "profit_factor": 2.14,
+  "capitale_finale_usd": 296.98,
+  "variazione_pct": 440.0,
+  "gruppo": "riferimento",
+  "n_riga": 3
  },
  {
   "nome": "Compra tutto (senza filtri né controlli)",
@@ -33,7 +45,7 @@
   "capitale_finale_usd": 19.34,
   "variazione_pct": -64.8,
   "gruppo": "riferimento",
-  "n_riga": 3
+  "n_riga": 4
  },
  {
   "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
@@ -44,7 +56,7 @@
   "profit_factor": 2.14,
   "capitale_finale_usd": 296.98,
   "variazione_pct": 440.0,
-  "n_riga": 4,
+  "n_riga": 5,
   "gruppo": "migliori"
  },
  {
@@ -56,7 +68,7 @@
   "profit_factor": 2.11,
   "capitale_finale_usd": 245.41,
   "variazione_pct": 346.2,
-  "n_riga": 5,
+  "n_riga": 6,
   "gruppo": "migliori"
  },
  {
@@ -68,7 +80,7 @@
   "profit_factor": 3.85,
   "capitale_finale_usd": 239.98,
   "variazione_pct": 336.3,
-  "n_riga": 6,
+  "n_riga": 7,
   "gruppo": "migliori"
  },
  {
@@ -80,7 +92,7 @@
   "profit_factor": 3.75,
   "capitale_finale_usd": 239.98,
   "variazione_pct": 336.3,
-  "n_riga": 7,
+  "n_riga": 8,
   "gruppo": "migliori"
  },
  {
@@ -92,7 +104,7 @@
   "profit_factor": 3.75,
   "capitale_finale_usd": 239.98,
   "variazione_pct": 336.3,
-  "n_riga": 8,
+  "n_riga": 9,
   "gruppo": "migliori"
  },
  {
@@ -104,7 +116,7 @@
   "profit_factor": 3.66,
   "capitale_finale_usd": 230.64,
   "variazione_pct": 319.4,
-  "n_riga": 9,
+  "n_riga": 10,
   "gruppo": "migliori"
  },
  {
@@ -116,7 +128,7 @@
   "profit_factor": 3.57,
   "capitale_finale_usd": 230.64,
   "variazione_pct": 319.4,
-  "n_riga": 10,
+  "n_riga": 11,
   "gruppo": "migliori"
  },
  {
@@ -128,7 +140,7 @@
   "profit_factor": 3.57,
   "capitale_finale_usd": 230.64,
   "variazione_pct": 319.4,
-  "n_riga": 11,
+  "n_riga": 12,
   "gruppo": "migliori"
  },
  {
@@ -140,7 +152,7 @@
   "profit_factor": 3.66,
   "capitale_finale_usd": 216.1,
   "variazione_pct": 292.9,
-  "n_riga": 12,
+  "n_riga": 13,
   "gruppo": "migliori"
  },
  {
@@ -152,7 +164,7 @@
   "profit_factor": 3.57,
   "capitale_finale_usd": 216.1,
   "variazione_pct": 292.9,
-  "n_riga": 13,
+  "n_riga": 14,
   "gruppo": "migliori"
  }
 ]

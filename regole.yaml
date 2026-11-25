@@ -125,15 +125,24 @@ notte_meme_varianti:
       stop_pct: 15               # invece di 12
       tempo_max_minuti: 20       # invece di 25
   c:
-    descrizione: "La migliore del laboratorio: monete grandi, niente controllo sulla liquidità bloccata, stop stretto"
-    # Vinta nel laboratorio del 25/11 su 44 operazioni (+27% in media), ma in una notte in cui saliva quasi tutto:
-    # qui la proviamo su notti nuove, che il laboratorio non ha mai visto.
+    descrizione: "Monete grandi con liquidità bloccata, stop stretto, la tiene fino a un'ora"
+    # Dal 25/11 sera ha di nuovo il controllo sulla liquidità bloccata (alla prima giornata ha preso un rug).
     universo:
-      volume_5min_min_usd: 1000  # invece di 25.000 (nel laboratorio non cambiava nulla)
+      volume_5min_min_usd: 1000  # invece di 25.000
+      holder_min: 150            # invece di 300
+    uscite:
+      stop_pct: 8                # invece di 12
+      tempo_max_minuti: 60       # invece di 25
+  d:
+    descrizione: "Monete piccole, senza controllo sulla liquidità bloccata, stop largo, vende presto"
+    # La migliore del test sul passato tra quelle SENZA controllo sulla liquidità bloccata (25/11: 523 operazioni).
+    universo:
+      liquidita_min_usd: 5000    # invece di 40.000
+      volume_5min_min_usd: 1000  # invece di 25.000
       holder_min: 150            # invece di 300
     controllo_truffe:
       lp_bloccata_min_pct: 0     # invece di 90: RISCHIO, la liquidità può essere ritirata (rug)
       no_rischi_gravi: false     # invece di true (RugCheck lo segna "danger" proprio per la LP non bloccata)
     uscite:
-      stop_pct: 8                # invece di 12
-      tempo_max_minuti: 60       # invece di 25
+      stop_pct: 20               # invece di 12
+      tempo_max_minuti: 25

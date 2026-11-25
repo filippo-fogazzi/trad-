@@ -1,4 +1,4 @@
-# Bot B e C SU CARTA (soldi finti, prezzi veri), 24 ore su 24.
+# Bot B, C e D SU CARTA (soldi finti, prezzi veri), 24 ore su 24.
 # GitHub ferma ogni lavoro dopo 6 ore: i bot girano a turni di 340 minuti, salvano lo stato e
 # ogni turno fa partire da solo il successivo. Ogni giornata va dalle 07:00 alle 07:00 italiane
 # e riparte con 50 € finti. L'orario programmato è solo una riserva se la catena si interrompe:
@@ -36,7 +36,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
-      - name: Gira i bot B e C
+      - name: Gira i bot B, C e D
         env:
           TURNO: ${{ inputs.turno || 'continua' }}
         run: |
@@ -52,9 +52,11 @@ jobs:
             ORA=$(date +%Y-%m-%d-%H%M)
             python -m bot.notte --variante b --minuti "${{ inputs.minuti }}" --nome "prova-b-$ORA" &
             python -m bot.notte --variante c --minuti "${{ inputs.minuti }}" --nome "prova-c-$ORA" &
+            python -m bot.notte --variante d --minuti "${{ inputs.minuti }}" --nome "prova-d-$ORA" &
           else
             python -m bot.notte --variante b --max-minuti 340 &
             python -m bot.notte --variante c --max-minuti 340 &
+            python -m bot.notte --variante d --max-minuti 340 &
           fi
           wait $(jobs -p | grep -v "^$SALVA$")
           pkill -P $SALVA 2>/dev/null; kill $SALVA 2>/dev/null || true

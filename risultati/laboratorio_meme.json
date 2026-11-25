@@ -10,14 +10,24 @@
   "variazione_pct": 28.2
  },
  {
-  "nome": "C · Dal laboratorio",
-  "n": 66,
-  "eseguite": 20,
-  "vincenti_pct": 65.2,
-  "ritorno_medio_pct": 23.96,
-  "profit_factor": 3.85,
-  "capitale_finale_usd": 239.98,
-  "variazione_pct": 336.3
+  "nome": "C · Grandi e protette",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0
+ },
+ {
+  "nome": "D · Piccole e veloci",
+  "n": 523,
+  "eseguite": 35,
+  "vincenti_pct": 60.6,
+  "ritorno_medio_pct": 23.87,
+  "profit_factor": 2.14,
+  "capitale_finale_usd": 296.98,
+  "variazione_pct": 440.0
  },
  {
   "nome": "Compra tutto (senza filtri né controlli)",

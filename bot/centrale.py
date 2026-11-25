@@ -59,7 +59,8 @@ def _riga_notte(id_: str, nome: str, cartella: Path | None) -> dict:
 def sistema(foto: list[dict]) -> list[dict]:
     adesso = datetime.now(timezone.utc)
     righe = [_riga_notte("notte_b", "Bot B · Aggressiva", _ultima_notte("-b")),
-             _riga_notte("notte_c", "Bot C · Dal laboratorio", _ultima_notte("-c"))]
+             _riga_notte("notte_c", "Bot C · Grandi e protette", _ultima_notte("-c")),
+             _riga_notte("notte_d", "Bot D · Piccole e veloci", _ultima_notte("-d"))]
     if foto:
         ultima = datetime.fromtimestamp(foto[-1]["ms"] / 1000, timezone.utc)
         attivo = adesso - ultima < timedelta(hours=7)  # le foto arrivano su GitHub a fine turno (circa ogni 6 ore)
@@ -72,10 +73,10 @@ def sistema(foto: list[dict]) -> list[dict]:
     lab = RADICE / "risultati" / "laboratorio_meme.json"
     if lab.exists():
         risultati = json.loads(lab.read_text())
-        a = next((r for r in risultati if r["nome"].startswith("C ")), None)
+        a = next((r for r in risultati if r["nome"].startswith("D ")), None)
         griglia = [r for r in risultati if r["nome"].startswith("liq ")]
         positive = sum(1 for r in griglia if r["n"] >= 20 and r["variazione_pct"] > 0)
-        dettaglio = (f"C: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
+        dettaglio = (f"D: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
                     f"{positive} varianti su {len(griglia)} in positivo (con almeno 20 operazioni)"
         righe.append({"id": "lab_meme", "attivita": "Laboratorio meme", "stato": "pronto", "dettaglio": dettaglio,
                       "ultimo": _ora_it(datetime.fromtimestamp(lab.stat().st_mtime, timezone.utc)), "prossimo": "dopo ogni turno del registratore"})
@@ -142,7 +143,8 @@ def registro_ore(foto: list[dict]) -> list[dict]:
 # Le tre strategie in parole semplici. I numeri delle regole vengono da regole.yaml, così restano veri.
 STRATEGIE = [
     ("B", "b", "Aggressiva", "Le regole Grok ma con filtri più larghi e puntate più grandi: compra spesso, rischia di più."),
-    ("C", "c", "Dal laboratorio", "La regola che ha reso di più nei test sul passato: monete grandi, stop stretto, la tiene fino a un'ora."),
+    ("C", "c", "Grandi e protette", "Monete grandi e solo con la liquidità bloccata (niente rug), stop stretto, la tiene fino a un'ora."),
+    ("D", "d", "Piccole e veloci", "Monete piccole, senza guardare la liquidità bloccata: stop largo, vende entro 25 minuti. Rischiosa."),
 ]
 
 
@@ -197,7 +199,7 @@ def strategie() -> list[dict]:
 
 
 def operazioni_di_tutti() -> list[dict]:
-    """Le operazioni dell'ultima giornata di B e C in un'unica tabella, con la colonna del bot."""
+    """Le operazioni dell'ultima giornata di ogni bot in un'unica tabella, con la colonna del bot."""
     righe = []
     for lettera, suffisso, _, _ in STRATEGIE:
         notti = _notti(suffisso)

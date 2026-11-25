@@ -9,11 +9,19 @@
  },
  {
   "id": "notte_c",
-  "attivita": "Bot C · Dal laboratorio",
+  "attivita": "Bot C · Grandi e protette",
   "stato": "in corso",
   "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 34,18 €",
   "ultimo": "25/11 19:06",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
+ },
+ {
+  "id": "notte_d",
+  "attivita": "Bot D · Piccole e veloci",
+  "stato": "in attesa",
+  "dettaglio": "Nessuna giornata registrata ancora.",
+  "ultimo": "—",
+  "prossimo": "gira 24 ore su 24"
  },
  {
   "id": "registratore",
@@ -27,8 +35,8 @@
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "C: +336.3% su 66 operazioni · 45 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 19:06",
+  "dettaglio": "D: +440.0% su 523 operazioni · 45 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "25/11 19:19",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -44,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 19:06",
+  "ultimo": "25/11 19:21",
   "prossimo": "domani alle 07:08"
  }
 ]
