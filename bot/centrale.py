@@ -11,8 +11,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from bot.notte.__main__ import unisci
 from bot.notte.esporta import esporta
-from bot.regole import RADICE
+from bot.regole import RADICE, carica_regole
 
 ITALIA = ZoneInfo("Europe/Rome")
 USCITA = RADICE / "risultati" / "centrale"
@@ -62,10 +63,10 @@ def sistema(foto: list[dict]) -> list[dict]:
              _riga_notte("notte_c", "Bot notturno C · il migliore del laboratorio", _ultima_notte("-c"))]
     if foto:
         ultima = datetime.fromtimestamp(foto[-1]["ms"] / 1000, timezone.utc)
-        attivo = adesso - ultima < timedelta(minutes=30)
+        attivo = adesso - ultima < timedelta(hours=7)  # le foto arrivano su GitHub a fine turno (circa ogni 6 ore)
         righe.append({"id": "registratore", "attivita": "Registratore 24/7", "stato": "attivo" if attivo else "in pausa",
                       "dettaglio": f"{len(foto)} foto di {len({f['token'] for f in foto})} memecoin",
-                      "ultimo": _ora_it(ultima), "prossimo": "riparte ogni 6 ore"})
+                      "ultimo": _ora_it(ultima), "prossimo": "foto caricate a fine turno, ogni 6 ore circa"})
     else:
         righe.append({"id": "registratore", "attivita": "Registratore 24/7", "stato": "in attesa",
                       "dettaglio": "Nessuna foto ancora.", "ultimo": "—", "prossimo": "riparte ogni 6 ore"})
@@ -137,6 +138,76 @@ def registro_ore(foto: list[dict]) -> list[dict]:
     return [{"ora": k, "foto": ore[k], "token": len(token_ora[k])} for k in sorted(ore, key=lambda k: (k[3:5], k[:2], k[6:]))]
 
 
+# Le tre strategie in parole semplici. I numeri delle regole vengono da regole.yaml, così restano veri.
+STRATEGIE = [
+    ("A", "", "Prudente", "Le regole del prompt Grok: controlli anti-truffa severi, compra solo monete grandi e già seguite."),
+    ("B", "b", "Aggressiva", "Come la A ma con filtri più larghi e puntate più grandi: compra più spesso, rischia di più."),
+    ("C", "c", "Dal laboratorio", "La regola che ha reso di più nei test sul passato: monete grandi, stop stretto, la tiene fino a un'ora."),
+]
+
+
+def _regole_in_parole(r: dict) -> tuple[str, str, str]:
+    u, t, x, d = r["universo"], r["controllo_truffe"], r["uscite"], r["dimensione"]
+    truffe = ("controllo anti-truffa severo" if t["lp_bloccata_min_pct"] >= 90
+              else "controllo anti-truffa senza guardare se la liquidità è bloccata")
+    compra = f"Monete con almeno {u['liquidita_min_usd'] // 1000}k $ di liquidità e {u['holder_min']} holder, {truffe}"
+    vende = f"A −{x['stop_pct']}%, oppure dopo {x['tempo_max_minuti']} minuti se non è raddoppiata"
+    punta = f"{d['pct_capitale']}% del capitale per operazione"
+    return compra, vende, punta
+
+
+def _notti(suffisso: str) -> list[Path]:
+    return sorted(p for p in NOTTI.glob("*") if p.is_dir() and DATA.match(p.name) and p.name[10:] == (f"-{suffisso}" if suffisso else "")
+                  and (p / "stato.json").exists())
+
+
+def _capitale_eur(cartella: Path) -> tuple[float, int, int, int]:
+    stato = json.loads((cartella / "stato.json").read_text())
+    p, cambio = stato["portafoglio"], stato["cambio_eur_usd"]
+    capitale = (p["contanti"] + sum(x["quantita"] * x["ultimo_prezzo"] for x in p["posizioni"])) / cambio
+    vinte = sum(1 for c in p["chiusure"] if c["incassato_usd"] > c["speso_usd"])
+    return capitale, len(p["chiusure"]), vinte, len(p["chiusure"]) - vinte
+
+
+def strategie() -> list[dict]:
+    tutte = carica_regole()
+    base = tutte["notte_meme"]
+    lab_file = RADICE / "risultati" / "laboratorio_meme.json"
+    lab = json.loads(lab_file.read_text()) if lab_file.exists() else []
+    righe = []
+    for lettera, suffisso, nome, frase in STRATEGIE:
+        regole = unisci(base, tutte["notte_meme_varianti"][suffisso]) if suffisso else base
+        compra, vende, punta = _regole_in_parole(regole)
+        notti = _notti(suffisso)
+        riga = {"id": lettera, "nome": nome, "frase": frase, "compra": compra, "vende": vende, "punta": punta,
+                "notti": len(notti), "notte": "", "capitale_eur": None, "variazione_pct": None,
+                "operazioni": 0, "vinte": 0, "perse": 0, "totale_pct": None}
+        if notti:
+            capitale, n, vinte, perse = _capitale_eur(notti[-1])
+            partenza = base["capitale_euro"]
+            totale = sum(_capitale_eur(c)[0] - partenza for c in notti)  # ogni notte riparte da 50 €
+            riga.update(notte=notti[-1].name[:10], capitale_eur=round(capitale, 2),
+                        variazione_pct=round((capitale / partenza - 1) * 100, 1), operazioni=n, vinte=vinte, perse=perse,
+                        totale_pct=round(totale / (partenza * len(notti)) * 100, 1))
+        test = next((r for r in lab if r["nome"].startswith(lettera + " ")), None)
+        riga.update(lab_operazioni=test["n"] if test else 0, lab_variazione_pct=test["variazione_pct"] if test else None,
+                    lab_media_pct=test["ritorno_medio_pct"] if test else None)
+        righe.append(riga)
+    return righe
+
+
+def operazioni_di_tutti() -> list[dict]:
+    """Le operazioni dell'ultima notte di A, B e C in un'unica tabella, con la colonna del bot."""
+    righe = []
+    for lettera, suffisso, _, _ in STRATEGIE:
+        notti = _notti(suffisso)
+        if not notti:
+            continue
+        for o in json.loads((esporta(notti[-1]) / "operazioni.json").read_text(encoding="utf-8")):
+            righe.append(dict(o, bot=lettera, notte=notti[-1].name[:10], n=len(righe) + 1))
+    return righe
+
+
 def lab_meme() -> list[dict]:
     lab = RADICE / "risultati" / "laboratorio_meme.json"
     if not lab.exists():
@@ -155,11 +226,15 @@ def main() -> None:
     prove = [p for p in NOTTI.glob("prova*") if (p / "stato.json").exists()]
     con_operazioni = lambda p: bool(json.loads((p / "stato.json").read_text())["portafoglio"]["chiusure"])
     notte = _ultima_notte() or max(prove, key=lambda p: (con_operazioni(p), (p / "stato.json").stat().st_mtime), default=None)
-    file = {"sistema": sistema(foto), "lavori": lavori(), "registro_ore": registro_ore(foto), "lab_meme": lab_meme()}
+    file = {"sistema": sistema(foto), "lavori": lavori(), "registro_ore": registro_ore(foto), "lab_meme": lab_meme(),
+            "strategie": strategie()}
     if notte:
         pannello = esporta(notte)
         for json_notte in pannello.glob("*.json"):
             file[json_notte.stem] = json.loads(json_notte.read_text(encoding="utf-8"))
+    tutte_le_operazioni = operazioni_di_tutti()
+    if tutte_le_operazioni:
+        file["operazioni"] = tutte_le_operazioni
     for nome, righe in file.items():
         (USCITA / f"{nome}.json").write_text(json.dumps(righe, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n".join(str(USCITA / f"{n}.json") for n in file))

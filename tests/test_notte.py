@@ -217,4 +217,4 @@ def test_variante_c_e_la_migliore_del_laboratorio():
     # nel laboratorio C deve dare gli stessi numeri della variante della griglia da cui è nata
     tutte_le_varianti = dict(varianti(tutte))
     griglia = tutte_le_varianti["liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min"]
-    assert tutte_le_varianti["C · migliore del laboratorio"] == griglia
+    assert tutte_le_varianti["C · Dal laboratorio"] == griglia

@@ -1,4 +1,4 @@
-# Laboratorio meme — 25/11/2026 11:54 UTC
+# Laboratorio meme — 25/11/2026 11:59 UTC
 
 **Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.
 
@@ -8,9 +8,9 @@ Foto: **2119** di **1416** token · token con prezzi successivi disponibili: **1
 
 | Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |
 |---|---|---|---|---|---|
-| A · regole Grok | 0 | 0.0% | +0.0% | 0.0 | +0.0% |
-| B · più larga | 20 | 30.0% | +6.6% | 1.48 | +38.4% |
-| C · migliore del laboratorio | 44 | 65.9% | +27.6% | 5.12 | +422.9% |
+| A · Prudente (regole Grok) | 0 | 0.0% | +0.0% | 0.0 | +0.0% |
+| B · Aggressiva | 20 | 30.0% | +6.6% | 1.48 | +38.4% |
+| C · Dal laboratorio | 44 | 65.9% | +27.6% | 5.12 | +422.9% |
 | Compra tutto (senza filtri né controlli) | 1166 | 50.5% | +20.5% | 1.82 | -76.0% |
 
 ## Le 10 varianti migliori (almeno 20 operazioni)

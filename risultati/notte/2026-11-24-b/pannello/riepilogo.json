@@ -1,0 +1,18 @@
+[
+ {
+  "notte": "2026-11-24-b",
+  "capitale_iniziale_usd": 54.88,
+  "capitale_usd": 61.16,
+  "capitale_iniziale_eur": 50.0,
+  "capitale_eur": 55.71,
+  "variazione_pct": 11.43,
+  "operazioni": 14,
+  "vinte": 5,
+  "perse": 9,
+  "posizioni_aperte": 0,
+  "token_guardati": 7136,
+  "stato": "capitale sceso del 30% dal massimo ($100.44 → $65.23)",
+  "cambio_eur_usd": 1.0977,
+  "aggiornato": "25/11/2026 12:29"
+ }
+]

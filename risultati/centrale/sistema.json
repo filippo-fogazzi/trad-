@@ -26,17 +26,17 @@
  {
   "id": "registratore",
   "attivita": "Registratore 24/7",
-  "stato": "in pausa",
+  "stato": "attivo",
   "dettaglio": "2119 foto di 1416 memecoin",
   "ultimo": "25/11 11:08",
-  "prossimo": "riparte ogni 6 ore"
+  "prossimo": "foto caricate a fine turno, ogni 6 ore circa"
  },
  {
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
   "dettaglio": "A: +0.0% su 0 operazioni · 23 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 12:54",
+  "ultimo": "25/11 12:59",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -52,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 12:55",
+  "ultimo": "25/11 12:59",
   "prossimo": "domani alle 07:08"
  }
 ]

@@ -1,6 +1,6 @@
 [
  {
-  "nome": "A · regole Grok",
+  "nome": "A · Prudente (regole Grok)",
   "n": 0,
   "eseguite": 0,
   "vincenti_pct": 0.0,
@@ -10,7 +10,7 @@
   "variazione_pct": 0.0
  },
  {
-  "nome": "B · più larga",
+  "nome": "B · Aggressiva",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 30.0,
@@ -20,7 +20,7 @@
   "variazione_pct": 38.4
  },
  {
-  "nome": "C · migliore del laboratorio",
+  "nome": "C · Dal laboratorio",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,

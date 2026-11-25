@@ -1,8 +1,8 @@
 <meta name="dash-one-writer">
 <meta name="dash-form" content="freeform">
 <style>
-  /* Sala comando: plancia a tre colonne (sistemi · capitale e flusso · registro in diretta), una riga di
-     indicatori e schede per i dettagli. Segue il tema di claude.ai: bianca in chiaro, scura in scuro. */
+  /* Sala comando: prima schermata con le tre strategie (A, B, C) spiegate a parole, poi tre schede
+     di dettaglio. Segue il tema di claude.ai: bianca in chiaro, scura in scuro. */
   .sc {
     --bg: var(--color-bg); --panel: var(--color-panel); --line: var(--color-border-line);
     --panel2: color-mix(in srgb, var(--color-fg) 3.5%, var(--color-panel));
@@ -65,11 +65,6 @@
   .sc-note { margin: 0; font-size: 12.5px; color: var(--muted); max-width: 72ch; }
   .sc-empty { margin: 0; padding: 18px; border: 1px dashed var(--line2); border-radius: 10px; color: var(--muted); font-size: 13px; }
 
-  .sc-grid { display: grid; gap: 16px; grid-template-columns: minmax(250px, 1fr) minmax(0, 2.1fr) minmax(270px, 1.2fr); align-items: start; }
-  @media (max-width: 1180px) { .sc-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .sc-center { grid-column: 1 / -1; order: -1; } }
-  @media (max-width: 720px) { .sc-grid { grid-template-columns: minmax(0, 1fr); } }
-  .sc-center { display: grid; gap: 16px; min-width: 0; }
-
   /* sistemi */
   .sc-sys { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
   .sc-sys li { --c: var(--muted); display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 10px 8px; border-radius: 12px; }
@@ -82,60 +77,6 @@
   .sc-sys .st { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
   .sc-sys p { grid-column: 2 / -1; margin: 0; font-size: 12px; color: var(--muted); }
   .sc-sys small { grid-column: 2 / -1; font-family: var(--mono); font-size: 10.5px; color: var(--dim); }
-
-  /* capitale */
-  .sc-cap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 18px; align-items: end; }
-  @media (max-width: 560px) { .sc-cap { grid-template-columns: minmax(0, 1fr); } }
-  .sc-big { font-size: clamp(40px, 6vw, 60px); font-weight: 300; letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; }
-  .sc-delta { display: inline-flex; gap: 8px; align-items: center; font-family: var(--mono); font-size: 12px; color: var(--muted); }
-  .sc-delta b { padding: 2px 8px; border-radius: 6px; font-weight: 600; background: var(--panel2); }
-  .sc-up { color: var(--green); } .sc-down { color: var(--red); }
-  .sc-spark { min-height: 110px; position: relative; }
-  .sc-subline { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
-  .sc-subline b { color: var(--fg); font-weight: 500; }
-
-  /* flusso */
-  .sc-flow { min-height: 150px; position: relative; }
-
-  /* indicatori */
-  .sc-kpis { display: grid; gap: 12px; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 16px; }
-  @media (max-width: 1100px) { .sc-kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-  @media (max-width: 720px) { .sc-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .sc-kpi:last-child { grid-column: 1 / -1; } .sc .sc-kpi .v, .sc .sc-kpi .sc-label { white-space: normal; overflow-wrap: anywhere; } }
-  .sc-kpi { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; position: relative; overflow: hidden; box-shadow: var(--shadow); }
-  .sc-kpi::after { content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 3px; border-radius: 0 3px 3px 0; background: var(--k, var(--cyan)); }
-  .sc-kpi .sc-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .sc-kpi .v { font-size: clamp(18px, 1.6vw, 24px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
-  .sc-kpi .d { font-size: 12px; color: var(--muted); }
-
-  /* registro in diretta */
-  .sc-feed { list-style: none; margin: 0; padding: 0; font-family: var(--mono); font-size: 11.5px; max-height: 470px; overflow-y: auto; display: grid; }
-  .sc-feed li { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 2px 10px; padding: 7px 4px; border-bottom: 1px solid var(--line); }
-  .sc-feed li:last-child { border-bottom: 0; }
-  .sc-feed time { color: var(--dim); font-variant-numeric: tabular-nums; }
-  .sc-feed b { font-weight: 600; letter-spacing: .04em; }
-  .sc-feed span { grid-column: 2; color: var(--fg); overflow-wrap: anywhere; }
-
-  /* squadra */
-  .sc-team { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
-  .sc-agent { --c: var(--cyan); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); background:
-      radial-gradient(260px 120px at 0% 0%, color-mix(in srgb, var(--c) 10%, transparent), transparent 70%), var(--panel);
-    padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
-  .sc-agent header { display: flex; align-items: center; gap: 12px; }
-  .sc-ico { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; flex: none; color: var(--c);
-    background: color-mix(in srgb, var(--c) 12%, var(--panel)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 28%, transparent); }
-  .sc-ico svg { width: 19px; height: 19px; }
-  .sc-agent h3 { margin: 0; font-size: 14px; font-weight: 600; }
-  .sc-agent header p { margin: 0; font-size: 12px; color: var(--muted); }
-  .sc-agent .st { margin-left: auto; align-self: start; display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 10.5px;
-    letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
-  .sc-agent .n { display: flex; align-items: baseline; gap: 8px; }
-  .sc-agent .n b { font-size: 30px; font-weight: 400; color: var(--c); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
-  .sc-agent .n span { font-size: 12px; color: var(--muted); }
-  .sc-agent .det { margin: 0; font-size: 12.5px; }
-  .sc-agent footer { display: flex; justify-content: space-between; gap: 8px; font-family: var(--mono); font-size: 10.5px; color: var(--dim); border-top: 1px solid var(--line); padding-top: 8px; }
-  .sc-agent footer em { font-style: normal; color: var(--c); }
-  .sc-agent[data-a="scanner"] { --c: var(--orange); } .sc-agent[data-a="controllo"] { --c: var(--red); } .sc-agent[data-a="dimensione"] { --c: var(--violet); }
-  .sc-agent[data-a="esecutore"] { --c: var(--green); } .sc-agent[data-a="diario"] { --c: var(--amber); } .sc-agent[data-a="capitale"] { --c: var(--cyan); }
 
   /* grafici e tabelle */
   .sc-two { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
@@ -164,131 +105,82 @@
   .sc-works .who i { width: 7px; height: 7px; border-radius: 50%; }
   @media (max-width: 560px) { .sc-works li { grid-template-columns: 1fr; gap: 3px; } }
 
-  .sc-rules { margin: 10px 0 0; padding-left: 1.1em; display: grid; gap: 6px; color: var(--fg); font-size: 13px; max-width: 80ch; }
-  .sc-foot { margin: 0; font-family: var(--mono); font-size: 11px; color: var(--dim); text-align: center; }
-  @media print { .sc-tabs { display: none; } }
+
+  /* striscia di stato */
+  .sc-intro { display: grid; gap: 6px; }
+  .sc-intro p { margin: 0; font-size: 14px; max-width: 80ch; }
+  .sc-stato { display: flex; flex-wrap: wrap; gap: 8px; }
+  .sc-stato > span { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); font-size: 12.5px; box-shadow: var(--shadow); }
+  .sc-stato b { font-weight: 600; }
+
+  /* le tre strategie */
+  .sc-strats { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); align-items: stretch; }
+  .sc-strat { --c: var(--cyan); border: 1px solid var(--line); border-radius: var(--r); background: var(--panel); box-shadow: var(--shadow);
+    padding: 18px; display: grid; gap: 14px; align-content: start; min-width: 0; border-top: 4px solid var(--c); }
+  .sc-strat header { display: flex; align-items: center; gap: 12px; }
+  .sc-lettera { width: 40px; height: 40px; border-radius: 12px; flex: none; display: grid; place-items: center; font-size: 20px; font-weight: 700; color: var(--c);
+    background: color-mix(in srgb, var(--c) 13%, var(--panel)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 30%, transparent); }
+  .sc-strat h3 { margin: 0; font-size: 16px; font-weight: 650; }
+  .sc-strat header small { display: block; font-size: 12px; color: var(--muted); }
+  .sc-verdetto { margin-left: auto; align-self: start; font-size: 11.5px; font-weight: 600; padding: 4px 9px; border-radius: 999px; white-space: nowrap;
+    background: var(--panel2); color: var(--muted); }
+  .sc-verdetto.su { background: color-mix(in srgb, var(--green) 13%, var(--panel)); color: var(--green); }
+  .sc-verdetto.giu { background: color-mix(in srgb, var(--red) 12%, var(--panel)); color: var(--red); }
+  .sc-strat .frase { margin: 0; font-size: 13.5px; }
+  .sc-num { display: grid; gap: 2px; padding: 12px 14px; border-radius: 12px; background: var(--panel2); }
+  .sc-num .lab { font-size: 12px; color: var(--muted); }
+  .sc-num .val { font-size: 26px; font-weight: 500; letter-spacing: -.01em; font-variant-numeric: tabular-nums; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .sc-num .val em { font-style: normal; font-size: 15px; font-weight: 600; }
+  .sc-num .sub { font-size: 12.5px; color: var(--muted); }
+  .sc-up { color: var(--green); } .sc-down { color: var(--red); }
+  .sc-regole { margin: 0; display: grid; gap: 8px; font-size: 13px; }
+  .sc-regole div { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 8px; }
+  .sc-regole dt { color: var(--muted); }
+  .sc-regole dd { margin: 0; }
+  .sc-avviso { margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--amber) 35%, transparent);
+    background: color-mix(in srgb, var(--amber) 7%, var(--panel)); font-size: 13px; max-width: 90ch; }
+  .sc-bot { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 7px; font-weight: 700; font-size: 12px; }
+  details.sc-altre summary { cursor: pointer; font-size: 13px; color: var(--muted); padding: 4px 0; }
 </style>
 
 <div class="sc" lang="it">
   <header class="sc-top" id="barra">
     <div class="sc-brand">
       <div class="sc-logo" aria-hidden="true"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-9"/><path d="M15 7h5v5"/></svg></span></div>
-      <div><h1>Sala comando</h1><small>progetto trad- · memecoin su Solana</small></div>
+      <div><h1>Sala comando</h1><small>memecoin su Solana · tre strategie a confronto</small></div>
     </div>
     <div class="sc-meta">
-      <span class="sc-pill paper">● MODALITÀ CARTA · SOLDI FINTI</span>
-      <span class="sc-pill"><span class="sc-led on"></span><b data-draw="attivi" data-source="sistema">—</b> sistemi attivi</span>
+      <span class="sc-pill paper">● SOLDI FINTI</span>
       <span class="sc-pill">Roma <b class="sc-clock" data-draw="orologio">—</b></span>
     </div>
   </header>
 
   <nav class="sc-tabs" role="tablist" aria-label="Sezioni">
-    <button class="sc-tab" role="tab" aria-selected="true" aria-controls="panoramica" id="t-panoramica"><i></i>Panoramica</button>
-    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="squadra" id="t-squadra"><i></i>Squadra</button>
-    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="grafici" id="t-grafici"><i></i>Grafici</button>
+    <button class="sc-tab" role="tab" aria-selected="true" aria-controls="strategie" id="t-strategie"><i></i>Strategie</button>
     <button class="sc-tab" role="tab" aria-selected="false" aria-controls="operazioni" id="t-operazioni"><i></i>Operazioni</button>
-    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="laboratorio" id="t-laboratorio"><i></i>Laboratorio</button>
-    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="registratore" id="t-registratore"><i></i>Registratore</button>
-    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="lavori" id="t-lavori"><i></i>Lavori</button>
+    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="laboratorio" id="t-laboratorio"><i></i>Test sul passato</button>
+    <button class="sc-tab" role="tab" aria-selected="false" aria-controls="quinte" id="t-quinte"><i></i>Dietro le quinte</button>
   </nav>
 
-  <section id="panoramica" role="tabpanel" aria-labelledby="t-panoramica" data-pannello>
-    <div class="sc-grid">
-      <aside class="sc-mod" id="sistemi">
-        <div class="sc-mod-h"><span class="sc-label">Sistemi</span><span class="sc-label"><em>stato · prossimo</em></span></div>
-        <ul class="sc-sys" data-draw="sistemi" data-source="sistema"></ul>
-      </aside>
-
-      <div class="sc-center">
-        <div class="sc-mod" id="capitale">
-          <div class="sc-mod-h"><span class="sc-label">Capitale finto · ultima notte</span><span class="sc-label"><em data-draw="notte-nome" data-source="riepilogo" data-field="notte" data-row="0">—</em></span></div>
-          <div class="sc-cap">
-            <div style="display:grid; gap:10px; min-width:0">
-              <div class="sc-big" data-draw="capitale" data-source="riepilogo" data-field="capitale_eur" data-row="0">—</div>
-              <div class="sc-delta"><b data-draw="variazione" data-source="riepilogo" data-field="variazione_pct" data-row="0">—</b>da <span data-draw="partenza" data-source="riepilogo" data-field="capitale_iniziale_eur" data-row="0">—</span></div>
-              <div class="sc-subline">
-                <span><b data-draw="operazioni" data-source="riepilogo" data-field="operazioni" data-row="0">—</b> operazioni</span>
-                <span><b data-draw="vinte" data-source="riepilogo" data-field="vinte" data-row="0">—</b> vinte</span>
-                <span><b data-draw="perse" data-source="riepilogo" data-field="perse" data-row="0">—</b> perse</span>
-                <span><b data-draw="aperte" data-source="riepilogo" data-field="posizioni_aperte" data-row="0">—</b> aperte</span>
-              </div>
-            </div>
-            <div class="sc-spark" data-draw="spark" data-source="operazioni riepilogo"></div>
-          </div>
-        </div>
-
-        <div class="sc-mod" id="flusso">
-          <div class="sc-mod-h"><span class="sc-label">Flusso dei token · dal mercato al portafoglio</span><span class="sc-label"><em>ultima notte</em></span></div>
-          <div class="sc-flow" data-draw="flusso" data-source="imbuto"></div>
-          <p class="sc-note" data-draw="flusso-frase" data-source="imbuto">—</p>
-        </div>
+  <section id="strategie" role="tabpanel" aria-labelledby="t-strategie" data-pannello>
+    <div style="display:grid; gap:16px">
+      <div class="sc-intro">
+        <p>Ogni notte, dalle 23 alle 7, <b>tre bot</b> giocano con <b>50 € finti ciascuno</b> sulle memecoin vere. Ognuno segue una strategia diversa: qui vedi come è andata.</p>
+        <div class="sc-stato" data-draw="stato" data-source="sistema"></div>
       </div>
-
-      <aside class="sc-mod" id="diretta">
-        <div class="sc-mod-h"><span class="sc-label">Registro in diretta</span><span class="sc-label"><em>diario.log</em></span></div>
-        <ul class="sc-feed" data-draw="feed" data-source="diario"></ul>
-      </aside>
-    </div>
-    <div class="sc-kpis" id="indicatori">
-      <div class="sc-kpi" style="--k: var(--orange)"><span class="sc-label">Foto registrate</span><span class="v" data-draw="k-foto" data-source="registro_ore">—</span><span class="d" data-draw="k-foto-d" data-source="registro_ore">—</span></div>
-      <div class="sc-kpi" style="--k: var(--red)"><span class="sc-label">Token guardati</span><span class="v" data-draw="k-guardati" data-source="riepilogo" data-field="token_guardati" data-row="0">—</span><span class="d">nell'ultima notte, quasi tutti scartati</span></div>
-      <div class="sc-kpi" style="--k: var(--violet)"><span class="sc-label">Laboratorio meme</span><span class="v" data-draw="k-lab" data-source="lab_meme">—</span><span class="d" data-draw="k-lab-d" data-source="lab_meme">—</span></div>
-      <div class="sc-kpi" style="--k: var(--amber)"><span class="sc-label">Laboratorio Binance</span><span class="v" data-draw="k-binance" data-source="sistema" data-where="id=lab_binance" data-field="dettaglio">—</span><span class="d">strategie classiche, dopo i costi</span></div>
-      <div class="sc-kpi" style="--k: var(--cyan)"><span class="sc-label">Aggiornamento</span><span class="v" data-draw="k-prossimo" data-source="sistema" data-where="id=aggiornamento" data-field="prossimo">—</span><span class="d">prossimo, con notifica sul telefono</span></div>
-    </div>
-  </section>
-
-  <section id="squadra" role="tabpanel" aria-labelledby="t-squadra" data-pannello hidden>
-    <div class="sc-mod" style="margin-bottom:16px">
-      <span class="sc-label">La squadra</span>
-      <h2 class="sc-h">Sei agenti, un lavoro ciascuno</h2>
-      <p class="sc-note">Un token passa da un agente all'altro nell'ordine dei numeri. Se un agente lo scarta, gli altri non lo vedono mai. Numeri dell'ultima notte.</p>
-    </div>
-    <div class="sc-team">
-      <article class="sc-agent" data-a="scanner" id="ag-scanner"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><div><h3>Scanner</h3><p>Cerca memecoin nuove e i loro segnali</p></div><span class="st" data-draw="st-scanner" data-source="agenti" data-where="id=scanner" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-scanner" data-source="agenti" data-where="id=scanner" data-field="numero">—</b><span>token guardati</span></div>
-        <p class="det" data-draw="d-scanner" data-source="agenti" data-where="id=scanner" data-field="dettaglio">—</p>
-        <footer><em>01 · cerca</em><span>ultima attività <span data-draw="u-scanner" data-source="agenti" data-where="id=scanner" data-field="ultima">—</span></span></footer></article>
-      <article class="sc-agent" data-a="controllo" id="ag-controllo"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12.2l2.3 2.3 4.4-4.6"/></svg></span><div><h3>Controllo truffe</h3><p>Boccia i token sospetti con RugCheck</p></div><span class="st" data-draw="st-controllo" data-source="agenti" data-where="id=controllo" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-controllo" data-source="agenti" data-where="id=controllo" data-field="numero">—</b><span>token bocciati</span></div>
-        <p class="det" data-draw="d-controllo" data-source="agenti" data-where="id=controllo" data-field="dettaglio">—</p>
-        <footer><em>02 · controlla</em><span>ultima attività <span data-draw="u-controllo" data-source="agenti" data-where="id=controllo" data-field="ultima">—</span></span></footer></article>
-      <article class="sc-agent" data-a="dimensione" id="ag-dimensione"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16"/><rect x="5" y="12" width="3.5" height="6" rx="1"/><rect x="10.25" y="8" width="3.5" height="10" rx="1"/><rect x="15.5" y="4" width="3.5" height="14" rx="1"/></svg></span><div><h3>Dimensione</h3><p>Decide quanto puntare</p></div><span class="st" data-draw="st-dimensione" data-source="agenti" data-where="id=dimensione" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-dimensione" data-source="agenti" data-where="id=dimensione" data-field="numero">—</b><span>prossima puntata</span></div>
-        <p class="det" data-draw="d-dimensione" data-source="agenti" data-where="id=dimensione" data-field="dettaglio">—</p>
-        <footer><em>03 · dimensiona</em><span>ultima attività <span data-draw="u-dimensione" data-source="agenti" data-where="id=dimensione" data-field="ultima">—</span></span></footer></article>
-      <article class="sc-agent" data-a="esecutore" id="ag-esecutore"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h11l-3-3"/><path d="M17 17H6l3 3"/></svg></span><div><h3>Esecutore</h3><p>Compra e vende su carta</p></div><span class="st" data-draw="st-esecutore" data-source="agenti" data-where="id=esecutore" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-esecutore" data-source="agenti" data-where="id=esecutore" data-field="numero">—</b><span>ordini su carta</span></div>
-        <p class="det" data-draw="d-esecutore" data-source="agenti" data-where="id=esecutore" data-field="dettaglio">—</p>
-        <footer><em>04 · esegue</em><span>ultima attività <span data-draw="u-esecutore" data-source="agenti" data-where="id=esecutore" data-field="ultima">—</span></span></footer></article>
-      <article class="sc-agent" data-a="diario" id="ag-diario"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h9l3.5 3.5v13.5H6z"/><path d="M9 11h6M9 14.5h6M9 18h3.5"/></svg></span><div><h3>Diario</h3><p>Scrive ogni decisione con il motivo</p></div><span class="st" data-draw="st-diario" data-source="agenti" data-where="id=diario" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-diario" data-source="agenti" data-where="id=diario" data-field="numero">—</b><span>righe scritte</span></div>
-        <p class="det" data-draw="d-diario" data-source="agenti" data-where="id=diario" data-field="dettaglio">—</p>
-        <footer><em>05 · registra</em><span>ultima attività <span data-draw="u-diario" data-source="agenti" data-where="id=diario" data-field="ultima">—</span></span></footer></article>
-      <article class="sc-agent" data-a="capitale" id="ag-capitale"><header><span class="sc-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 17.5l5-5 3.5 3.5 7.5-8"/><path d="M14.5 8h5v5"/></svg></span><div><h3>Capitale</h3><p>Tiene il saldo, ferma tutto a −30%</p></div><span class="st" data-draw="st-capitale" data-source="agenti" data-where="id=capitale" data-field="stato">—</span></header>
-        <div class="n"><b data-draw="n-capitale" data-source="agenti" data-where="id=capitale" data-field="numero">—</b><span>capitale attuale</span></div>
-        <p class="det" data-draw="d-capitale" data-source="agenti" data-where="id=capitale" data-field="dettaglio">—</p>
-        <footer><em>06 · conta</em><span>ultima attività <span data-draw="u-capitale" data-source="agenti" data-where="id=capitale" data-field="ultima">—</span></span></footer></article>
-    </div>
-  </section>
-
-  <section id="grafici" role="tabpanel" aria-labelledby="t-grafici" data-pannello hidden>
-    <div class="sc-two">
-      <div class="sc-mod" id="g-capitale"><span class="sc-label">Capitale dopo ogni operazione</span><p class="sc-note">In euro, dopo i costi stimati. Il tratteggio è la partenza.</p><div class="sc-chart" data-draw="curva" data-source="operazioni riepilogo"></div></div>
-      <div class="sc-mod" id="g-attivita"><span class="sc-label">Giri dello scanner</span>
-        <div class="sc-legend"><span><i style="background:var(--line2)"></i>guardati</span><span><i style="background:var(--orange)"></i>nel perimetro</span><span><i style="background:var(--red)"></i>controllati</span><span><i style="background:var(--green)"></i>comprati</span></div>
-        <div class="sc-chart" data-draw="attivita" data-source="attivita"></div></div>
-      <div class="sc-mod" id="g-scarti"><span class="sc-label">Perché i token sono stati scartati</span><p class="sc-note">Ogni token contato una volta per motivo.</p><div class="sc-chart" data-draw="filtri" data-source="filtri"></div></div>
+      <div class="sc-strats" data-draw="carte" data-source="strategie"></div>
+      <p class="sc-avviso"><b>Come leggerla.</b> «Ultima notte» è la prova dal vivo, su monete che nessuno conosceva prima. «Test sul passato» riprova le stesse regole sui dati già raccolti: è veloce, ma può ingannare. Ci fidiamo di una strategia solo quando vince <b>per più notti di fila</b>.</p>
     </div>
   </section>
 
   <section id="operazioni" role="tabpanel" aria-labelledby="t-operazioni" data-pannello hidden>
     <div class="sc-mod">
-      <span class="sc-label">Operazioni dell'ultima notte</span>
+      <h2 class="sc-h">Ogni acquisto e vendita dell'ultima notte</h2>
+      <p class="sc-note">Una riga per operazione, con il bot che l'ha fatta e i motivi. Risultato in dollari, dopo i costi stimati.</p>
       <div class="sc-scroll" id="ops-box">
         <table class="sc-table" data-source="operazioni" data-row-key="n">
-          <thead><tr><th data-field="n" class="num">#</th><th data-field="moneta">Moneta</th><th data-field="entrata">Entrata</th><th data-field="uscita">Uscita</th>
-            <th data-field="speso_usd" class="num">Speso</th><th data-field="risultato_usd" class="num">Risultato</th><th data-field="motivo_ingresso">Perché è entrato</th><th data-field="motivo_uscita">Perché è uscito</th></tr></thead>
+          <thead><tr><th data-field="bot">Bot</th><th data-field="moneta">Moneta</th><th data-field="entrata">Comprata</th><th data-field="uscita">Venduta</th>
+            <th data-field="speso_usd" class="num">Speso</th><th data-field="risultato_usd" class="num">Risultato</th><th data-field="motivo_ingresso">Perché ha comprato</th><th data-field="motivo_uscita">Perché ha venduto</th></tr></thead>
           <tbody data-draw="righe"></tbody>
         </table>
       </div>
@@ -298,49 +190,42 @@
 
   <section id="laboratorio" role="tabpanel" aria-labelledby="t-laboratorio" data-pannello hidden>
     <div class="sc-mod">
-      <span class="sc-label">Laboratorio meme</span>
-      <h2 class="sc-h">Quali strategie avrebbero funzionato</h2>
-      <p class="sc-note">Ogni strategia è provata sulle foto del Registratore e sui prezzi delle 2,5 ore successive, con 50 € finti. Scegliere la migliore tra tante esagera il risultato: la vincitrice va riprovata su giorni nuovi.</p>
-      <div class="sc-chart" data-draw="lab-barre" data-source="lab_meme" style="min-height:0"></div>
+      <h2 class="sc-h">Cosa avrebbero fatto le strategie sui dati già raccolti</h2>
+      <p class="sc-note">Il registratore salva una «foto» di ogni memecoin nuova; qui ogni strategia viene riprovata su quelle foto e sui prezzi delle 2,5 ore successive, partendo da 50 € finti. «Compra tutto» serve da confronto: è cosa succede comprando ogni moneta senza regole.</p>
       <div class="sc-scroll" id="lab-box">
         <table class="sc-table" data-source="lab_meme" data-row-key="n_riga">
-          <thead><tr><th data-field="nome">Strategia</th><th data-field="n" class="num">Operazioni</th><th data-field="vincenti_pct" class="num">Vincenti</th>
-            <th data-field="ritorno_medio_pct" class="num">Media</th><th data-field="profit_factor" class="num">Profit factor</th><th data-field="variazione_pct" class="num">Capitale</th></tr></thead>
-          <tbody data-draw="lab-righe"></tbody>
+          <thead><tr><th data-field="nome">Strategia</th><th data-field="n" class="num">Operazioni</th><th data-field="vincenti_pct" class="num">Vinte</th>
+            <th data-field="ritorno_medio_pct" class="num">Media per operazione</th><th data-field="variazione_pct" class="num">Risultato su 50 €</th></tr></thead>
+          <tbody data-draw="lab-righe" data-gruppo="riferimento"></tbody>
         </table>
       </div>
+      <details class="sc-altre"><summary>Le 10 varianti migliori provate dal laboratorio</summary>
+        <div class="sc-scroll" style="margin-top:8px">
+          <table class="sc-table" data-source="lab_meme" data-row-key="n_riga">
+            <thead><tr><th data-field="nome">Variante</th><th data-field="n" class="num">Operazioni</th><th data-field="vincenti_pct" class="num">Vinte</th>
+              <th data-field="ritorno_medio_pct" class="num">Media per operazione</th><th data-field="variazione_pct" class="num">Risultato su 50 €</th></tr></thead>
+            <tbody data-draw="lab-altre"></tbody>
+          </table>
+        </div>
+      </details>
       <p class="sc-empty" data-draw="lab-vuoto" hidden>—</p>
     </div>
   </section>
 
-  <section id="registratore" role="tabpanel" aria-labelledby="t-registratore" data-pannello hidden>
-    <div class="sc-mod">
-      <span class="sc-label">Registratore 24/7</span>
-      <h2 class="sc-h">Foto delle memecoin nuove, ora per ora</h2>
-      <p class="sc-note">Ogni memecoin su Solana nata da meno di 6 ore con almeno $5.000 di liquidità viene fotografata: prezzo, volumi, holder e controllo anti-truffa in quel momento.</p>
-      <div class="sc-legend"><span><i style="background:var(--orange)"></i>foto</span><span><i style="background:var(--cyan)"></i>memecoin diverse</span></div>
-      <div class="sc-chart" data-draw="registro" data-source="registro_ore"></div>
+  <section id="quinte" role="tabpanel" aria-labelledby="t-quinte" data-pannello hidden>
+    <div class="sc-two">
+      <div class="sc-mod">
+        <h2 class="sc-h">Cosa sta lavorando</h2>
+        <ul class="sc-sys" data-draw="sistemi" data-source="sistema"></ul>
+      </div>
+      <div class="sc-mod">
+        <h2 class="sc-h">Ultimi 12 lavori</h2>
+        <ul class="sc-works" data-draw="lavori" data-source="lavori"></ul>
+      </div>
     </div>
   </section>
 
-  <section id="lavori" role="tabpanel" aria-labelledby="t-lavori" data-pannello hidden>
-    <div class="sc-mod">
-      <span class="sc-label">Registro dei lavori</span>
-      <h2 class="sc-h">Cosa abbiamo fatto, dal più recente</h2>
-      <ul class="sc-works" data-draw="lavori" data-source="lavori"></ul>
-      <details><summary class="sc-label" style="cursor:pointer">Le regole del bot notturno A</summary>
-        <ul class="sc-rules">
-          <li>Solo memecoin su Solana nate o migrate nelle ultime 6 ore, con almeno $40.000 di liquidità, $25.000 di volume in 5 minuti e 300 holder.</li>
-          <li>Compra solo con almeno 2 segnali (picco di volume, 70% di acquisti, crescita degli holder) e il controllo anti-truffa superato.</li>
-          <li>33% del capitale per operazione, massimo 2 posizioni, metà dimensione dopo 2 perdite di fila.</li>
-          <li>Esce a −12%, vende il 40% a 2x e il 30% a 4x, il resto con trailing del 25%. Dopo 25 minuti senza 2x vende tutto.</li>
-          <li>Costi stimati: commissione DEX 1%, ritardo 1%, impatto sul pool e $0,10 di rete per ordine. Se sparisce la liquidità recupera il 10%.</li>
-        </ul>
-      </details>
-    </div>
-  </section>
-
-  <p class="sc-foot">Dati: DexScreener, RugCheck, GeckoTerminal, Binance · nessun ordine reale, nessuna chiave</p>
+  <p class="sc-foot">Dati: DexScreener, RugCheck, GeckoTerminal · nessun ordine reale, nessuna chiave</p>
 </div>
 
 <script>
@@ -364,7 +249,7 @@
   (() => {
     const mostra = (id) => {
       const pannelli = [...document.querySelectorAll('[data-pannello]')];
-      if (!pannelli.some((p) => p.id === id)) id = 'panoramica';
+      if (!pannelli.some((p) => p.id === id)) id = 'strategie';
       pannelli.forEach((p) => { p.hidden = p.id !== id; });
       document.querySelectorAll('.sc-tab').forEach((t) => { const sua = t.getAttribute('aria-controls') === id; t.setAttribute('aria-selected', String(sua)); t.tabIndex = sua ? 0 : -1; });
     };
@@ -392,8 +277,6 @@
     update: () => {},
     unmount: (el, timer) => clearInterval(timer),
   });
-  dash.draw('attivi', (el) => { const s = dash.data('sistema'); el.textContent = s.status === 'ok' ? `${s.data.filter((r) => sc.ON.includes(r.stato)).length}/${s.data.length}` : '—'; });
-
   const ICONE = {
     notte_a: { c: 'var(--green)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z'] },
     notte_b: { c: 'var(--violet)', d: ['M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z', 'M17 3l.9 1.9 1.9.9-1.9.9L17 8.6l-.9-1.9-1.9-.9 1.9-.9z'] },
@@ -427,238 +310,81 @@
     }));
   });
 
-  const campo = (nome, formato) => (el) => { const r = sc.riga(); el.textContent = r ? formato(r[nome]) : '—'; };
-  dash.draw('notte-nome', campo('notte', (v) => 'notte ' + v));
-  dash.draw('capitale', campo('capitale_eur', (v) => sc.eur(+v)));
-  dash.draw('partenza', campo('capitale_iniziale_eur', (v) => sc.eur(+v)));
-  dash.draw('operazioni', campo('operazioni', (v) => sc.num(+v)));
-  dash.draw('vinte', campo('vinte', (v) => sc.num(+v)));
-  dash.draw('perse', campo('perse', (v) => sc.num(+v)));
-  dash.draw('aperte', campo('posizioni_aperte', (v) => sc.num(+v)));
-  dash.draw('k-guardati', campo('token_guardati', (v) => sc.num(+v)));
-  dash.draw('variazione', (el) => { const r = sc.riga(); el.textContent = r ? sc.pct(+r.variazione_pct) : '—'; el.className = !r ? '' : +r.variazione_pct > 0 ? 'sc-up' : +r.variazione_pct < 0 ? 'sc-down' : ''; });
 
-  const puntiCapitale = () => {
-    const ops = dash.data('operazioni'), r = sc.riga();
-    if (ops.status !== 'ok' || !r) return null;
-    const cambio = +r.cambio_eur_usd, base = +r.capitale_iniziale_eur;
-    return { base, punti: [{ i: 0, v: base, op: null }].concat(ops.data.map((o, k) => ({ i: k + 1, v: +o.capitale_dopo_usd / cambio, op: o }))) };
-  };
-  const disegnaCurva = (el, alto, assi) => {
-    const dati = puntiCapitale();
-    if (!dati) { el.textContent = '—'; return; }
-    const { base, punti } = dati;
-    const w = el.clientWidth || 320, h = alto, m = assi ? { t: 12, r: 12, b: 24, l: 50 } : { t: 8, r: 8, b: 8, l: 8 };
-    const x = d3.scaleLinear().domain([0, Math.max(1, punti.length - 1)]).range([m.l, w - m.r]);
-    const ext = d3.extent(punti.map((p) => p.v).concat(base));
-    const y = d3.scaleLinear().domain(ext[0] === ext[1] ? [ext[0] - 1, ext[1] + 1] : ext).nice(4).range([h - m.b, m.t]);
-    const fine = punti[punti.length - 1].v, colore = fine >= base ? sc.C.green : sc.C.red;
-    const id = 'g' + el.dataset.draw;
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img')
-      .attr('aria-label', `Capitale da ${sc.eur(base)} a ${sc.eur(fine)} in ${punti.length - 1} operazioni`);
-    const grad = svg.append('defs').append('linearGradient').attr('id', id).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
-    grad.append('stop').attr('offset', '0%').attr('stop-color', colore).attr('stop-opacity', 0.35);
-    grad.append('stop').attr('offset', '100%').attr('stop-color', colore).attr('stop-opacity', 0);
-    if (assi) {
-      svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r)).tickFormat((v) => sc.eur(v).replace(',00', '')))
-        .call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
-      svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(Math.min(punti.length - 1, 8)).tickFormat(d3.format('d')).tickSize(0).tickPadding(8))
-        .call((g) => g.select('.domain').style('stroke', sc.C.line2));
-    }
-    svg.append('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y(base)).attr('y2', y(base)).style('stroke', sc.C.dim).attr('stroke-dasharray', '3 4');
-    if (punti.length > 1) {
-      svg.append('path').datum(punti).attr('d', d3.area().x((p) => x(p.i)).y0(h - m.b).y1((p) => y(p.v))).attr('fill', `url(#${id})`);
-      svg.append('path').datum(punti).attr('d', d3.line().x((p) => x(p.i)).y((p) => y(p.v))).attr('fill', 'none').attr('stroke', colore).attr('stroke-width', 2);
-    }
-    const tip = document.createElement('div'); tip.className = 'sc-tip'; tip.hidden = true;
-    svg.append('g').selectAll('circle').data(assi ? punti : punti.slice(-1)).join('circle').attr('cx', (p) => x(p.i)).attr('cy', (p) => y(p.v)).attr('r', assi ? 4 : 5)
-      .style('fill', (p) => !p.op ? sc.C.dim : +p.op.risultato_usd >= 0 ? sc.C.green : sc.C.red).style('stroke', 'var(--panel)').attr('stroke-width', 2)
-      .on('pointerenter', (ev, p) => { tip.textContent = p.op ? `#${p.op.n} ${p.op.moneta} ${sc.usd(+p.op.risultato_usd)} → ${sc.eur(p.v)}` : `partenza ${sc.eur(p.v)}`; tip.hidden = false;
-        tip.style.left = Math.max(0, Math.min(x(p.i) + 8, w - 220)) + 'px'; tip.style.top = Math.max(0, y(p.v) - 34) + 'px'; })
-      .on('pointerleave', () => { tip.hidden = true; });
-    el.replaceChildren(svg.node(), tip);
-  };
-  dash.draw('spark', (el) => disegnaCurva(el, 110, false));
-  dash.draw('curva', (el) => {
-    const ops = dash.data('operazioni');
-    if (ops.status === 'error') return sc.vuoto(el, 'Operazioni non disponibili.');
-    if (ops.status === 'ok' && !ops.data.length) return sc.vuoto(el, 'Nessuna operazione chiusa nell\'ultima notte.');
-    disegnaCurva(el, 230, true);
+  const COLORI = { A: 'var(--green)', B: 'var(--violet)', C: 'var(--orange)' };
+  const el_ = (tag, cls, testo) => { const n = document.createElement(tag); if (cls) n.className = cls; if (testo !== undefined) n.textContent = testo; return n; };
+  const segno = (v) => (v > 0 ? 'sc-up' : v < 0 ? 'sc-down' : '');
+
+  dash.draw('stato', (el) => {
+    const s = dash.data('sistema');
+    if (s.status !== 'ok') { el.replaceChildren(); return; }
+    const voce = (led, testo) => { const x = el_('span'); x.append(sc.led(led), document.createTextNode(testo)); return x; };
+    const notte = s.data.find((r) => r.id === 'notte_a'), reg = s.data.find((r) => r.id === 'registratore'), agg = s.data.find((r) => r.id === 'aggiornamento');
+    const out = [];
+    if (notte) out.push(voce(notte.stato, notte.stato === 'in corso' ? 'Bot al lavoro adesso' : 'Prossima notte: ' + notte.prossimo));
+    if (reg) out.push(voce('attivo', 'Registratore: ' + reg.dettaglio));
+    if (agg) out.push(voce('programmato', 'Aggiornamento ' + agg.prossimo));
+    el.replaceChildren(...out);
   });
 
-  dash.draw('flusso', (el) => {
-    const d = dash.data('imbuto');
-    if (d.status === 'error') return sc.vuoto(el, 'Flusso non disponibile.');
-    if (d.status !== 'ok') { el.textContent = '—'; return; }
-    const colori = [sc.C.orange, sc.C.orange, sc.C.red, sc.C.red, sc.C.violet, sc.C.green];
-    const passi = d.data.map((p, i) => ({ nome: String(p.passo), n: +p.token, c: colori[i] || sc.C.cyan }));
-    const w = el.clientWidth || 320, verticale = w < 560;
-    const max = d3.max(passi, (p) => p.n) || 1;
-    const svg = d3.create('svg').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Token per passaggio: ' + passi.map((p) => `${p.nome} ${p.n}`).join(', '));
-    if (!verticale) {
-      const h = 160, gap = 10, bw = (w - gap * (passi.length - 1)) / passi.length, hmax = 70, cy = 78;
-      svg.attr('viewBox', `0 0 ${w} ${h}`);
-      const sx = (n) => Math.max(n ? 4 : 2, Math.sqrt(n / max) * hmax);
-      passi.forEach((p, i) => {
-        const x0 = i * (bw + gap);
-        if (i < passi.length - 1) {
-          const q = passi[i + 1], x1 = x0 + bw, x2 = x1 + gap;
-          svg.append('path').attr('d', `M${x1},${cy - sx(p.n) / 2} L${x2},${cy - sx(q.n) / 2} L${x2},${cy + sx(q.n) / 2} L${x1},${cy + sx(p.n) / 2}Z`).attr('fill', p.c).attr('opacity', 0.18);
-        }
-        svg.append('rect').attr('x', x0).attr('width', bw).attr('y', cy - sx(p.n) / 2).attr('height', sx(p.n)).attr('rx', 6).attr('fill', p.c).attr('opacity', 0.9);
-        svg.append('text').attr('x', x0 + bw / 2).attr('y', 22).attr('text-anchor', 'middle').text(sc.num(p.n)).style('fill', 'var(--fg)').style('font-size', '18px');
-        const parole = p.nome.split(' '), meta = Math.ceil(parole.length / 2);
-        const t = svg.append('text').attr('x', x0 + bw / 2).attr('y', h - 22).attr('text-anchor', 'middle');
-        (parole.length > 1 && bw < 140 ? [parole.slice(0, meta).join(' '), parole.slice(meta).join(' ')] : [p.nome])
-          .forEach((riga, k) => t.append('tspan').attr('x', x0 + bw / 2).attr('dy', k ? 13 : (parole.length > 1 && bw < 140 ? 0 : 13)).text(riga));
-      });
-    } else {
-      const riga = 34, h = passi.length * riga;
-      svg.attr('viewBox', `0 0 ${w} ${h}`);
-      const sx = d3.scaleSqrt().domain([0, max]).range([0, w - 190]);
-      passi.forEach((p, i) => {
-        const y0 = i * riga;
-        svg.append('text').attr('x', 0).attr('y', y0 + 20).text(p.nome);
-        svg.append('rect').attr('x', 150).attr('y', y0 + 8).attr('height', 16).attr('width', Math.max(p.n ? 3 : 1, sx(p.n))).attr('rx', 4).attr('fill', p.c);
-        svg.append('text').attr('x', w).attr('y', y0 + 21).attr('text-anchor', 'end').text(sc.num(p.n)).style('fill', 'var(--fg)');
-      });
-    }
-    el.replaceChildren(svg.node());
-  });
-  dash.draw('flusso-frase', (el) => {
-    const d = dash.data('imbuto');
-    if (d.status !== 'ok' || !d.data.length) { el.textContent = '—'; return; }
-    const g = +d.data[0].token, c = +d.data[d.data.length - 1].token;
-    el.textContent = g ? `Su ${sc.num(g)} token guardati, ${sc.num(c)} sono arrivati all'acquisto.` : 'Nessun token guardato.';
-  });
+  dash.draw('carte', (el) => {
+    const d = dash.data('strategie');
+    if (d.status === 'error') return sc.vuoto(el, 'Strategie non disponibili.');
+    if (d.status !== 'ok') { el.replaceChildren(); return; }
+    el.replaceChildren(...d.data.map((r) => {
+      const c = el_('article', 'sc-strat'); c.style.setProperty('--c', COLORI[r.id] || 'var(--cyan)');
+      c.dataset.source = 'strategie'; c.dataset.where = 'id=' + r.id;
+      const testa = el_('header');
+      const nomi = el_('div'); nomi.append(el_('small', '', 'Strategia ' + r.id), el_('h3', '', r.nome));
+      const v = r.variazione_pct;
+      const verdetto = r.notti ? el_('span', 'sc-verdetto ' + (v > 0 ? 'su' : v < 0 ? 'giu' : ''), v > 0 ? 'In guadagno' : v < 0 ? 'In perdita' : 'In pari')
+                               : el_('span', 'sc-verdetto', 'Prima prova stanotte');
+      testa.append(el_('span', 'sc-lettera', r.id), nomi, verdetto);
 
-  dash.draw('feed', (el) => {
-    const d = dash.data('diario');
-    const li = (t) => Object.assign(document.createElement('li'), { textContent: t });
-    if (d.status === 'error') return el.replaceChildren(li('Diario non disponibile.'));
-    if (d.status !== 'ok') return el.replaceChildren(li('—'));
-    const colori = { ENTRA: sc.C.green, ESCE: sc.C.cyan, PARZIALE: sc.C.violet, FILTRATO: sc.C.red, ERRORE: sc.C.red, FERMO: sc.C.red, AVVIO: sc.C.orange, RIEPILOGO: sc.C.amber, PAUSA: sc.C.amber, ATTESA: sc.C.amber };
-    const righe = d.data.slice().reverse().slice(0, 120);
-    if (!righe.length) return el.replaceChildren(li('Il diario è vuoto.'));
-    el.replaceChildren(...righe.map((r) => {
-      const x = document.createElement('li');
-      const t = document.createElement('time'); t.textContent = r.ora;
-      const b = document.createElement('b'); b.textContent = r.tipo; b.style.color = colori[r.tipo] || sc.C.muted;
-      const s = document.createElement('span'); s.textContent = r.testo;
-      x.append(t, b, s); return x;
+      const notte = el_('div', 'sc-num');
+      notte.append(el_('span', 'lab', r.notti ? 'Ultima notte · ' + r.notte.split('-').reverse().slice(0, 2).join('/') : 'Ultima notte'));
+      if (r.notti) {
+        const val = el_('span', 'val', sc.eur(+r.capitale_eur)); val.append(el_('em', segno(v), sc.pct(+v)));
+        notte.append(val, el_('span', 'sub', `${r.operazioni} operazioni: ${r.vinte} vinte, ${r.perse} perse` + (r.notti > 1 ? ` · media di ${r.notti} notti ${sc.pct(+r.totale_pct)}` : '')));
+      } else {
+        notte.append(el_('span', 'val', '—'), el_('span', 'sub', 'Non ha ancora giocato dal vivo.'));
+      }
+      const test = el_('div', 'sc-num');
+      test.append(el_('span', 'lab', 'Test sul passato'));
+      if (r.lab_operazioni) {
+        const val = el_('span', 'val'); val.append(el_('em', segno(+r.lab_variazione_pct), sc.pct(+r.lab_variazione_pct)));
+        val.firstChild.style.fontSize = '22px';
+        test.append(val, el_('span', 'sub', `${sc.num(+r.lab_operazioni)} operazioni simulate · media ${sc.pct(+r.lab_media_pct)} a operazione`));
+      } else {
+        test.append(el_('span', 'sub', 'Non ha mai comprato: con queste regole quasi nessuna moneta passa i filtri.'));
+      }
+      const regole = el_('dl', 'sc-regole');
+      [['Compra', r.compra], ['Vende', r.vende], ['Punta', r.punta]].forEach(([k, t]) => { const g = el_('div'); g.append(el_('dt', '', k), el_('dd', '', t)); regole.append(g); });
+      c.append(testa, el_('p', 'frase', r.frase), notte, test, regole);
+      return c;
     }));
-  });
-
-  dash.draw('k-foto', (el) => { const d = dash.data('registro_ore'); el.textContent = d.status === 'ok' ? sc.num(d3.sum(d.data, (r) => +r.foto)) : '—'; });
-  dash.draw('k-foto-d', (el) => { const d = dash.data('registro_ore'); el.textContent = d.status === 'ok' && d.data.length ? `in ${d.data.length} ore di registrazione` : '—'; });
-  dash.draw('k-lab', (el) => {
-    const d = dash.data('lab_meme');
-    if (d.status !== 'ok') { el.textContent = '—'; return; }
-    const a = d.data.find((r) => String(r.nome).startsWith('A '));
-    el.textContent = a ? sc.pct(+a.variazione_pct) : 'in attesa';
-    el.className = 'v' + (a ? (+a.variazione_pct >= 0 ? ' sc-up' : ' sc-down') : '');
-  });
-  dash.draw('k-lab-d', (el) => {
-    const d = dash.data('lab_meme');
-    if (d.status !== 'ok') { el.textContent = '—'; return; }
-    const a = d.data.find((r) => String(r.nome).startsWith('A '));
-    el.textContent = a ? `strategia A su ${sc.num(+a.n)} operazioni simulate` : 'servono 2,5 ore di prezzi dopo le foto';
-  });
-  dash.draw('k-binance', (el) => { const r = sc.sistema('lab_binance'); const m = r && /^(\d+) strategie promosse su (\d+)/.exec(r.dettaglio); el.textContent = m ? `${m[1]} / ${m[2]} promosse` : (r ? r.stato : '—'); });
-  dash.draw('k-prossimo', (el) => { const r = sc.sistema('aggiornamento'); el.textContent = r ? r.prossimo : '—'; });
-
-  ['scanner', 'controllo', 'dimensione', 'esecutore', 'diario', 'capitale'].forEach((id) => {
-    dash.draw('n-' + id, (el) => { const a = sc.agente(id); el.textContent = !a ? '—' : a.unita === '€' ? sc.eur(+a.numero) : sc.num(+a.numero); });
-    dash.draw('d-' + id, (el) => { const a = sc.agente(id); el.textContent = a ? a.dettaglio : '—'; });
-    dash.draw('u-' + id, (el) => { const a = sc.agente(id); el.textContent = a ? a.ultima : '—'; });
-    dash.draw('st-' + id, (el) => { const a = sc.agente(id); el.replaceChildren(sc.led(a ? a.stato : ''), document.createTextNode(a ? a.stato : '—')); });
-  });
-
-  dash.draw('attivita', (el) => {
-    const d = dash.data('attivita');
-    if (d.status === 'error') return sc.vuoto(el, 'Attività non disponibile.');
-    if (d.status !== 'ok') { el.textContent = '—'; return; }
-    if (!d.data.length) return sc.vuoto(el, 'Questa notte è stata registrata prima che il bot contasse i giri.');
-    const giri = d.data.map((g, i) => ({ i, ora: String(g.ora).slice(0, 5), guardati: +g.guardati, perimetro: +g.nel_perimetro, controllati: +g.controllati, comprati: +g.comprati }));
-    const w = el.clientWidth || 320, h = 220, m = { t: 14, r: 8, b: 26, l: 34 };
-    const x = d3.scaleBand().domain(giri.map((g) => g.i)).range([m.l, w - m.r]).padding(0.25);
-    const y = d3.scaleLinear().domain([0, d3.max(giri, (g) => g.guardati) || 1]).nice(4).range([h - m.b, m.t]);
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', `${giri.length} giri dello scanner`);
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
-    const passo = Math.max(1, Math.ceil(giri.length / Math.max(2, Math.floor((w - m.l) / 56))));
-    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(giri.filter((g, k) => k % passo === 0).map((g) => g.i)).tickFormat((i) => giri[i].ora).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').style('stroke', sc.C.line2));
-    [['guardati', 'var(--line2)'], ['perimetro', sc.C.orange], ['controllati', sc.C.red]].forEach(([k, c]) => {
-      svg.append('g').selectAll('rect').data(giri).join('rect').attr('x', (g) => x(g.i)).attr('width', x.bandwidth()).attr('y', (g) => y(g[k])).attr('height', (g) => y(0) - y(g[k])).attr('rx', 2).style('fill', c);
-    });
-    svg.append('g').selectAll('circle').data(giri.filter((g) => g.comprati > 0)).join('circle').attr('cx', (g) => x(g.i) + x.bandwidth() / 2).attr('cy', m.t).attr('r', 4.5).attr('fill', sc.C.green);
-    const tip = document.createElement('div'); tip.className = 'sc-tip'; tip.hidden = true;
-    svg.append('g').selectAll('rect').data(giri).join('rect').attr('x', (g) => x(g.i)).attr('width', x.bandwidth()).attr('y', m.t).attr('height', h - m.b - m.t).attr('fill', 'transparent')
-      .on('pointerenter', (ev, g) => { tip.textContent = `${g.ora} · ${g.guardati} guardati · ${g.perimetro} perimetro · ${g.controllati} controllati · ${g.comprati} comprati`; tip.hidden = false; tip.style.left = Math.max(0, Math.min(x(g.i), w - 380)) + 'px'; tip.style.top = '0px'; })
-      .on('pointerleave', () => { tip.hidden = true; });
-    el.replaceChildren(svg.node(), tip);
-  });
-  dash.draw('filtri', (el) => {
-    const f = dash.data('filtri');
-    if (f.status === 'error') return sc.vuoto(el, 'Motivi di scarto non disponibili.');
-    if (f.status !== 'ok') { el.textContent = '—'; return; }
-    if (!f.data.length) return sc.vuoto(el, 'Nessun token scartato.');
-    const righe = f.data.slice(0, 8).map((d) => ({ motivo: String(d.motivo), n: +d.token }));
-    const w = el.clientWidth || 320, gap = 34, h = righe.length * gap;
-    const x = d3.scaleLinear().domain([0, d3.max(righe, (r) => r.n)]).range([0, w - 44]);
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Scarti per motivo: ' + righe.map((r) => `${r.motivo} ${r.n}`).join(', '));
-    const g = svg.selectAll('g').data(righe).join('g').attr('transform', (r, i) => `translate(0,${i * gap})`);
-    const lmax = Math.max(20, Math.floor(w / 7.2));
-    g.append('text').attr('x', 0).attr('y', 11).text((r) => (r.motivo.length > lmax ? r.motivo.slice(0, lmax - 2) + '…' : r.motivo)).style('fill', 'var(--fg)').style('font-size', '11.5px');
-    g.append('rect').attr('x', 0).attr('y', 18).attr('height', 6).attr('width', w - 44).attr('rx', 3).style('fill', sc.C.line);
-    g.append('rect').attr('x', 0).attr('y', 18).attr('height', 6).attr('width', (r) => Math.max(3, x(r.n))).attr('rx', 3).attr('fill', sc.C.red);
-    g.append('text').attr('x', w).attr('y', 25).attr('text-anchor', 'end').text((r) => sc.num(r.n)).style('fill', 'var(--fg)');
-    el.replaceChildren(svg.node());
   });
 
   dash.draw('righe', (el) => {
     const ops = dash.data('operazioni');
     d3.select(el).selectAll('tr').data(ops.status === 'ok' ? ops.data : [], (o) => o.n).join('tr').attr('data-key', (o) => o.n).each(function (o) {
       const td = (t, c) => Object.assign(document.createElement('td'), { textContent: t, className: c || '' });
-      this.replaceChildren(td(o.n, 'num'), td(o.moneta), td(o.entrata), td(o.uscita), td(sc.usd(+o.speso_usd), 'num'), td(sc.usd(+o.risultato_usd), 'num ' + (+o.risultato_usd >= 0 ? 'sc-up' : 'sc-down')), td(o.motivo_ingresso), td(o.motivo_uscita));
+      const bot = td(''); const b = el_('span', 'sc-bot', o.bot || 'A'); b.style.color = COLORI[o.bot || 'A']; b.style.background = `color-mix(in srgb, ${COLORI[o.bot || 'A']} 14%, var(--panel))`; bot.append(b);
+      this.replaceChildren(bot, td(o.moneta), td(o.entrata), td(o.uscita), td(sc.usd(+o.speso_usd), 'num'), td(sc.usd(+o.risultato_usd), 'num ' + (+o.risultato_usd >= 0 ? 'sc-up' : 'sc-down')), td(o.motivo_ingresso), td(o.motivo_uscita));
     });
   });
-  dash.draw('ops-vuoto', (el) => { el.textContent = dash.data('operazioni').status === 'error' ? 'Operazioni non disponibili.' : 'Nessuna operazione nell\'ultima notte: quando il bot compra e vende, ogni operazione compare qui con i suoi motivi.'; });
+  dash.draw('ops-vuoto', (el) => { el.textContent = dash.data('operazioni').status === 'error' ? 'Operazioni non disponibili.' : 'Nessuna operazione nell\'ultima notte.'; });
 
-  dash.draw('lab-righe', (el) => {
-    const d = dash.data('lab_meme');
-    const out = []; let gruppo = null;
-    (d.status === 'ok' ? d.data : []).forEach((r) => {
-      if (r.gruppo !== gruppo) {
-        gruppo = r.gruppo;
-        const tr = document.createElement('tr'); tr.className = 'grp';
-        tr.append(Object.assign(document.createElement('td'), { colSpan: 6, textContent: gruppo === 'riferimento' ? 'Strategie di riferimento' : 'Le 10 varianti migliori · almeno 20 operazioni' }));
-        out.push(tr);
-      }
-      const tr = document.createElement('tr'); tr.dataset.key = r.n_riga;
-      const td = (t, c) => Object.assign(document.createElement('td'), { textContent: t, className: c || '' });
-      tr.append(td(r.nome), td(sc.num(+r.n), 'num'), td(String(r.vincenti_pct).replace('.', ',') + '%', 'num'), td(sc.pct(+r.ritorno_medio_pct), 'num ' + (+r.ritorno_medio_pct >= 0 ? 'sc-up' : 'sc-down')),
-        td(String(r.profit_factor).replace('.', ','), 'num'), td(sc.pct(+r.variazione_pct), 'num ' + (+r.variazione_pct >= 0 ? 'sc-up' : 'sc-down')));
-      out.push(tr);
-    });
-    el.replaceChildren(...out);
-  });
-  dash.draw('lab-barre', (el) => {
-    const d = dash.data('lab_meme');
-    if (d.status !== 'ok' || !d.data.length) { el.replaceChildren(); return; }
-    const righe = d.data.map((r) => ({ nome: String(r.nome), v: +r.variazione_pct, rif: r.gruppo === 'riferimento' }));
-    const w = el.clientWidth || 320, riga = 22, h = righe.length * riga + 6, et = Math.min(330, w * 0.5);
-    const ext = d3.extent(righe.map((r) => r.v).concat(0));
-    const x = d3.scaleLinear().domain(ext).nice().range([et, w - 56]);
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Capitale finale per strategia: ' + righe.map((r) => `${r.nome} ${sc.pct(r.v)}`).join(', '));
-    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', h).style('stroke', sc.C.line2);
-    const lmax = Math.max(16, Math.floor(et / 6.6));
-    const g = svg.selectAll('g.r').data(righe).join('g').attr('class', 'r').attr('transform', (r, i) => `translate(0,${i * riga})`);
-    g.append('text').attr('x', et - 10).attr('y', 14).attr('text-anchor', 'end').text((r) => (r.nome.length > lmax ? r.nome.slice(0, lmax - 2) + '…' : r.nome)).style('fill', (r) => (r.rif ? 'var(--fg)' : 'var(--muted)'));
-    g.append('rect').attr('x', (r) => Math.min(x(0), x(r.v))).attr('width', (r) => Math.max(2, Math.abs(x(r.v) - x(0)))).attr('y', 4).attr('height', 13).attr('rx', 3).attr('fill', (r) => (r.v >= 0 ? sc.C.green : sc.C.red)).attr('opacity', (r) => (r.rif ? 1 : 0.7));
-    g.append('text').attr('x', (r) => Math.max(x(0), x(r.v)) + 6).attr('y', 14).text((r) => sc.pct(r.v)).style('fill', 'var(--fg)');
-    el.replaceChildren(svg.node());
-  });
-  dash.draw('lab-vuoto', (el) => { el.textContent = dash.data('lab_meme').status === 'error' ? 'Laboratorio non disponibile.' : 'Il laboratorio non ha ancora risultati: ogni foto deve avere 2,5 ore di prezzi successivi. Arrivano stasera.'; });
+  const rigaLab = (r) => {
+    const tr = document.createElement('tr'); tr.dataset.key = r.n_riga;
+    const td = (t, c) => Object.assign(document.createElement('td'), { textContent: t, className: c || '' });
+    tr.append(td(r.nome), td(sc.num(+r.n), 'num'), td(String(r.vincenti_pct).replace('.', ',') + '%', 'num'),
+      td(sc.pct(+r.ritorno_medio_pct), 'num ' + segno(+r.ritorno_medio_pct)), td(sc.pct(+r.variazione_pct), 'num ' + segno(+r.variazione_pct)));
+    return tr;
+  };
+  dash.draw('lab-righe', (el) => { const d = dash.data('lab_meme'); el.replaceChildren(...(d.status === 'ok' ? d.data.filter((r) => r.gruppo === 'riferimento') : []).map(rigaLab)); });
+  dash.draw('lab-altre', (el) => { const d = dash.data('lab_meme'); el.replaceChildren(...(d.status === 'ok' ? d.data.filter((r) => r.gruppo !== 'riferimento') : []).map(rigaLab)); });
+  dash.draw('lab-vuoto', (el) => { el.textContent = dash.data('lab_meme').status === 'error' ? 'Test non disponibile.' : 'Il test sul passato non ha ancora risultati.'; });
 
   dash.onData(() => {
     const ops = dash.data('operazioni'), lab = dash.data('lab_meme');
@@ -670,36 +396,13 @@
     document.querySelectorAll('#lab-box').forEach((n) => { n.hidden = labVuoto; });
   });
 
-  dash.draw('registro', (el) => {
-    const d = dash.data('registro_ore');
-    if (d.status === 'error') return sc.vuoto(el, 'Registro non disponibile.');
-    if (d.status !== 'ok') { el.textContent = '—'; return; }
-    if (!d.data.length) return sc.vuoto(el, 'Nessuna foto ancora.');
-    const ore = d.data.map((r) => ({ ora: String(r.ora), foto: +r.foto, token: +r.token }));
-    const w = el.clientWidth || 320, h = 240, m = { t: 12, r: 8, b: 26, l: 36 };
-    const x = d3.scaleBand().domain(ore.map((o) => o.ora)).range([m.l, w - m.r]).padding(0.22);
-    const y = d3.scaleLinear().domain([0, d3.max(ore, (o) => o.foto) || 1]).nice(4).range([h - m.b, m.t]);
-    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('role', 'img').attr('aria-label', 'Foto per ora: ' + ore.map((o) => `${o.ora} ${o.foto}`).join(', '));
-    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w - m.l - m.r))).call((g) => { g.select('.domain').remove(); g.selectAll('line').style('stroke', sc.C.line); });
-    const passo = Math.max(1, Math.ceil(ore.length / Math.max(2, Math.floor((w - m.l) / 70))));
-    svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).tickValues(ore.filter((o, k) => k % passo === 0).map((o) => o.ora)).tickFormat((v) => v.slice(6)).tickSize(0).tickPadding(8)).call((g) => g.select('.domain').style('stroke', sc.C.line2));
-    const bw = x.bandwidth() / 2;
-    svg.append('g').selectAll('rect').data(ore).join('rect').attr('x', (o) => x(o.ora)).attr('width', Math.max(1, bw - 2)).attr('y', (o) => y(o.foto)).attr('height', (o) => y(0) - y(o.foto)).attr('rx', 3).attr('fill', sc.C.orange);
-    svg.append('g').selectAll('rect').data(ore).join('rect').attr('x', (o) => x(o.ora) + bw).attr('width', Math.max(1, bw - 2)).attr('y', (o) => y(o.token)).attr('height', (o) => y(0) - y(o.token)).attr('rx', 3).attr('fill', sc.C.cyan);
-    const tip = document.createElement('div'); tip.className = 'sc-tip'; tip.hidden = true;
-    svg.append('g').selectAll('rect').data(ore).join('rect').attr('x', (o) => x(o.ora)).attr('width', x.bandwidth()).attr('y', m.t).attr('height', h - m.b - m.t).attr('fill', 'transparent')
-      .on('pointerenter', (ev, o) => { tip.textContent = `${o.ora} · ${o.foto} foto · ${o.token} memecoin`; tip.hidden = false; tip.style.left = Math.max(0, Math.min(x(o.ora), w - 240)) + 'px'; tip.style.top = '0px'; })
-      .on('pointerleave', () => { tip.hidden = true; });
-    el.replaceChildren(svg.node(), tip);
-  });
-
   dash.draw('lavori', (el) => {
     const d = dash.data('lavori');
     const li = (t) => Object.assign(document.createElement('li'), { textContent: t });
     if (d.status === 'error') return el.replaceChildren(li('Lavori non disponibili.'));
     if (d.status !== 'ok') return el.replaceChildren(li('—'));
     const colori = { Claude: sc.C.cyan, 'Bot notturno': sc.C.green, Registratore: sc.C.orange };
-    el.replaceChildren(...d.data.map((r) => {
+    el.replaceChildren(...d.data.slice(0, 12).map((r) => {
       const x = document.createElement('li');
       const t = document.createElement('time'); t.textContent = r.quando;
       const chi = document.createElement('span'); chi.className = 'who';
