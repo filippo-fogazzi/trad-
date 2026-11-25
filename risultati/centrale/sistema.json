@@ -2,33 +2,33 @@
  {
   "id": "notte_b",
   "attivita": "Bot B · Aggressiva",
-  "stato": "finita",
-  "dettaglio": "Giornata 2026-11-24: 14 operazioni, capitale 55,71 €",
-  "ultimo": "25/11 12:29",
+  "stato": "in corso",
+  "dettaglio": "Giornata 2026-11-25: 0 operazioni, capitale 50,00 €",
+  "ultimo": "25/11 19:06",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "notte_c",
   "attivita": "Bot C · Dal laboratorio",
-  "stato": "in attesa",
-  "dettaglio": "Nessuna giornata registrata ancora.",
-  "ultimo": "—",
-  "prossimo": "gira 24 ore su 24"
+  "stato": "in corso",
+  "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 34,18 €",
+  "ultimo": "25/11 19:06",
+  "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "registratore",
   "attivita": "Registratore 24/7",
   "stato": "attivo",
-  "dettaglio": "2119 foto di 1416 memecoin",
-  "ultimo": "25/11 11:08",
+  "dettaglio": "2583 foto di 1718 memecoin",
+  "ultimo": "25/11 16:47",
   "prossimo": "foto caricate a fine turno, ogni 6 ore circa"
  },
  {
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "C: +422.9% su 44 operazioni · 23 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 13:10",
+  "dettaglio": "C: +336.3% su 66 operazioni · 45 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "25/11 19:06",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -44,7 +44,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 13:10",
+  "ultimo": "25/11 19:06",
   "prossimo": "domani alle 07:08"
  }
 ]

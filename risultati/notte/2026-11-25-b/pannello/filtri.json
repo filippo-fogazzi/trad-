@@ -1,0 +1,374 @@
+[
+ {
+  "motivo": "liquidità troppo bassa",
+  "token": 4416
+ },
+ {
+  "motivo": "nessun prezzo disponibile",
+  "token": 190
+ },
+ {
+  "motivo": "coppia troppo vecchia",
+  "token": 187
+ },
+ {
+  "motivo": "volume 5 min troppo basso",
+  "token": 66
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
+  "token": 63
+ },
+ {
+  "motivo": "DEX non previsto",
+  "token": 33
+ },
+ {
+  "motivo": "già +300% nell'ultima ora, niente inseguimento",
+  "token": 28
+ },
+ {
+  "motivo": "4 portafogli insider collegati",
+  "token": 12
+ },
+ {
+  "motivo": "segnali 0/2",
+  "token": 10
+ },
+ {
+  "motivo": "segnali 1/2",
+  "token": 6
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%",
+  "token": 6
+ },
+ {
+  "motivo": "14 portafogli insider collegati",
+  "token": 4
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Low Liquidity",
+  "token": 4
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 47 portafogli insider collegati",
+  "token": 4
+ },
+ {
+  "motivo": "10 portafogli insider collegati",
+  "token": 4
+ },
+ {
+  "motivo": "top 10 holder hanno il 95%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 3
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 3
+ },
+ {
+  "motivo": "47 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 57%; liquidità bloccata solo al 0%",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 90%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 51%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 82%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 74%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 72%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 2
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 107 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 26.8%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 4 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 100%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 141 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 141 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 67%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 64%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 94%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 54 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 58%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 40%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; solo 9 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 90%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 73 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 98%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 94%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 79%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 59%; liquidità bloccata solo al 0%; solo 104 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 6 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 57%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 56%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 53%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 50%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 91%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 95 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 97%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 64%; liquidità bloccata solo al 0%; solo 135 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 92%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 63%; liquidità bloccata solo al 0%; solo 144 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 99%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Creator history of rugged tokens; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 86%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 61%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 41%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 100%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Creator history of rugged tokens; RugCheck: High ownership; solo 72 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 46%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 93%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 49%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 91%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 70%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 76%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 75%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 67%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 59%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 65%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 53%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 45%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 43%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 41%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 40%; liquidità bloccata solo al 0%",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 20 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "43 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 28 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 36 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 84%; liquidità bloccata solo al 0%; 84 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 105%; liquidità bloccata solo al 0%; 36 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "RugCheck: Creator history of rugged tokens",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 93 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 101 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked; solo 100 holder",
+  "token": 1
+ },
+ {
+  "motivo": "RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "74 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "12 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 54%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 53%",
+  "token": 1
+ },
+ {
+  "motivo": "24 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 98%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 123 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 5.5%; top 10 holder hanno il 54%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
+  "token": 1
+ },
+ {
+  "motivo": "209 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "15 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 144 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Low Liquidity",
+  "token": 1
+ }
+]

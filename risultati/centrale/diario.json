@@ -1,3622 +1,1172 @@
 [
  {
-  "ora": "23:48:59",
+  "ora": "13:11:15",
   "tipo": "AVVIO",
-  "testo": "capitale $54.88, fine alle 07:00, questo turno fino alle 05:28"
+  "testo": "capitale $54.77, fine alle 07:00, questo turno fino alle 18:51"
  },
  {
-  "ora": "23:49:20",
+  "ora": "13:13:27",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: top 10 holder hanno il 40%"
+  "testo": "$DCTY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:49:21",
+  "ora": "13:15:19",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: 18 portafogli insider collegati"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:49:22",
+  "ora": "13:15:20",
   "tipo": "FILTRATO",
-  "testo": "$SEYONG non comprato · motivo: 68 portafogli insider collegati"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 107 holder"
  },
  {
-  "ora": "23:49:24",
+  "ora": "13:16:31",
   "tipo": "FILTRATO",
-  "testo": "$ADYTUM non comprato · motivo: top 10 holder hanno il 52%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:49:25",
+  "ora": "13:17:53",
   "tipo": "FILTRATO",
-  "testo": "$Flop non comprato · motivo: top 10 holder hanno il 53%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "23:52:19",
+  "ora": "13:17:56",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$GIKO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:52:20",
+  "ora": "13:23:02",
   "tipo": "FILTRATO",
-  "testo": "$PUMPERS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Mizore non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:52:22",
+  "ora": "13:23:02",
   "tipo": "FILTRATO",
-  "testo": "$Town non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "23:52:28",
+  "ora": "13:23:03",
   "tipo": "FILTRATO",
-  "testo": "$CHARITY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Optimus non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:52:28",
+  "ora": "13:23:05",
   "tipo": "FILTRATO",
-  "testo": "$BEAST non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:54:19",
+  "ora": "13:24:27",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: top 10 holder hanno il 40%"
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
  },
  {
-  "ora": "23:54:20",
+  "ora": "13:24:28",
   "tipo": "FILTRATO",
-  "testo": "$SEYONG non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$BossJensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:54:25",
+  "ora": "13:25:29",
   "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "23:55:20",
+  "ora": "13:26:31",
   "tipo": "FILTRATO",
-  "testo": "$Tgavel non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 60 holder"
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
  },
  {
-  "ora": "23:55:23",
+  "ora": "13:26:32",
   "tipo": "FILTRATO",
-  "testo": "$Flop non comprato · motivo: top 10 holder hanno il 52%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Qelius non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:55:24",
+  "ora": "13:29:26",
   "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 1/2 (holder +14%)"
  },
  {
-  "ora": "23:56:08",
+  "ora": "13:30:49",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "23:56:09",
+  "ora": "13:30:53",
   "tipo": "FILTRATO",
-  "testo": "$APE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$$1 non comprato · motivo: sviluppatore ha il 26.8%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:56:11",
+  "ora": "13:32:27",
   "tipo": "FILTRATO",
-  "testo": "$Lobstar non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:56:12",
+  "ora": "13:32:30",
   "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$PILOTUS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "23:56:15",
+  "ora": "13:33:33",
   "tipo": "FILTRATO",
-  "testo": "$Flop non comprato · motivo: top 10 holder hanno il 53%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "23:58:12",
+  "ora": "13:33:38",
   "tipo": "FILTRATO",
-  "testo": "$Flop non comprato · motivo: top 10 holder hanno il 52%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:00:38",
+  "ora": "13:34:49",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 1/2 (acquisti 89%)"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 1/2 (holder +5%)"
  },
  {
-  "ora": "00:00:38",
+  "ora": "13:35:45",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "00:00:39",
+  "ora": "13:37:51",
   "tipo": "FILTRATO",
-  "testo": "$SEYONG non comprato · motivo: 68 portafogli insider collegati"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 1/2 (holder +6%)"
  },
  {
-  "ora": "00:02:51",
+  "ora": "13:37:53",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: 18 portafogli insider collegati"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:04:42",
+  "ora": "13:39:08",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "00:04:42",
+  "ora": "13:43:07",
   "tipo": "FILTRATO",
-  "testo": "$ECBCRYS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 52 holder"
+  "testo": "$Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "00:04:43",
+  "ora": "13:44:40",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$JI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:05:57",
+  "ora": "13:48:42",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: 18 portafogli insider collegati"
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
  },
  {
-  "ora": "00:05:59",
+  "ora": "13:58:28",
   "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: top 10 holder hanno il 62%; solo 114 holder"
+  "testo": "$PFP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:08:14",
+  "ora": "14:00:49",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 1/2 (acquisti 82%)"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; 4 portafogli insider collegati"
  },
  {
-  "ora": "00:09:10",
+  "ora": "14:01:53",
   "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: solo 69 holder"
+  "testo": "$Pompom non comprato · motivo: top 10 holder hanno il 100%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 141 holder"
  },
  {
-  "ora": "00:09:13",
+  "ora": "14:05:07",
   "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$安仔 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:09:13",
+  "ora": "14:05:09",
   "tipo": "FILTRATO",
-  "testo": "$FOMO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:10:43",
+  "ora": "14:05:10",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 141 holder"
  },
  {
-  "ora": "00:10:44",
+  "ora": "14:05:12",
   "tipo": "FILTRATO",
-  "testo": "$MEMESTONK non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$JaoJiu non comprato · motivo: 14 portafogli insider collegati"
  },
  {
-  "ora": "00:14:50",
+  "ora": "14:05:13",
   "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 1/2 (acquisti 80%)"
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 67%; liquidità bloccata solo al 0%"
  },
  {
-  "ora": "00:14:53",
+  "ora": "14:05:15",
   "tipo": "FILTRATO",
-  "testo": "$300trilly non comprato · motivo: 46 portafogli insider collegati"
+  "testo": "$PFP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
  },
  {
-  "ora": "00:14:54",
+  "ora": "14:06:19",
   "tipo": "FILTRATO",
-  "testo": "$trilly non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 64%; liquidità bloccata solo al 0%"
  },
  {
-  "ora": "00:15:59",
+  "ora": "14:07:05",
   "tipo": "FILTRATO",
-  "testo": "$300trilly non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Gavin non comprato · motivo: top 10 holder hanno il 94%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 54 holder"
  },
  {
-  "ora": "00:16:02",
+  "ora": "14:08:51",
   "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 57%; liquidità bloccata solo al 0%"
  },
  {
-  "ora": "00:17:17",
+  "ora": "14:10:06",
   "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 58%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership"
  },
  {
-  "ora": "00:18:22",
+  "ora": "14:10:52",
   "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$大小姐 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:18:24",
+  "ora": "14:10:57",
   "tipo": "FILTRATO",
-  "testo": "$Hope non comprato · motivo: 76 portafogli insider collegati"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:19:23",
+  "ora": "14:13:10",
   "tipo": "FILTRATO",
-  "testo": "$JLM non comprato · motivo: segnali 1/2 (picco volume 6.3x)"
+  "testo": "$USAGI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:19:29",
+  "ora": "14:13:10",
   "tipo": "FILTRATO",
-  "testo": "$Starlink non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "00:20:21",
+  "ora": "14:14:44",
   "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "00:22:49",
+  "ora": "14:17:40",
   "tipo": "FILTRATO",
-  "testo": "$MEMESTONK non comprato · motivo: segnali 1/2 (acquisti 82%)"
+  "testo": "$GEMIDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "00:22:52",
-  "tipo": "FILTRATO",
-  "testo": "$goldcoin non comprato · motivo: 18 portafogli insider collegati"
- },
- {
-  "ora": "00:22:53",
-  "tipo": "FILTRATO",
-  "testo": "$JLM non comprato · motivo: segnali 1/2 (picco volume 5.2x)"
- },
- {
-  "ora": "00:24:30",
-  "tipo": "ENTRA",
-  "testo": "$MEMESTONK $21.95 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 86% + holder +14% · rug check PASS · https://dexscreener.com/solana/dnapd8pzpchf6bvgt8gxzr2bulrssvytyladgbuoiaha"
- },
- {
-  "ora": "00:24:33",
+  "ora": "14:17:40",
   "tipo": "FILTRATO",
   "testo": "$JIMMY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "00:24:34",
-  "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: 12094 portafogli insider collegati"
- },
- {
-  "ora": "00:24:37",
-  "tipo": "PARZIALE",
-  "testo": "$MEMESTONK seconda metà comprata a $0.0001032"
- },
- {
-  "ora": "00:26:38",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "00:26:41",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:26:44",
-  "tipo": "FILTRATO",
-  "testo": "$JLM non comprato · motivo: 6 portafogli insider collegati"
- },
- {
-  "ora": "00:29:08",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 85%)"
- },
- {
-  "ora": "00:29:12",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:29:14",
-  "tipo": "FILTRATO",
-  "testo": "$JTHRONE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 79 holder"
- },
- {
-  "ora": "00:30:28",
-  "tipo": "ENTRA",
-  "testo": "$Jimmies $26.13 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 89% + holder +7% · rug check PASS · https://dexscreener.com/solana/bxrbrmulsw1qas4p3r7aupr6yx2e56re94wjedoxliv5"
- },
- {
-  "ora": "00:30:29",
-  "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: già 2 posizioni aperte"
- },
- {
-  "ora": "00:30:34",
-  "tipo": "FILTRATO",
-  "testo": "$Starlink non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:30:37",
-  "tipo": "FILTRATO",
-  "testo": "$nut non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:30:40",
-  "tipo": "FILTRATO",
-  "testo": "$nut non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:30:40",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "00:30:43",
-  "tipo": "ESCE",
-  "testo": "$MEMESTONK -5.15$ motivo: stop -15% (prezzo -20%)"
- },
- {
-  "ora": "00:30:43",
-  "tipo": "PARZIALE",
-  "testo": "$Jimmies seconda metà comprata a $0.0001572"
- },
- {
-  "ora": "00:33:04",
-  "tipo": "FILTRATO",
-  "testo": "$Sisyphus non comprato · motivo: segnali 1/2 (picco volume 7.2x)"
- },
- {
-  "ora": "00:33:05",
-  "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: segnali 1/2 (acquisti 77%)"
- },
- {
-  "ora": "00:33:09",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:33:11",
-  "tipo": "FILTRATO",
-  "testo": "$ENERGY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:33:12",
-  "tipo": "FILTRATO",
-  "testo": "$Hope non comprato · motivo: 103 portafogli insider collegati; RugCheck: Low Liquidity"
- },
- {
-  "ora": "00:34:29",
-  "tipo": "ENTRA",
-  "testo": "$MEMESTONK $20.32 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 85% + holder +7% · rug check PASS · https://dexscreener.com/solana/dnapd8pzpchf6bvgt8gxzr2bulrssvytyladgbuoiaha"
- },
- {
-  "ora": "00:34:35",
-  "tipo": "FILTRATO",
-  "testo": "$nut non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "00:34:39",
-  "tipo": "PARZIALE",
-  "testo": "$MEMESTONK seconda metà comprata a $6.398e-05"
- },
- {
-  "ora": "00:35:40",
-  "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "00:35:49",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: top 10 holder hanno il 46%"
- },
- {
-  "ora": "00:37:13",
-  "tipo": "PARZIALE",
-  "testo": "$MEMESTONK vende 40% a 2x"
- },
- {
-  "ora": "00:38:38",
-  "tipo": "FILTRATO",
-  "testo": "$nut non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Low Liquidity"
- },
- {
-  "ora": "00:38:41",
-  "tipo": "FILTRATO",
-  "testo": "$Huss non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:38:42",
-  "tipo": "FILTRATO",
-  "testo": "$Holders non comprato · motivo: 12094 portafogli insider collegati"
- },
- {
-  "ora": "00:38:45",
-  "tipo": "ESCE",
-  "testo": "$MEMESTONK +12.44$ motivo: trailing -25% dal massimo"
- },
- {
-  "ora": "00:40:16",
-  "tipo": "FILTRATO",
-  "testo": "$MEMESTONK non comprato · motivo: segnali 1/2 (acquisti 94%)"
- },
- {
-  "ora": "00:40:20",
-  "tipo": "FILTRATO",
-  "testo": "$Pilly non comprato · motivo: 54 portafogli insider collegati"
- },
- {
-  "ora": "00:40:25",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: top 10 holder hanno il 42%"
- },
- {
-  "ora": "00:41:24",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:41:29",
-  "tipo": "ENTRA",
-  "testo": "$ChristmASS $26.46 (40% del capitale), 1ª metà a slippage 1.2% · motivo: acquisti 90% + holder +14% · rug check PASS · https://dexscreener.com/solana/zqojzky76yeakqx1cze5bpjn7zagxwhakxmn4uec7qu"
- },
- {
-  "ora": "00:41:33",
-  "tipo": "PARZIALE",
-  "testo": "$ChristmASS seconda metà comprata a $6.194e-05"
- },
- {
-  "ora": "00:43:32",
-  "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: già 2 posizioni aperte"
- },
- {
-  "ora": "00:43:34",
-  "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "00:43:37",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 99 holder"
- },
- {
-  "ora": "00:45:06",
-  "tipo": "FILTRATO",
-  "testo": "$MARS non comprato · motivo: segnali 1/2 (acquisti 76%)"
- },
- {
-  "ora": "00:45:14",
-  "tipo": "ESCE",
-  "testo": "$ChristmASS -5.57$ motivo: stop -15% (prezzo -17%)"
- },
- {
-  "ora": "00:46:19",
-  "tipo": "FILTRATO",
-  "testo": "$fsjal non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:46:21",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:47:29",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:47:30",
-  "tipo": "FILTRATO",
-  "testo": "$WBRIDGE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 74 holder"
- },
- {
-  "ora": "00:48:34",
-  "tipo": "FILTRATO",
-  "testo": "$Pilly non comprato · motivo: 54 portafogli insider collegati"
- },
- {
-  "ora": "00:50:26",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "00:50:29",
-  "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 1/2 (acquisti 97%)"
- },
- {
-  "ora": "00:50:37",
-  "tipo": "ESCE",
-  "testo": "$Jimmies +6.16$ motivo: tempo scaduto (20 min)"
- },
- {
-  "ora": "00:51:37",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "00:51:37",
-  "tipo": "ENTRA",
-  "testo": "$Jimmies $25.10 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 88% + holder +51% · rug check PASS · https://dexscreener.com/solana/bxrbrmulsw1qas4p3r7aupr6yx2e56re94wjedoxliv5"
- },
- {
-  "ora": "00:51:40",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 84 holder"
- },
- {
-  "ora": "00:51:48",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "00:51:49",
-  "tipo": "PARZIALE",
-  "testo": "$Jimmies seconda metà comprata a $0.0001825"
- },
- {
-  "ora": "00:52:46",
-  "tipo": "ESCE",
-  "testo": "$Jimmies -5.50$ motivo: stop -15% (prezzo -18%)"
- },
- {
-  "ora": "00:53:47",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "00:54:44",
-  "tipo": "FILTRATO",
-  "testo": "$Pilly non comprato · motivo: 54 portafogli insider collegati"
- },
- {
-  "ora": "00:56:55",
-  "tipo": "FILTRATO",
-  "testo": "$CARTZ non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 56 holder"
- },
- {
-  "ora": "01:00:05",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:00:06",
-  "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "01:01:39",
-  "tipo": "FILTRATO",
-  "testo": "$KYM non comprato · motivo: segnali 1/2 (picco volume 10.0x)"
- },
- {
-  "ora": "01:01:44",
-  "tipo": "FILTRATO",
-  "testo": "$House non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:01:45",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:01:47",
-  "tipo": "FILTRATO",
-  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:02:29",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "01:04:00",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 118 holder"
- },
- {
-  "ora": "01:04:02",
-  "tipo": "ENTRA",
-  "testo": "$KYM $22.90 (40% del capitale), 1ª metà a slippage 1.1% · motivo: picco volume 5.9x + holder +6% · rug check PASS · https://dexscreener.com/solana/5moydgslhemvjgohfg3bcfhpechj3x5aznnoxlfrhpfa"
- },
- {
-  "ora": "01:04:05",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:04:10",
-  "tipo": "PARZIALE",
-  "testo": "$KYM seconda metà comprata a $0.0001071"
- },
- {
-  "ora": "01:06:22",
-  "tipo": "FILTRATO",
-  "testo": "$Pilly non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:06:24",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: top 10 holder hanno il 53%"
- },
- {
-  "ora": "01:09:03",
-  "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: segnali 1/2 (acquisti 98%)"
- },
- {
-  "ora": "01:09:04",
-  "tipo": "FILTRATO",
-  "testo": "$Pilly non comprato · motivo: 54 portafogli insider collegati"
- },
- {
-  "ora": "01:10:09",
-  "tipo": "ENTRA",
-  "testo": "$Jimmies $25.14 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 82% + holder +10% · rug check PASS · https://dexscreener.com/solana/bxrbrmulsw1qas4p3r7aupr6yx2e56re94wjedoxliv5"
- },
- {
-  "ora": "01:10:11",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:10:12",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: top 10 holder hanno il 45%"
- },
- {
-  "ora": "01:10:14",
-  "tipo": "FILTRATO",
-  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:10:17",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:10:21",
-  "tipo": "PARZIALE",
-  "testo": "$Jimmies seconda metà comprata a $0.0001769"
- },
- {
-  "ora": "01:11:05",
-  "tipo": "FILTRATO",
-  "testo": "$WASTED non comprato · motivo: liquidità bloccata solo al 0%; 115 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked; solo 107 holder"
- },
- {
-  "ora": "01:11:08",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: top 10 holder hanno il 41%"
- },
- {
-  "ora": "01:11:09",
-  "tipo": "FILTRATO",
-  "testo": "$CHIMA non comprato · motivo: 79 portafogli insider collegati"
- },
- {
-  "ora": "01:12:19",
-  "tipo": "FILTRATO",
-  "testo": "$BTC non comprato · motivo: RugCheck: Low Liquidity"
- },
- {
-  "ora": "01:13:32",
-  "tipo": "FILTRATO",
-  "testo": "$NUTS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:13:33",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 141 holder"
- },
- {
-  "ora": "01:15:01",
-  "tipo": "FILTRATO",
-  "testo": "$Pumpcar non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "01:15:04",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:15:06",
-  "tipo": "FILTRATO",
-  "testo": "$N3ON non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 91 holder"
- },
- {
-  "ora": "01:15:07",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: top 10 holder hanno il 58%; solo 135 holder"
- },
- {
-  "ora": "01:16:47",
-  "tipo": "FILTRATO",
-  "testo": "$CHIMA non comprato · motivo: 79 portafogli insider collegati"
- },
- {
-  "ora": "01:20:02",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "01:20:07",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 53%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership"
- },
- {
-  "ora": "01:20:12",
-  "tipo": "PARZIALE",
-  "testo": "$KYM vende 40% a 2x"
- },
- {
-  "ora": "01:21:04",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: top 10 holder hanno il 52%"
- },
- {
-  "ora": "01:23:47",
-  "tipo": "FILTRATO",
-  "testo": "$Clover non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:25:34",
-  "tipo": "FILTRATO",
-  "testo": "$CHIMA non comprato · motivo: 104 portafogli insider collegati; RugCheck: Low Liquidity"
- },
- {
-  "ora": "01:27:33",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:27:33",
-  "tipo": "FILTRATO",
-  "testo": "$Pumpcar non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "01:27:42",
-  "tipo": "ESCE",
-  "testo": "$KYM +16.70$ motivo: trailing -25% dal massimo"
- },
- {
-  "ora": "01:28:32",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "01:28:37",
-  "tipo": "FILTRATO",
-  "testo": "$Vcradio non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 58 holder"
- },
- {
-  "ora": "01:28:41",
-  "tipo": "FILTRATO",
-  "testo": "$Starlink non comprato · motivo: sviluppatore ha il 96.7%; 34 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "01:29:48",
-  "tipo": "FILTRATO",
-  "testo": "$Vcradio non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 69 holder"
- },
- {
-  "ora": "01:29:48",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:31:03",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:31:09",
-  "tipo": "FILTRATO",
-  "testo": "$ARCHIVE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:31:10",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:31:12",
-  "tipo": "ESCE",
-  "testo": "$Jimmies +8.46$ motivo: tempo scaduto (20 min)"
- },
- {
-  "ora": "01:32:45",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "01:32:47",
-  "tipo": "FILTRATO",
-  "testo": "$Falcon 9 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 117 holder"
- },
- {
-  "ora": "01:34:13",
-  "tipo": "FILTRATO",
-  "testo": "$PEPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:34:13",
-  "tipo": "FILTRATO",
-  "testo": "$ARCHIVE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:34:16",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:36:11",
-  "tipo": "FILTRATO",
-  "testo": "$PEPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:36:15",
-  "tipo": "FILTRATO",
-  "testo": "$scamsem non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:37:12",
-  "tipo": "ENTRA",
-  "testo": "$ChristmASS $32.97 (40% del capitale), 1ª metà a slippage 1.2% · motivo: acquisti 88% + holder +94% · rug check PASS · https://dexscreener.com/solana/eeczlmkqsnypuz5frtaitfpdnatn4xbtfbasny111tfo"
- },
- {
-  "ora": "01:37:15",
-  "tipo": "PARZIALE",
-  "testo": "$ChristmASS seconda metà comprata a $7.89e-05"
- },
- {
-  "ora": "01:38:26",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "01:38:32",
-  "tipo": "FILTRATO",
-  "testo": "$Cltrap non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 41 holder"
- },
- {
-  "ora": "01:39:14",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:39:18",
-  "tipo": "FILTRATO",
-  "testo": "$Falcon 9 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:40:51",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 79%)"
- },
- {
-  "ora": "01:40:52",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "01:40:55",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 74%)"
- },
- {
-  "ora": "01:40:57",
-  "tipo": "FILTRATO",
-  "testo": "$PEPE non comprato · motivo: RugCheck: Low Liquidity"
- },
- {
-  "ora": "01:40:58",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 63 portafogli insider collegati"
- },
- {
-  "ora": "01:41:01",
-  "tipo": "FILTRATO",
-  "testo": "$ARCHIVE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:42:57",
-  "tipo": "ENTRA",
-  "testo": "$BOOBS $31.16 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 78% + holder +10% · rug check PASS · https://dexscreener.com/solana/4nenpvsb1zsiepqqbde9tcm9dkiw7ez5b7rvrjwv8jpy"
- },
- {
-  "ora": "01:42:57",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:43:00",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 70 portafogli insider collegati"
- },
- {
-  "ora": "01:43:06",
-  "tipo": "ESCE",
-  "testo": "$ChristmASS -7.63$ motivo: stop -15% (prezzo -20%)"
- },
- {
-  "ora": "01:43:06",
-  "tipo": "PARZIALE",
-  "testo": "$BOOBS seconda metà comprata a $0.0003543"
- },
- {
-  "ora": "01:44:27",
-  "tipo": "FILTRATO",
-  "testo": "$TELEDROID non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "01:44:29",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "01:44:31",
-  "tipo": "FILTRATO",
-  "testo": "$X non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 97 holder"
- },
- {
-  "ora": "01:44:33",
-  "tipo": "FILTRATO",
-  "testo": "$PEPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:44:34",
-  "tipo": "ESCE",
-  "testo": "$BOOBS -6.62$ motivo: stop -15% (prezzo -18%)"
- },
- {
-  "ora": "01:45:46",
-  "tipo": "ENTRA",
-  "testo": "$BOOBS $13.63 (20% del capitale), 1ª metà a slippage 1.0% · motivo: acquisti 73% + holder +10% · rug check PASS · https://dexscreener.com/solana/4nenpvsb1zsiepqqbde9tcm9dkiw7ez5b7rvrjwv8jpy"
- },
- {
-  "ora": "01:45:51",
-  "tipo": "FILTRATO",
-  "testo": "$Falcon 9 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 137 holder"
- },
- {
-  "ora": "01:45:52",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 83 portafogli insider collegati"
- },
- {
-  "ora": "01:45:55",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:45:57",
-  "tipo": "PARZIALE",
-  "testo": "$BOOBS seconda metà comprata a $0.0002088"
- },
- {
-  "ora": "01:47:52",
-  "tipo": "FILTRATO",
-  "testo": "$Batzilla non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 56 holder"
- },
- {
-  "ora": "01:47:53",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 84 portafogli insider collegati"
- },
- {
-  "ora": "01:47:55",
-  "tipo": "FILTRATO",
-  "testo": "$KYM non comprato · motivo: sviluppatore ha il 18.0%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:47:58",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:47:59",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:49:01",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "01:49:06",
-  "tipo": "FILTRATO",
-  "testo": "$AMEND non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 63 holder"
- },
- {
-  "ora": "01:49:07",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 86 portafogli insider collegati"
- },
- {
-  "ora": "01:49:13",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: sviluppatore ha il 24.2%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:50:18",
-  "tipo": "FILTRATO",
-  "testo": "$Pumpcar non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "01:50:20",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 14 portafogli insider collegati"
- },
- {
-  "ora": "01:50:21",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "01:50:21",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:50:30",
-  "tipo": "FILTRATO",
-  "testo": "$RANSEM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:52:07",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 120 portafogli insider collegati"
- },
- {
-  "ora": "01:52:14",
-  "tipo": "FILTRATO",
-  "testo": "$Globe non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:53:01",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 53 holder"
- },
- {
-  "ora": "01:53:02",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 132 portafogli insider collegati"
- },
- {
-  "ora": "01:53:07",
-  "tipo": "FILTRATO",
-  "testo": "$Globe non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:54:00",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:55:32",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "01:56:32",
-  "tipo": "FILTRATO",
-  "testo": "$Pumpcar non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "01:56:34",
-  "tipo": "FILTRATO",
-  "testo": "$Losvin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 50 holder"
- },
- {
-  "ora": "01:56:36",
-  "tipo": "FILTRATO",
-  "testo": "$Zeus non comprato · motivo: 273 portafogli insider collegati; RugCheck: Low Liquidity"
- },
- {
-  "ora": "01:56:43",
-  "tipo": "PARZIALE",
-  "testo": "$BOOBS vende 40% a 2x"
- },
- {
-  "ora": "01:59:17",
-  "tipo": "FILTRATO",
-  "testo": "$ACE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "01:59:19",
-  "tipo": "ESCE",
-  "testo": "$BOOBS +15.72$ motivo: trailing -25% dal massimo"
- },
- {
-  "ora": "02:00:40",
-  "tipo": "FILTRATO",
-  "testo": "$TELEDROID non comprato · motivo: segnali 1/2 (holder +6%)"
- },
- {
-  "ora": "02:00:40",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:00:45",
-  "tipo": "FILTRATO",
-  "testo": "$RANSEM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:00:47",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 55%"
- },
- {
-  "ora": "02:01:39",
-  "tipo": "FILTRATO",
-  "testo": "$TELEDROID non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "02:01:41",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 79%)"
- },
- {
-  "ora": "02:01:45",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 66 holder"
- },
- {
-  "ora": "02:01:50",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 53%"
- },
- {
-  "ora": "02:03:44",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:03:46",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:03:49",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 49%"
- },
- {
-  "ora": "02:05:21",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "02:05:25",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: RugCheck: Low Liquidity"
- },
- {
-  "ora": "02:08:07",
-  "tipo": "FILTRATO",
-  "testo": "$Pumpcar non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "02:09:32",
-  "tipo": "ENTRA",
-  "testo": "$ChristmASS $33.56 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 82% + holder +110% · rug check PASS · https://dexscreener.com/solana/eeczlmkqsnypuz5frtaitfpdnatn4xbtfbasny111tfo"
- },
- {
-  "ora": "02:09:36",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; 14 portafogli insider collegati"
- },
- {
-  "ora": "02:09:38",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 74%)"
- },
- {
-  "ora": "02:09:39",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 115 holder"
- },
- {
-  "ora": "02:09:44",
-  "tipo": "ESCE",
-  "testo": "$ChristmASS -3.56$ motivo: stop -15% (prezzo -18%)"
- },
- {
-  "ora": "02:12:15",
-  "tipo": "ENTRA",
-  "testo": "$ChristmASS $32.13 (40% del capitale), 1ª metà a slippage 1.1% · motivo: acquisti 86% + holder +12% · rug check PASS · https://dexscreener.com/solana/eeczlmkqsnypuz5frtaitfpdnatn4xbtfbasny111tfo"
- },
- {
-  "ora": "02:12:15",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:12:16",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 14 portafogli insider collegati"
- },
- {
-  "ora": "02:12:17",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:12:19",
-  "tipo": "PARZIALE",
-  "testo": "$ChristmASS seconda metà comprata a $0.0001989"
- },
- {
-  "ora": "02:13:40",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 22 portafogli insider collegati"
- },
- {
-  "ora": "02:13:41",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; 14 portafogli insider collegati"
- },
- {
-  "ora": "02:13:42",
-  "tipo": "FILTRATO",
-  "testo": "$KYM non comprato · motivo: sviluppatore ha il 60.1%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
- },
- {
-  "ora": "02:15:26",
-  "tipo": "ENTRA",
-  "testo": "$BOOBS $32.25 (40% del capitale), 1ª metà a slippage 1.0% · motivo: acquisti 79% + holder +8% · rug check PASS · https://dexscreener.com/solana/4nenpvsb1zsiepqqbde9tcm9dkiw7ez5b7rvrjwv8jpy"
- },
- {
-  "ora": "02:15:30",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:15:33",
-  "tipo": "PARZIALE",
-  "testo": "$BOOBS seconda metà comprata a $0.0009804"
- },
- {
-  "ora": "02:16:17",
-  "tipo": "FILTRATO",
-  "testo": "$CIAVAULT non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 51 holder"
- },
- {
-  "ora": "02:16:18",
-  "tipo": "FILTRATO",
-  "testo": "$mameshiba non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:16:18",
-  "tipo": "FILTRATO",
-  "testo": "$TECHBROS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:16:21",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:17:47",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 75%)"
- },
- {
-  "ora": "02:17:48",
-  "tipo": "FILTRATO",
-  "testo": "$CIAVAULT non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 76 holder"
- },
- {
-  "ora": "02:17:50",
-  "tipo": "FILTRATO",
-  "testo": "$NVIDIA non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:17:53",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:17:56",
-  "tipo": "ESCE",
-  "testo": "$BOOBS -6.45$ motivo: stop -15% (prezzo -17%)"
- },
- {
-  "ora": "02:18:57",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 81%)"
- },
- {
-  "ora": "02:20:51",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "02:20:52",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 75 holder"
- },
- {
-  "ora": "02:20:54",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 65 holder"
- },
- {
-  "ora": "02:20:55",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:22:43",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "02:22:45",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "02:25:48",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:26:46",
-  "tipo": "FILTRATO",
-  "testo": "$FALLEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 63 holder"
- },
- {
-  "ora": "02:29:02",
-  "tipo": "FILTRATO",
-  "testo": "$Sisyphus non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:29:02",
-  "tipo": "FILTRATO",
-  "testo": "$UGOS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:29:04",
-  "tipo": "FILTRATO",
-  "testo": "$ Huang non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:30:18",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: segnali 1/2 (picco volume 8.1x)"
- },
- {
-  "ora": "02:31:14",
-  "tipo": "ENTRA",
-  "testo": "$PERRO $15.22 (20% del capitale), 1ª metà a slippage 1.1% · motivo: picco volume 8.7x + holder +6% · rug check PASS · https://dexscreener.com/solana/4s1epxdedd7ty1utj7frou3sasxug98os7hcptneu8wh"
- },
- {
-  "ora": "02:31:15",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già 2 posizioni aperte"
- },
- {
-  "ora": "02:31:19",
-  "tipo": "FILTRATO",
-  "testo": "$Epochal non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; solo 65 holder"
- },
- {
-  "ora": "02:31:24",
-  "tipo": "FILTRATO",
-  "testo": "$GTA$ non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:31:27",
-  "tipo": "ESCE",
-  "testo": "$ChristmASS -7.81$ motivo: stop -15% (prezzo -21%)"
- },
- {
-  "ora": "02:31:27",
-  "tipo": "PARZIALE",
-  "testo": "$PERRO seconda metà comprata a $5.828e-05"
- },
- {
-  "ora": "02:31:27",
-  "tipo": "FERMO",
-  "testo": "capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "02:32:38",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "02:32:38",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:32:42",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 46 holder"
- },
- {
-  "ora": "02:32:43",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:32:45",
-  "tipo": "ESCE",
-  "testo": "$PERRO -4.91$ motivo: stop -15% (prezzo -28%)"
- },
- {
-  "ora": "02:34:27",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 94%)"
- },
- {
-  "ora": "02:34:28",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "02:36:04",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 75%)"
- },
- {
-  "ora": "02:36:13",
-  "tipo": "FILTRATO",
-  "testo": "$NVIDIA non comprato · motivo: sviluppatore ha il 62.2%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
- },
- {
-  "ora": "02:37:09",
-  "tipo": "FILTRATO",
-  "testo": "$FSD non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 103 holder"
- },
- {
-  "ora": "02:38:32",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: segnali 1/2 (holder +12%)"
- },
- {
-  "ora": "02:38:39",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:38:40",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:38:43",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: sviluppatore ha il 30.5%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:40:15",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:41:33",
-  "tipo": "FILTRATO",
-  "testo": "$Epochal non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "02:41:33",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:41:34",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 80%)"
- },
- {
-  "ora": "02:41:44",
-  "tipo": "FILTRATO",
-  "testo": "$花 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:43:06",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 5 portafogli insider collegati"
- },
- {
-  "ora": "02:43:12",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:43:57",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:45:05",
-  "tipo": "FILTRATO",
-  "testo": "$Epochal non comprato · motivo: RugCheck: Creator history of rugged tokens"
- },
- {
-  "ora": "02:45:08",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 44 portafogli insider collegati"
- },
- {
-  "ora": "02:47:15",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 43%"
- },
- {
-  "ora": "02:47:18",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "02:48:12",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "02:50:03",
-  "tipo": "FILTRATO",
-  "testo": "$ACE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:50:04",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:50:07",
-  "tipo": "FILTRATO",
-  "testo": "$will non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:50:09",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "02:50:12",
-  "tipo": "FILTRATO",
-  "testo": "$FSD non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:52:02",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:52:05",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 76%)"
- },
- {
-  "ora": "02:53:16",
-  "tipo": "FILTRATO",
-  "testo": "$Terslim non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 70 holder"
- },
- {
-  "ora": "02:53:19",
-  "tipo": "FILTRATO",
-  "testo": "$GTA$ non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "02:55:26",
-  "tipo": "FILTRATO",
-  "testo": "$雪球 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "02:55:27",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 56 holder"
- },
- {
-  "ora": "02:58:08",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:00:29",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 41%"
- },
- {
-  "ora": "03:00:32",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:00:33",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: 48 portafogli insider collegati"
- },
- {
-  "ora": "03:00:39",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:00:39",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:00:42",
-  "tipo": "FILTRATO",
-  "testo": "$GTA$ non comprato · motivo: RugCheck: Low Liquidity"
- },
- {
-  "ora": "03:02:13",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: top 10 holder hanno il 40%"
- },
- {
-  "ora": "03:02:13",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:02:16",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 81%)"
- },
- {
-  "ora": "03:02:19",
-  "tipo": "FILTRATO",
-  "testo": "$MIL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:03:26",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (holder +9%)"
- },
- {
-  "ora": "03:03:39",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: sviluppatore ha il 87.9%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "03:03:41",
-  "tipo": "FILTRATO",
-  "testo": "$花 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:04:31",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:06:04",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:07:45",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "03:08:00",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:09:53",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:09:55",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:10:39",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "03:11:56",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:11:59",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 1/2 (holder +7%)"
- },
- {
-  "ora": "03:12:00",
-  "tipo": "FILTRATO",
-  "testo": "$PASSGOB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 60 holder"
- },
- {
-  "ora": "03:12:02",
-  "tipo": "FILTRATO",
-  "testo": "$Gondola non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:12:03",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:12:08",
-  "tipo": "FILTRATO",
-  "testo": "$WIKI non comprato · motivo: sviluppatore ha il 27.6%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:13:43",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:13:45",
-  "tipo": "FILTRATO",
-  "testo": "$PASSGOB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 86 holder"
- },
- {
-  "ora": "03:16:00",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (holder +53%)"
- },
- {
-  "ora": "03:16:03",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "03:16:04",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:17:26",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:17:28",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:18:31",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "03:18:35",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:22:17",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "03:22:22",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:22:23",
-  "tipo": "FILTRATO",
-  "testo": "$USOI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:22:25",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:22:31",
-  "tipo": "FILTRATO",
-  "testo": "$花 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:22:31",
-  "tipo": "FILTRATO",
-  "testo": "$GTA$ non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:22:34",
-  "tipo": "FILTRATO",
-  "testo": "$USAID non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:23:15",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:23:15",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:23:19",
-  "tipo": "FILTRATO",
-  "testo": "$Vmgate non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 84 holder"
- },
- {
-  "ora": "03:23:20",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:23:28",
-  "tipo": "FILTRATO",
-  "testo": "$future non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:25:02",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:25:02",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:25:05",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:25:07",
-  "tipo": "FILTRATO",
-  "testo": "$PEPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:25:08",
-  "tipo": "FILTRATO",
-  "testo": "$西游小妖志 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:27:50",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:27:53",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:28:55",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (acquisti 71%)"
- },
- {
-  "ora": "03:29:00",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 1/2 (holder +5%)"
- },
- {
-  "ora": "03:29:01",
-  "tipo": "FILTRATO",
-  "testo": "$Santa non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:29:03",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 78 holder"
- },
- {
-  "ora": "03:29:04",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:30:08",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "03:30:12",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:31:14",
-  "tipo": "FILTRATO",
-  "testo": "$PROTUX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 52 holder"
- },
- {
-  "ora": "03:31:16",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 111 holder"
- },
- {
-  "ora": "03:31:20",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: segnali 1/2 (picco volume 7.6x)"
- },
- {
-  "ora": "03:33:44",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:33:51",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:34:56",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "03:35:00",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "03:35:04",
-  "tipo": "FILTRATO",
-  "testo": "$Gato non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:35:05",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 4 portafogli insider collegati"
- },
- {
-  "ora": "03:35:09",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:35:53",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:36:09",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:37:06",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "03:37:14",
-  "tipo": "FILTRATO",
-  "testo": "$ACE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:37:59",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:38:05",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:39:40",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:41:01",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 16 portafogli insider collegati"
- },
- {
-  "ora": "03:41:04",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "03:41:07",
-  "tipo": "FILTRATO",
-  "testo": "$WRED non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 73 holder"
- },
- {
-  "ora": "03:42:28",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; 9 portafogli insider collegati"
- },
- {
-  "ora": "03:42:31",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:42:31",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:42:33",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 104 holder"
- },
- {
-  "ora": "03:42:40",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; 14 portafogli insider collegati"
- },
- {
-  "ora": "03:43:48",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:43:50",
-  "tipo": "FILTRATO",
-  "testo": "$西游小妖志 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:43:51",
-  "tipo": "FILTRATO",
-  "testo": "$西游小妖志 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:43:59",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 14 portafogli insider collegati"
- },
- {
-  "ora": "03:44:50",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 35 portafogli insider collegati"
- },
- {
-  "ora": "03:44:58",
-  "tipo": "FILTRATO",
-  "testo": "$ANSEM non comprato · motivo: RugCheck: Creator history of rugged tokens"
- },
- {
-  "ora": "03:45:01",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:46:38",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 43 portafogli insider collegati"
- },
- {
-  "ora": "03:46:45",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "03:47:49",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:47:57",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:50:32",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: liquidità bloccata solo al 0%"
- },
- {
-  "ora": "03:50:33",
-  "tipo": "FILTRATO",
-  "testo": "$西游小妖志 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:50:33",
-  "tipo": "FILTRATO",
-  "testo": "$Anthropic non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:51:44",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 46 portafogli insider collegati"
- },
- {
-  "ora": "03:51:50",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:51:51",
-  "tipo": "FILTRATO",
-  "testo": "$Solmas non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:51:53",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: 14 portafogli insider collegati"
- },
- {
-  "ora": "03:53:03",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:53:04",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "03:53:07",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:53:16",
-  "tipo": "FILTRATO",
-  "testo": "$FOMO non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:55:31",
-  "tipo": "FILTRATO",
-  "testo": "$Caiolo non comprato · motivo: 46 portafogli insider collegati"
- },
- {
-  "ora": "03:55:33",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "03:55:34",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "03:55:36",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 71%)"
- },
- {
-  "ora": "03:57:21",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:57:23",
-  "tipo": "FILTRATO",
-  "testo": "$Bernard non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "03:58:05",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; 9 portafogli insider collegati"
- },
- {
-  "ora": "03:58:07",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:58:08",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "03:59:45",
-  "tipo": "FILTRATO",
-  "testo": "$memecat non comprato · motivo: top 10 holder hanno il 78%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
- },
- {
-  "ora": "04:00:58",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:01:00",
-  "tipo": "FILTRATO",
-  "testo": "$USOI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:02:20",
-  "tipo": "FILTRATO",
-  "testo": "$TELEDROID non comprato · motivo: segnali 1/2 (holder +23%)"
- },
- {
-  "ora": "04:02:23",
-  "tipo": "FILTRATO",
-  "testo": "$TOUCAN non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:03:57",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "04:04:00",
-  "tipo": "FILTRATO",
-  "testo": "$memecat non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:04:03",
-  "tipo": "FILTRATO",
-  "testo": "$Anthropic non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:04:04",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:05:08",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; 10 portafogli insider collegati"
- },
- {
-  "ora": "04:05:09",
-  "tipo": "FILTRATO",
-  "testo": "$TELEDROID non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:05:14",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:05:15",
-  "tipo": "FILTRATO",
-  "testo": "$ANSEM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:05:19",
-  "tipo": "FILTRATO",
-  "testo": "$ANSEM non comprato · motivo: RugCheck: Creator history of rugged tokens; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: High ownership; solo 101 holder"
- },
- {
-  "ora": "04:05:20",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "04:06:37",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:06:37",
-  "tipo": "FILTRATO",
-  "testo": "$PAD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:09:57",
-  "tipo": "FILTRATO",
-  "testo": "$memecat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:09:58",
-  "tipo": "FILTRATO",
-  "testo": "$莫达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:10:00",
-  "tipo": "FILTRATO",
-  "testo": "$NI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:11:44",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: top 10 holder hanno il 62%; RugCheck: Single holder ownership"
- },
- {
-  "ora": "04:11:48",
-  "tipo": "FILTRATO",
-  "testo": "$PENGUIN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:13:45",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 11 portafogli insider collegati"
- },
- {
-  "ora": "04:15:32",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (acquisti 70%)"
- },
- {
-  "ora": "04:15:35",
-  "tipo": "FILTRATO",
-  "testo": "$ChristmASS non comprato · motivo: segnali 1/2 (acquisti 81%)"
- },
- {
-  "ora": "04:15:36",
-  "tipo": "FILTRATO",
-  "testo": "$Spurdo non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:15:38",
-  "tipo": "FILTRATO",
-  "testo": "$GPU Father non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:15:39",
-  "tipo": "FILTRATO",
-  "testo": "$Anthropic non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:18:43",
-  "tipo": "FILTRATO",
-  "testo": "$MAGECAT non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:18:45",
-  "tipo": "FILTRATO",
-  "testo": "$PENGUIN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:20:03",
-  "tipo": "FILTRATO",
-  "testo": "$莫达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:20:09",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "04:21:12",
-  "tipo": "FILTRATO",
-  "testo": "$memecat non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:22:00",
-  "tipo": "FILTRATO",
-  "testo": "$memecat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:22:02",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:23:34",
-  "tipo": "FILTRATO",
-  "testo": "$Spurdo non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:23:35",
-  "tipo": "FILTRATO",
-  "testo": "$MMGA non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:23:37",
-  "tipo": "FILTRATO",
-  "testo": "$CYTURK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 78 holder"
- },
- {
-  "ora": "04:23:38",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; 14 portafogli insider collegati"
- },
- {
-  "ora": "04:24:44",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:24:45",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "04:24:51",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:26:14",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (acquisti 76%)"
- },
- {
-  "ora": "04:26:15",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 31 portafogli insider collegati"
- },
- {
-  "ora": "04:26:15",
-  "tipo": "FILTRATO",
-  "testo": "$GOTF non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:27:40",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: top 10 holder hanno il 43%"
- },
- {
-  "ora": "04:27:43",
-  "tipo": "FILTRATO",
-  "testo": "$SpaceX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 117 holder"
- },
- {
-  "ora": "04:28:27",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 32 portafogli insider collegati"
- },
- {
-  "ora": "04:28:28",
-  "tipo": "FILTRATO",
-  "testo": "$莫达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:30:05",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: top 10 holder hanno il 63%; RugCheck: Single holder ownership"
- },
- {
-  "ora": "04:31:52",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 131 holder"
- },
- {
-  "ora": "04:31:53",
-  "tipo": "FILTRATO",
-  "testo": "$BABYANSEM non comprato · motivo: solo 139 holder"
- },
- {
-  "ora": "04:31:55",
-  "tipo": "FILTRATO",
-  "testo": "$SpaceX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:33:26",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "04:35:26",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "04:35:29",
-  "tipo": "FILTRATO",
-  "testo": "$NB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:35:35",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: segnali 1/2 (holder +14%)"
- },
- {
-  "ora": "04:37:59",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: segnali 1/2 (acquisti 77%)"
- },
- {
-  "ora": "04:38:04",
-  "tipo": "FILTRATO",
-  "testo": "$Dlorga non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:38:08",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: sviluppatore ha il 16.0%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Creator history of rugged tokens"
- },
- {
-  "ora": "04:39:32",
-  "tipo": "FILTRATO",
-  "testo": "$Alien non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:39:33",
-  "tipo": "FILTRATO",
-  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:40:27",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:43:05",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 18 portafogli insider collegati"
- },
- {
-  "ora": "04:43:09",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:47:14",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 41 portafogli insider collegati"
- },
- {
-  "ora": "04:47:15",
-  "tipo": "FILTRATO",
-  "testo": "$BABYANSEM non comprato · motivo: segnali 1/2 (holder +32%)"
- },
- {
-  "ora": "04:47:17",
-  "tipo": "FILTRATO",
-  "testo": "$DongCoin non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "04:47:20",
-  "tipo": "FILTRATO",
-  "testo": "$Alien non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:47:21",
-  "tipo": "FILTRATO",
-  "testo": "$BUDDY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:47:23",
-  "tipo": "FILTRATO",
-  "testo": "$Mechazilla non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:48:44",
-  "tipo": "FILTRATO",
-  "testo": "$BABYANSEM non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:48:50",
-  "tipo": "FILTRATO",
-  "testo": "$Spurdo non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:50:08",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:50:13",
-  "tipo": "FILTRATO",
-  "testo": "$FOMO non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "04:51:31",
-  "tipo": "FILTRATO",
-  "testo": "$GATLAS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 58 holder"
- },
- {
-  "ora": "04:51:32",
-  "tipo": "FILTRATO",
-  "testo": "$SLITHEEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:51:34",
-  "tipo": "FILTRATO",
-  "testo": "$SLITHEEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:52:30",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 57 holder"
- },
- {
-  "ora": "04:53:28",
-  "tipo": "FILTRATO",
-  "testo": "$UODF non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "04:53:30",
-  "tipo": "FILTRATO",
-  "testo": "$SLITHEEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:58:41",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:59:30",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "04:59:38",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:00:35",
-  "tipo": "FILTRATO",
-  "testo": "$Fertime non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 53 holder"
- },
- {
-  "ora": "05:01:57",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:01:58",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:02:00",
-  "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:03:28",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 72%)"
- },
- {
-  "ora": "05:03:29",
-  "tipo": "FILTRATO",
-  "testo": "$INU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:03:31",
-  "tipo": "FILTRATO",
-  "testo": "$BCAT non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:03:33",
-  "tipo": "FILTRATO",
-  "testo": "$窃格瓦拉 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:03:38",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
- },
- {
-  "ora": "05:04:55",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:04:56",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:04:58",
-  "tipo": "FILTRATO",
-  "testo": "$ACE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:06:50",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:08:34",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 49 portafogli insider collegati"
- },
- {
-  "ora": "05:08:40",
-  "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: segnali 1/2 (picco volume 7.5x)"
- },
- {
-  "ora": "05:13:53",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:14:48",
-  "tipo": "FILTRATO",
-  "testo": "$DOGE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:14:49",
-  "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:16:43",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:16:45",
-  "tipo": "FILTRATO",
-  "testo": "$Boor non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:16:46",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 88 holder"
- },
- {
-  "ora": "05:16:49",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:18:34",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 103 holder"
- },
- {
-  "ora": "05:18:36",
-  "tipo": "FILTRATO",
-  "testo": "$PEARL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:20:48",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "05:20:52",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:20:55",
-  "tipo": "FILTRATO",
-  "testo": "$TikTok non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:22:17",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:22:20",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:22:26",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 1/2 (picco volume 5.6x)"
- },
- {
-  "ora": "05:22:31",
-  "tipo": "FILTRATO",
-  "testo": "$莫达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:22:32",
+  "ora": "14:19:23",
   "tipo": "FILTRATO",
   "testo": "$MEME non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "05:22:34",
+  "ora": "14:23:28",
   "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 36 portafogli insider collegati"
+  "testo": "$JOE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
  },
  {
-  "ora": "05:23:47",
+  "ora": "14:23:29",
   "tipo": "FILTRATO",
-  "testo": "$Anthropic non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$USPR non comprato · motivo: top 10 holder hanno il 40%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens; RugCheck: Large Amount of LP Unlocked; RugCheck: Single holder ownership; solo 9 holder"
  },
  {
-  "ora": "05:23:50",
+  "ora": "14:23:29",
   "tipo": "FILTRATO",
-  "testo": "$GPU Father non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$ALLOC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "05:23:50",
+  "ora": "14:24:31",
   "tipo": "FILTRATO",
-  "testo": "$莫达 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "05:23:52",
+  "ora": "14:24:36",
   "tipo": "FILTRATO",
-  "testo": "$STANDOC non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 75 holder"
+  "testo": "$Jensen non comprato · motivo: top 10 holder hanno il 95%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
  },
  {
-  "ora": "05:25:28",
+  "ora": "14:25:58",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:27:21",
+  "tipo": "FILTRATO",
+  "testo": "$EUFORGE non comprato · motivo: top 10 holder hanno il 90%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 73 holder"
+ },
+ {
+  "ora": "14:27:22",
+  "tipo": "FILTRATO",
+  "testo": "$JOE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:27:24",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: top 10 holder hanno il 95%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:27:30",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 90%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:27:30",
+  "tipo": "FILTRATO",
+  "testo": "$FLOP non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:27:31",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 51%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "14:27:38",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: top 10 holder hanno il 98%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:27:38",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:27:40",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:29:31",
+  "tipo": "FILTRATO",
+  "testo": "$OUROBOROS non comprato · motivo: segnali 1/2 (holder +22%)"
+ },
+ {
+  "ora": "14:30:54",
+  "tipo": "FILTRATO",
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "14:30:56",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:32:50",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:32:52",
+  "tipo": "FILTRATO",
+  "testo": "$只涨不跌 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:37:10",
+  "tipo": "FILTRATO",
+  "testo": "$JaoJiu non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:37:10",
+  "tipo": "FILTRATO",
+  "testo": "$JOE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:38:36",
+  "tipo": "FILTRATO",
+  "testo": "$HOPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:38:37",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 94%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:38:39",
+  "tipo": "FILTRATO",
+  "testo": "$JOE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:42:03",
+  "tipo": "FILTRATO",
+  "testo": "$TANGENT non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "14:42:08",
+  "tipo": "FILTRATO",
+  "testo": "$TANGENT non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:42:10",
+  "tipo": "FILTRATO",
+  "testo": "$gem non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:42:11",
+  "tipo": "FILTRATO",
+  "testo": "$JaoJiu non comprato · motivo: top 10 holder hanno il 79%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership"
+ },
+ {
+  "ora": "14:43:45",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:45:02",
+  "tipo": "FILTRATO",
+  "testo": "$CatTok non comprato · motivo: top 10 holder hanno il 59%; liquidità bloccata solo al 0%; solo 104 holder"
+ },
+ {
+  "ora": "14:46:09",
+  "tipo": "FILTRATO",
+  "testo": "$HOPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:47:21",
+  "tipo": "FILTRATO",
+  "testo": "$FLOP non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:48:06",
+  "tipo": "FILTRATO",
+  "testo": "$UKRAINU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:48:07",
+  "tipo": "FILTRATO",
+  "testo": "$AERO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 6 holder"
+ },
+ {
+  "ora": "14:48:07",
+  "tipo": "FILTRATO",
+  "testo": "$HOPE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:50:51",
+  "tipo": "FILTRATO",
+  "testo": "$HOPE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:50:52",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "14:51:55",
+  "tipo": "FILTRATO",
+  "testo": "$OUROBOROS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "14:51:59",
+  "tipo": "FILTRATO",
+  "testo": "$XMAS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:51:59",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:52:00",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:53:06",
+  "tipo": "FILTRATO",
+  "testo": "$UKRAINU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:53:08",
+  "tipo": "FILTRATO",
+  "testo": "$HOPE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "14:55:09",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 57%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "14:57:22",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 56%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "14:57:25",
+  "tipo": "FILTRATO",
+  "testo": "$BOOSTER non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:57:26",
+  "tipo": "FILTRATO",
+  "testo": "$Ukrainu non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "14:59:50",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 53%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "14:59:50",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "14:59:53",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "14:59:55",
+  "tipo": "FILTRATO",
+  "testo": "$DCTY non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:01:06",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 51%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:02:20",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 50%; liquidità bloccata solo al 0%; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:02:22",
+  "tipo": "FILTRATO",
+  "testo": "$Grokie non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "15:02:27",
+  "tipo": "FILTRATO",
+  "testo": "$TIDBOT non comprato · motivo: top 10 holder hanno il 91%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 95 holder"
+ },
+ {
+  "ora": "15:02:31",
+  "tipo": "FILTRATO",
+  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:02:31",
+  "tipo": "FILTRATO",
+  "testo": "$Anthropic non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:04:13",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "15:04:16",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: top 10 holder hanno il 95%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:04:16",
   "tipo": "FILTRATO",
   "testo": "$JIMMY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "05:27:16",
+  "ora": "15:04:18",
   "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
  },
  {
-  "ora": "05:28:50",
+  "ora": "15:04:21",
   "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+  "testo": "$Alien ELON non comprato · motivo: top 10 holder hanno il 97%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
  },
  {
-  "ora": "05:28:50",
+  "ora": "15:04:21",
   "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 50 portafogli insider collegati"
+  "testo": "$MEME non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  },
  {
-  "ora": "05:29:06",
+  "ora": "15:04:21",
+  "tipo": "FILTRATO",
+  "testo": "$UKRAINU non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "15:05:55",
+  "tipo": "FILTRATO",
+  "testo": "$Grokie non comprato · motivo: top 10 holder hanno il 64%; liquidità bloccata solo al 0%; solo 135 holder"
+ },
+ {
+  "ora": "15:05:56",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: top 10 holder hanno il 92%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:06:02",
+  "tipo": "FILTRATO",
+  "testo": "$MEME non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "15:06:10",
+  "tipo": "FILTRATO",
+  "testo": "$DCTY non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:06:43",
+  "tipo": "FILTRATO",
+  "testo": "$HEYOS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "15:06:48",
+  "tipo": "FILTRATO",
+  "testo": "$JENSEN non comprato · motivo: top 10 holder hanno il 90%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:06:48",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "15:06:52",
+  "tipo": "FILTRATO",
+  "testo": "$Grokie non comprato · motivo: top 10 holder hanno il 63%; liquidità bloccata solo al 0%; solo 144 holder"
+ },
+ {
+  "ora": "15:08:34",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:08:34",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 99%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Creator history of rugged tokens; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:08:42",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:08:43",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "15:08:45",
+  "tipo": "FILTRATO",
+  "testo": "$JENSEN non comprato · motivo: top 10 holder hanno il 86%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:09:02",
+  "tipo": "FILTRATO",
+  "testo": "$Grokie non comprato · motivo: top 10 holder hanno il 61%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:10:04",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: top 10 holder hanno il 41%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:10:05",
+  "tipo": "FILTRATO",
+  "testo": "$GEMIDIA non comprato · motivo: top 10 holder hanno il 100%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Creator history of rugged tokens; RugCheck: High ownership; solo 72 holder"
+ },
+ {
+  "ora": "15:12:03",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: top 10 holder hanno il 46%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:12:06",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 93%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:12:50",
+  "tipo": "FILTRATO",
+  "testo": "$KYM non comprato · motivo: top 10 holder hanno il 49%; liquidità bloccata solo al 0%; 4 portafogli insider collegati; RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "15:12:56",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 91%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:14:27",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 82%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:16:22",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "15:17:35",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: top 10 holder hanno il 70%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:19:27",
+  "tipo": "FILTRATO",
+  "testo": "$3sat non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:21:47",
+  "tipo": "FILTRATO",
+  "testo": "$ONEBASKET non comprato · motivo: top 10 holder hanno il 76%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:23:23",
+  "tipo": "FILTRATO",
+  "testo": "$ONEBASKET non comprato · motivo: top 10 holder hanno il 74%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:24:49",
+  "tipo": "FILTRATO",
+  "testo": "$ONEBASKET non comprato · motivo: top 10 holder hanno il 75%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:25:34",
+  "tipo": "FILTRATO",
+  "testo": "$ONEBASKET non comprato · motivo: top 10 holder hanno il 72%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:31:35",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "15:32:57",
+  "tipo": "FILTRATO",
+  "testo": "$3sat non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:33:03",
+  "tipo": "FILTRATO",
+  "testo": "$NEX Ai non comprato · motivo: top 10 holder hanno il 67%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:33:04",
+  "tipo": "FILTRATO",
+  "testo": "$Jensen non comprato · motivo: top 10 holder hanno il 74%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:35:31",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 59%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:35:40",
+  "tipo": "FILTRATO",
+  "testo": "$Jensen non comprato · motivo: top 10 holder hanno il 72%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:36:51",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 57%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:36:58",
+  "tipo": "FILTRATO",
+  "testo": "$NEX Ai non comprato · motivo: top 10 holder hanno il 65%; liquidità bloccata solo al 0%; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:38:49",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 53%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:41:36",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 45%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:41:38",
+  "tipo": "FILTRATO",
+  "testo": "$NEX Ai non comprato · motivo: top 10 holder hanno il 82%; liquidità bloccata solo al 0%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "15:43:40",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 43%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:43:43",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "15:44:14",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 42%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:45:15",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 41%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:45:16",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "15:47:08",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: top 10 holder hanno il 40%; liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:49:20",
+  "tipo": "FILTRATO",
+  "testo": "$FRANK non comprato · motivo: liquidità bloccata solo al 0%; 20 portafogli insider collegati"
+ },
+ {
+  "ora": "15:49:21",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:49:23",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 43 portafogli insider collegati"
+ },
+ {
+  "ora": "15:56:45",
+  "tipo": "FILTRATO",
+  "testo": "$FRANK non comprato · motivo: liquidità bloccata solo al 0%; 28 portafogli insider collegati"
+ },
+ {
+  "ora": "15:56:46",
+  "tipo": "FILTRATO",
+  "testo": "$MONEYGO non comprato · motivo: liquidità bloccata solo al 0%"
+ },
+ {
+  "ora": "15:58:39",
+  "tipo": "FILTRATO",
+  "testo": "$FRANK non comprato · motivo: liquidità bloccata solo al 0%; 36 portafogli insider collegati"
+ },
+ {
+  "ora": "16:00:07",
+  "tipo": "FILTRATO",
+  "testo": "$USOI non comprato · motivo: top 10 holder hanno il 84%; liquidità bloccata solo al 0%; 84 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
+ },
+ {
+  "ora": "16:01:48",
+  "tipo": "FILTRATO",
+  "testo": "$FRANK non comprato · motivo: top 10 holder hanno il 105%; liquidità bloccata solo al 0%; 36 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: High ownership"
+ },
+ {
+  "ora": "17:07:32",
+  "tipo": "FILTRATO",
+  "testo": "$LEMON non comprato · motivo: RugCheck: Creator history of rugged tokens"
+ },
+ {
+  "ora": "17:07:33",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:13:22",
+  "tipo": "FILTRATO",
+  "testo": "$SOLATURE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:16:27",
+  "tipo": "FILTRATO",
+  "testo": "$USOI non comprato · motivo: liquidità bloccata solo al 0%; 93 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:25:59",
+  "tipo": "FILTRATO",
+  "testo": "$hacked non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "17:27:50",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:29:42",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:30:55",
+  "tipo": "FILTRATO",
+  "testo": "$DONJENSEN non comprato · motivo: liquidità bloccata solo al 0%; 101 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked; solo 100 holder"
+ },
+ {
+  "ora": "17:39:55",
+  "tipo": "FILTRATO",
+  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:41:48",
+  "tipo": "FILTRATO",
+  "testo": "$JENSEN non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "17:42:39",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "17:43:30",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "17:46:04",
+  "tipo": "FILTRATO",
+  "testo": "$BIAO non comprato · motivo: 10 portafogli insider collegati"
+ },
+ {
+  "ora": "17:48:52",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:51:03",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "17:51:03",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:51:04",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "17:53:57",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "17:53:58",
+  "tipo": "FILTRATO",
+  "testo": "$BIAO non comprato · motivo: 10 portafogli insider collegati"
+ },
+ {
+  "ora": "17:54:00",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: 47 portafogli insider collegati"
+ },
+ {
+  "ora": "17:56:48",
+  "tipo": "FILTRATO",
+  "testo": "$Miaomiao non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:04:36",
+  "tipo": "FILTRATO",
+  "testo": "$BIAO non comprato · motivo: 10 portafogli insider collegati"
+ },
+ {
+  "ora": "18:06:53",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:06:55",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:07:39",
+  "tipo": "FILTRATO",
+  "testo": "$Pompom non comprato · motivo: liquidità bloccata solo al 0%; 47 portafogli insider collegati"
+ },
+ {
+  "ora": "18:07:40",
+  "tipo": "FILTRATO",
+  "testo": "$STARMIND non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:12:39",
+  "tipo": "FILTRATO",
+  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:21:16",
+  "tipo": "FILTRATO",
+  "testo": "$BIAO non comprato · motivo: 10 portafogli insider collegati"
+ },
+ {
+  "ora": "18:21:17",
+  "tipo": "FILTRATO",
+  "testo": "$Investor non comprato · motivo: 74 portafogli insider collegati"
+ },
+ {
+  "ora": "18:21:19",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 14 portafogli insider collegati"
+ },
+ {
+  "ora": "18:22:20",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 12 portafogli insider collegati"
+ },
+ {
+  "ora": "18:22:24",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:22:24",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:26:33",
+  "tipo": "FILTRATO",
+  "testo": "$I non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:26:33",
+  "tipo": "FILTRATO",
+  "testo": "$MIM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:26:34",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 14 portafogli insider collegati"
+ },
+ {
+  "ora": "18:28:30",
+  "tipo": "FILTRATO",
+  "testo": "$JPYC-chan non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:28:31",
+  "tipo": "FILTRATO",
+  "testo": "$MIM non comprato · motivo: top 10 holder hanno il 54%"
+ },
+ {
+  "ora": "18:29:38",
+  "tipo": "FILTRATO",
+  "testo": "$MIM non comprato · motivo: top 10 holder hanno il 53%"
+ },
+ {
+  "ora": "18:31:51",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:33:03",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 14 portafogli insider collegati"
+ },
+ {
+  "ora": "18:34:45",
+  "tipo": "FILTRATO",
+  "testo": "$ASTRO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:34:47",
+  "tipo": "FILTRATO",
+  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:36:10",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 24 portafogli insider collegati"
+ },
+ {
+  "ora": "18:36:13",
+  "tipo": "FILTRATO",
+  "testo": "$FOMOCAT non comprato · motivo: top 10 holder hanno il 98%; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 123 holder"
+ },
+ {
+  "ora": "18:36:16",
+  "tipo": "FILTRATO",
+  "testo": "$FLOP non comprato · motivo: sviluppatore ha il 5.5%; top 10 holder hanno il 54%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:36:57",
+  "tipo": "FILTRATO",
+  "testo": "$LENDR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:40:45",
+  "tipo": "FILTRATO",
+  "testo": "$LENDR non comprato · motivo: 209 portafogli insider collegati"
+ },
+ {
+  "ora": "18:40:46",
+  "tipo": "FILTRATO",
+  "testo": "$JPYC-chan non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:40:46",
+  "tipo": "FILTRATO",
+  "testo": "$GRAUDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:42:39",
+  "tipo": "FILTRATO",
+  "testo": "$LENDR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:42:39",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "18:42:40",
+  "tipo": "FILTRATO",
+  "testo": "$EGG non comprato · motivo: 4 portafogli insider collegati"
+ },
+ {
+  "ora": "18:42:42",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: 15 portafogli insider collegati"
+ },
+ {
+  "ora": "18:44:47",
+  "tipo": "FILTRATO",
+  "testo": "$MIM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "18:46:10",
+  "tipo": "FILTRATO",
+  "testo": "$CI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 144 holder"
+ },
+ {
+  "ora": "18:47:17",
+  "tipo": "FILTRATO",
+  "testo": "$Egglon non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:48:34",
+  "tipo": "FILTRATO",
+  "testo": "$EGG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:49:56",
+  "tipo": "FILTRATO",
+  "testo": "$RECORDEGG non comprato · motivo: segnali 1/2 (picco volume 6.7x)"
+ },
+ {
+  "ora": "18:49:57",
+  "tipo": "FILTRATO",
+  "testo": "$EGG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:50:50",
+  "tipo": "FILTRATO",
+  "testo": "$RECORDEGG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "18:51:42",
+  "tipo": "FILTRATO",
+  "testo": "$MIM non comprato · motivo: segnali 1/2 (acquisti 77%)"
+ },
+ {
+  "ora": "18:51:43",
+  "tipo": "FILTRATO",
+  "testo": "$EI non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "18:51:56",
   "tipo": "PAUSA",
   "testo": "fine del turno: stato salvato, le posizioni restano aperte"
- },
- {
-  "ora": "05:29:39",
-  "tipo": "AVVIO",
-  "testo": "capitale $61.16, fine alle 07:00, questo turno fino alle 07:00"
- },
- {
-  "ora": "05:30:41",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:30:42",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 50 portafogli insider collegati"
- },
- {
-  "ora": "05:30:44",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:30:45",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:30:46",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 36 portafogli insider collegati"
- },
- {
-  "ora": "05:31:28",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 71%)"
- },
- {
-  "ora": "05:31:32",
-  "tipo": "FILTRATO",
-  "testo": "$AMBACUB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 51 holder"
- },
- {
-  "ora": "05:31:33",
-  "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:31:35",
-  "tipo": "FILTRATO",
-  "testo": "$PEARL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:31:35",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:33:19",
-  "tipo": "FILTRATO",
-  "testo": "$Manlet non comprato · motivo: 56 portafogli insider collegati"
- },
- {
-  "ora": "05:33:21",
-  "tipo": "FILTRATO",
-  "testo": "$AMBACUB non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 80 holder"
- },
- {
-  "ora": "05:33:27",
-  "tipo": "FILTRATO",
-  "testo": "$Boor non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:34:41",
-  "tipo": "FILTRATO",
-  "testo": "$永生可乐 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:34:43",
-  "tipo": "FILTRATO",
-  "testo": "$itsmekwek non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:34:47",
-  "tipo": "FILTRATO",
-  "testo": "$KOOP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:34:50",
-  "tipo": "FILTRATO",
-  "testo": "$JIMMY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:34:52",
-  "tipo": "FILTRATO",
-  "testo": "$BEAST non comprato · motivo: segnali 1/2 (picco volume 5.1x)"
- },
- {
-  "ora": "05:34:53",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:34:55",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 37 portafogli insider collegati"
- },
- {
-  "ora": "05:35:56",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:35:57",
-  "tipo": "FILTRATO",
-  "testo": "$StockBox non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:35:59",
-  "tipo": "FILTRATO",
-  "testo": "$itsmekwek non comprato · motivo: segnali 1/2 (acquisti 74%)"
- },
- {
-  "ora": "05:36:52",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 76 holder"
- },
- {
-  "ora": "05:36:53",
-  "tipo": "FILTRATO",
-  "testo": "$StockBox non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:38:16",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:38:17",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 94 holder"
- },
- {
-  "ora": "05:39:06",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:40:18",
-  "tipo": "FILTRATO",
-  "testo": "$Jensen non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 70 holder"
- },
- {
-  "ora": "05:40:27",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 74%)"
- },
- {
-  "ora": "05:41:34",
-  "tipo": "FILTRATO",
-  "testo": "$FARSIDE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 50 holder"
- },
- {
-  "ora": "05:41:44",
-  "tipo": "FILTRATO",
-  "testo": "$JIMMY non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Low Liquidity"
- },
- {
-  "ora": "05:41:47",
-  "tipo": "FILTRATO",
-  "testo": "$Anthropic non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:41:49",
-  "tipo": "FILTRATO",
-  "testo": "$GPU Father non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:41:51",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 101 holder"
- },
- {
-  "ora": "05:42:55",
-  "tipo": "FILTRATO",
-  "testo": "$TROLL non comprato · motivo: liquidità bloccata solo al 0%; 11 portafogli insider collegati; RugCheck: Creator history of rugged tokens; RugCheck: Large Amount of LP Unlocked; RugCheck: Low Liquidity"
- },
- {
-  "ora": "05:42:56",
-  "tipo": "FILTRATO",
-  "testo": "$perfect non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:42:57",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:43:04",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:43:10",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 100 holder"
- },
- {
-  "ora": "05:46:26",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 76%)"
- },
- {
-  "ora": "05:46:27",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 8 portafogli insider collegati"
- },
- {
-  "ora": "05:46:28",
-  "tipo": "FILTRATO",
-  "testo": "$Mokhtar non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:46:30",
-  "tipo": "FILTRATO",
-  "testo": "$4CHAN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:46:43",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 99 holder"
- },
- {
-  "ora": "05:48:15",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 9 portafogli insider collegati"
- },
- {
-  "ora": "05:48:17",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:48:19",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:48:25",
-  "tipo": "FILTRATO",
-  "testo": "$Jimmies non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:48:28",
-  "tipo": "FILTRATO",
-  "testo": "$StockBox non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "05:48:28",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:48:30",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 102 holder"
- },
- {
-  "ora": "05:51:02",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:52:45",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:52:47",
-  "tipo": "FILTRATO",
-  "testo": "$CHUCK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 71 holder"
- },
- {
-  "ora": "05:53:42",
-  "tipo": "FILTRATO",
-  "testo": "$CHUCK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 81 holder"
- },
- {
-  "ora": "05:55:31",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:55:33",
-  "tipo": "FILTRATO",
-  "testo": "$UDTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 3 holder"
- },
- {
-  "ora": "05:55:39",
-  "tipo": "FILTRATO",
-  "testo": "$g8r non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 101 holder"
- },
- {
-  "ora": "05:55:40",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 37 portafogli insider collegati"
- },
- {
-  "ora": "05:56:52",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "05:56:54",
-  "tipo": "FILTRATO",
-  "testo": "$TRUMP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:57:00",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:57:01",
-  "tipo": "FILTRATO",
-  "testo": "$CHUCK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 127 holder"
- },
- {
-  "ora": "05:58:04",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "05:58:05",
-  "tipo": "FILTRATO",
-  "testo": "$Mokhtar non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "05:59:17",
-  "tipo": "FILTRATO",
-  "testo": "$CHUCK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:01:40",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 74%)"
- },
- {
-  "ora": "06:01:40",
-  "tipo": "FILTRATO",
-  "testo": "$HOOTCH non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 67 holder"
- },
- {
-  "ora": "06:01:42",
-  "tipo": "FILTRATO",
-  "testo": "$ELON non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:01:43",
-  "tipo": "FILTRATO",
-  "testo": "$NEX Ai non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 59 holder"
- },
- {
-  "ora": "06:01:45",
-  "tipo": "FILTRATO",
-  "testo": "$MANGO non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:01:52",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:02:45",
-  "tipo": "FILTRATO",
-  "testo": "$SNUFFLES non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:02:47",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:03:56",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:06:59",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: segnali 1/2 (picco volume 9.3x)"
- },
- {
-  "ora": "06:07:00",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 10 portafogli insider collegati"
- },
- {
-  "ora": "06:07:16",
-  "tipo": "FILTRATO",
-  "testo": "$wifbeater non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:07:18",
-  "tipo": "FILTRATO",
-  "testo": "$GPU Father non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:08:52",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($100.44 → $65.23)"
- },
- {
-  "ora": "06:08:56",
-  "tipo": "FILTRATO",
-  "testo": "$GPU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:08:58",
-  "tipo": "FILTRATO",
-  "testo": "$GPU non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:08:59",
-  "tipo": "FILTRATO",
-  "testo": "$wifbeater non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:10:01",
-  "tipo": "FILTRATO",
-  "testo": "$HEXBOOK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 48 holder"
- },
- {
-  "ora": "06:11:09",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:14:36",
-  "tipo": "FILTRATO",
-  "testo": "$JIMMY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:16:08",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: segnali 1/2 (holder +39%)"
- },
- {
-  "ora": "06:16:13",
-  "tipo": "FILTRATO",
-  "testo": "$Twitch non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:16:13",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:16:19",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 37 portafogli insider collegati"
- },
- {
-  "ora": "06:19:01",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "06:19:09",
-  "tipo": "FILTRATO",
-  "testo": "$perfect non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:19:16",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:20:42",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:20:43",
-  "tipo": "FILTRATO",
-  "testo": "$Reddit non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:20:45",
-  "tipo": "FILTRATO",
-  "testo": "$Kevin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:20:49",
-  "tipo": "FILTRATO",
-  "testo": "$TIKTOK non comprato · motivo: sviluppatore ha il 26.2%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:21:38",
-  "tipo": "FILTRATO",
-  "testo": "$BEAST non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:21:42",
-  "tipo": "FILTRATO",
-  "testo": "$Kevin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership"
- },
- {
-  "ora": "06:21:47",
-  "tipo": "FILTRATO",
-  "testo": "$404GIRL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:24:03",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 54 portafogli insider collegati"
- },
- {
-  "ora": "06:24:06",
-  "tipo": "FILTRATO",
-  "testo": "$perfect non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:25:32",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: top 10 holder hanno il 60%; solo 39 holder"
- },
- {
-  "ora": "06:27:00",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: top 10 holder hanno il 61%; solo 42 holder"
- },
- {
-  "ora": "06:27:03",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:28:13",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:28:14",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 37 portafogli insider collegati"
- },
- {
-  "ora": "06:30:17",
-  "tipo": "FILTRATO",
-  "testo": "$BOOBS non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "06:31:22",
-  "tipo": "FILTRATO",
-  "testo": "$GTA$ non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:31:25",
-  "tipo": "FILTRATO",
-  "testo": "$Kevin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:32:07",
-  "tipo": "FILTRATO",
-  "testo": "$COAL non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:32:08",
-  "tipo": "FILTRATO",
-  "testo": "$Reddit non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:34:44",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:34:44",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 55 portafogli insider collegati"
- },
- {
-  "ora": "06:34:47",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "06:34:47",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:36:37",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:36:39",
-  "tipo": "FILTRATO",
-  "testo": "$Twitch non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:37:50",
-  "tipo": "FILTRATO",
-  "testo": "$YUMA non comprato · motivo: segnali 1/2 (acquisti 73%)"
- },
- {
-  "ora": "06:37:51",
-  "tipo": "FILTRATO",
-  "testo": "$Virgin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:37:52",
-  "tipo": "FILTRATO",
-  "testo": "$Virgin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:40:04",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "06:41:19",
-  "tipo": "FILTRATO",
-  "testo": "$X non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:41:20",
-  "tipo": "FILTRATO",
-  "testo": "$SLOPMAS non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:41:22",
-  "tipo": "FILTRATO",
-  "testo": "$ANSEM non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:43:17",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: top 10 holder hanno il 59%; solo 80 holder"
- },
- {
-  "ora": "06:43:19",
-  "tipo": "FILTRATO",
-  "testo": "$KRAHE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:44:21",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: 56 portafogli insider collegati"
- },
- {
-  "ora": "06:44:38",
-  "tipo": "FILTRATO",
-  "testo": "$GRAUDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:44:40",
-  "tipo": "FILTRATO",
-  "testo": "$CHUCK non comprato · motivo: sviluppatore ha il 32.5%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:44:42",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:44:42",
-  "tipo": "FILTRATO",
-  "testo": "$ANSEM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:44:52",
-  "tipo": "FILTRATO",
-  "testo": "$KRAHE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:45:57",
-  "tipo": "FILTRATO",
-  "testo": "$Virgin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:45:58",
-  "tipo": "FILTRATO",
-  "testo": "$牛启 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:47:37",
-  "tipo": "FILTRATO",
-  "testo": "$ATX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 2 holder"
- },
- {
-  "ora": "06:47:44",
-  "tipo": "FILTRATO",
-  "testo": "$KRAHE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:47:45",
-  "tipo": "FILTRATO",
-  "testo": "$PERRO non comprato · motivo: 37 portafogli insider collegati"
- },
- {
-  "ora": "06:48:32",
-  "tipo": "FILTRATO",
-  "testo": "$Mokhtar non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:50:02",
-  "tipo": "FILTRATO",
-  "testo": "$BTCTRP non comprato · motivo: liquidità bloccata solo al 2%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 69 holder"
- },
- {
-  "ora": "06:52:19",
-  "tipo": "FILTRATO",
-  "testo": "$BASKET non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:52:20",
-  "tipo": "FILTRATO",
-  "testo": "$Taffy non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:52:22",
-  "tipo": "FILTRATO",
-  "testo": "$ATX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 3 holder"
- },
- {
-  "ora": "06:52:23",
-  "tipo": "FILTRATO",
-  "testo": "$Virgin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:55:23",
-  "tipo": "FILTRATO",
-  "testo": "$CARDIBEE non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 122 holder"
- },
- {
-  "ora": "06:56:30",
-  "tipo": "FILTRATO",
-  "testo": "$ATX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 4 holder"
- },
- {
-  "ora": "06:56:32",
-  "tipo": "FILTRATO",
-  "testo": "$HDDN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:56:38",
-  "tipo": "FILTRATO",
-  "testo": "$Taffy non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:56:42",
-  "tipo": "FILTRATO",
-  "testo": "$KRAHE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:58:30",
-  "tipo": "FILTRATO",
-  "testo": "$ATX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 3 holder"
- },
- {
-  "ora": "06:58:31",
-  "tipo": "FILTRATO",
-  "testo": "$JENSEN non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:58:34",
-  "tipo": "FILTRATO",
-  "testo": "$Virgin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:58:39",
-  "tipo": "FILTRATO",
-  "testo": "$KRAHE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
- },
- {
-  "ora": "06:59:43",
-  "tipo": "FILTRATO",
-  "testo": "$FUCKCANCER non comprato · motivo: segnali 0/2 (nessuno)"
- },
- {
-  "ora": "06:59:48",
-  "tipo": "FILTRATO",
-  "testo": "$Taffy non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "06:59:49",
-  "tipo": "FILTRATO",
-  "testo": "$SANTA non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
- },
- {
-  "ora": "07:00:08",
-  "tipo": "RIEPILOGO",
-  "testo": "scritto in /home/runner/work/trad-/trad-/risultati/notte/2026-11-24-b/riepilogo.md"
  }
 ]

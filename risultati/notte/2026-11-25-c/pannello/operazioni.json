@@ -1,0 +1,26 @@
+[
+ {
+  "n": 1,
+  "moneta": "$DCTY",
+  "entrata": "13:17",
+  "uscita": "13:17",
+  "speso_usd": 9.04,
+  "incassato_usd": 7.59,
+  "risultato_usd": -1.45,
+  "capitale_dopo_usd": 53.31,
+  "motivo_ingresso": "picco volume 9.0x + holder +25% · rug check PASS",
+  "motivo_uscita": "stop -8% (prezzo -11%)"
+ },
+ {
+  "n": 2,
+  "moneta": "$PILOTUS",
+  "entrata": "13:33",
+  "uscita": "13:36",
+  "speso_usd": 17.59,
+  "incassato_usd": 1.72,
+  "risultato_usd": -15.87,
+  "capitale_dopo_usd": 37.44,
+  "motivo_ingresso": "picco volume 5.9x + holder +18% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ }
+]
