@@ -207,3 +207,47 @@
 21:49:08 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
 21:49:09 FILTRATO  $OnlyUp non comprato · motivo: segnali 0/2 (nessuno)
 21:50:50 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 82%)
+21:54:41 FILTRATO  $OnlyUp non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+21:54:42 FILTRATO  $NEX Ai non comprato · motivo: top 10 holder hanno il 54%
+21:55:03 FILTRATO  $NIAN non comprato · motivo: segnali 1/2 (holder +18%)
+21:55:04 FILTRATO  $BossJensen non comprato · motivo: segnali 0/2 (nessuno)
+21:59:26 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+21:59:27 FILTRATO  $BossJensen non comprato · motivo: segnali 1/2 (holder +7%)
+22:02:09 FILTRATO  $OnlyUp non comprato · motivo: segnali 1/2 (acquisti 78%)
+22:02:10 FILTRATO  $NIAN non comprato · motivo: segnali 0/2 (nessuno)
+22:03:32 FILTRATO  $Pnut non comprato · motivo: segnali 1/2 (picco volume 7.3x)
+22:04:54 FILTRATO  $ONLY non comprato · motivo: segnali 1/2 (picco volume 7.3x)
+22:04:56 FILTRATO  $Pnut non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+22:06:27 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 75%)
+22:06:29 FILTRATO  $Targob non comprato · motivo: solo 46 holder
+22:06:30 FILTRATO  $USOI non comprato · motivo: solo 108 holder
+22:06:35 FILTRATO  $ONLY non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+22:06:35 FILTRATO  $Pnut non comprato · motivo: segnali 1/2 (holder +18%)
+22:07:16 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:07:17 FILTRATO  $ONLY non comprato · motivo: segnali 1/2 (picco volume 6.4x)
+22:09:00 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 72%)
+22:10:20 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:11:45 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 75%)
+22:11:48 FILTRATO  $Pnut non comprato · motivo: segnali 0/2 (nessuno)
+22:12:38 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:12:39 FILTRATO  $OnlyUp non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+22:13:59 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 82%)
+22:13:59 FILTRATO  $KOOP non comprato · motivo: solo 130 holder
+22:14:41 FILTRATO  $KOOP non comprato · motivo: solo 147 holder
+22:15:42 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:17:38 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 74%)
+22:18:14 FILTRATO  $Pnut non comprato · motivo: segnali 1/2 (picco volume 8.8x)
+22:20:12 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump/report
+22:21:38 FILTRATO  $Pompompurin non comprato · motivo: segnali 0/2 (nessuno)
+22:22:41 FILTRATO  $KOOP non comprato · motivo: segnali 1/2 (holder +213%)
+22:24:14 FILTRATO  $Pompompurin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:25:27 FILTRATO  $Pompompurin non comprato · motivo: segnali 0/2 (nessuno)
+22:29:15 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 79%)
+22:36:02 FILTRATO  $Pompompurin non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+22:38:14 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 85%)
+22:40:25 FILTRATO  $Pompompurin non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+22:40:28 FILTRATO  $4chanpump non comprato · motivo: segnali 1/2 (picco volume 7.2x)
+22:41:49 FILTRATO  $NORFEATH non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+22:41:58 FILTRATO  $Pompompurin non comprato · motivo: segnali 1/2 (acquisti 76%)
+22:42:42 FILTRATO  $UDTF non comprato · motivo: solo 6 holder
+22:49:14 FILTRATO  $NORFEATH non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
