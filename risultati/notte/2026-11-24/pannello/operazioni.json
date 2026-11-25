@@ -1,0 +1,50 @@
+[
+ {
+  "n": 1,
+  "moneta": "$MARS",
+  "entrata": "00:43",
+  "uscita": "00:46",
+  "speso_usd": 18.11,
+  "incassato_usd": 2.05,
+  "risultato_usd": -16.06,
+  "capitale_dopo_usd": 38.83,
+  "motivo_ingresso": "acquisti 73% + holder +6% · rug check PASS",
+  "motivo_uscita": "stop -12% (prezzo -88%)"
+ },
+ {
+  "n": 2,
+  "moneta": "$BOOBS",
+  "entrata": "02:02",
+  "uscita": "02:17",
+  "speso_usd": 12.81,
+  "incassato_usd": 24.7,
+  "risultato_usd": 11.89,
+  "capitale_dopo_usd": 50.72,
+  "motivo_ingresso": "acquisti 82% + holder +11% · rug check PASS",
+  "motivo_uscita": "trailing -25% dal massimo"
+ },
+ {
+  "n": 3,
+  "moneta": "$BOOBS",
+  "entrata": "02:21",
+  "uscita": "02:21",
+  "speso_usd": 16.74,
+  "incassato_usd": 11.0,
+  "risultato_usd": -5.74,
+  "capitale_dopo_usd": 44.98,
+  "motivo_ingresso": "acquisti 83% + holder +9% · rug check PASS",
+  "motivo_uscita": "stop -12% (prezzo -31%)"
+ },
+ {
+  "n": 4,
+  "moneta": "$BOOBS",
+  "entrata": "02:36",
+  "uscita": "03:01",
+  "speso_usd": 14.84,
+  "incassato_usd": 17.35,
+  "risultato_usd": 2.51,
+  "capitale_dopo_usd": 47.49,
+  "motivo_ingresso": "acquisti 77% + holder +29% · rug check PASS",
+  "motivo_uscita": "tempo scaduto (25 min)"
+ }
+]
