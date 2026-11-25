@@ -1,0 +1,88 @@
+13:11:15 AVVIO     capitale $54.77, fine alle 07:00, questo turno fino alle 18:51
+13:15:29 FILTRATO  $Pompom non comprato · motivo: solo 118 holder
+13:15:30 FILTRATO  $DCTY non comprato · motivo: segnali 1/2 (picco volume 10.8x)
+13:17:01 ENTRA     $DCTY $18.07 (33% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 9.0x + holder +25% · rug check PASS · https://dexscreener.com/solana/gg3tcxvcwl325j4kgn4n85qm4bpjbftbqvwwzdgcgbsf
+13:17:03 ESCE      $DCTY -1.45$ motivo: stop -8% (prezzo -11%)
+13:22:28 FILTRATO  $BossJensen non comprato · motivo: segnali 0/2 (nessuno)
+13:26:51 FILTRATO  $Optimus non comprato · motivo: segnali 0/2 (nessuno)
+13:28:55 FILTRATO  $Wboot non comprato · motivo: solo 63 holder
+13:29:38 FILTRATO  $Wboot non comprato · motivo: solo 79 holder
+13:31:50 FILTRATO  $Optimus non comprato · motivo: segnali 1/2 (holder +17%)
+13:31:51 FILTRATO  $PILOTUS non comprato · motivo: segnali 1/2 (picco volume 8.0x)
+13:31:53 FILTRATO  $$1 non comprato · motivo: sviluppatore ha il 26.8%
+13:33:28 ENTRA     $PILOTUS $17.59 (33% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 5.9x + holder +18% · rug check PASS · https://dexscreener.com/solana/8iwq6dlwmd3iosrvkuevdjzeen3urccovrukwdp2etur
+13:33:32 PARZIALE  $PILOTUS seconda metà comprata a $3.633e-05
+13:36:19 ESCE      $PILOTUS -15.87$ motivo: liquidità sparita (rug)
+13:36:19 FERMO     capitale sceso del 30% dal massimo ($55.50 → $37.44)
+13:40:34 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 5.1x)
+13:41:55 FILTRATO  $Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+13:44:07 FILTRATO  $JI non comprato · motivo: segnali 1/2 (picco volume 7.9x)
+14:00:09 FILTRATO  $Pompom non comprato · motivo: 4 portafogli insider collegati
+14:00:10 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 7.7x)
+14:02:03 FILTRATO  $Pompom non comprato · motivo: top 10 holder hanno il 99%; solo 147 holder
+14:04:07 FILTRATO  $Pompom non comprato · motivo: solo 79 holder
+14:06:49 FILTRATO  $安仔 non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+14:09:02 FILTRATO  $Gavin non comprato · motivo: top 10 holder hanno il 90%; solo 94 holder
+14:09:03 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 9.0x)
+14:12:08 FILTRATO  $Pompom non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+14:13:29 FILTRATO  $Pompom non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:14:22 FILTRATO  $URSD  non comprato · motivo: freeze authority attiva (possono bloccarti i token); sviluppatore ha il 85.9%; solo 4 holder
+14:14:23 FILTRATO  $USAGI non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+14:15:46 FILTRATO  $BossJensen non comprato · motivo: top 10 holder hanno il 98%; solo 89 holder
+14:15:49 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 6.0x)
+14:22:06 FILTRATO  $JIMMY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:24:22 FILTRATO  $USPR non comprato · motivo: top 10 holder hanno il 40%; solo 9 holder
+14:26:05 FILTRATO  $JIMMY non comprato · motivo: top 10 holder hanno il 74%
+14:26:05 FILTRATO  $ALLOC non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:27:28 FILTRATO  $EUFORGE non comprato · motivo: top 10 holder hanno il 92%; solo 77 holder
+14:29:21 FILTRATO  $BOOSTER non comprato · motivo: top 10 holder hanno il 97%
+14:32:04 FILTRATO  $JIMMY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:32:05 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 7.1x)
+14:33:28 FILTRATO  $FLOP non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:39:16 FILTRATO  $HOPE non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+14:40:29 FILTRATO  $Pompom non comprato · motivo: segnali 0/2 (nessuno)
+14:52:26 FILTRATO  $Pompom non comprato · motivo: segnali 1/2 (picco volume 6.1x)
+14:58:02 FILTRATO  $Pompom non comprato · motivo: 4 portafogli insider collegati
+14:58:02 FILTRATO  $FLOP non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+14:58:03 FILTRATO  $MEME non comprato · motivo: segnali 1/2 (picco volume 6.8x)
+15:00:06 FILTRATO  $BOOSTER non comprato · motivo: segnali 1/2 (picco volume 7.6x)
+15:02:29 FILTRATO  $Pompom non comprato · motivo: 4 portafogli insider collegati
+15:03:22 FILTRATO  $Alien ELON non comprato · motivo: top 10 holder hanno il 98%
+15:03:29 FILTRATO  $TIDBOT non comprato · motivo: top 10 holder hanno il 90%; solo 117 holder
+15:04:42 FILTRATO  $KYM non comprato · motivo: segnali 1/2 (picco volume 11.0x)
+15:06:54 FILTRATO  $GEMIDIA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+15:06:54 FILTRATO  $KYM non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+15:08:26 FILTRATO  $KYM non comprato · motivo: segnali 1/2 (picco volume 6.9x)
+15:23:09 FILTRATO  $ONEBASKET non comprato · motivo: top 10 holder hanno il 74%
+15:24:50 FILTRATO  $ONEBASKET non comprato · motivo: top 10 holder hanno il 75%
+15:26:31 FILTRATO  $ONEBASKET non comprato · motivo: top 10 holder hanno il 74%
+15:32:06 FILTRATO  $Jensen non comprato · motivo: top 10 holder hanno il 74%
+15:34:17 FILTRATO  $NEX Ai non comprato · motivo: top 10 holder hanno il 67%
+15:34:18 FILTRATO  $Jensen non comprato · motivo: top 10 holder hanno il 73%
+15:36:44 FILTRATO  $NEX Ai non comprato · motivo: top 10 holder hanno il 65%
+15:36:47 FILTRATO  $Jensen non comprato · motivo: top 10 holder hanno il 72%
+15:37:39 FILTRATO  $NEX Ai non comprato · motivo: top 10 holder hanno il 91%
+15:37:40 FILTRATO  $Jensen non comprato · motivo: top 10 holder hanno il 71%
+15:43:44 FILTRATO  $蚁巢 non comprato · motivo: segnali 0/2 (nessuno)
+15:49:09 FILTRATO  $MONEYGO non comprato · motivo: top 10 holder hanno il 77%
+17:07:52 FILTRATO  $Pompom non comprato · motivo: 47 portafogli insider collegati
+17:41:57 FILTRATO  $MONEY non comprato · motivo: segnali 0/2 (nessuno)
+17:41:59 FILTRATO  $MONEY non comprato · motivo: segnali 0/2 (nessuno)
+17:46:02 FILTRATO  $Pompom non comprato · motivo: 47 portafogli insider collegati
+17:52:10 FILTRATO  $MONEY non comprato · motivo: segnali 0/2 (nessuno)
+17:56:15 FILTRATO  $Miaomiao non comprato · motivo: segnali 0/2 (nessuno)
+18:11:44 FILTRATO  $Pompom non comprato · motivo: 48 portafogli insider collegati
+18:25:28 FILTRATO  $CI non comprato · motivo: solo 136 holder
+18:31:45 FILTRATO  $MIM non comprato · motivo: solo 27 holder
+18:35:28 FILTRATO  $Harmask non comprato · motivo: solo 63 holder
+18:35:29 FILTRATO  $FLOP non comprato · motivo: sviluppatore ha il 5.5%; top 10 holder hanno il 54%
+18:37:30 FILTRATO  $LENDR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+18:41:06 FILTRATO  $LENDR non comprato · motivo: 209 portafogli insider collegati
+18:46:15 FILTRATO  $MIM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+18:46:15 FILTRATO  $LENDR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+18:46:17 FILTRATO  $CI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+18:48:38 FILTRATO  $EGG non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+18:48:39 FILTRATO  $RECORDEGG non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+18:50:02 FILTRATO  $ATX non comprato · motivo: solo 5 holder
+18:52:13 FILTRATO  $MIM non comprato · motivo: top 10 holder hanno il 36%
+18:52:24 PAUSA     fine del turno: stato salvato, le posizioni restano aperte
