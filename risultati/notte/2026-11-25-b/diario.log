@@ -682,3 +682,33 @@
 23:50:15 FILTRATO  $Loki non comprato · motivo: segnali 1/2 (picco volume 6.6x)
 23:50:19 FILTRATO  $Squirrel non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
 23:51:02 FILTRATO  $Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+23:58:04 FILTRATO  $Squirrel non comprato · motivo: segnali 1/2 (acquisti 74%)
+00:01:17 FILTRATO  $PVE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:01:17 FILTRATO  $Grodia non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
+00:03:31 FILTRATO  $Grodia non comprato · motivo: segnali 1/2 (acquisti 76%)
+00:03:32 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+00:05:04 FILTRATO  $PVE non comprato · motivo: 22 portafogli insider collegati
+00:05:07 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 71%)
+00:08:43 FILTRATO  $Squirrel non comprato · motivo: segnali 1/2 (acquisti 93%)
+00:11:04 FILTRATO  $Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:11:05 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+00:12:07 FILTRATO  $PVE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:12:09 FILTRATO  $Squirrel non comprato · motivo: RugCheck: Low Liquidity
+00:13:30 FILTRATO  $PVE non comprato · motivo: 22 portafogli insider collegati
+00:20:02 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+00:21:46 FILTRATO  $Grodia non comprato · motivo: segnali 1/2 (acquisti 72%)
+00:21:49 FILTRATO  $PVE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+00:22:40 FILTRATO  $PVE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:22:43 FILTRATO  $PI non comprato · motivo: segnali 0/2 (nessuno)
+00:25:29 FILTRATO  $AMD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:25:29 FILTRATO  $Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:26:51 FILTRATO  $AMD non comprato · motivo: top 10 holder hanno il 51%
+00:26:53 FILTRATO  $PVE non comprato · motivo: 22 portafogli insider collegati
+00:28:47 FILTRATO  $AMD non comprato · motivo: top 10 holder hanno il 48%
+00:31:00 FILTRATO  $AMD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:31:02 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+00:32:34 FILTRATO  $Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:33:57 FILTRATO  $Copyinu non comprato · motivo: 12 portafogli insider collegati
+00:34:00 FILTRATO  $AMD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
+00:34:02 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+00:34:15 PAUSA     fine del turno: stato salvato, le posizioni restano aperte
