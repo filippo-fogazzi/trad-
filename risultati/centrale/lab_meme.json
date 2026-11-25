@@ -24,6 +24,18 @@
   "n_riga": 2
  },
  {
+  "nome": "C · migliore del laboratorio",
+  "n": 44,
+  "eseguite": 13,
+  "vincenti_pct": 65.9,
+  "ritorno_medio_pct": 27.57,
+  "profit_factor": 5.12,
+  "capitale_finale_usd": 287.58,
+  "variazione_pct": 422.9,
+  "gruppo": "riferimento",
+  "n_riga": 3
+ },
+ {
   "nome": "Compra tutto (senza filtri né controlli)",
   "n": 1166,
   "eseguite": 31,
@@ -33,22 +45,10 @@
   "capitale_finale_usd": 13.19,
   "variazione_pct": -76.0,
   "gruppo": "riferimento",
-  "n_riga": 3
+  "n_riga": 4
  },
  {
   "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
-  "n": 44,
-  "eseguite": 13,
-  "vincenti_pct": 65.9,
-  "ritorno_medio_pct": 27.57,
-  "profit_factor": 5.12,
-  "capitale_finale_usd": 287.58,
-  "variazione_pct": 422.9,
-  "n_riga": 4,
-  "gruppo": "migliori"
- },
- {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,
@@ -60,7 +60,7 @@
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,
@@ -72,19 +72,19 @@
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,
-  "ritorno_medio_pct": 27.11,
-  "profit_factor": 4.79,
-  "capitale_finale_usd": 280.01,
-  "variazione_pct": 409.1,
+  "ritorno_medio_pct": 27.57,
+  "profit_factor": 5.12,
+  "capitale_finale_usd": 287.58,
+  "variazione_pct": 422.9,
   "n_riga": 7,
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,
@@ -96,7 +96,7 @@
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -12% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 65.9,
@@ -108,19 +108,19 @@
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -12% · max 60 min",
   "n": 44,
   "eseguite": 13,
-  "vincenti_pct": 68.2,
-  "ritorno_medio_pct": 26.83,
-  "profit_factor": 4.53,
-  "capitale_finale_usd": 269.42,
-  "variazione_pct": 389.9,
+  "vincenti_pct": 65.9,
+  "ritorno_medio_pct": 27.11,
+  "profit_factor": 4.79,
+  "capitale_finale_usd": 280.01,
+  "variazione_pct": 409.1,
   "n_riga": 10,
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 68.2,
@@ -132,7 +132,7 @@
   "gruppo": "migliori"
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
   "n": 44,
   "eseguite": 13,
   "vincenti_pct": 68.2,
@@ -144,6 +144,18 @@
   "gruppo": "migliori"
  },
  {
+  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "n": 44,
+  "eseguite": 13,
+  "vincenti_pct": 68.2,
+  "ritorno_medio_pct": 26.83,
+  "profit_factor": 4.53,
+  "capitale_finale_usd": 269.42,
+  "variazione_pct": 389.9,
+  "n_riga": 13,
+  "gruppo": "migliori"
+ },
+ {
   "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
   "n": 379,
   "eseguite": 27,
@@ -152,7 +164,7 @@
   "profit_factor": 2.06,
   "capitale_finale_usd": 187.53,
   "variazione_pct": 241.0,
-  "n_riga": 13,
+  "n_riga": 14,
   "gruppo": "migliori"
  }
 ]

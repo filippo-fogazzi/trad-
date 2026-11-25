@@ -47,10 +47,12 @@ jobs:
           elif [ "$TURNO" = "1" ]; then
             python -m bot.notte --max-minuti 340 &
             python -m bot.notte --variante b --max-minuti 340 &
+            python -m bot.notte --variante c --max-minuti 340 &
             wait
           else
             python -m bot.notte &
             python -m bot.notte --variante b &
+            python -m bot.notte --variante c &
             wait
           fi
       - name: Salva i risultati nel repository

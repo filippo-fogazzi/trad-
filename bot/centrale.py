@@ -17,7 +17,7 @@ from bot.regole import RADICE
 ITALIA = ZoneInfo("Europe/Rome")
 USCITA = RADICE / "risultati" / "centrale"
 NOTTI = RADICE / "risultati" / "notte"
-DATA = re.compile(r"^\d{4}-\d{2}-\d{2}(-b)?$")
+DATA = re.compile(r"^\d{4}-\d{2}-\d{2}(-[a-z])?$")
 
 
 def _ora_it(dt: datetime) -> str:
@@ -25,8 +25,9 @@ def _ora_it(dt: datetime) -> str:
 
 
 def _ultima_notte(variante: str = "") -> Path | None:
-    cartelle = sorted(p for p in NOTTI.glob("*") if p.is_dir() and DATA.match(p.name) and p.name.endswith(variante or "")
-                      and (variante or not p.name.endswith("-b")) and (p / "stato.json").exists())
+    """variante "" = la A (cartella AAAA-MM-GG), "-b" = la B (AAAA-MM-GG-b), e così via."""
+    cartelle = sorted(p for p in NOTTI.glob("*") if p.is_dir() and DATA.match(p.name) and p.name[10:] == variante
+                      and (p / "stato.json").exists())
     return cartelle[-1] if cartelle else None
 
 
@@ -57,7 +58,8 @@ def _riga_notte(id_: str, nome: str, cartella: Path | None) -> dict:
 def sistema(foto: list[dict]) -> list[dict]:
     adesso = datetime.now(timezone.utc)
     righe = [_riga_notte("notte_a", "Bot notturno A · regole Grok", _ultima_notte()),
-             _riga_notte("notte_b", "Bot notturno B · più largo e rischioso", _ultima_notte("-b"))]
+             _riga_notte("notte_b", "Bot notturno B · più largo e rischioso", _ultima_notte("-b")),
+             _riga_notte("notte_c", "Bot notturno C · il migliore del laboratorio", _ultima_notte("-c"))]
     if foto:
         ultima = datetime.fromtimestamp(foto[-1]["ms"] / 1000, timezone.utc)
         attivo = adesso - ultima < timedelta(minutes=30)
@@ -71,9 +73,10 @@ def sistema(foto: list[dict]) -> list[dict]:
     if lab.exists():
         risultati = json.loads(lab.read_text())
         a = next((r for r in risultati if r["nome"].startswith("A ")), None)
-        positive = sum(1 for r in risultati[3:] if r["n"] >= 20 and r["variazione_pct"] > 0)
+        griglia = [r for r in risultati if r["nome"].startswith("liq ")]
+        positive = sum(1 for r in griglia if r["n"] >= 20 and r["variazione_pct"] > 0)
         dettaglio = (f"A: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
-                    f"{positive} varianti su {len(risultati) - 3} in positivo (con almeno 20 operazioni)"
+                    f"{positive} varianti su {len(griglia)} in positivo (con almeno 20 operazioni)"
         righe.append({"id": "lab_meme", "attivita": "Laboratorio meme", "stato": "pronto", "dettaglio": dettaglio,
                       "ultimo": _ora_it(datetime.fromtimestamp(lab.stat().st_mtime, timezone.utc)), "prossimo": "dopo ogni turno del registratore"})
     else:
@@ -139,8 +142,9 @@ def lab_meme() -> list[dict]:
     if not lab.exists():
         return []
     risultati = json.loads(lab.read_text())
-    riferimento = [dict(r, gruppo="riferimento") for r in risultati[:3]]
-    migliori = sorted([r for r in risultati[3:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])[:10]
+    fissi = sum(1 for r in risultati if not r["nome"].startswith("liq "))
+    riferimento = [dict(r, gruppo="riferimento") for r in risultati[:fissi]]
+    migliori = sorted([r for r in risultati[fissi:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])[:10]
     return [dict(r, n_riga=i + 1, **({"gruppo": r.get("gruppo", "migliori")})) for i, r in enumerate(riferimento + migliori)]
 
 

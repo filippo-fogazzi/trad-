@@ -204,3 +204,17 @@ def test_variante_b_cambia_solo_i_numeri_indicati():
     assert b["universo"]["eta_max_ore"] == R["universo"]["eta_max_ore"]
     assert b["dimensione"]["pct_capitale"] == 40 and b["dimensione"]["max_posizioni"] == 2
     assert "descrizione" not in b
+
+
+def test_variante_c_e_la_migliore_del_laboratorio():
+    from bot.notte.__main__ import unisci
+    from bot.notte.laboratorio import varianti
+    tutte = carica_regole()
+    c = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["c"])
+    assert c["universo"]["liquidita_min_usd"] == 40000 and c["universo"]["volume_5min_min_usd"] == 1000
+    assert c["controllo_truffe"]["lp_bloccata_min_pct"] == 0 and c["controllo_truffe"]["no_mint_authority"]
+    assert c["uscite"]["stop_pct"] == 8 and c["uscite"]["tempo_max_minuti"] == 60
+    # nel laboratorio C deve dare gli stessi numeri della variante della griglia da cui è nata
+    tutte_le_varianti = dict(varianti(tutte))
+    griglia = tutte_le_varianti["liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min"]
+    assert tutte_le_varianti["C · migliore del laboratorio"] == griglia

@@ -20,6 +20,16 @@
   "variazione_pct": 38.4
  },
  {
+  "nome": "C · migliore del laboratorio",
+  "n": 44,
+  "eseguite": 13,
+  "vincenti_pct": 65.9,
+  "ritorno_medio_pct": 27.57,
+  "profit_factor": 5.12,
+  "capitale_finale_usd": 287.58,
+  "variazione_pct": 422.9
+ },
+ {
   "nome": "Compra tutto (senza filtri né controlli)",
   "n": 1166,
   "eseguite": 31,

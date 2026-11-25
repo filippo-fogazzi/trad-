@@ -245,7 +245,8 @@ def statistiche(operazioni: list[dict], regole: dict, capitale_usd: float) -> di
 
 def varianti(tutte: dict) -> list[tuple[str, dict]]:
     base = tutte["notte_meme"]
-    elenco = [("A · regole Grok", base), ("B · più larga", unisci(base, tutte["notte_meme_varianti"]["b"]))]
+    elenco = [("A · regole Grok", base), ("B · più larga", unisci(base, tutte["notte_meme_varianti"]["b"])),
+              ("C · migliore del laboratorio", unisci(base, tutte["notte_meme_varianti"]["c"]))]
     elenco.append(("Compra tutto (senza filtri né controlli)", unisci(base, {
         "universo": {"liquidita_min_usd": 0, "volume_5min_min_usd": 0, "holder_min": 0},
         "controllo_truffe": {"sviluppatore_max_pct": 100, "top10_max_pct": 100, "lp_bloccata_min_pct": 0,
@@ -265,8 +266,9 @@ def varianti(tutte: dict) -> list[tuple[str, dict]]:
 
 def rapporto(risultati: list[dict], n_foto: int, n_token: int, n_candele: int) -> str:
     adesso = datetime.now(timezone.utc)
-    fissi = risultati[:3]
-    affidabili = sorted([r for r in risultati[3:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])
+    n_fissi = sum(1 for r in risultati if not r["nome"].startswith("liq "))
+    fissi = risultati[:n_fissi]
+    affidabili = sorted([r for r in risultati[n_fissi:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])
     riga = lambda r: (f"| {r['nome']} | {r['n']} | {r['vincenti_pct']}% | {r['ritorno_medio_pct']:+.1f}% | "
                       f"{r['profit_factor']} | {r['variazione_pct']:+.1f}% |")
     testa = ["| Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |", "|---|---|---|---|---|---|"]

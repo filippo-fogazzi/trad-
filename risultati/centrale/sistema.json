@@ -16,6 +16,14 @@
   "prossimo": "stanotte alle 23:00"
  },
  {
+  "id": "notte_c",
+  "attivita": "Bot notturno C · il migliore del laboratorio",
+  "stato": "in attesa",
+  "dettaglio": "Nessuna notte registrata ancora.",
+  "ultimo": "—",
+  "prossimo": "stanotte alle 23:00"
+ },
+ {
   "id": "registratore",
   "attivita": "Registratore 24/7",
   "stato": "in pausa",
@@ -28,7 +36,7 @@
   "attivita": "Laboratorio meme",
   "stato": "pronto",
   "dettaglio": "A: +0.0% su 0 operazioni · 23 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 12:29",
+  "ultimo": "25/11 12:54",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -44,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 12:30",
+  "ultimo": "25/11 12:55",
   "prossimo": "domani alle 07:08"
  }
 ]
