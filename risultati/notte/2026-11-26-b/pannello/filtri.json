@@ -1,78 +1,94 @@
 [
  {
   "motivo": "liquidità troppo bassa",
-  "token": 6232
- },
- {
-  "motivo": "coppia troppo vecchia",
-  "token": 314
+  "token": 8434
  },
  {
   "motivo": "segnali 1/2",
-  "token": 306
- },
- {
-  "motivo": "bot fermo: capitale sceso del 50% dalla partenza",
-  "token": 256
- },
- {
-  "motivo": "volume 5 min troppo basso",
-  "token": 227
+  "token": 428
  },
  {
   "motivo": "nessun prezzo disponibile",
-  "token": 205
+  "token": 379
+ },
+ {
+  "motivo": "coppia troppo vecchia",
+  "token": 353
+ },
+ {
+  "motivo": "bot fermo: capitale sceso del 50% dalla partenza",
+  "token": 344
+ },
+ {
+  "motivo": "volume 5 min troppo basso",
+  "token": 287
  },
  {
   "motivo": "segnali 0/2",
-  "token": 98
+  "token": 127
  },
  {
   "motivo": "già +300% nell'ultima ora, niente inseguimento",
-  "token": 74
+  "token": 115
  },
  {
   "motivo": "DEX non previsto",
-  "token": 40
+  "token": 47
  },
  {
   "motivo": "4 portafogli insider collegati",
-  "token": 13
+  "token": 18
  },
  {
   "motivo": "8 portafogli insider collegati",
-  "token": 8
+  "token": 11
  },
  {
   "motivo": "11 portafogli insider collegati",
+  "token": 10
+ },
+ {
+  "motivo": "12 portafogli insider collegati",
   "token": 8
  },
  {
   "motivo": "17 portafogli insider collegati",
-  "token": 7
+  "token": 8
+ },
+ {
+  "motivo": "top 10 holder hanno il 37%",
+  "token": 8
  },
  {
   "motivo": "top 10 holder hanno il 38%",
   "token": 7
  },
  {
-  "motivo": "12 portafogli insider collegati",
+  "motivo": "top 10 holder hanno il 35%",
   "token": 6
+ },
+ {
+  "motivo": "23 portafogli insider collegati",
+  "token": 6
+ },
+ {
+  "motivo": "5 portafogli insider collegati",
+  "token": 6
+ },
+ {
+  "motivo": "top 10 holder hanno il 44%",
+  "token": 5
  },
  {
   "motivo": "solo 3 holder",
   "token": 5
  },
  {
-  "motivo": "top 10 holder hanno il 37%",
+  "motivo": "top 10 holder hanno il 36%",
   "token": 5
  },
  {
   "motivo": "top 10 holder hanno il 40%",
-  "token": 5
- },
- {
-  "motivo": "5 portafogli insider collegati",
   "token": 5
  },
  {
@@ -88,11 +104,11 @@
   "token": 4
  },
  {
-  "motivo": "top 10 holder hanno il 36%",
+  "motivo": "98 portafogli insider collegati",
   "token": 4
  },
  {
-  "motivo": "98 portafogli insider collegati",
+  "motivo": "top 10 holder hanno il 39%",
   "token": 4
  },
  {
@@ -100,11 +116,27 @@
   "token": 4
  },
  {
-  "motivo": "23 portafogli insider collegati",
+  "motivo": "top 10 holder hanno il 43%",
   "token": 4
  },
  {
-  "motivo": "top 10 holder hanno il 44%",
+  "motivo": "solo 75 holder",
+  "token": 4
+ },
+ {
+  "motivo": "101 portafogli insider collegati",
+  "token": 4
+ },
+ {
+  "motivo": "20 portafogli insider collegati",
+  "token": 4
+ },
+ {
+  "motivo": "47 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "48 portafogli insider collegati",
   "token": 3
  },
  {
@@ -112,11 +144,15 @@
   "token": 3
  },
  {
-  "motivo": "top 10 holder hanno il 42%",
+  "motivo": "62 portafogli insider collegati",
   "token": 3
  },
  {
-  "motivo": "solo 75 holder",
+  "motivo": "6 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%",
   "token": 3
  },
  {
@@ -124,11 +160,43 @@
   "token": 3
  },
  {
+  "motivo": "21 portafogli insider collegati",
+  "token": 3
+ },
+ {
   "motivo": "33 portafogli insider collegati",
   "token": 3
  },
  {
-  "motivo": "20 portafogli insider collegati",
+  "motivo": "53 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "7 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "solo 71 holder",
+  "token": 3
+ },
+ {
+  "motivo": "top 10 holder hanno il 45%",
+  "token": 3
+ },
+ {
+  "motivo": "solo 4 holder",
+  "token": 3
+ },
+ {
+  "motivo": "15 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "top 10 holder hanno il 46%",
+  "token": 3
+ },
+ {
+  "motivo": "top 10 holder hanno il 47%",
   "token": 3
  },
  {
@@ -136,15 +204,15 @@
   "token": 2
  },
  {
-  "motivo": "48 portafogli insider collegati",
-  "token": 2
- },
- {
   "motivo": "solo 57 holder",
   "token": 2
  },
  {
-  "motivo": "62 portafogli insider collegati",
+  "motivo": "52 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "81 portafogli insider collegati",
   "token": 2
  },
  {
@@ -152,7 +220,7 @@
   "token": 2
  },
  {
-  "motivo": "top 10 holder hanno il 35%",
+  "motivo": "solo 100 holder",
   "token": 2
  },
  {
@@ -172,11 +240,15 @@
   "token": 2
  },
  {
-  "motivo": "top 10 holder hanno il 39%",
+  "motivo": "top 10 holder hanno il 86%",
   "token": 2
  },
  {
-  "motivo": "top 10 holder hanno il 43%",
+  "motivo": "67 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "59 portafogli insider collegati",
   "token": 2
  },
  {
@@ -184,7 +256,15 @@
   "token": 2
  },
  {
+  "motivo": "22 portafogli insider collegati",
+  "token": 2
+ },
+ {
   "motivo": "25 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "45 portafogli insider collegati",
   "token": 2
  },
  {
@@ -193,14 +273,6 @@
  },
  {
   "motivo": "solo 64 holder",
-  "token": 2
- },
- {
-  "motivo": "53 portafogli insider collegati",
-  "token": 2
- },
- {
-  "motivo": "solo 71 holder",
   "token": 2
  },
  {
@@ -220,7 +292,11 @@
   "token": 2
  },
  {
-  "motivo": "solo 4 holder",
+  "motivo": "24 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "solo 124 holder",
   "token": 2
  },
  {
@@ -228,11 +304,31 @@
   "token": 2
  },
  {
-  "motivo": "15 portafogli insider collegati",
+  "motivo": "75 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "solo 69 holder",
   "token": 2
  },
  {
   "motivo": "solo 77 holder",
+  "token": 2
+ },
+ {
+  "motivo": "solo 90 holder",
+  "token": 2
+ },
+ {
+  "motivo": "32 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "56 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "70 portafogli insider collegati",
   "token": 2
  },
  {
@@ -252,10 +348,6 @@
   "token": 1
  },
  {
-  "motivo": "47 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "sviluppatore ha il 93.7%",
   "token": 1
  },
@@ -268,15 +360,7 @@
   "token": 1
  },
  {
-  "motivo": "52 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "solo 73 holder",
-  "token": 1
- },
- {
-  "motivo": "81 portafogli insider collegati",
   "token": 1
  },
  {
@@ -293,14 +377,6 @@
  },
  {
   "motivo": "top 10 holder hanno il 64%",
-  "token": 1
- },
- {
-  "motivo": "solo 100 holder",
-  "token": 1
- },
- {
-  "motivo": "6 portafogli insider collegati",
   "token": 1
  },
  {
@@ -336,19 +412,11 @@
   "token": 1
  },
  {
-  "motivo": "top 10 holder hanno il 86%",
-  "token": 1
- },
- {
   "motivo": "top 10 holder hanno il 87%",
   "token": 1
  },
  {
   "motivo": "solo 140 holder",
-  "token": 1
- },
- {
-  "motivo": "67 portafogli insider collegati",
   "token": 1
  },
  {
@@ -380,10 +448,6 @@
   "token": 1
  },
  {
-  "motivo": "59 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "100 portafogli insider collegati",
   "token": 1
  },
@@ -396,10 +460,6 @@
   "token": 1
  },
  {
-  "motivo": "101 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "top 10 holder hanno il 86%; 74 portafogli insider collegati",
   "token": 1
  },
@@ -408,15 +468,7 @@
   "token": 1
  },
  {
-  "motivo": "22 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "top 10 holder hanno il 36%; solo 74 holder",
-  "token": 1
- },
- {
-  "motivo": "21 portafogli insider collegati",
   "token": 1
  },
  {
@@ -425,10 +477,6 @@
  },
  {
   "motivo": "top 10 holder hanno il 63%; solo 68 holder",
-  "token": 1
- },
- {
-  "motivo": "45 portafogli insider collegati",
   "token": 1
  },
  {
@@ -453,10 +501,6 @@
  },
  {
   "motivo": "solo 84 holder",
-  "token": 1
- },
- {
-  "motivo": "7 portafogli insider collegati",
   "token": 1
  },
  {
@@ -489,10 +533,6 @@
  },
  {
   "motivo": "sviluppatore ha il 84.9%",
-  "token": 1
- },
- {
-  "motivo": "top 10 holder hanno il 45%",
   "token": 1
  },
  {
@@ -536,10 +576,6 @@
   "token": 1
  },
  {
-  "motivo": "24 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "solo 129 holder",
   "token": 1
  },
@@ -549,10 +585,6 @@
  },
  {
   "motivo": "26 portafogli insider collegati",
-  "token": 1
- },
- {
-  "motivo": "solo 124 holder",
   "token": 1
  },
  {
@@ -576,10 +608,6 @@
   "token": 1
  },
  {
-  "motivo": "75 portafogli insider collegati",
-  "token": 1
- },
- {
   "motivo": "84 portafogli insider collegati",
   "token": 1
  },
@@ -600,10 +628,6 @@
   "token": 1
  },
  {
-  "motivo": "solo 69 holder",
-  "token": 1
- },
- {
   "motivo": "top 10 holder hanno il 60%",
   "token": 1
  },
@@ -617,10 +641,6 @@
  },
  {
   "motivo": "top 10 holder hanno il 40%; solo 146 holder",
-  "token": 1
- },
- {
-  "motivo": "solo 90 holder",
   "token": 1
  },
  {
@@ -640,7 +660,167 @@
   "token": 1
  },
  {
-  "motivo": "32 portafogli insider collegati",
+  "motivo": "44 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 96%",
+  "token": 1
+ },
+ {
+  "motivo": "solo 126 holder",
+  "token": 1
+ },
+ {
+  "motivo": "50 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "37 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 66%; 367 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 43 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 61 holder",
+  "token": 1
+ },
+ {
+  "motivo": "71 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "77 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 81%",
+  "token": 1
+ },
+ {
+  "motivo": "78 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 70%",
+  "token": 1
+ },
+ {
+  "motivo": "93 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "105 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "110 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "128 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "137 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "145 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 131 holder",
+  "token": 1
+ },
+ {
+  "motivo": "152 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "31 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "91 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "42 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 62 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 47%; solo 71 holder",
+  "token": 1
+ },
+ {
+  "motivo": "4 portafogli insider collegati; solo 3 holder",
+  "token": 1
+ },
+ {
+  "motivo": "27 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 45 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 70 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 116 holder",
+  "token": 1
+ },
+ {
+  "motivo": "14 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 113 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 120 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 143 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 149 holder",
+  "token": 1
+ },
+ {
+  "motivo": "74 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "19 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "95 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "40 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "588 portafogli insider collegati",
   "token": 1
  }
 ]

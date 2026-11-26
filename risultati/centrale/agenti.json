@@ -3,22 +3,22 @@
   "id": "scanner",
   "agente": "Scanner",
   "ruolo": "Cerca memecoin nuove e i loro segnali",
-  "numero": 7032,
+  "numero": 9598,
   "unita": "",
   "etichetta": "token guardati",
-  "dettaglio": "2071 nel perimetro · 844 senza 2 segnali",
-  "ultima": "15:40",
+  "dettaglio": "2819 nel perimetro · 1068 senza 2 segnali",
+  "ultima": "18:22",
   "stato": "fermo"
  },
  {
   "id": "controllo",
   "agente": "Controllo truffe",
   "ruolo": "Boccia i token sospetti con RugCheck",
-  "numero": 651,
+  "numero": 951,
   "unita": "",
   "etichetta": "token bocciati",
-  "dettaglio": "1269 superati su 1920 controllati",
-  "ultima": "15:40",
+  "dettaglio": "1607 superati su 2558 controllati",
+  "ultima": "18:22",
   "stato": "fermo"
  },
  {
@@ -47,11 +47,11 @@
   "id": "diario",
   "agente": "Diario",
   "ruolo": "Scrive ogni decisione con il suo motivo",
-  "numero": 1037,
+  "numero": 1435,
   "unita": "",
   "etichetta": "righe scritte",
-  "dettaglio": "1007 scarti spiegati",
-  "ultima": "15:40",
+  "dettaglio": "1403 scarti spiegati",
+  "ultima": "18:22",
   "stato": "fermo"
  },
  {
@@ -62,7 +62,7 @@
   "unita": "€",
   "etichetta": "capitale attuale",
   "dettaglio": "massimo della notte 51,74 €",
-  "ultima": "15:51",
+  "ultima": "22:45",
   "stato": "fermo"
  }
 ]
