@@ -107,43 +107,47 @@ notte_meme:
     ricerca: 60
     posizioni: 10
 
-# --- STRATEGIE B e C: sono quelle che girano davvero (24 ore su 24) ---
+# --- STRATEGIE B, C e D: quelle che girano davvero (24 ore su 24) ---
 # La A (le regole qui sopra, dal prompt Grok) non gira più dal 25/11: filtri troppo severi, ha perso.
-# Resta come base: B e C cambiano solo i numeri scritti qui sotto, tutto il resto è uguale alla A.
-# È PIÙ RISCHIOSA: filtri più larghi, puntate più grandi. Solo carta.
+# Resta come base: B, C e D cambiano solo i numeri scritti qui sotto, tutto il resto è uguale alla A.
+# Scelte il 26/11 con un solo obiettivo: far crescere il capitale. Nel test sul passato (2.907 foto) sono le
+# regole che fanno crescere il capitale sia nella prima sia nella seconda metà dei dati, non solo in totale.
+# Tutte comprano monete piccole e NON guardano se la liquidità è bloccata: è un RISCHIO di rug (truffa),
+# ma ogni regola con quel controllo perdeva soldi nel test. Solo carta.
 notte_meme_varianti:
   b:
-    descrizione: "Filtri più larghi e puntate più grandi"
-    universo:
-      liquidita_min_usd: 15000   # invece di 40.000
-      volume_5min_min_usd: 5000  # invece di 25.000
-      holder_min: 150            # invece di 300
-    controllo_truffe:
-      top10_max_pct: 40          # invece di 35
-    dimensione:
-      pct_capitale: 40           # invece di 33
-    uscite:
-      stop_pct: 15               # invece di 12
-      tempo_max_minuti: 20       # invece di 25
-  c:
-    descrizione: "Monete grandi con liquidità bloccata, stop stretto, la tiene fino a un'ora"
-    # Dal 25/11 sera ha di nuovo il controllo sulla liquidità bloccata (alla prima giornata ha preso un rug).
-    universo:
-      volume_5min_min_usd: 1000  # invece di 25.000
-      holder_min: 150            # invece di 300
-    uscite:
-      stop_pct: 8                # invece di 12
-      tempo_max_minuti: 60       # invece di 25
-  d:
-    descrizione: "Monete piccole, senza controllo sulla liquidità bloccata, stop largo, vende presto"
-    # La migliore del test sul passato tra quelle SENZA controllo sulla liquidità bloccata (25/11: 523 operazioni).
+    descrizione: "Monete molto scambiate, stop largo, le tiene fino a un'ora"
     universo:
       liquidita_min_usd: 5000    # invece di 40.000
-      volume_5min_min_usd: 1000  # invece di 25.000
+      volume_5min_min_usd: 5000  # invece di 25.000
       holder_min: 150            # invece di 300
     controllo_truffe:
       lp_bloccata_min_pct: 0     # invece di 90: RISCHIO, la liquidità può essere ritirata (rug)
       no_rischi_gravi: false     # invece di true (RugCheck lo segna "danger" proprio per la LP non bloccata)
     uscite:
       stop_pct: 20               # invece di 12
+      tempo_max_minuti: 60       # invece di 25
+  c:
+    descrizione: "Monete piccole, stop stretto, vende entro 25 minuti"
+    universo:
+      liquidita_min_usd: 5000
+      volume_5min_min_usd: 1000
+      holder_min: 150
+    controllo_truffe:
+      lp_bloccata_min_pct: 0     # RISCHIO di rug, vedi sopra
+      no_rischi_gravi: false
+    uscite:
+      stop_pct: 12
+      tempo_max_minuti: 25
+  d:
+    descrizione: "Monete piccole, stop largo, vende entro 25 minuti"
+    universo:
+      liquidita_min_usd: 5000
+      volume_5min_min_usd: 1000
+      holder_min: 150
+    controllo_truffe:
+      lp_bloccata_min_pct: 0     # RISCHIO di rug, vedi sopra
+      no_rischi_gravi: false
+    uscite:
+      stop_pct: 20
       tempo_max_minuti: 25

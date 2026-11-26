@@ -129,7 +129,12 @@ def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict 
     if slip_in > c["slippage_max_pct"]:
         return None
     comm, rete = c["commissione_dex_pct"] / 100, c["rete_usd_per_ordine"]
-    p_in = float(foto["coppia"]["priceUsd"]) * (1 + slip_in / 100)
+    entrata_s = foto["ms"] / 1000
+    dopo = [k for k in candele if k[0] >= entrata_s]  # candele che iniziano dopo la foto
+    # Il prezzo della foto (DexScreener) arriva in ritardo: in media è ~3% sotto il prezzo vero di quel minuto.
+    # Un bot vero compra al prezzo del minuto dopo, quindi si usa il più alto tra foto e apertura della candela successiva.
+    p_base = max(float(foto["coppia"]["priceUsd"]), dopo[0][1] if dopo else 0.0)
+    p_in = p_base * (1 + slip_in / 100)
     quantita = (puntata_usd * (1 - comm) - rete) / p_in
     stato = {"rimasto": 1.0, "incassato": 0.0}
 
@@ -143,8 +148,6 @@ def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict 
     def fine(motivo: str, minuti: float) -> dict:
         return {"ritorno_pct": (stato["incassato"] - puntata_usd) / puntata_usd * 100, "motivo": motivo, "minuti": round(minuti)}
 
-    entrata_s = foto["ms"] / 1000
-    dopo = [k for k in candele if k[0] >= entrata_s]  # candele che iniziano dopo la foto
     if not dopo:
         stato["incassato"] += quantita * p_in * (1 - c["perdita_se_rug_pct"] / 100)
         return fine("nessuno scambio dopo l'ingresso", 0)
@@ -245,8 +248,8 @@ def statistiche(operazioni: list[dict], regole: dict, capitale_usd: float) -> di
 
 def varianti(tutte: dict) -> list[tuple[str, dict]]:
     base = tutte["notte_meme"]
-    elenco = [("B · Aggressiva", unisci(base, tutte["notte_meme_varianti"]["b"])),
-              ("C · Grandi e protette", unisci(base, tutte["notte_meme_varianti"]["c"])),
+    elenco = [("B · Pazienti", unisci(base, tutte["notte_meme_varianti"]["b"])),
+              ("C · Stop stretto", unisci(base, tutte["notte_meme_varianti"]["c"])),
               ("D · Piccole e veloci", unisci(base, tutte["notte_meme_varianti"]["d"]))]
     elenco.append(("Compra tutto (senza filtri né controlli)", unisci(base, {
         "universo": {"liquidita_min_usd": 0, "volume_5min_min_usd": 0, "holder_min": 0},

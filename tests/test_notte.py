@@ -198,25 +198,14 @@ def test_un_giro_dello_scanner_compra_e_conta(tmp_path):
     assert "ENTRA" in (tmp_path / "diario.log").read_text()
 
 
-def test_variante_b_cambia_solo_i_numeri_indicati():
-    from bot.notte.__main__ import unisci
-    tutte = carica_regole()
-    b = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["b"])
-    assert b["universo"]["liquidita_min_usd"] == 15000
-    assert b["universo"]["eta_max_ore"] == R["universo"]["eta_max_ore"]
-    assert b["dimensione"]["pct_capitale"] == 40 and b["dimensione"]["max_posizioni"] == 2
-    assert "descrizione" not in b
-
-
-def test_varianti_c_e_d_coincidono_con_la_griglia_del_laboratorio():
+def test_varianti_b_c_d_coincidono_con_la_griglia_del_laboratorio():
     from bot.notte.__main__ import unisci
     from bot.notte.laboratorio import varianti
     tutte = carica_regole()
-    c = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["c"])
-    d = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["d"])
-    assert c["controllo_truffe"]["lp_bloccata_min_pct"] == 90 and c["controllo_truffe"]["no_rischi_gravi"]
-    assert d["controllo_truffe"]["lp_bloccata_min_pct"] == 0 and d["controllo_truffe"]["no_mint_authority"]
-    assert d["universo"]["liquidita_min_usd"] == 5000 and d["uscite"]["stop_pct"] == 20
-    tutte_le_varianti = dict(varianti(tutte))
-    assert tutte_le_varianti["C · Grandi e protette"] == tutte_le_varianti["liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 60 min"]
-    assert tutte_le_varianti["D · Piccole e veloci"] == tutte_le_varianti["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min"]
+    b = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["b"])
+    assert b["controllo_truffe"]["no_mint_authority"] and b["dimensione"]["max_posizioni"] == 2
+    assert "descrizione" not in b
+    griglia = dict(varianti(tutte))
+    assert griglia["B · Pazienti"] == griglia["liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min"]
+    assert griglia["C · Stop stretto"] == griglia["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min"]
+    assert griglia["D · Piccole e veloci"] == griglia["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min"]

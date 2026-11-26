@@ -87,3 +87,10 @@ def test_pulisci_toglie_i_picchi_impossibili_ma_tiene_i_crolli():
     candele = [[0, 1, 1.1, 0.9, 1.0, 5], [60, 1, 1.2, 1, 1.1, 5], [120, 1.1, 2500, 1.1, 2500, 1],
                [180, 1.1, 30, 0.01, 0.02, 9]]
     assert pulisci(candele) == [[0, 1, 1.1, 0.9, 1.0, 5], [60, 1, 1.2, 1, 1.1, 5], [180, 1.1, 1.1, 0.01, 0.02, 9]]
+
+
+def test_compra_al_prezzo_del_minuto_dopo_se_la_foto_e_in_ritardo():
+    # la foto dice 1.0 ma il minuto dopo si apre a 1.1: il bot vero paga 1.1, quindi a 1.1 non guadagna nulla
+    righe = [(1.1, 1.12, 1.09, 1.1)] * 30
+    esito = simula(R, foto(prezzo=1.0), candele(*righe), 18)
+    assert esito["ritorno_pct"] < -2
