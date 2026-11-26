@@ -300,3 +300,37 @@ Traceback (most recent call last):
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/94vaT6GnuWmpX2CrwqGu7H96XHULsZozqU9p1V8ZaUTF/report
 
+Traceback (most recent call last):
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 60, in gira
+    self.cerca()
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 89, in cerca
+    self._cerca(coppie, adesso_ms, giro)
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 111, in _cerca
+    rapporto = self.fonti.rapporto_rugcheck(indirizzo)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/trad-/trad-/bot/notte/fonti.py", line 73, in rapporto_rugcheck
+    return self._leggi(f"{RUGCHECK}/tokens/{token}/report")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/trad-/trad-/bot/notte/fonti.py", line 85, in _leggi
+    risposta.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/ZP4J8fNk7FC3iDUPAWd8TX6q8CkVVuSeJgnHCvpPSae/report
+
+Traceback (most recent call last):
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 60, in gira
+    self.cerca()
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 89, in cerca
+    self._cerca(coppie, adesso_ms, giro)
+  File "/home/runner/work/trad-/trad-/bot/notte/__main__.py", line 111, in _cerca
+    rapporto = self.fonti.rapporto_rugcheck(indirizzo)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/trad-/trad-/bot/notte/fonti.py", line 73, in rapporto_rugcheck
+    return self._leggi(f"{RUGCHECK}/tokens/{token}/report")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/trad-/trad-/bot/notte/fonti.py", line 85, in _leggi
+    risposta.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/GV3P9U9jBgLXwVyahmQMTr1fa5MVfHvqcFfHs3oWj2UU/report
+
