@@ -1,4 +1,4 @@
-# Laboratorio meme — 26/11/2026 21:46 UTC
+# Laboratorio meme — 26/11/2026 21:56 UTC
 
 **Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.
 
