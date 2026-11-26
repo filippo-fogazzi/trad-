@@ -3,23 +3,23 @@
   "id": "scanner",
   "agente": "Scanner",
   "ruolo": "Cerca memecoin nuove e i loro segnali",
-  "numero": 11031,
+  "numero": 11728,
   "unita": "",
   "etichetta": "token guardati",
-  "dettaglio": "2445 nel perimetro · 621 senza 2 segnali",
-  "ultima": "02:33",
-  "stato": "fermo"
+  "dettaglio": "2729 nel perimetro · 696 senza 2 segnali",
+  "ultima": "03:18",
+  "stato": "attivo"
  },
  {
   "id": "controllo",
   "agente": "Controllo truffe",
   "ruolo": "Boccia i token sospetti con RugCheck",
-  "numero": 1354,
+  "numero": 1520,
   "unita": "",
   "etichetta": "token bocciati",
-  "dettaglio": "693 superati su 2047 controllati",
-  "ultima": "02:33",
-  "stato": "fermo"
+  "dettaglio": "774 superati su 2294 controllati",
+  "ultima": "03:18",
+  "stato": "attivo"
  },
  {
   "id": "dimensione",
@@ -30,7 +30,7 @@
   "etichetta": "prossima puntata",
   "dettaglio": "33% del capitale · max 2 posizioni",
   "ultima": "18:59",
-  "stato": "fermo"
+  "stato": "pronto"
  },
  {
   "id": "esecutore",
@@ -41,18 +41,18 @@
   "etichetta": "ordini su carta",
   "dettaglio": "0 posizioni aperte",
   "ultima": "19:06",
-  "stato": "fermo"
+  "stato": "in attesa"
  },
  {
   "id": "diario",
   "agente": "Diario",
   "ruolo": "Scrive ogni decisione con il suo motivo",
-  "numero": 860,
+  "numero": 938,
   "unita": "",
   "etichetta": "righe scritte",
-  "dettaglio": "845 scarti spiegati",
-  "ultima": "02:33",
-  "stato": "fermo"
+  "dettaglio": "923 scarti spiegati",
+  "ultima": "03:18",
+  "stato": "attivo"
  },
  {
   "id": "capitale",
@@ -62,7 +62,7 @@
   "unita": "€",
   "etichetta": "capitale attuale",
   "dettaglio": "massimo della notte 68,07 €",
-  "ultima": "03:10",
-  "stato": "fermo"
+  "ultima": "03:19",
+  "stato": "attivo"
  }
 ]

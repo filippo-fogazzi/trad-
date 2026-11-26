@@ -1,11 +1,11 @@
 [
  {
   "id": "B",
-  "nome": "Aggressiva",
-  "frase": "Le regole Grok ma con filtri più larghi e puntate più grandi: compra spesso, rischia di più.",
-  "compra": "Monete con almeno 15k $ di liquidità e 150 holder, controllo anti-truffa severo",
-  "vende": "A −15%, oppure dopo 20 minuti se non è raddoppiata",
-  "punta": "40% del capitale per operazione",
+  "nome": "Pazienti",
+  "frase": "Solo monete molto scambiate; stop largo e le tiene fino a un'ora, per lasciarle salire.",
+  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
+  "vende": "A −20%, oppure dopo 60 minuti se non è raddoppiata",
+  "punta": "33% del capitale per operazione",
   "notti": 2,
   "notte": "2026-11-25",
   "capitale_eur": 52.49,
@@ -15,16 +15,16 @@
   "perse": 1,
   "totale_pct": 8.2,
   "in_corso": true,
-  "lab_operazioni": 23,
-  "lab_variazione_pct": 9.2,
-  "lab_media_pct": 3.3
+  "lab_operazioni": 457,
+  "lab_variazione_pct": 253.2,
+  "lab_media_pct": 16.4
  },
  {
   "id": "C",
-  "nome": "Grandi e protette",
-  "frase": "Monete grandi e solo con la liquidità bloccata (niente rug), stop stretto, la tiene fino a un'ora.",
-  "compra": "Monete con almeno 40k $ di liquidità e 150 holder, controllo anti-truffa severo",
-  "vende": "A −8%, oppure dopo 60 minuti se non è raddoppiata",
+  "nome": "Stop stretto",
+  "frase": "Monete piccole; vende presto se scendono (−12%) ed esce comunque entro 25 minuti.",
+  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
+  "vende": "A −12%, oppure dopo 25 minuti se non è raddoppiata",
   "punta": "33% del capitale per operazione",
   "notti": 1,
   "notte": "2026-11-25",
@@ -35,14 +35,14 @@
   "perse": 2,
   "totale_pct": -31.6,
   "in_corso": true,
-  "lab_operazioni": 1,
-  "lab_variazione_pct": -3.9,
-  "lab_media_pct": -11.85
+  "lab_operazioni": 586,
+  "lab_variazione_pct": 498.9,
+  "lab_media_pct": 15.85
  },
  {
   "id": "D",
   "nome": "Piccole e veloci",
-  "frase": "Monete piccole, senza guardare la liquidità bloccata: stop largo, vende entro 25 minuti. Rischiosa.",
+  "frase": "Monete piccole; stop largo (−20%) per non uscire troppo presto, esce entro 25 minuti.",
   "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
   "vende": "A −20%, oppure dopo 25 minuti se non è raddoppiata",
   "punta": "33% del capitale per operazione",
@@ -56,7 +56,7 @@
   "totale_pct": -18.1,
   "in_corso": true,
   "lab_operazioni": 586,
-  "lab_variazione_pct": 339.5,
-  "lab_media_pct": 24.19
+  "lab_variazione_pct": 441.2,
+  "lab_media_pct": 18.14
  }
 ]

@@ -1,35 +1,35 @@
 [
  {
   "motivo": "liquidità troppo bassa",
-  "token": 11071
+  "token": 11521
  },
  {
   "motivo": "nessun prezzo disponibile",
-  "token": 621
+  "token": 641
  },
  {
   "motivo": "coppia troppo vecchia",
-  "token": 417
+  "token": 426
  },
  {
   "motivo": "segnali 1/2",
-  "token": 101
+  "token": 110
  },
  {
   "motivo": "già +300% nell'ultima ora, niente inseguimento",
-  "token": 82
+  "token": 91
  },
  {
   "motivo": "segnali 0/2",
-  "token": 63
+  "token": 69
  },
  {
   "motivo": "DEX non previsto",
-  "token": 59
+  "token": 67
  },
  {
   "motivo": "bot fermo: capitale sceso del 30% dal massimo",
-  "token": 32
+  "token": 35
  },
  {
   "motivo": "volume 5 min troppo basso",
@@ -37,7 +37,7 @@
  },
  {
   "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
-  "token": 13
+  "token": 14
  },
  {
   "motivo": "top 10 holder hanno il 74%",
@@ -97,6 +97,10 @@
  },
  {
   "motivo": "top 10 holder hanno il 45%; 4 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 40%",
   "token": 2
  },
  {
@@ -276,10 +280,6 @@
   "token": 1
  },
  {
-  "motivo": "top 10 holder hanno il 40%",
-  "token": 1
- },
- {
   "motivo": "top 10 holder hanno il 39%",
   "token": 1
  },
@@ -345,6 +345,26 @@
  },
  {
   "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 120 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; 69 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 98 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 132 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 79.9%; RugCheck: Low Liquidity",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 86.6%; RugCheck: Low Liquidity",
   "token": 1
  }
 ]

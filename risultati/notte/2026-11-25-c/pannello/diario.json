@@ -2023,5 +2023,175 @@
   "ora": "02:33:55",
   "tipo": "FILTRATO",
   "testo": "$UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)"
+ },
+ {
+  "ora": "02:40:17",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 74%)"
+ },
+ {
+  "ora": "02:41:57",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)"
+ },
+ {
+  "ora": "02:43:28",
+  "tipo": "FILTRATO",
+  "testo": "$MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:43:35",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:45:25",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:45:32",
+  "tipo": "FILTRATO",
+  "testo": "$Inufinity non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:45:43",
+  "tipo": "FILTRATO",
+  "testo": "$GODF non comprato · motivo: liquidità bloccata solo al 0%; 69 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "02:48:57",
+  "tipo": "FILTRATO",
+  "testo": "$Inufinity non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:51:27",
+  "tipo": "FILTRATO",
+  "testo": "$Inufinity non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:52:37",
+  "tipo": "FILTRATO",
+  "testo": "$MemeStonks non comprato · motivo: segnali 1/2 (acquisti 82%)"
+ },
+ {
+  "ora": "02:52:39",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "02:52:48",
+  "tipo": "FILTRATO",
+  "testo": "$Inufinity non comprato · motivo: segnali 1/2 (holder +6%)"
+ },
+ {
+  "ora": "02:53:38",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:53:47",
+  "tipo": "FILTRATO",
+  "testo": "$Inufinity non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:57:07",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)"
+ },
+ {
+  "ora": "02:57:11",
+  "tipo": "FILTRATO",
+  "testo": "$STMIND non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 98 holder"
+ },
+ {
+  "ora": "03:00:07",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 82%)"
+ },
+ {
+  "ora": "03:00:11",
+  "tipo": "FILTRATO",
+  "testo": "$mihao non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 132 holder"
+ },
+ {
+  "ora": "03:01:26",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "03:04:50",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: sviluppatore ha il 79.9%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "03:04:52",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked"
+ },
+ {
+  "ora": "03:07:16",
+  "tipo": "FILTRATO",
+  "testo": "$mihao non comprato · motivo: sviluppatore ha il 86.6%; RugCheck: Low Liquidity"
+ },
+ {
+  "ora": "03:07:16",
+  "tipo": "FILTRATO",
+  "testo": "$PAIR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "03:11:29",
+  "tipo": "FILTRATO",
+  "testo": "$MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "03:11:29",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPCHAN non comprato · motivo: top 10 holder hanno il 40%"
+ },
+ {
+  "ora": "03:11:35",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)"
+ },
+ {
+  "ora": "03:11:36",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)"
+ },
+ {
+  "ora": "03:14:28",
+  "tipo": "FILTRATO",
+  "testo": "$MemeStonks non comprato · motivo: segnali 1/2 (acquisti 74%)"
+ },
+ {
+  "ora": "03:14:36",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 76%)"
+ },
+ {
+  "ora": "03:14:37",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "03:14:39",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)"
+ },
+ {
+  "ora": "03:16:03",
+  "tipo": "FILTRATO",
+  "testo": "$MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "03:16:12",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "03:18:25",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
  }
 ]
