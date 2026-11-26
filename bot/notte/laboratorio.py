@@ -35,9 +35,44 @@ def carica_foto() -> list[dict]:
     foto = []
     for file in sorted(CARTELLA_REGISTRO.glob("*.jsonl")):
         for riga in file.read_text(encoding="utf-8").splitlines():
-            if riga.strip():
+            if '"coppia"' in riga:  # le altre righe sono i controlli del registratore
                 foto.append(json.loads(riga))
     return sorted(foto, key=lambda f: f["ms"])
+
+
+BUCO_MAX_MINUTI = 30  # tra un turno del registratore e il successivo ci sono ~20 minuti senza controlli
+
+
+def carica_controlli() -> tuple[dict[str, float], list[tuple[int, int]]]:
+    """Dai controlli del registratore: token → istante del rug (secondi) e i periodi (ms) in cui le monete
+    erano seguite, uniti se il buco tra due turni è al massimo di BUCO_MAX_MINUTI."""
+    rug: dict[str, float] = {}
+    periodi: list[tuple[int, int]] = []
+    for file in sorted(CARTELLA_REGISTRO.glob("*.jsonl")):
+        inizio = ultimo = None
+        for riga in file.read_text(encoding="utf-8").splitlines():
+            if not riga.strip():
+                continue
+            r = json.loads(riga)
+            if r.get("tipo") == "inizio":
+                inizio = r["ms"]
+            elif r.get("tipo") == "rug":
+                rug.setdefault(r["token"], r["ms"] / 1000)
+            ultimo = r["ms"]
+        if inizio is not None and ultimo is not None:
+            periodi.append((inizio, ultimo))
+    uniti: list[tuple[int, int]] = []
+    for a, b in sorted(periodi):
+        if uniti and a - uniti[-1][1] <= BUCO_MAX_MINUTI * 60_000:
+            uniti[-1] = (uniti[-1][0], max(uniti[-1][1], b))
+        else:
+            uniti.append((a, b))
+    return rug, uniti
+
+
+def seguita(foto_ms: int, periodi: list[tuple[int, int]]) -> bool:
+    """La moneta è stata seguita per tutte le 2,5 ore dopo la foto: se c'era un rug, lo sappiamo."""
+    return any(a <= foto_ms and foto_ms + FINESTRA_MINUTI * 60_000 <= b for a, b in periodi)
 
 
 def scarica_candele(foto: list[dict], adesso_ms: int, max_minuti: float = 55,
@@ -119,6 +154,7 @@ def pulisci(candele: list) -> list:
 
 
 FILE_LIQUIDITA = RADICE / "registro" / "liquidita_dopo.json"  # pool → [liquidità ($), quando (ms)] dopo la finestra
+MIN_FOTO_SEGUITE = 500  # sotto, il laboratorio è provvisorio e non promuove nessuna strategia
 CONTROLLO_MAX_ORE = 9  # oltre, la liquidità sparita può essere morte normale giorni dopo, non un rug nella finestra
 
 
@@ -317,9 +353,7 @@ def statistiche(operazioni: list[dict], regole: dict, capitale_usd: float) -> di
 
 def varianti(tutte: dict) -> list[tuple[str, dict]]:
     base = tutte["notte_meme"]
-    elenco = [("B · Aggressiva", unisci(base, tutte["notte_meme_varianti"]["b"])),
-              ("C · Lascia correre", unisci(base, tutte["notte_meme_varianti"]["c"])),
-              ("D · Puntate piccole", unisci(base, tutte["notte_meme_varianti"]["d"]))]
+    elenco = []
     elenco.append(("Compra tutto (senza filtri né controlli)", unisci(base, {
         "universo": {"liquidita_min_usd": 0, "volume_5min_min_usd": 0, "holder_min": 0},
         "controllo_truffe": {"sviluppatore_max_pct": 100, "top10_max_pct": 100, "lp_bloccata_min_pct": 0,
@@ -337,26 +371,48 @@ def varianti(tutte: dict) -> list[tuple[str, dict]]:
     return elenco
 
 
-def rapporto(risultati: list[dict], n_foto: int, n_token: int, n_candele: int) -> str:
+def promosse(file: Path | None = None) -> list[str]:
+    """Nomi delle strategie promosse dall'ultimo laboratorio, dalla migliore media per operazione.
+    Salta i doppioni (varianti diverse sulla carta che hanno fatto esattamente le stesse operazioni)."""
+    file = file or RADICE / "risultati" / "laboratorio_meme.json"
+    if not file.exists():
+        return []
+    scelte, viste = [], set()
+    for r in sorted(json.loads(file.read_text()), key=lambda r: -r["ritorno_medio_pct"]):
+        impronta = (r["n"], round(r["ritorno_medio_pct"], 4))
+        if r.get("promossa") and impronta not in viste:
+            scelte.append(r["nome"])
+            viste.add(impronta)
+    return scelte
+
+
+def rapporto(risultati: list[dict], n_foto: int, n_token: int, n_candele: int, seguite: bool) -> str:
     adesso = datetime.now(timezone.utc)
     n_fissi = sum(1 for r in risultati if not r["nome"].startswith("liq "))
     fissi = risultati[:n_fissi]
-    affidabili = sorted([r for r in risultati[n_fissi:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])
+    promosse = sorted([r for r in risultati if r.get("promossa")], key=lambda r: -r["ritorno_medio_pct"])
+    affidabili = sorted([r for r in risultati[n_fissi:] if r["n"] >= 20], key=lambda r: -r["ritorno_medio_pct"])
     riga = lambda r: (f"| {r['nome']} | {r['n']} | {r['vincenti_pct']}% | {r['ritorno_medio_pct']:+.1f}% | "
                       f"{r['profit_factor']} | {r['variazione_pct']:+.1f}% |")
     testa = ["| Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |", "|---|---|---|---|---|---|"]
+    modo = ("**Truffe vere:** solo foto di monete seguite dal registratore per 2,5 ore, con il minuto esatto del rug."
+            if seguite else
+            "**PROVVISORIO:** poche foto seguite dal registratore, le truffe sono stimate e possono mancare. Nessuna promozione.")
     righe = [
         f"# Laboratorio meme — {adesso:%d/%m/%Y %H:%M} UTC", "",
         "**Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. "
-        "Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.", "",
-        f"Foto: **{n_foto}** di **{n_token}** token · token con prezzi successivi disponibili: **{n_candele}**.", "",
-        "## Le strategie di riferimento", "", *testa, *[riga(r) for r in fissi], "",
-        "## Le 10 varianti migliori (almeno 20 operazioni)", "", *testa, *[riga(r) for r in affidabili[:10]], "",
-        "## Le 5 peggiori", "", *testa, *[riga(r) for r in affidabili[-5:]], "",
+        "Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.", "", modo, "",
+        f"Foto usate: **{n_foto}** di **{n_token}** token · con prezzi successivi: **{n_candele}**.", "",
+        f"## Strategie promosse ({len(promosse)})", "",
+        "Promossa = almeno 30 operazioni e guadagno (media e capitale) sia nella prima sia nella seconda metà dei dati. "
+        "Solo una strategia promossa può andare sui bot.", "",
+        *(testa + [riga(r) for r in promosse[:10]] if promosse else ["Nessuna."]), "",
+        "## Le strategie dei bot e il confronto", "", *testa, *[riga(r) for r in fissi], "",
+        "## Le 10 varianti con la media per operazione migliore (almeno 20 operazioni)", "", *testa,
+        *[riga(r) for r in affidabili[:10]], "",
         "## Come leggerlo", "",
-        "- Con poche operazioni un buon risultato può essere fortuna: aspetta più notti di registrazione.",
-        "- Provare tante varianti e scegliere la migliore esagera i risultati: la vincitrice va riprovata su notti nuove.",
-        "- Lo stop è simulato al prezzo peggiore della candela; un crollo di oltre il 90% conta come rug (recuperi il 10%).",
+        "- Provare tante varianti e scegliere la migliore esagera i risultati: per questo serve la promozione su due metà.",
+        "- Lo stop è simulato al prezzo peggiore della candela; un rug fa recuperare solo il 10%.",
         "",
     ]
     return "\n".join(righe)
@@ -377,17 +433,33 @@ def main() -> None:
     if a.solo_candele:
         return
     candele = {token: pulisci(lista) for token, lista in candele.items()}
-    rug = istanti_rug(foto, candele, liquidita_dopo(foto, int(time.time() * 1000)))
-    print(f"truffe viste dalla liquidità sparita: {len(rug)} token")
+    rug_seguiti, periodi = carica_controlli()
+    foto_seguite = [f for f in foto if seguita(f["ms"], periodi)]
+    seguite = len(foto_seguite) >= MIN_FOTO_SEGUITE
+    if seguite:
+        foto, rug = foto_seguite, rug_seguiti
+    else:
+        rug = istanti_rug(foto, candele, liquidita_dopo(foto, int(time.time() * 1000)))
+    print(f"foto seguite dal registratore: {len(foto_seguite)} · uso {'solo quelle' if seguite else 'tutte (provvisorio)'}"
+          f" · rug: {len(rug)}")
     capitale = 50 * 1.1  # circa 50€ in dollari
+    con_prezzi = [f for f in foto if f["token"] in candele]
+    meta = con_prezzi[len(con_prezzi) // 2]["ms"] if con_prezzi else 0
+    prima, seconda = [f for f in foto if f["ms"] < meta], [f for f in foto if f["ms"] >= meta]
     risultati = []
     for nome, regole in varianti(tutte):
         esito = valuta(regole, foto, candele, capitale, rug)
-        risultati.append({"nome": nome, **{k: v for k, v in esito.items() if k != "operazioni"}})
+        riga = {"nome": nome, **{k: v for k, v in esito.items() if k != "operazioni"}}
+        if seguite and esito["n"] >= 30:
+            metà = [valuta(regole, parte, candele, capitale, rug) for parte in (prima, seconda)]
+            riga["promossa"] = all(m["n"] >= 10 and m["ritorno_medio_pct"] > 0 and m["variazione_pct"] > 0 for m in metà)
+        else:
+            riga["promossa"] = False
+        risultati.append(riga)
     cartella = RADICE / "risultati"
     cartella.mkdir(exist_ok=True)
     (cartella / "laboratorio_meme.md").write_text(
-        rapporto(risultati, len(foto), len({f["token"] for f in foto}), len(candele)), encoding="utf-8")
+        rapporto(risultati, len(foto), len({f["token"] for f in foto}), len(con_prezzi), seguite), encoding="utf-8")
     (cartella / "laboratorio_meme.json").write_text(json.dumps(risultati, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Rapporto in {cartella / 'laboratorio_meme.md'}")
 

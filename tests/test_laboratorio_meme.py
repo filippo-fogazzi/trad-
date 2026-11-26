@@ -107,3 +107,44 @@ def test_se_il_tempo_scade_prima_del_rug_il_bot_e_gia_uscito():
     righe = [(1, 1.03, 0.99, 1.0)] * 30
     esito = simula(R, foto(), candele(*righe), 18, rug_s=T0 + 40 * 60)
     assert "tempo" in esito["motivo"] and esito["ritorno_pct"] > -10
+
+
+def test_registratore_scrive_il_rug_quando_la_liquidita_sparisce():
+    import io, json
+    from bot.notte.registro import Registratore
+
+    class Fonti:
+        def __init__(self):
+            self.liq = 20_000
+        def coppie(self, token):
+            return {t: {"liquidity": {"usd": self.liq}, "priceUsd": "1"} for t in token}
+
+    fonti, uscita = Fonti(), io.StringIO()
+    r = Registratore(fonti, uscita, {"TOK": (0, 20_000.0)})
+    assert r.segui(60_000) == 0                     # liquidità ancora lì
+    fonti.liq = 500
+    assert r.segui(60_000 + 3 * 60_000) == 1        # sparita: rug
+    assert r.segui(60_000 + 6 * 60_000) == 0        # scritto una volta sola
+    rug = [json.loads(x) for x in uscita.getvalue().splitlines()]
+    assert rug[0]["tipo"] == "rug" and rug[0]["token"] == "TOK"
+
+
+def test_foto_seguita_solo_se_coperta_per_2_ore_e_mezza():
+    from bot.notte.laboratorio import seguita
+    ora = 3_600_000
+    periodi = [(0, 10 * ora)]
+    assert seguita(ora, periodi)
+    assert not seguita(9 * ora, periodi)
+
+
+def test_promosse_in_ordine_senza_doppioni(tmp_path):
+    import json
+    from bot.notte.laboratorio import promosse
+    f = tmp_path / "lab.json"
+    f.write_text(json.dumps([
+        {"nome": "x", "n": 40, "ritorno_medio_pct": 5.0, "promossa": True},
+        {"nome": "x-doppione", "n": 40, "ritorno_medio_pct": 5.0, "promossa": True},
+        {"nome": "y", "n": 50, "ritorno_medio_pct": 9.0, "promossa": True},
+        {"nome": "z", "n": 60, "ritorno_medio_pct": 20.0, "promossa": False},
+    ]))
+    assert promosse(f) == ["y", "x"]

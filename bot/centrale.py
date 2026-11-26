@@ -18,7 +18,7 @@ from bot.regole import RADICE, carica_regole
 ITALIA = ZoneInfo("Europe/Rome")
 USCITA = RADICE / "risultati" / "centrale"
 NOTTI = RADICE / "risultati" / "notte"
-DATA = re.compile(r"^\d{4}-\d{2}-\d{2}(-[a-z])?$")
+DATA = re.compile(r"^\d{4}-\d{2}-\d{2}(-[a-z]\d?)?$")
 
 
 def _ora_it(dt: datetime) -> str:
@@ -36,7 +36,7 @@ def _foto() -> list[dict]:
     foto = []
     for file in sorted((RADICE / "registro").glob("*.jsonl")):
         for riga in file.read_text(encoding="utf-8").splitlines():
-            if riga.strip():
+            if '"coppia"' in riga:  # le altre righe sono controlli del registratore (inizio, fine, rug)
                 f = json.loads(riga)
                 foto.append({"ms": f["ms"], "token": f["token"]})
     return foto
@@ -58,9 +58,7 @@ def _riga_notte(id_: str, nome: str, cartella: Path | None) -> dict:
 
 def sistema(foto: list[dict]) -> list[dict]:
     adesso = datetime.now(timezone.utc)
-    righe = [_riga_notte("notte_b", "Bot B · Aggressiva", _ultima_notte("-b")),
-             _riga_notte("notte_c", "Bot C · Grandi e protette", _ultima_notte("-c")),
-             _riga_notte("notte_d", "Bot D · Piccole e veloci", _ultima_notte("-d"))]
+    righe = [_riga_notte(f"notte_{l.lower()}", f"Bot {l} · promossa n.{n}", _ultima_notte(f"-{s}")) for l, s, n in POSTI]
     if foto:
         ultima = datetime.fromtimestamp(foto[-1]["ms"] / 1000, timezone.utc)
         attivo = adesso - ultima < timedelta(hours=7)  # le foto arrivano su GitHub a fine turno (circa ogni 6 ore)
@@ -73,11 +71,9 @@ def sistema(foto: list[dict]) -> list[dict]:
     lab = RADICE / "risultati" / "laboratorio_meme.json"
     if lab.exists():
         risultati = json.loads(lab.read_text())
-        a = next((r for r in risultati if r["nome"].startswith("D ")), None)
-        griglia = [r for r in risultati if r["nome"].startswith("liq ")]
-        positive = sum(1 for r in griglia if r["n"] >= 20 and r["variazione_pct"] > 0)
-        dettaglio = (f"D: {a['variazione_pct']:+.1f}% su {a['n']} operazioni · " if a else "") + \
-                    f"{positive} varianti su {len(griglia)} in positivo (con almeno 20 operazioni)"
+        n_promosse = sum(1 for r in risultati if r.get("promossa"))
+        dettaglio = (f"{n_promosse} strategie promosse su {len(risultati)}" if n_promosse
+                     else f"Nessuna strategia promossa su {len(risultati)}: i bot restano fermi")
         righe.append({"id": "lab_meme", "attivita": "Laboratorio meme", "stato": "pronto", "dettaglio": dettaglio,
                       "ultimo": _ora_it(datetime.fromtimestamp(lab.stat().st_mtime, timezone.utc)), "prossimo": "dopo ogni turno del registratore"})
     else:
@@ -141,11 +137,8 @@ def registro_ore(foto: list[dict]) -> list[dict]:
 
 
 # Le tre strategie in parole semplici. I numeri delle regole vengono da regole.yaml, così restano veri.
-STRATEGIE = [
-    ("B", "b", "Aggressiva", "Filtri larghi ma controllo anti-truffa severo (liquidità bloccata). L'unica ad aver chiuso una notte in guadagno."),
-    ("C", "c", "Lascia correre", "Come la B, ma tiene le monete fino a un'ora con uno stop più largo, per prendere le salite lunghe."),
-    ("D", "d", "Puntate piccole", "Come la B, ma punta solo il 20% ed esce presto (−10%): perde meno quando va male."),
-]
+# I tre posti dei bot: ognuno gioca la n-esima strategia promossa dal laboratorio (B = n.1, C = n.2, D = n.3).
+POSTI = [("B", "p1", 1), ("C", "p2", 2), ("D", "p3", 3)]
 
 
 def _regole_in_parole(r: dict) -> tuple[str, str, str]:
@@ -172,36 +165,49 @@ def _capitale_eur(cartella: Path) -> tuple[float, int, int, int]:
 
 
 def strategie() -> list[dict]:
+    from bot.notte.laboratorio import promosse, varianti
     tutte = carica_regole()
     base = tutte["notte_meme"]
+    griglia = dict(varianti(tutte))
     lab_file = RADICE / "risultati" / "laboratorio_meme.json"
-    lab = json.loads(lab_file.read_text()) if lab_file.exists() else []
+    lab = {r["nome"]: r for r in json.loads(lab_file.read_text())} if lab_file.exists() else {}
+    lista = promosse()
     righe = []
-    for lettera, suffisso, nome, frase in STRATEGIE:
-        regole = unisci(base, tutte["notte_meme_varianti"][suffisso]) if suffisso else base
-        compra, vende, punta = _regole_in_parole(regole)
+    for lettera, suffisso, posto in POSTI:
         notti = _notti(suffisso)
-        riga = {"id": lettera, "nome": nome, "frase": frase, "compra": compra, "vende": vende, "punta": punta,
-                "notti": len(notti), "notte": "", "capitale_eur": None, "variazione_pct": None,
-                "operazioni": 0, "vinte": 0, "perse": 0, "totale_pct": None, "in_corso": False}
+        oggi = NOTTI / (_giornata_di_oggi() + f"-{suffisso}") / "strategia.txt"
+        scelta = oggi.read_text(encoding="utf-8").strip() if oggi.exists() else (lista[posto - 1] if len(lista) >= posto else None)
+        riga = {"id": lettera, "attiva": bool(scelta), "notti": len(notti), "notte": "", "capitale_eur": None,
+                "variazione_pct": None, "operazioni": 0, "vinte": 0, "perse": 0, "totale_pct": None, "in_corso": False}
+        if scelta and scelta in griglia:
+            compra, vende, punta = _regole_in_parole(griglia[scelta])
+            riga.update(nome=f"Promossa n.{posto}", frase=f"Ha superato il test sul passato: {scelta}.",
+                        compra=compra, vende=vende, punta=punta)
+        else:
+            riga.update(nome=f"Posto {posto} libero", frase="Nessuna strategia ha ancora superato il test sul passato: il bot resta fermo.",
+                        compra="—", vende="—", punta="—")
         if notti:
             capitale, n, vinte, perse = _capitale_eur(notti[-1])
             partenza = base["capitale_euro"]
-            totale = sum(_capitale_eur(c)[0] - partenza for c in notti)  # ogni notte riparte da 50 €
+            totale = sum(_capitale_eur(c)[0] - partenza for c in notti)  # ogni giornata riparte da 50 €
             riga.update(notte=notti[-1].name[:10], capitale_eur=round(capitale, 2), in_corso=not (notti[-1] / "riepilogo.md").exists(),
                         variazione_pct=round((capitale / partenza - 1) * 100, 1), operazioni=n, vinte=vinte, perse=perse,
                         totale_pct=round(totale / (partenza * len(notti)) * 100, 1))
-        test = next((r for r in lab if r["nome"].startswith(lettera + " ")), None)
+        test = lab.get(scelta or "")
         riga.update(lab_operazioni=test["n"] if test else 0, lab_variazione_pct=test["variazione_pct"] if test else None,
                     lab_media_pct=test["ritorno_medio_pct"] if test else None)
         righe.append(riga)
     return righe
 
 
+def _giornata_di_oggi() -> str:
+    return (datetime.now(ITALIA) - timedelta(hours=7)).strftime("%Y-%m-%d")
+
+
 def operazioni_di_tutti() -> list[dict]:
     """Le operazioni dell'ultima giornata di ogni bot in un'unica tabella, con la colonna del bot."""
     righe = []
-    for lettera, suffisso, _, _ in STRATEGIE:
+    for lettera, suffisso, _ in POSTI:
         notti = _notti(suffisso)
         if not notti:
             continue
@@ -227,7 +233,7 @@ def main() -> None:
     # prima l'ultima notte vera; se non c'è ancora, la prova più recente che ha fatto operazioni
     prove = [p for p in NOTTI.glob("prova*") if (p / "stato.json").exists()]
     con_operazioni = lambda p: bool(json.loads((p / "stato.json").read_text())["portafoglio"]["chiusure"])
-    notte = _ultima_notte("-b") or max(prove, key=lambda p: (con_operazioni(p), (p / "stato.json").stat().st_mtime), default=None)
+    notte = _ultima_notte("-p1") or _ultima_notte("-b") or max(prove, key=lambda p: (con_operazioni(p), (p / "stato.json").stat().st_mtime), default=None)
     file = {"sistema": sistema(foto), "lavori": lavori(), "registro_ore": registro_ore(foto), "lab_meme": lab_meme(),
             "strategie": strategie()}
     if notte:

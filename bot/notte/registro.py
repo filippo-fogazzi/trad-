@@ -24,6 +24,8 @@ ETA_MAX_ORE = 6
 FOTO_PER_TOKEN = 3             # la stessa moneta viene rifotografata fino a 3 volte...
 MINUTI_TRA_FOTO = 5            # ...a distanza di almeno 5 minuti (serve per la crescita degli holder)
 RUGCHECK_PER_GIRO = 25         # RugCheck è lento: al massimo 25 controlli per giro, prima i più scambiati
+SEGUI_MINUTI = 150             # dopo la prima foto ogni moneta è seguita per 2,5 ore (la finestra del Laboratorio)...
+CONTROLLO_OGNI_MINUTI = 3      # ...controllando la liquidità ogni 3 minuti: se sparisce è un rug, e si scrive quando
 
 
 def coppia_ridotta(c: dict) -> dict:
@@ -58,11 +60,62 @@ def rapporto_ridotto(r: dict) -> dict:
     }
 
 
+def foto_recenti(cartella, adesso_ms: int) -> dict[str, tuple[int, float]]:
+    """token → (istante della prima foto, liquidità in quella foto) per le monete ancora da seguire.
+    Serve quando parte un turno nuovo: continua a seguire le monete fotografate dal turno prima."""
+    recenti: dict[str, tuple[int, float]] = {}
+    for file in sorted(cartella.glob("*.jsonl"))[-3:]:
+        for riga in file.read_text(encoding="utf-8").splitlines():
+            if '"coppia"' not in riga:
+                continue
+            f = json.loads(riga)
+            if adesso_ms - f["ms"] <= SEGUI_MINUTI * 60_000 and f["token"] not in recenti:
+                recenti[f["token"]] = (f["ms"], float(f["coppia"]["liquidity"]["usd"] or 0))
+    return recenti
+
+
 class Registratore:
-    def __init__(self, fonti: Fonti, file_uscita):
+    def __init__(self, fonti: Fonti, file_uscita, da_seguire: dict[str, tuple[int, float]] | None = None):
         self.fonti = fonti
         self.file = file_uscita
         self.foto: dict[str, list[int]] = {}   # token → istanti (ms) delle foto già fatte
+        self.seguiti: dict[str, tuple[int, float]] = dict(da_seguire or {})  # token → (prima foto, liquidità)
+        self.rug_visti: set[str] = set()
+        self.mancanti: dict[str, int] = {}
+        self.ultimo_controllo = 0
+
+    def _scrivi(self, riga: dict) -> None:
+        self.file.write(json.dumps(riga, ensure_ascii=False) + "\n")
+        self.file.flush()
+
+    def segui(self, adesso_ms: int) -> int:
+        """Controlla la liquidità delle monete fotografate nelle ultime 2,5 ore. Scrive {"tipo": "rug"} quando
+        scende sotto il 20% di quella della prima foto (o la coppia sparisce da DexScreener per 2 controlli)."""
+        if adesso_ms - self.ultimo_controllo < CONTROLLO_OGNI_MINUTI * 60_000:
+            return 0
+        self.ultimo_controllo = adesso_ms
+        token = [t for t, (ms, _) in self.seguiti.items()
+                 if adesso_ms - ms <= SEGUI_MINUTI * 60_000 and t not in self.rug_visti]
+        if not token:
+            return 0
+        coppie = self.fonti.coppie(token)
+        nuovi = 0
+        for t in token:
+            liq_foto = self.seguiti[t][1]
+            c = coppie.get(t)
+            if c is None:
+                self.mancanti[t] = self.mancanti.get(t, 0) + 1
+                if self.mancanti[t] < 2:
+                    continue
+                liq = 0.0
+            else:
+                self.mancanti.pop(t, None)
+                liq = liquidita(c)
+            if liq < liq_foto * 0.2:
+                self._scrivi({"tipo": "rug", "ms": adesso_ms, "token": t, "liq": round(liq, 2), "liq_foto": round(liq_foto, 2)})
+                self.rug_visti.add(t)
+                nuovi += 1
+        return nuovi
 
     def giro(self, adesso_ms: int) -> int:
         coppie = self.fonti.coppie(self.fonti.token_recenti())
@@ -82,9 +135,9 @@ class Registratore:
                 continue
             foto = {"ms": adesso_ms, "token": token, "n_foto": len(self.foto.get(token, [])) + 1,
                     "coppia": coppia_ridotta(c), "rugcheck": rapporto}
-            self.file.write(json.dumps(foto, ensure_ascii=False) + "\n")
-            self.file.flush()
+            self._scrivi(foto)
             self.foto.setdefault(token, []).append(adesso_ms)
+            self.seguiti.setdefault(token, (adesso_ms, liquidita(c)))
             scritte += 1
         return scritte
 
@@ -99,16 +152,20 @@ def main() -> None:
     percorso = CARTELLA / f"{inizio:%Y-%m-%d-%H%M}-{a.etichetta}.jsonl"
     fine = time.time() + a.minuti * 60
     totale = 0
+    da_seguire = foto_recenti(CARTELLA, int(time.time() * 1000))
     with percorso.open("a", encoding="utf-8") as f:
-        registratore = Registratore(Fonti(), f)
+        registratore = Registratore(Fonti(), f, da_seguire)
+        registratore._scrivi({"tipo": "inizio", "ms": int(time.time() * 1000)})  # da qui le monete sono seguite
         while time.time() < fine:
             partenza = time.time()
             try:
                 totale += registratore.giro(int(partenza * 1000))
+                registratore.segui(int(time.time() * 1000))
             except Exception:
                 traceback.print_exc()
             print(f"{datetime.now(timezone.utc):%H:%M:%S} foto salvate: {totale}", flush=True)
             time.sleep(max(5.0, 60 - (time.time() - partenza)))
+        registratore._scrivi({"tipo": "fine", "ms": int(time.time() * 1000)})
     print(f"Fine: {totale} foto in {percorso}")
 
 

@@ -9,9 +9,7 @@
   "risultato_usd": -16.9,
   "capitale_dopo_usd": 37.98,
   "motivo_ingresso": "picco volume 12.0x + holder +44% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "B",
-  "notte": "2026-11-26"
+  "motivo_uscita": "liquidità sparita (rug)"
  },
  {
   "n": 2,
@@ -23,9 +21,7 @@
   "risultato_usd": -12.36,
   "capitale_dopo_usd": 25.61,
   "motivo_ingresso": "picco volume 12.0x + acquisti 73% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "B",
-  "notte": "2026-11-26"
+  "motivo_uscita": "liquidità sparita (rug)"
  },
  {
   "n": 3,
@@ -37,9 +33,7 @@
   "risultato_usd": -16.34,
   "capitale_dopo_usd": 9.28,
   "motivo_ingresso": "acquisti 75% + holder +19% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "B",
-  "notte": "2026-11-26"
+  "motivo_uscita": "liquidità sparita (rug)"
  },
  {
   "n": 4,
@@ -51,148 +45,6 @@
   "risultato_usd": -4.56,
   "capitale_dopo_usd": 4.71,
   "motivo_ingresso": "picco volume 12.0x + acquisti 78% + holder +9% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "B",
-  "notte": "2026-11-26"
- },
- {
-  "n": 5,
-  "moneta": "$Cupseymas",
-  "entrata": "07:05",
-  "uscita": "07:16",
-  "speso_usd": 17.96,
-  "incassato_usd": 1.76,
-  "risultato_usd": -16.2,
-  "capitale_dopo_usd": 38.67,
-  "motivo_ingresso": "picco volume 5.2x + acquisti 75% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "C",
-  "notte": "2026-11-26"
- },
- {
-  "n": 6,
-  "moneta": "$牛来",
-  "entrata": "07:02",
-  "uscita": "07:27",
-  "speso_usd": 18.11,
-  "incassato_usd": 22.37,
-  "risultato_usd": 4.26,
-  "capitale_dopo_usd": 42.93,
-  "motivo_ingresso": "picco volume 5.4x + acquisti 75% · rug check PASS",
-  "motivo_uscita": "tempo scaduto (25 min)",
-  "bot": "C",
-  "notte": "2026-11-26"
- },
- {
-  "n": 7,
-  "moneta": "$RING",
-  "entrata": "07:29",
-  "uscita": "07:32",
-  "speso_usd": 14.01,
-  "incassato_usd": 1.37,
-  "risultato_usd": -12.64,
-  "capitale_dopo_usd": 30.29,
-  "motivo_ingresso": "picco volume 12.0x + acquisti 74% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "C",
-  "notte": "2026-11-26"
- },
- {
-  "n": 8,
-  "moneta": "$Santa",
-  "entrata": "07:34",
-  "uscita": "07:37",
-  "speso_usd": 11.03,
-  "incassato_usd": 1.07,
-  "risultato_usd": -9.96,
-  "capitale_dopo_usd": 20.34,
-  "motivo_ingresso": "picco volume 11.1x + acquisti 79% + holder +8% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "C",
-  "notte": "2026-11-26"
- },
- {
-  "n": 9,
-  "moneta": "$英伟达",
-  "entrata": "07:27",
-  "uscita": "07:53",
-  "speso_usd": 14.22,
-  "incassato_usd": 20.79,
-  "risultato_usd": 6.57,
-  "capitale_dopo_usd": 26.9,
-  "motivo_ingresso": "picco volume 12.0x + acquisti 86% · rug check PASS",
-  "motivo_uscita": "tempo scaduto (25 min)",
-  "bot": "C",
-  "notte": "2026-11-26"
- },
- {
-  "n": 10,
-  "moneta": "$Cupseymas",
-  "entrata": "07:04",
-  "uscita": "07:17",
-  "speso_usd": 18.11,
-  "incassato_usd": 1.77,
-  "risultato_usd": -16.34,
-  "capitale_dopo_usd": 38.54,
-  "motivo_ingresso": "picco volume 5.7x + acquisti 75% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "D",
-  "notte": "2026-11-26"
- },
- {
-  "n": 11,
-  "moneta": "$牛来",
-  "entrata": "07:04",
-  "uscita": "07:30",
-  "speso_usd": 18.02,
-  "incassato_usd": 22.35,
-  "risultato_usd": 4.33,
-  "capitale_dopo_usd": 42.87,
-  "motivo_ingresso": "acquisti 75% + holder +11% · rug check PASS",
-  "motivo_uscita": "tempo scaduto (25 min)",
-  "bot": "D",
-  "notte": "2026-11-26"
- },
- {
-  "n": 12,
-  "moneta": "$Santa",
-  "entrata": "07:32",
-  "uscita": "07:37",
-  "speso_usd": 14.7,
-  "incassato_usd": 1.44,
-  "risultato_usd": -13.27,
-  "capitale_dopo_usd": 29.6,
-  "motivo_ingresso": "picco volume 12.0x + acquisti 76% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "D",
-  "notte": "2026-11-26"
- },
- {
-  "n": 13,
-  "moneta": "$Cupseymas",
-  "entrata": "07:39",
-  "uscita": "07:41",
-  "speso_usd": 11.27,
-  "incassato_usd": 1.1,
-  "risultato_usd": -10.18,
-  "capitale_dopo_usd": 19.43,
-  "motivo_ingresso": "picco volume 12.0x + acquisti 80% · rug check PASS",
-  "motivo_uscita": "liquidità sparita (rug)",
-  "bot": "D",
-  "notte": "2026-11-26"
- },
- {
-  "n": 14,
-  "moneta": "$英伟达",
-  "entrata": "07:27",
-  "uscita": "07:52",
-  "speso_usd": 13.9,
-  "incassato_usd": 20.6,
-  "risultato_usd": 6.7,
-  "capitale_dopo_usd": 26.13,
-  "motivo_ingresso": "picco volume 12.0x + acquisti 87% · rug check PASS",
-  "motivo_uscita": "tempo scaduto (25 min)",
-  "bot": "D",
-  "notte": "2026-11-26"
+  "motivo_uscita": "liquidità sparita (rug)"
  }
 ]

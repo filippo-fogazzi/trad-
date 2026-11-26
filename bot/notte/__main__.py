@@ -309,18 +309,46 @@ def data_della_notte(ora_fine: int = 7) -> str:
     return (datetime.now(ITALIA) - timedelta(hours=ora_fine)).strftime("%Y-%m-%d")
 
 
+def strategia_promossa(posto: int, cartella: Path, tutte: dict) -> tuple[str, dict] | None:
+    """La strategia per il posto n (1, 2, 3): la n-esima promossa dal laboratorio. Scelta all'inizio della giornata
+    e scritta in strategia.txt, così resta la stessa per tutta la giornata anche se il laboratorio cambia idea."""
+    from bot.notte.laboratorio import promosse, varianti
+    file = cartella / "strategia.txt"
+    if file.exists():
+        nome = file.read_text(encoding="utf-8").strip()
+    else:
+        lista = promosse()
+        if len(lista) < posto:
+            return None
+        nome = lista[posto - 1]
+        cartella.mkdir(parents=True, exist_ok=True)
+        file.write_text(nome, encoding="utf-8")
+    regole = dict(varianti(tutte)).get(nome)
+    return (nome, regole) if regole else None
+
+
 if __name__ == "__main__":
-    argomenti = argparse.ArgumentParser(description="Esperimento notturno memecoin su carta")
+    argomenti = argparse.ArgumentParser(description="Bot memecoin su carta")
     argomenti.add_argument("--minuti", type=int, help="durata in minuti (default: fino all'ora di fine)")
     argomenti.add_argument("--max-minuti", type=int, help="ferma questo turno dopo N minuti senza chiudere le posizioni")
-    argomenti.add_argument("--variante", help="strategia alternativa da regole.yaml → notte_meme_varianti (es. b)")
-    argomenti.add_argument("--nome", help="nome della cartella dei risultati (default: data della notte)")
+    argomenti.add_argument("--variante", help="b, c, d (da regole.yaml) oppure p1, p2, p3 (le promosse dal laboratorio)")
+    argomenti.add_argument("--nome", help="nome della cartella dei risultati (default: data della giornata)")
     a = argomenti.parse_args()
     tutte = carica_regole()
     regole = tutte["notte_meme"]
-    if a.variante:
-        regole = unisci(regole, tutte["notte_meme_varianti"][a.variante])
     nome = a.nome or data_della_notte(int(regole["fine"].split(":")[0])) + (f"-{a.variante}" if a.variante else "")
     cartella = RADICE / "risultati" / "notte" / nome
     pausa = datetime.now(ITALIA) + timedelta(minutes=a.max_minuti) if a.max_minuti else None
+    if a.variante and a.variante.startswith("p"):
+        scelta = strategia_promossa(int(a.variante[1:]), cartella, tutte)
+        if scelta is None:
+            # nessuna strategia promossa per questo posto: il bot non gioca e aspetta la fine del turno
+            fine = min(pausa or calcola_fine(regole, a.minuti), calcola_fine(regole, a.minuti))
+            print(f"Posto {a.variante}: nessuna strategia promossa dal laboratorio, il bot resta fermo fino alle {fine:%H:%M}.")
+            time.sleep(max(0.0, (fine - datetime.now(ITALIA)).total_seconds()))
+            raise SystemExit(0)
+        print(f"Posto {a.variante}: {scelta[0]}")
+        regole = scelta[1]
+    elif a.variante:
+        regole = unisci(regole, tutte["notte_meme_varianti"][a.variante])
     Notte(regole, calcola_fine(regole, a.minuti), cartella, pausa=pausa).gira()

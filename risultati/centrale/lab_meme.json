@@ -8,6 +8,7 @@
   "profit_factor": 0.49,
   "capitale_finale_usd": 8.93,
   "variazione_pct": -83.8,
+  "promossa": false,
   "gruppo": "riferimento",
   "n_riga": 1
  },
@@ -20,6 +21,7 @@
   "profit_factor": 0.34,
   "capitale_finale_usd": 2.58,
   "variazione_pct": -95.3,
+  "promossa": false,
   "gruppo": "riferimento",
   "n_riga": 2
  },
@@ -32,6 +34,7 @@
   "profit_factor": 0.32,
   "capitale_finale_usd": 20.54,
   "variazione_pct": -62.7,
+  "promossa": false,
   "gruppo": "riferimento",
   "n_riga": 3
  },
@@ -44,6 +47,7 @@
   "profit_factor": 1.37,
   "capitale_finale_usd": 0.98,
   "variazione_pct": -98.2,
+  "promossa": false,
   "gruppo": "riferimento",
   "n_riga": 4
  },
@@ -56,6 +60,7 @@
   "profit_factor": 1.7,
   "capitale_finale_usd": 362.22,
   "variazione_pct": 558.6,
+  "promossa": false,
   "n_riga": 5,
   "gruppo": "migliori"
  },
@@ -68,6 +73,7 @@
   "profit_factor": 1.74,
   "capitale_finale_usd": 229.1,
   "variazione_pct": 316.6,
+  "promossa": false,
   "n_riga": 6,
   "gruppo": "migliori"
  },
@@ -80,6 +86,7 @@
   "profit_factor": 1.7,
   "capitale_finale_usd": 178.19,
   "variazione_pct": 224.0,
+  "promossa": false,
   "n_riga": 7,
   "gruppo": "migliori"
  },
@@ -92,6 +99,7 @@
   "profit_factor": 1.6,
   "capitale_finale_usd": 164.61,
   "variazione_pct": 199.3,
+  "promossa": false,
   "n_riga": 8,
   "gruppo": "migliori"
  },
@@ -104,6 +112,7 @@
   "profit_factor": 2.29,
   "capitale_finale_usd": 140.73,
   "variazione_pct": 155.9,
+  "promossa": false,
   "n_riga": 9,
   "gruppo": "migliori"
  },
@@ -116,6 +125,7 @@
   "profit_factor": 2.29,
   "capitale_finale_usd": 131.63,
   "variazione_pct": 139.3,
+  "promossa": false,
   "n_riga": 10,
   "gruppo": "migliori"
  },
@@ -128,6 +138,7 @@
   "profit_factor": 2.31,
   "capitale_finale_usd": 131.47,
   "variazione_pct": 139.0,
+  "promossa": false,
   "n_riga": 11,
   "gruppo": "migliori"
  },
@@ -140,6 +151,7 @@
   "profit_factor": 2.19,
   "capitale_finale_usd": 128.82,
   "variazione_pct": 134.2,
+  "promossa": false,
   "n_riga": 12,
   "gruppo": "migliori"
  },
@@ -152,6 +164,7 @@
   "profit_factor": 2.2,
   "capitale_finale_usd": 120.49,
   "variazione_pct": 119.1,
+  "promossa": false,
   "n_riga": 13,
   "gruppo": "migliori"
  },
@@ -164,6 +177,7 @@
   "profit_factor": 2.21,
   "capitale_finale_usd": 118.04,
   "variazione_pct": 114.6,
+  "promossa": false,
   "n_riga": 14,
   "gruppo": "migliori"
  }
