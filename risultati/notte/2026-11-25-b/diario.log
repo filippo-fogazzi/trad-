@@ -712,3 +712,51 @@
 00:34:00 FILTRATO  $AMD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
 00:34:02 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
 00:34:15 PAUSA     fine del turno: stato salvato, le posizioni restano aperte
+00:34:40 AVVIO     capitale $57.49, fine alle 07:00, questo turno fino alle 06:14
+00:35:42 FILTRATO  $Copyinu non comprato · motivo: 12 portafogli insider collegati
+00:35:43 FILTRATO  $AMD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
+00:35:45 FILTRATO  $PVE non comprato · motivo: 22 portafogli insider collegati
+00:35:45 FILTRATO  $Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:35:46 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+00:35:48 FILTRATO  $PVE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+00:37:40 FILTRATO  $AMD non comprato · motivo: segnali 1/2 (acquisti 83%)
+00:37:43 FILTRATO  $PLAZA non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
+00:37:44 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+00:39:30 FILTRATO  $PLAZA non comprato · motivo: segnali 1/2 (acquisti 71%)
+00:43:02 FILTRATO  $AMD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:43:05 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+00:43:08 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)
+00:47:30 FILTRATO  $PVE non comprato · motivo: 30 portafogli insider collegati
+00:48:26 FILTRATO  $Copyinu non comprato · motivo: 16 portafogli insider collegati
+00:49:48 FILTRATO  $Grodia non comprato · motivo: segnali 1/2 (acquisti 71%)
+00:49:50 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+00:52:04 FILTRATO  $AMD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
+00:52:05 FILTRATO  $PLAZA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:54:50 FILTRATO  $AMD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+00:54:53 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+00:54:56 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 72%)
+00:57:28 FILTRATO  $AMD non comprato · motivo: segnali 0/2 (nessuno)
+00:57:34 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+00:59:16 FILTRATO  $AMD non comprato · motivo: segnali 1/2 (acquisti 74%)
+00:59:20 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)
+01:04:08 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+01:04:11 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+01:05:02 FILTRATO  $UHI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+01:08:28 FILTRATO  $AMD non comprato · motivo: segnali 0/2 (nessuno)
+01:08:31 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+01:08:34 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 71%)
+01:11:16 FILTRATO  $AMD non comprato · motivo: RugCheck: Low Liquidity
+01:11:18 FILTRATO  $PVE non comprato · motivo: 60 portafogli insider collegati
+01:12:53 FILTRATO  $PLAZA non comprato · motivo: segnali 0/2 (nessuno)
+01:12:56 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+01:16:01 FILTRATO  $Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+01:16:01 FILTRATO  $UHI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+01:17:31 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)
+01:20:02 FILTRATO  $UHI non comprato · motivo: segnali 0/2 (nessuno)
+01:20:08 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+01:27:38 FILTRATO  $Pumpcat non comprato · motivo: segnali 1/2 (acquisti 74%)
+01:31:14 FILTRATO  $Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+01:32:33 FILTRATO  $Sloth non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+01:32:35 FILTRATO  $Solace non comprato · motivo: segnali 1/2 (picco volume 11.1x)
+01:34:09 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 2 holder
+01:34:11 FILTRATO  $Solace non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($74.55 → $48.08)
