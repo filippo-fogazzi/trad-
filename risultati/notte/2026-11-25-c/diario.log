@@ -403,3 +403,37 @@
 02:33:50 FILTRATO  $MONEY non comprato · motivo: segnali 0/2 (nessuno)
 02:33:52 FILTRATO  $Zero non comprato · motivo: 34 portafogli insider collegati
 02:33:55 FILTRATO  $UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+02:40:17 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 74%)
+02:41:57 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)
+02:43:28 FILTRATO  $MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+02:43:35 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+02:45:25 FILTRATO  $PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+02:45:32 FILTRATO  $Inufinity non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+02:45:43 FILTRATO  $GODF non comprato · motivo: liquidità bloccata solo al 0%; 69 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked
+02:48:57 FILTRATO  $Inufinity non comprato · motivo: segnali 0/2 (nessuno)
+02:51:27 FILTRATO  $Inufinity non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+02:52:37 FILTRATO  $MemeStonks non comprato · motivo: segnali 1/2 (acquisti 82%)
+02:52:39 FILTRATO  $MONEY non comprato · motivo: segnali 1/2 (acquisti 71%)
+02:52:48 FILTRATO  $Inufinity non comprato · motivo: segnali 1/2 (holder +6%)
+02:53:38 FILTRATO  $PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+02:53:47 FILTRATO  $Inufinity non comprato · motivo: segnali 0/2 (nessuno)
+02:57:07 FILTRATO  $UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+02:57:11 FILTRATO  $STMIND non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 98 holder
+03:00:07 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 82%)
+03:00:11 FILTRATO  $mihao non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 132 holder
+03:01:26 FILTRATO  $MONEY non comprato · motivo: segnali 0/2 (nessuno)
+03:04:50 FILTRATO  $AGI non comprato · motivo: sviluppatore ha il 79.9%; RugCheck: Low Liquidity
+03:04:52 FILTRATO  $Zero non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+03:07:16 FILTRATO  $mihao non comprato · motivo: sviluppatore ha il 86.6%; RugCheck: Low Liquidity
+03:07:16 FILTRATO  $PAIR non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+03:11:29 FILTRATO  $MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+03:11:29 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 40%
+03:11:35 FILTRATO  $UHI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+03:11:36 FILTRATO  $Grodia non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($55.50 → $37.44)
+03:14:28 FILTRATO  $MemeStonks non comprato · motivo: segnali 1/2 (acquisti 74%)
+03:14:36 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 76%)
+03:14:37 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+03:14:39 FILTRATO  $NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)
+03:16:03 FILTRATO  $MemeStonks non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+03:16:12 FILTRATO  $NORFEATH non comprato · motivo: segnali 0/2 (nessuno)
+03:18:25 FILTRATO  $PUMPCHAN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
