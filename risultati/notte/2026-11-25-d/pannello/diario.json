@@ -1,0 +1,947 @@
+[
+ {
+  "ora": "00:34:41",
+  "tipo": "AVVIO",
+  "testo": "capitale $54.95, fine alle 07:00, questo turno fino alle 06:14"
+ },
+ {
+  "ora": "00:36:02",
+  "tipo": "FILTRATO",
+  "testo": "$Copyinu non comprato · motivo: 12 portafogli insider collegati"
+ },
+ {
+  "ora": "00:36:03",
+  "tipo": "FILTRATO",
+  "testo": "$AMD non comprato · motivo: segnali 1/2 (acquisti 74%)"
+ },
+ {
+  "ora": "00:36:05",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: 22 portafogli insider collegati"
+ },
+ {
+  "ora": "00:36:06",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:36:08",
+  "tipo": "FILTRATO",
+  "testo": "$Loki non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:36:08",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "00:36:09",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:36:11",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:38:06",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "00:38:07",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:41:50",
+  "tipo": "FILTRATO",
+  "testo": "$AMD non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "00:43:29",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:43:32",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "00:49:50",
+  "tipo": "FILTRATO",
+  "testo": "$Copyinu non comprato · motivo: 16 portafogli insider collegati"
+ },
+ {
+  "ora": "00:49:52",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: 30 portafogli insider collegati"
+ },
+ {
+  "ora": "00:49:55",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "00:49:56",
+  "tipo": "FILTRATO",
+  "testo": "$Grinch non comprato · motivo: 23 portafogli insider collegati"
+ },
+ {
+  "ora": "00:49:58",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:52:09",
+  "tipo": "ENTRA",
+  "testo": "$AMD $18.13 (33% del capitale), 1ª metà a slippage 1.0% · motivo: acquisti 77% + holder +9% · rug check PASS · https://dexscreener.com/solana/hw4jf8lfw2ycf4wzscvb8zq4bekeeyhy8pyc4br6gvcl"
+ },
+ {
+  "ora": "00:52:11",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "00:52:17",
+  "tipo": "PARZIALE",
+  "testo": "$AMD seconda metà comprata a $0.0003497"
+ },
+ {
+  "ora": "00:55:28",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "00:55:31",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "00:57:00",
+  "tipo": "ESCE",
+  "testo": "$AMD -9.92$ motivo: stop -20% (prezzo -52%)"
+ },
+ {
+  "ora": "00:57:00",
+  "tipo": "FERMO",
+  "testo": "capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "00:58:52",
+  "tipo": "FILTRATO",
+  "testo": "$AMD non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "01:03:41",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 1/2 (acquisti 72%)"
+ },
+ {
+  "ora": "01:03:43",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:03:44",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:06:29",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:06:31",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 1/2 (acquisti 75%)"
+ },
+ {
+  "ora": "01:08:03",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:08:04",
+  "tipo": "FILTRATO",
+  "testo": "$AMD non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:08:10",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "01:09:51",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:09:54",
+  "tipo": "FILTRATO",
+  "testo": "$AMD non comprato · motivo: segnali 1/2 (acquisti 79%)"
+ },
+ {
+  "ora": "01:12:50",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:12:53",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: 60 portafogli insider collegati"
+ },
+ {
+  "ora": "01:12:58",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:16:54",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:16:55",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:17:01",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 70%)"
+ },
+ {
+  "ora": "01:18:42",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:18:48",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:25:03",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 1/2 (acquisti 75%)"
+ },
+ {
+  "ora": "01:26:32",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:28:51",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 1/2 (acquisti 75%)"
+ },
+ {
+  "ora": "01:31:20",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:31:29",
+  "tipo": "FILTRATO",
+  "testo": "$Solace non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:33:58",
+  "tipo": "FILTRATO",
+  "testo": "$Solace non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:35:49",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:35:59",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:36:01",
+  "tipo": "FILTRATO",
+  "testo": "$Turnpar non comprato · motivo: solo 65 holder"
+ },
+ {
+  "ora": "01:36:02",
+  "tipo": "FILTRATO",
+  "testo": "$GOTF non comprato · motivo: solo 2 holder"
+ },
+ {
+  "ora": "01:36:04",
+  "tipo": "FILTRATO",
+  "testo": "$RASMR non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:36:07",
+  "tipo": "FILTRATO",
+  "testo": "$Sloth non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:37:37",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:37:37",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 1/2 (acquisti 72%)"
+ },
+ {
+  "ora": "01:37:48",
+  "tipo": "FILTRATO",
+  "testo": "$ISABELLE non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:38:38",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:38:50",
+  "tipo": "FILTRATO",
+  "testo": "$RASMR non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:38:52",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:38:53",
+  "tipo": "FILTRATO",
+  "testo": "$NOTF non comprato · motivo: solo 3 holder"
+ },
+ {
+  "ora": "01:38:55",
+  "tipo": "FILTRATO",
+  "testo": "$NIVIDIA non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:38:56",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:38:58",
+  "tipo": "FILTRATO",
+  "testo": "$Solace non comprato · motivo: segnali 1/2 (holder +6%)"
+ },
+ {
+  "ora": "01:41:38",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:41:47",
+  "tipo": "FILTRATO",
+  "testo": "$Solace non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:44:39",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:44:41",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 77%)"
+ },
+ {
+  "ora": "01:44:44",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "01:44:48",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: solo 110 holder"
+ },
+ {
+  "ora": "01:44:50",
+  "tipo": "FILTRATO",
+  "testo": "$Chudbot non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:46:35",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:46:35",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:46:38",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:46:42",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:46:44",
+  "tipo": "FILTRATO",
+  "testo": "$XMAS non comprato · motivo: top 10 holder hanno il 89%"
+ },
+ {
+  "ora": "01:46:45",
+  "tipo": "FILTRATO",
+  "testo": "$Democat non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:46:45",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:46:48",
+  "tipo": "FILTRATO",
+  "testo": "$Anthropic non comprato · motivo: segnali 1/2 (acquisti 76%)"
+ },
+ {
+  "ora": "01:48:39",
+  "tipo": "FILTRATO",
+  "testo": "$Slapcat non comprato · motivo: 10 portafogli insider collegati"
+ },
+ {
+  "ora": "01:48:40",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:48:42",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 1/2 (acquisti 78%)"
+ },
+ {
+  "ora": "01:48:43",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:48:51",
+  "tipo": "FILTRATO",
+  "testo": "$Optimus non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:48:52",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: 11 portafogli insider collegati"
+ },
+ {
+  "ora": "01:51:03",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:51:07",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "01:54:04",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 1/2 (acquisti 71%)"
+ },
+ {
+  "ora": "01:54:04",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:54:07",
+  "tipo": "FILTRATO",
+  "testo": "$PLAZA non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:54:11",
+  "tipo": "FILTRATO",
+  "testo": "$Democat non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:54:13",
+  "tipo": "FILTRATO",
+  "testo": "$蚁巢 non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:54:14",
+  "tipo": "FILTRATO",
+  "testo": "$SPEED non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:54:16",
+  "tipo": "FILTRATO",
+  "testo": "$DRUTRAP non comprato · motivo: solo 65 holder"
+ },
+ {
+  "ora": "01:54:17",
+  "tipo": "FILTRATO",
+  "testo": "$PVE non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:55:37",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:55:39",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:55:46",
+  "tipo": "FILTRATO",
+  "testo": "$穗穗与羊 non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:55:48",
+  "tipo": "FILTRATO",
+  "testo": "$SPACE non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:55:49",
+  "tipo": "FILTRATO",
+  "testo": "$SPEED non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:55:51",
+  "tipo": "FILTRATO",
+  "testo": "$Optimus non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:57:02",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: 11 portafogli insider collegati"
+ },
+ {
+  "ora": "01:57:02",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "01:57:11",
+  "tipo": "FILTRATO",
+  "testo": "$SNOOD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:57:12",
+  "tipo": "FILTRATO",
+  "testo": "$PumpChain non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:57:14",
+  "tipo": "FILTRATO",
+  "testo": "$PERPD non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "01:57:15",
+  "tipo": "FILTRATO",
+  "testo": "$Pump non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "01:58:35",
+  "tipo": "FILTRATO",
+  "testo": "$Slingoor non comprato · motivo: solo 83 holder"
+ },
+ {
+  "ora": "01:58:36",
+  "tipo": "FILTRATO",
+  "testo": "$SPEED non comprato · motivo: segnali 1/2 (holder +6%)"
+ },
+ {
+  "ora": "01:58:38",
+  "tipo": "FILTRATO",
+  "testo": "$KOOP non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "01:58:39",
+  "tipo": "FILTRATO",
+  "testo": "$Optimus non comprato · motivo: segnali 1/2 (holder +22%)"
+ },
+ {
+  "ora": "02:00:51",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "02:00:58",
+  "tipo": "FILTRATO",
+  "testo": "$SPEED non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:03:14",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:03:14",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:03:16",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:03:17",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:03:24",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "02:03:30",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: segnali 1/2 (holder +807%)"
+ },
+ {
+  "ora": "02:05:51",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 1/2 (holder +6%)"
+ },
+ {
+  "ora": "02:05:59",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:06:02",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:06:03",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 134 holder"
+ },
+ {
+  "ora": "02:07:44",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:07:45",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 132 holder"
+ },
+ {
+  "ora": "02:07:47",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:07:48",
+  "tipo": "FILTRATO",
+  "testo": "$Pumpcat non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:07:50",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 84%)"
+ },
+ {
+  "ora": "02:07:56",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: top 10 holder hanno il 36%"
+ },
+ {
+  "ora": "02:07:57",
+  "tipo": "FILTRATO",
+  "testo": "$Grodia non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "02:07:59",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: segnali 1/2 (picco volume 7.3x)"
+ },
+ {
+  "ora": "02:09:49",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:09:49",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 144 holder"
+ },
+ {
+  "ora": "02:09:59",
+  "tipo": "FILTRATO",
+  "testo": "$SKINPUSS non comprato · motivo: top 10 holder hanno il 42%; solo 46 holder"
+ },
+ {
+  "ora": "02:10:01",
+  "tipo": "FILTRATO",
+  "testo": "$VVV non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "02:10:45",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 147 holder"
+ },
+ {
+  "ora": "02:10:55",
+  "tipo": "FILTRATO",
+  "testo": "$VVV non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:14:29",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 140 holder"
+ },
+ {
+  "ora": "02:14:31",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: 34 portafogli insider collegati"
+ },
+ {
+  "ora": "02:14:31",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:14:33",
+  "tipo": "FILTRATO",
+  "testo": "$THANKS non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:16:01",
+  "tipo": "FILTRATO",
+  "testo": "$VIGIL non comprato · motivo: solo 143 holder"
+ },
+ {
+  "ora": "02:16:04",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:16:09",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:16:15",
+  "tipo": "FILTRATO",
+  "testo": "$WORTHY non comprato · motivo: segnali 1/2 (picco volume 12.0x)"
+ },
+ {
+  "ora": "02:16:16",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:16:18",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: segnali 1/2 (picco volume 10.9x)"
+ },
+ {
+  "ora": "02:20:01",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:21:49",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 1/2 (holder +119%)"
+ },
+ {
+  "ora": "02:21:59",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 1/2 (acquisti 74%)"
+ },
+ {
+  "ora": "02:22:01",
+  "tipo": "FILTRATO",
+  "testo": "$英伟达 non comprato · motivo: solo 48 holder"
+ },
+ {
+  "ora": "02:22:02",
+  "tipo": "FILTRATO",
+  "testo": "$Predators non comprato · motivo: sviluppatore ha il 71.3%"
+ },
+ {
+  "ora": "02:24:14",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:24:14",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:24:16",
+  "tipo": "FILTRATO",
+  "testo": "$PUMPDOG non comprato · motivo: segnali 1/2 (acquisti 75%)"
+ },
+ {
+  "ora": "02:24:25",
+  "tipo": "FILTRATO",
+  "testo": "$WORTHY non comprato · motivo: segnali 1/2 (picco volume 8.0x)"
+ },
+ {
+  "ora": "02:24:26",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:24:28",
+  "tipo": "FILTRATO",
+  "testo": "$EPOCH non comprato · motivo: solo 73 holder"
+ },
+ {
+  "ora": "02:24:29",
+  "tipo": "FILTRATO",
+  "testo": "$GODF non comprato · motivo: 63 portafogli insider collegati"
+ },
+ {
+  "ora": "02:24:31",
+  "tipo": "FILTRATO",
+  "testo": "$AGI non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:27:43",
+  "tipo": "FILTRATO",
+  "testo": "$SKINPUSS non comprato · motivo: top 10 holder hanno il 42%; 144 portafogli insider collegati; solo 76 holder"
+ },
+ {
+  "ora": "02:27:44",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 1/2 (holder +19%)"
+ },
+ {
+  "ora": "02:27:46",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: 34 portafogli insider collegati"
+ },
+ {
+  "ora": "02:27:49",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 80%)"
+ },
+ {
+  "ora": "02:27:55",
+  "tipo": "FILTRATO",
+  "testo": "$Optimus non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:27:56",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: segnali 1/2 (holder +211%)"
+ },
+ {
+  "ora": "02:30:09",
+  "tipo": "FILTRATO",
+  "testo": "$TAXMAN non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:30:10",
+  "tipo": "FILTRATO",
+  "testo": "$SKINPUSS non comprato · motivo: top 10 holder hanno il 42%; 252 portafogli insider collegati; solo 77 holder"
+ },
+ {
+  "ora": "02:30:11",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: bot fermo: capitale sceso del 30% dal massimo ($65.21 → $45.02)"
+ },
+ {
+  "ora": "02:30:16",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:30:22",
+  "tipo": "FILTRATO",
+  "testo": "$Slingoor non comprato · motivo: segnali 1/2 (holder +1704%)"
+ },
+ {
+  "ora": "02:30:23",
+  "tipo": "FILTRATO",
+  "testo": "$Optimus non comprato · motivo: segnali 1/2 (holder +11%)"
+ },
+ {
+  "ora": "02:30:25",
+  "tipo": "FILTRATO",
+  "testo": "$NIAN non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:32:39",
+  "tipo": "FILTRATO",
+  "testo": "$RASMR non comprato · motivo: segnali 1/2 (picco volume 5.6x)"
+ },
+ {
+  "ora": "02:32:40",
+  "tipo": "FILTRATO",
+  "testo": "$TAXMAN non comprato · motivo: segnali 1/2 (holder +15%)"
+ },
+ {
+  "ora": "02:32:42",
+  "tipo": "FILTRATO",
+  "testo": "$SKINPUSS non comprato · motivo: top 10 holder hanno il 42%; 347 portafogli insider collegati; solo 77 holder"
+ },
+ {
+  "ora": "02:32:43",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 1/2 (acquisti 73%)"
+ },
+ {
+  "ora": "02:32:43",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: già +300% nell'ultima ora, niente inseguimento"
+ },
+ {
+  "ora": "02:32:46",
+  "tipo": "FILTRATO",
+  "testo": "$UHI non comprato · motivo: segnali 1/2 (acquisti 75%)"
+ },
+ {
+  "ora": "02:32:49",
+  "tipo": "FILTRATO",
+  "testo": "$NORFEATH non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:32:55",
+  "tipo": "FILTRATO",
+  "testo": "$NIAN non comprato · motivo: segnali 1/2 (holder +19%)"
+ },
+ {
+  "ora": "02:34:28",
+  "tipo": "FILTRATO",
+  "testo": "$RASMR non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:34:29",
+  "tipo": "FILTRATO",
+  "testo": "$TAXMAN non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:34:29",
+  "tipo": "FILTRATO",
+  "testo": "$SKINPUSS non comprato · motivo: top 10 holder hanno il 42%; 413 portafogli insider collegati; solo 77 holder"
+ },
+ {
+  "ora": "02:34:33",
+  "tipo": "FILTRATO",
+  "testo": "$MONEY non comprato · motivo: segnali 0/2 (nessuno)"
+ },
+ {
+  "ora": "02:34:33",
+  "tipo": "FILTRATO",
+  "testo": "$Zero non comprato · motivo: 34 portafogli insider collegati"
+ }
+]

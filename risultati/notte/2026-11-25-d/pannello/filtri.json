@@ -1,0 +1,158 @@
+[
+ {
+  "motivo": "liquidità troppo bassa",
+  "token": 753
+ },
+ {
+  "motivo": "coppia troppo vecchia",
+  "token": 74
+ },
+ {
+  "motivo": "segnali 1/2",
+  "token": 56
+ },
+ {
+  "motivo": "nessun prezzo disponibile",
+  "token": 56
+ },
+ {
+  "motivo": "segnali 0/2",
+  "token": 43
+ },
+ {
+  "motivo": "bot fermo: capitale sceso del 30% dal massimo",
+  "token": 26
+ },
+ {
+  "motivo": "già +300% nell'ultima ora, niente inseguimento",
+  "token": 21
+ },
+ {
+  "motivo": "volume 5 min troppo basso",
+  "token": 11
+ },
+ {
+  "motivo": "DEX non previsto",
+  "token": 5
+ },
+ {
+  "motivo": "solo 65 holder",
+  "token": 2
+ },
+ {
+  "motivo": "11 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "34 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "12 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "22 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "16 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "30 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "23 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "60 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 2 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 3 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 110 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 89%",
+  "token": 1
+ },
+ {
+  "motivo": "10 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 83 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 134 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 132 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 36%",
+  "token": 1
+ },
+ {
+  "motivo": "solo 144 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%; solo 46 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 147 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 140 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 143 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 48 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 71.3%",
+  "token": 1
+ },
+ {
+  "motivo": "solo 73 holder",
+  "token": 1
+ },
+ {
+  "motivo": "63 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%; 144 portafogli insider collegati; solo 76 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%; 252 portafogli insider collegati; solo 77 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 42%; 347 portafogli insider collegati; solo 77 holder",
+  "token": 1
+ }
+]

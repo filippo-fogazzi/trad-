@@ -8,16 +8,16 @@
   "punta": "40% del capitale per operazione",
   "notti": 2,
   "notte": "2026-11-25",
-  "capitale_eur": 50.0,
-  "variazione_pct": 0.0,
-  "operazioni": 0,
-  "vinte": 0,
-  "perse": 0,
-  "totale_pct": 5.7,
+  "capitale_eur": 52.49,
+  "variazione_pct": 5.0,
+  "operazioni": 2,
+  "vinte": 1,
+  "perse": 1,
+  "totale_pct": 8.2,
   "in_corso": true,
-  "lab_operazioni": 21,
-  "lab_variazione_pct": 28.2,
-  "lab_media_pct": 5.37
+  "lab_operazioni": 23,
+  "lab_variazione_pct": 9.2,
+  "lab_media_pct": 3.3
  },
  {
   "id": "C",
@@ -35,9 +35,9 @@
   "perse": 2,
   "totale_pct": -31.6,
   "in_corso": true,
-  "lab_operazioni": 0,
-  "lab_variazione_pct": 0.0,
-  "lab_media_pct": 0.0
+  "lab_operazioni": 1,
+  "lab_variazione_pct": -3.9,
+  "lab_media_pct": -11.85
  },
  {
   "id": "D",
@@ -46,17 +46,17 @@
   "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
   "vende": "A −20%, oppure dopo 25 minuti se non è raddoppiata",
   "punta": "33% del capitale per operazione",
-  "notti": 0,
-  "notte": "",
-  "capitale_eur": null,
-  "variazione_pct": null,
-  "operazioni": 0,
+  "notti": 1,
+  "notte": "2026-11-25",
+  "capitale_eur": 40.97,
+  "variazione_pct": -18.1,
+  "operazioni": 1,
   "vinte": 0,
-  "perse": 0,
-  "totale_pct": null,
-  "in_corso": false,
-  "lab_operazioni": 523,
-  "lab_variazione_pct": 440.0,
-  "lab_media_pct": 23.87
+  "perse": 1,
+  "totale_pct": -18.1,
+  "in_corso": true,
+  "lab_operazioni": 586,
+  "lab_variazione_pct": 339.5,
+  "lab_media_pct": 24.19
  }
 ]

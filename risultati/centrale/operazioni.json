@@ -1,6 +1,34 @@
 [
  {
   "n": 1,
+  "moneta": "$CI",
+  "entrata": "18:59",
+  "uscita": "19:00",
+  "speso_usd": 29.14,
+  "incassato_usd": 18.98,
+  "risultato_usd": -10.17,
+  "capitale_dopo_usd": 44.6,
+  "motivo_ingresso": "acquisti 93% + holder +9% · rug check PASS",
+  "motivo_uscita": "stop -15% (prezzo -32%)",
+  "bot": "B",
+  "notte": "2026-11-25"
+ },
+ {
+  "n": 2,
+  "moneta": "$MIM",
+  "entrata": "18:53",
+  "uscita": "19:06",
+  "speso_usd": 21.91,
+  "incassato_usd": 34.8,
+  "risultato_usd": 12.89,
+  "capitale_dopo_usd": 57.49,
+  "motivo_ingresso": "acquisti 74% + holder +8% · rug check PASS",
+  "motivo_uscita": "trailing -25% dal massimo",
+  "bot": "B",
+  "notte": "2026-11-25"
+ },
+ {
+  "n": 3,
   "moneta": "$DCTY",
   "entrata": "13:17",
   "uscita": "13:17",
@@ -14,7 +42,7 @@
   "notte": "2026-11-25"
  },
  {
-  "n": 2,
+  "n": 4,
   "moneta": "$PILOTUS",
   "entrata": "13:33",
   "uscita": "13:36",
@@ -25,6 +53,20 @@
   "motivo_ingresso": "picco volume 5.9x + holder +18% · rug check PASS",
   "motivo_uscita": "liquidità sparita (rug)",
   "bot": "C",
+  "notte": "2026-11-25"
+ },
+ {
+  "n": 5,
+  "moneta": "$AMD",
+  "entrata": "00:52",
+  "uscita": "00:57",
+  "speso_usd": 18.13,
+  "incassato_usd": 8.21,
+  "risultato_usd": -9.92,
+  "capitale_dopo_usd": 45.02,
+  "motivo_ingresso": "acquisti 77% + holder +9% · rug check PASS",
+  "motivo_uscita": "stop -20% (prezzo -52%)",
+  "bot": "D",
   "notte": "2026-11-25"
  }
 ]

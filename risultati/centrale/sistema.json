@@ -3,8 +3,8 @@
   "id": "notte_b",
   "attivita": "Bot B · Aggressiva",
   "stato": "in corso",
-  "dettaglio": "Giornata 2026-11-25: 0 operazioni, capitale 50,00 €",
-  "ultimo": "25/11 19:06",
+  "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 52,49 €",
+  "ultimo": "26/11 03:10",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
@@ -12,31 +12,31 @@
   "attivita": "Bot C · Grandi e protette",
   "stato": "in corso",
   "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 34,18 €",
-  "ultimo": "25/11 19:06",
+  "ultimo": "26/11 03:10",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "notte_d",
   "attivita": "Bot D · Piccole e veloci",
-  "stato": "in attesa",
-  "dettaglio": "Nessuna giornata registrata ancora.",
-  "ultimo": "—",
-  "prossimo": "gira 24 ore su 24"
+  "stato": "in corso",
+  "dettaglio": "Giornata 2026-11-25: 1 operazioni, capitale 40,97 €",
+  "ultimo": "26/11 03:10",
+  "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "registratore",
   "attivita": "Registratore 24/7",
   "stato": "attivo",
-  "dettaglio": "2583 foto di 1718 memecoin",
-  "ultimo": "25/11 16:47",
+  "dettaglio": "3116 foto di 2099 memecoin",
+  "ultimo": "25/11 22:27",
   "prossimo": "foto caricate a fine turno, ogni 6 ore circa"
  },
  {
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "D: +440.0% su 523 operazioni · 45 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "25/11 19:19",
+  "dettaglio": "D: +339.5% su 586 operazioni · 46 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "26/11 03:10",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -52,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "25/11 19:21",
-  "prossimo": "domani alle 07:08"
+  "ultimo": "26/11 03:10",
+  "prossimo": "26/11 alle 07:08"
  }
 ]

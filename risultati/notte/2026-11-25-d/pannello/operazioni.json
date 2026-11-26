@@ -1,0 +1,14 @@
+[
+ {
+  "n": 1,
+  "moneta": "$AMD",
+  "entrata": "00:52",
+  "uscita": "00:57",
+  "speso_usd": 18.13,
+  "incassato_usd": 8.21,
+  "risultato_usd": -9.92,
+  "capitale_dopo_usd": 45.02,
+  "motivo_ingresso": "acquisti 77% + holder +9% · rug check PASS",
+  "motivo_uscita": "stop -20% (prezzo -52%)"
+ }
+]

@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "n": 1,
+  "moneta": "$CI",
+  "entrata": "18:59",
+  "uscita": "19:00",
+  "speso_usd": 29.14,
+  "incassato_usd": 18.98,
+  "risultato_usd": -10.17,
+  "capitale_dopo_usd": 44.6,
+  "motivo_ingresso": "acquisti 93% + holder +9% · rug check PASS",
+  "motivo_uscita": "stop -15% (prezzo -32%)"
+ },
+ {
+  "n": 2,
+  "moneta": "$MIM",
+  "entrata": "18:53",
+  "uscita": "19:06",
+  "speso_usd": 21.91,
+  "incassato_usd": 34.8,
+  "risultato_usd": 12.89,
+  "capitale_dopo_usd": 57.49,
+  "motivo_ingresso": "acquisti 74% + holder +8% · rug check PASS",
+  "motivo_uscita": "trailing -25% dal massimo"
+ }
+]

@@ -1,46 +1,66 @@
 [
  {
   "motivo": "liquidità troppo bassa",
-  "token": 5368
+  "token": 11071
  },
  {
   "motivo": "nessun prezzo disponibile",
-  "token": 266
+  "token": 621
  },
  {
   "motivo": "coppia troppo vecchia",
-  "token": 165
+  "token": 417
+ },
+ {
+  "motivo": "segnali 1/2",
+  "token": 101
+ },
+ {
+  "motivo": "già +300% nell'ultima ora, niente inseguimento",
+  "token": 82
+ },
+ {
+  "motivo": "segnali 0/2",
+  "token": 63
  },
  {
   "motivo": "DEX non previsto",
+  "token": 59
+ },
+ {
+  "motivo": "bot fermo: capitale sceso del 30% dal massimo",
   "token": 32
  },
  {
   "motivo": "volume 5 min troppo basso",
-  "token": 19
+  "token": 25
  },
  {
-  "motivo": "segnali 1/2",
-  "token": 18
- },
- {
-  "motivo": "già +300% nell'ultima ora, niente inseguimento",
-  "token": 11
- },
- {
-  "motivo": "segnali 0/2",
-  "token": 8
- },
- {
-  "motivo": "bot fermo: capitale sceso del 30% dal massimo",
-  "token": 4
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked",
+  "token": 13
  },
  {
   "motivo": "top 10 holder hanno il 74%",
   "token": 4
  },
  {
+  "motivo": "60 portafogli insider collegati",
+  "token": 4
+ },
+ {
   "motivo": "4 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "212 portafogli insider collegati",
+  "token": 3
+ },
+ {
+  "motivo": "sviluppatore ha il 9.0%; top 10 holder hanno il 79%",
+  "token": 3
+ },
+ {
+  "motivo": "34 portafogli insider collegati",
   "token": 3
  },
  {
@@ -53,6 +73,38 @@
  },
  {
   "motivo": "47 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "sviluppatore ha il 5.5%; top 10 holder hanno il 54%",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 36%",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 35%",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 63%; 4 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 63%; 721 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "top 10 holder hanno il 45%; 4 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "22 portafogli insider collegati",
+  "token": 2
+ },
+ {
+  "motivo": "11 portafogli insider collegati",
   "token": 2
  },
  {
@@ -144,10 +196,6 @@
   "token": 1
  },
  {
-  "motivo": "sviluppatore ha il 5.5%; top 10 holder hanno il 54%",
-  "token": 1
- },
- {
   "motivo": "209 portafogli insider collegati",
   "token": 1
  },
@@ -156,7 +204,147 @@
   "token": 1
  },
  {
-  "motivo": "top 10 holder hanno il 36%",
+  "motivo": "solo 81 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 77 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 29 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 57 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 3 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 123 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 56 holder",
+  "token": 1
+ },
+ {
+  "motivo": "213 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "solo 62 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 73 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 116 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 65%; 721 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 62%; 721 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 10.0%; top 10 holder hanno il 49%",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 9.0%; top 10 holder hanno il 78%",
+  "token": 1
+ },
+ {
+  "motivo": "solo 80 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 89 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 132 holder",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 40%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 39%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 38%",
+  "token": 1
+ },
+ {
+  "motivo": "top 10 holder hanno il 54%",
+  "token": 1
+ },
+ {
+  "motivo": "solo 46 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 108 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 130 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 147 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 6 holder",
+  "token": 1
+ },
+ {
+  "motivo": "solo 127 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 15.9%",
+  "token": 1
+ },
+ {
+  "motivo": "30 portafogli insider collegati",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 31 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 4 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 79 holder",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 43 holder",
+  "token": 1
+ },
+ {
+  "motivo": "sviluppatore ha il 96.2%; 85 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership",
+  "token": 1
+ },
+ {
+  "motivo": "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 120 holder",
   "token": 1
  }
 ]

@@ -3,66 +3,66 @@
   "id": "scanner",
   "agente": "Scanner",
   "ruolo": "Cerca memecoin nuove e i loro segnali",
-  "numero": 4898,
+  "numero": 11031,
   "unita": "",
   "etichetta": "token guardati",
-  "dettaglio": "538 nel perimetro · 32 senza 2 segnali",
-  "ultima": "18:51",
-  "stato": "attivo"
+  "dettaglio": "2445 nel perimetro · 621 senza 2 segnali",
+  "ultima": "02:33",
+  "stato": "fermo"
  },
  {
   "id": "controllo",
   "agente": "Controllo truffe",
   "ruolo": "Boccia i token sospetti con RugCheck",
-  "numero": 442,
+  "numero": 1354,
   "unita": "",
   "etichetta": "token bocciati",
-  "dettaglio": "32 superati su 474 controllati",
-  "ultima": "18:51",
-  "stato": "attivo"
+  "dettaglio": "693 superati su 2047 controllati",
+  "ultima": "02:33",
+  "stato": "fermo"
  },
  {
   "id": "dimensione",
   "agente": "Dimensione",
   "ruolo": "Decide quanto puntare su ogni operazione",
-  "numero": 16.5,
+  "numero": 17.32,
   "unita": "€",
   "etichetta": "prossima puntata",
   "dettaglio": "33% del capitale · max 2 posizioni",
-  "ultima": "—",
-  "stato": "pronto"
+  "ultima": "18:59",
+  "stato": "fermo"
  },
  {
   "id": "esecutore",
   "agente": "Esecutore",
   "ruolo": "Compra e vende su carta, con stop e scala di vendita",
-  "numero": 0,
+  "numero": 7,
   "unita": "",
   "etichetta": "ordini su carta",
   "dettaglio": "0 posizioni aperte",
-  "ultima": "—",
-  "stato": "in attesa"
+  "ultima": "19:06",
+  "stato": "fermo"
  },
  {
   "id": "diario",
   "agente": "Diario",
   "ruolo": "Scrive ogni decisione con il suo motivo",
-  "numero": 234,
+  "numero": 860,
   "unita": "",
   "etichetta": "righe scritte",
-  "dettaglio": "232 scarti spiegati",
-  "ultima": "18:51",
-  "stato": "attivo"
+  "dettaglio": "845 scarti spiegati",
+  "ultima": "02:33",
+  "stato": "fermo"
  },
  {
   "id": "capitale",
   "agente": "Capitale",
   "ruolo": "Tiene il saldo e ferma tutto a −30%",
-  "numero": 50.0,
+  "numero": 52.49,
   "unita": "€",
   "etichetta": "capitale attuale",
-  "dettaglio": "massimo della notte 50,00 €",
-  "ultima": "19:06",
-  "stato": "attivo"
+  "dettaglio": "massimo della notte 68,07 €",
+  "ultima": "03:10",
+  "stato": "fermo"
  }
 ]
