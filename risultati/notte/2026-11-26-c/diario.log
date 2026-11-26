@@ -112,3 +112,114 @@
 07:57:31 FILTRATO  $ANSEM non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
 08:00:12 FILTRATO  $Elonmas non comprato · motivo: 97 portafogli insider collegati
 08:00:13 FILTRATO  $alx non comprato · motivo: 6 portafogli insider collegati
+08:01:28 FILTRATO  $Fug non comprato · motivo: 9 portafogli insider collegati
+08:01:36 FILTRATO  $TEXEL non comprato · motivo: solo 133 holder
+08:01:36 FILTRATO  $SI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:01:36 FILTRATO  $GTA6 non comprato · motivo: solo 114 holder
+08:01:38 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:01:39 FILTRATO  $Sae non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:01:42 FILTRATO  $GDRAW non comprato · motivo: solo 57 holder
+08:01:42 FILTRATO  $FLOKIMAS non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:01:44 FILTRATO  $NVIDIA non comprato · motivo: segnali 0/2 (nessuno)
+08:01:45 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:01:45 FILTRATO  $SI non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:01:47 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (holder +12%)
+08:01:48 FILTRATO  $CI non comprato · motivo: top 10 holder hanno il 46%
+08:02:01 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/EPEjajbZzxBUQVaEeu1xqXWkytztRcc5zEKMWxFScvRf/report
+08:04:27 FILTRATO  $Caiolo non comprato · motivo: 5 portafogli insider collegati
+08:04:35 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:04:41 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (acquisti 78%)
+08:04:41 FILTRATO  $WIFMAS non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:05:01 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/EPEjajbZzxBUQVaEeu1xqXWkytztRcc5zEKMWxFScvRf/report
+08:06:27 FILTRATO  $Fug non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:06:27 FILTRATO  $SpaceXCoin non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:06:29 FILTRATO  $ATX non comprato · motivo: solo 3 holder
+08:06:30 FILTRATO  $莫达 non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:06:38 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:06:40 FILTRATO  $SI non comprato · motivo: segnali 0/2 (nessuno)
+08:06:41 FILTRATO  $WIFMAS non comprato · motivo: segnali 1/2 (picco volume 5.8x)
+08:06:42 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (holder +21%)
+08:08:29 FILTRATO  $BLOCK0 non comprato · motivo: 4 portafogli insider collegati
+08:08:36 FILTRATO  $Fug non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:08:38 FILTRATO  $FOMO non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:08:42 FILTRATO  $philanthro non comprato · motivo: segnali 1/2 (picco volume 7.6x)
+08:09:33 FILTRATO  $philanthro non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:11:45 FILTRATO  $FLOKIMAS non comprato · motivo: segnali 0/2 (nessuno)
+08:11:48 FILTRATO  $Zero non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:11:49 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 8.3x)
+08:11:51 FILTRATO  $WIFMAS non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:14:03 FILTRATO  $SI non comprato · motivo: 4 portafogli insider collegati
+08:14:08 FILTRATO  $BLOCK0 non comprato · motivo: 4 portafogli insider collegati
+08:14:13 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 37%
+08:14:20 FILTRATO  $WIFMAS non comprato · motivo: segnali 0/2 (nessuno)
+08:16:32 FILTRATO  $Elonmas non comprato · motivo: solo 146 holder
+08:16:33 FILTRATO  $Zero non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:16:35 FILTRATO  $ANSEM2 non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:16:36 FILTRATO  $JENSEN non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:16:43 FILTRATO  $philanthro non comprato · motivo: segnali 1/2 (holder +17%)
+08:16:47 FILTRATO  $SI non comprato · motivo: top 10 holder hanno il 83%
+08:19:25 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/8sKGQVyg653njPq21kQBzcsfLwbm6bQceQfpzAcWpump/report
+08:21:51 FILTRATO  $OG non comprato · motivo: segnali 1/2 (picco volume 8.0x)
+08:21:52 FILTRATO  $Fug non comprato · motivo: 13 portafogli insider collegati
+08:21:57 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 36%
+08:21:58 FILTRATO  $Datacat non comprato · motivo: solo 109 holder
+08:22:00 FILTRATO  $GTA$ non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:22:01 FILTRATO  $TEXEL non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:22:03 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:22:09 FILTRATO  $Sae non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:22:10 FILTRATO  $FOMO non comprato · motivo: segnali 0/2 (nessuno)
+08:22:10 FILTRATO  $Pedro non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:22:14 FILTRATO  $WIFMAS non comprato · motivo: segnali 1/2 (acquisti 83%)
+08:23:51 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 35%
+08:23:52 FILTRATO  $Claws non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:23:54 FILTRATO  $Jensen non comprato · motivo: solo 66 holder
+08:23:57 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 8.5x)
+08:27:09 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+08:27:16 FILTRATO  $PUMPCHAN non comprato · motivo: segnali 0/2 (nessuno)
+08:27:17 FILTRATO  $NEX Ai non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:28:26 FILTRATO  $Claws non comprato · motivo: solo 138 holder
+08:28:26 FILTRATO  $猫猫币 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:29:57 FILTRATO  $黄仁勋 non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:31:25 FILTRATO  $Bearbwl non comprato · motivo: solo 40 holder
+08:31:26 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:31:32 FILTRATO  $Fug non comprato · motivo: segnali 1/2 (picco volume 5.1x)
+08:34:57 FILTRATO  $OG non comprato · motivo: segnali 1/2 (acquisti 71%)
+08:37:14 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+08:37:17 FILTRATO  $Elonmas non comprato · motivo: 98 portafogli insider collegati
+08:38:50 FILTRATO  $Zero non comprato · motivo: segnali 1/2 (picco volume 6.2x)
+08:38:50 FILTRATO  $Fug non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:38:54 FILTRATO  $猫猫币 non comprato · motivo: segnali 1/2 (picco volume 5.0x)
+08:39:49 FILTRATO  $TEEETHY non comprato · motivo: segnali 0/2 (nessuno)
+08:39:50 FILTRATO  $Gondola non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:39:54 FILTRATO  $ATH non comprato · motivo: segnali 1/2 (picco volume 9.8x)
+08:44:05 FILTRATO  $ATH non comprato · motivo: segnali 0/2 (nessuno)
+08:45:06 FILTRATO  $OG non comprato · motivo: segnali 1/2 (holder +6%)
+08:45:12 FILTRATO  $SPACEXLIFE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:45:13 FILTRATO  $Zero non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:45:15 FILTRATO  $Jensen non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:45:19 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+08:45:23 FILTRATO  $Grok AI non comprato · motivo: segnali 0/2 (nessuno)
+08:45:25 FILTRATO  $Zero non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:48:45 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+08:50:50 FILTRATO  $Sae non comprato · motivo: segnali 0/2 (nessuno)
+08:50:57 FILTRATO  $GUMBO non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+08:50:59 FILTRATO  $Zero non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:51:02 FILTRATO  $Fug non comprato · motivo: segnali 1/2 (holder +22%)
+08:51:04 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (holder +28%)
+08:51:10 FILTRATO  $Gondola non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:51:58 FILTRATO  $ISABELLE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:52:01 FILTRATO  $Zero non comprato · motivo: segnali 1/2 (holder +10%)
+08:52:03 FILTRATO  $Fug non comprato · motivo: segnali 0/2 (nessuno)
+08:52:04 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+08:52:04 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:52:07 FILTRATO  $Gondola non comprato · motivo: segnali 1/2 (acquisti 83%)
+08:52:57 FILTRATO  $Zero non comprato · motivo: solo 100 holder
+08:52:58 FILTRATO  $ISABELLE non comprato · motivo: top 10 holder hanno il 36%
+08:56:06 FILTRATO  $TEEETHY non comprato · motivo: segnali 1/2 (acquisti 77%)
+08:56:10 FILTRATO  $ISABELLE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:56:12 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (holder +15%)
+08:56:13 FILTRATO  $GUMBO non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+08:58:55 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+08:59:39 FILTRATO  $ISABELLE non comprato · motivo: 17 portafogli insider collegati
+08:59:39 FILTRATO  $猫猫币 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+08:59:39 FILTRATO  $GUMBO non comprato · motivo: segnali 1/2 (picco volume 5.0x)
