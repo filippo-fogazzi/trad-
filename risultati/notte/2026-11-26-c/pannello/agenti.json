@@ -1,0 +1,68 @@
+[
+ {
+  "id": "scanner",
+  "agente": "Scanner",
+  "ruolo": "Cerca memecoin nuove e i loro segnali",
+  "numero": 6679,
+  "unita": "",
+  "etichetta": "token guardati",
+  "dettaglio": "2642 nel perimetro · 1007 senza 2 segnali",
+  "ultima": "15:41",
+  "stato": "fermo"
+ },
+ {
+  "id": "controllo",
+  "agente": "Controllo truffe",
+  "ruolo": "Boccia i token sospetti con RugCheck",
+  "numero": 1027,
+  "unita": "",
+  "etichetta": "token bocciati",
+  "dettaglio": "1473 superati su 2500 controllati",
+  "ultima": "15:41",
+  "stato": "fermo"
+ },
+ {
+  "id": "dimensione",
+  "agente": "Dimensione",
+  "ruolo": "Decide quanto puntare su ogni operazione",
+  "numero": 8.09,
+  "unita": "€",
+  "etichetta": "prossima puntata",
+  "dettaglio": "33% del capitale · max 2 posizioni",
+  "ultima": "07:34",
+  "stato": "fermo"
+ },
+ {
+  "id": "esecutore",
+  "agente": "Esecutore",
+  "ruolo": "Compra e vende su carta, con stop e scala di vendita",
+  "numero": 15,
+  "unita": "",
+  "etichetta": "ordini su carta",
+  "dettaglio": "0 posizioni aperte",
+  "ultima": "07:53",
+  "stato": "fermo"
+ },
+ {
+  "id": "diario",
+  "agente": "Diario",
+  "ruolo": "Scrive ogni decisione con il suo motivo",
+  "numero": 1222,
+  "unita": "",
+  "etichetta": "righe scritte",
+  "dettaglio": "1190 scarti spiegati",
+  "ultima": "15:41",
+  "stato": "fermo"
+ },
+ {
+  "id": "capitale",
+  "agente": "Capitale",
+  "ruolo": "Tiene il saldo e ferma tutto a −30%",
+  "numero": 24.51,
+  "unita": "€",
+  "etichetta": "capitale attuale",
+  "dettaglio": "massimo della notte 53,79 €",
+  "ultima": "15:51",
+  "stato": "fermo"
+ }
+]

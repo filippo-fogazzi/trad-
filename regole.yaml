@@ -110,44 +110,47 @@ notte_meme:
 # --- STRATEGIE B, C e D: quelle che girano davvero (24 ore su 24) ---
 # La A (le regole qui sopra, dal prompt Grok) non gira più dal 25/11: filtri troppo severi, ha perso.
 # Resta come base: B, C e D cambiano solo i numeri scritti qui sotto, tutto il resto è uguale alla A.
-# Scelte il 26/11 con un solo obiettivo: far crescere il capitale. Nel test sul passato (2.907 foto) sono le
-# regole che fanno crescere il capitale sia nella prima sia nella seconda metà dei dati, non solo in totale.
-# Tutte comprano monete piccole e NON guardano se la liquidità è bloccata: è un RISCHIO di rug (truffa),
-# ma ogni regola con quel controllo perdeva soldi nel test. Solo carta.
+# 26/11: le regole SENZA controllo sulla liquidità bloccata hanno perso più della metà in 40 minuti per i rug
+# (il test sul passato non vedeva i rug: il ritiro della liquidità non lascia traccia nei prezzi).
+# Ora tutte e tre hanno il controllo; partono dalla vecchia B (l'unica che ha chiuso una notte in guadagno)
+# e cambiano solo come escono e quanto puntano, per capire dal vivo cosa funziona.
 notte_meme_varianti:
   b:
-    descrizione: "Monete molto scambiate, stop largo, le tiene fino a un'ora"
+    descrizione: "La vecchia B: filtri larghi, controllo anti-truffa severo, stop -15%, 20 minuti"
     universo:
-      liquidita_min_usd: 5000    # invece di 40.000
+      liquidita_min_usd: 15000   # invece di 40.000
       volume_5min_min_usd: 5000  # invece di 25.000
       holder_min: 150            # invece di 300
     controllo_truffe:
-      lp_bloccata_min_pct: 0     # invece di 90: RISCHIO, la liquidità può essere ritirata (rug)
-      no_rischi_gravi: false     # invece di true (RugCheck lo segna "danger" proprio per la LP non bloccata)
+      top10_max_pct: 40          # invece di 35
+    dimensione:
+      pct_capitale: 40           # invece di 33
     uscite:
-      stop_pct: 20               # invece di 12
-      tempo_max_minuti: 60       # invece di 25
+      stop_pct: 15               # invece di 12
+      tempo_max_minuti: 20       # invece di 25
   c:
-    descrizione: "Monete piccole, stop stretto, vende entro 25 minuti"
+    descrizione: "Come la B ma lascia correre: stop -20%, la tiene fino a un'ora"
     universo:
-      liquidita_min_usd: 5000
-      volume_5min_min_usd: 1000
+      liquidita_min_usd: 15000
+      volume_5min_min_usd: 5000
       holder_min: 150
     controllo_truffe:
-      lp_bloccata_min_pct: 0     # RISCHIO di rug, vedi sopra
-      no_rischi_gravi: false
-    uscite:
-      stop_pct: 12
-      tempo_max_minuti: 25
-  d:
-    descrizione: "Monete piccole, stop largo, vende entro 25 minuti"
-    universo:
-      liquidita_min_usd: 5000
-      volume_5min_min_usd: 1000
-      holder_min: 150
-    controllo_truffe:
-      lp_bloccata_min_pct: 0     # RISCHIO di rug, vedi sopra
-      no_rischi_gravi: false
+      top10_max_pct: 40
+    dimensione:
+      pct_capitale: 40
     uscite:
       stop_pct: 20
-      tempo_max_minuti: 25
+      tempo_max_minuti: 60
+  d:
+    descrizione: "Come la B ma punta poco (20%) ed esce presto: stop -10%"
+    universo:
+      liquidita_min_usd: 15000
+      volume_5min_min_usd: 5000
+      holder_min: 150
+    controllo_truffe:
+      top10_max_pct: 40
+    dimensione:
+      pct_capitale: 20
+    uscite:
+      stop_pct: 10
+      tempo_max_minuti: 20

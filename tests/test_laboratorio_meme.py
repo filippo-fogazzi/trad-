@@ -94,3 +94,16 @@ def test_compra_al_prezzo_del_minuto_dopo_se_la_foto_e_in_ritardo():
     righe = [(1.1, 1.12, 1.09, 1.1)] * 30
     esito = simula(R, foto(prezzo=1.0), candele(*righe), 18)
     assert esito["ritorno_pct"] < -2
+
+
+def test_liquidita_ritirata_conta_come_rug_anche_se_il_prezzo_resta_fermo():
+    # il prezzo non crolla (nessuna compravendita dopo il ritiro), ma la liquidità è sparita al minuto 5
+    righe = [(1, 1.03, 0.99, 1.0)] * 5
+    esito = simula(R, foto(), candele(*righe), 18, rug_s=T0 + 5 * 60)
+    assert "rug" in esito["motivo"] and esito["ritorno_pct"] < -89
+
+
+def test_se_il_tempo_scade_prima_del_rug_il_bot_e_gia_uscito():
+    righe = [(1, 1.03, 0.99, 1.0)] * 30
+    esito = simula(R, foto(), candele(*righe), 18, rug_s=T0 + 40 * 60)
+    assert "tempo" in esito["motivo"] and esito["ritorno_pct"] > -10

@@ -142,9 +142,9 @@ def registro_ore(foto: list[dict]) -> list[dict]:
 
 # Le tre strategie in parole semplici. I numeri delle regole vengono da regole.yaml, così restano veri.
 STRATEGIE = [
-    ("B", "b", "Pazienti", "Solo monete molto scambiate; stop largo e le tiene fino a un'ora, per lasciarle salire."),
-    ("C", "c", "Stop stretto", "Monete piccole; vende presto se scendono (−12%) ed esce comunque entro 25 minuti."),
-    ("D", "d", "Piccole e veloci", "Monete piccole; stop largo (−20%) per non uscire troppo presto, esce entro 25 minuti."),
+    ("B", "b", "Aggressiva", "Filtri larghi ma controllo anti-truffa severo (liquidità bloccata). L'unica ad aver chiuso una notte in guadagno."),
+    ("C", "c", "Lascia correre", "Come la B, ma tiene le monete fino a un'ora con uno stop più largo, per prendere le salite lunghe."),
+    ("D", "d", "Puntate piccole", "Come la B, ma punta solo il 20% ed esce presto (−10%): perde meno quando va male."),
 ]
 
 

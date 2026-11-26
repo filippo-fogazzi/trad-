@@ -118,9 +118,64 @@ def pulisci(candele: list) -> list:
     return pulite
 
 
+FILE_LIQUIDITA = RADICE / "registro" / "liquidita_dopo.json"  # pool → [liquidità ($), quando (ms)] dopo la finestra
+CONTROLLO_MAX_ORE = 9  # oltre, la liquidità sparita può essere morte normale giorni dopo, non un rug nella finestra
+
+
+def liquidita_dopo(foto: list[dict], adesso_ms: int) -> dict[str, float]:
+    """Liquidità di ogni pool almeno 2,5 ore dopo la sua ultima foto (DexScreener). Si chiede una volta sola.
+    Serve a vedere le truffe: quando chi ha creato la moneta ritira la liquidità non c'è nessuna compravendita,
+    quindi le candele dei prezzi non lo mostrano. Un pool che DexScreener non restituisce più conta come 0."""
+    cache = json.loads(FILE_LIQUIDITA.read_text()) if FILE_LIQUIDITA.exists() else {}
+    ultima: dict[str, tuple[int, str]] = {}
+    for f in foto:
+        pool = f["coppia"].get("pairAddress")
+        if pool:
+            ultima[pool] = (max(f["ms"], ultima.get(pool, (0, ""))[0]), f["token"])
+    da_chiedere = [(pool, tok) for pool, (ms, tok) in ultima.items()
+                   if pool not in cache and adesso_ms >= ms + FINESTRA_MINUTI * 60_000]
+    http = requests.Session()
+    http.headers.update({"Accept": "application/json", "User-Agent": "trad-paper-bot"})
+    for i in range(0, len(da_chiedere), 30):
+        gruppo = da_chiedere[i:i + 30]
+        try:
+            r = http.get(f"https://api.dexscreener.com/tokens/v1/solana/{','.join(t for _, t in gruppo)}", timeout=20)
+            r.raise_for_status()
+            trovate = {c.get("pairAddress"): float((c.get("liquidity") or {}).get("usd") or 0) for c in r.json() or []}
+        except (requests.RequestException, ValueError):
+            continue
+        for pool, _ in gruppo:
+            cache[pool] = [trovate.get(pool, 0.0), adesso_ms]
+        time.sleep(0.3)
+    if da_chiedere:
+        FILE_LIQUIDITA.write_text(json.dumps(cache, separators=(",", ":")))
+    # valgono solo i controlli fatti entro CONTROLLO_MAX_ORE dall'ultima foto del pool
+    return {pool: v[0] for pool, v in cache.items()
+            if pool in ultima and v[1] - ultima[pool][0] <= CONTROLLO_MAX_ORE * 3_600_000}
+
+
+def istanti_rug(foto: list[dict], candele: dict[str, list], liquidita: dict[str, float]) -> dict[str, float]:
+    """token → istante (secondi) in cui si assume il rug: la liquidità poi è sparita (<20% di quella della foto)
+    e le compravendite si sono fermate prima della fine della finestra. Il rug è subito dopo l'ultima candela."""
+    rug = {}
+    for f in foto:
+        token, pool = f["token"], f["coppia"].get("pairAddress")
+        if token in rug or pool not in liquidita or token not in candele:
+            continue
+        liq_foto = float(f["coppia"]["liquidity"]["usd"] or 0)
+        if liquidita[pool] >= liq_foto * 0.2:
+            continue
+        ultime = [k[0] for k in candele[token]]
+        fine_finestra = f["ms"] / 1000 + FINESTRA_MINUTI * 60
+        ultima = max(ultime) if ultime else f["ms"] / 1000
+        if ultima < fine_finestra - 600:
+            rug[token] = ultima + 60
+    return rug
+
+
 # --- simulazione di una operazione ------------------------------------------
 
-def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict | None:
+def simula(regole: dict, foto: dict, candele: list, puntata_usd: float, rug_s: float | None = None) -> dict | None:
     """Ritorna {ritorno_pct, motivo, minuti} o None se l'ordine non sarebbe partito (slippage troppo alto)."""
     u, c = regole["uscite"], regole["costi"]
     liq = float(foto["coppia"]["liquidity"]["usd"] or 0)
@@ -157,6 +212,10 @@ def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict 
         minuti = (ts - entrata_s) / 60 + 1
         if minuti > FINESTRA_MINUTI:
             break
+        if rug_s is not None and ts >= rug_s:  # liquidità ritirata: le candele non lo mostrano
+            stato["incassato"] += quantita * stato["rimasto"] * p_in * (1 - c["perdita_se_rug_pct"] / 100)
+            stato["rimasto"] = 0
+            return fine("liquidità ritirata (rug)", minuti)
         if l <= p_in * (1 - c["perdita_se_rug_pct"] / 100):  # crollo di oltre il 90%: si assume il rug
             stato["incassato"] += quantita * stato["rimasto"] * p_in * (1 - c["perdita_se_rug_pct"] / 100)
             stato["rimasto"] = 0
@@ -184,13 +243,23 @@ def simula(regole: dict, foto: dict, candele: list, puntata_usd: float) -> dict 
             if stato["rimasto"] > 0.31 and h >= p_in * u["vendi_30pct_a"]:
                 vendi(0.3, p_in * u["vendi_30pct_a"])
             massimo = max(massimo, h)
+    if rug_s is not None and stato["rimasto"] > 0:
+        # le compravendite sono finite prima del rug: se il tempo massimo scadeva prima, il bot era già uscito
+        minuti_rug = (rug_s - entrata_s) / 60
+        if not venduto2 and minuti_rug >= u["tempo_max_minuti"]:
+            vendi(1, dopo[-1][4])
+            return fine(f"tempo scaduto ({u['tempo_max_minuti']} min)", u["tempo_max_minuti"])
+        stato["incassato"] += quantita * stato["rimasto"] * p_in * (1 - c["perdita_se_rug_pct"] / 100)
+        stato["rimasto"] = 0
+        return fine("liquidità ritirata (rug)", minuti_rug)
     vendi(1, dopo[-1][4] if dopo else p_in)
     return fine("fine della finestra di 2,5 ore", FINESTRA_MINUTI)
 
 
 # --- una strategia su tutte le foto ------------------------------------------
 
-def valuta(regole: dict, foto: list[dict], candele: dict[str, list], capitale_usd: float) -> dict:
+def valuta(regole: dict, foto: list[dict], candele: dict[str, list], capitale_usd: float,
+           rug: dict[str, float] | None = None) -> dict:
     holder_prec: dict[str, int] = {}
     entrati: set[str] = set()
     operazioni = []
@@ -208,7 +277,7 @@ def valuta(regole: dict, foto: list[dict], candele: dict[str, list], capitale_us
         if len(segnali(coppia, ora, prima, regole)) < regole["segnali"]["minimi_richiesti"]:
             continue
         puntata = capitale_usd * regole["dimensione"]["pct_capitale"] / 100
-        esito = simula(regole, f, candele[token], puntata)
+        esito = simula(regole, f, candele[token], puntata, (rug or {}).get(token))
         if esito is None:
             continue
         entrati.add(token)
@@ -248,9 +317,9 @@ def statistiche(operazioni: list[dict], regole: dict, capitale_usd: float) -> di
 
 def varianti(tutte: dict) -> list[tuple[str, dict]]:
     base = tutte["notte_meme"]
-    elenco = [("B · Pazienti", unisci(base, tutte["notte_meme_varianti"]["b"])),
-              ("C · Stop stretto", unisci(base, tutte["notte_meme_varianti"]["c"])),
-              ("D · Piccole e veloci", unisci(base, tutte["notte_meme_varianti"]["d"]))]
+    elenco = [("B · Aggressiva", unisci(base, tutte["notte_meme_varianti"]["b"])),
+              ("C · Lascia correre", unisci(base, tutte["notte_meme_varianti"]["c"])),
+              ("D · Puntate piccole", unisci(base, tutte["notte_meme_varianti"]["d"]))]
     elenco.append(("Compra tutto (senza filtri né controlli)", unisci(base, {
         "universo": {"liquidita_min_usd": 0, "volume_5min_min_usd": 0, "holder_min": 0},
         "controllo_truffe": {"sviluppatore_max_pct": 100, "top10_max_pct": 100, "lp_bloccata_min_pct": 0,
@@ -308,10 +377,12 @@ def main() -> None:
     if a.solo_candele:
         return
     candele = {token: pulisci(lista) for token, lista in candele.items()}
+    rug = istanti_rug(foto, candele, liquidita_dopo(foto, int(time.time() * 1000)))
+    print(f"truffe viste dalla liquidità sparita: {len(rug)} token")
     capitale = 50 * 1.1  # circa 50€ in dollari
     risultati = []
     for nome, regole in varianti(tutte):
-        esito = valuta(regole, foto, candele, capitale)
+        esito = valuta(regole, foto, candele, capitale, rug)
         risultati.append({"nome": nome, **{k: v for k, v in esito.items() if k != "operazioni"}})
     cartella = RADICE / "risultati"
     cartella.mkdir(exist_ok=True)

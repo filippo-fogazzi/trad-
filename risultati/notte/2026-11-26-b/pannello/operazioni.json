@@ -1,0 +1,50 @@
+[
+ {
+  "n": 1,
+  "moneta": "$Fug",
+  "entrata": "07:22",
+  "uscita": "07:26",
+  "speso_usd": 18.73,
+  "incassato_usd": 1.83,
+  "risultato_usd": -16.9,
+  "capitale_dopo_usd": 37.98,
+  "motivo_ingresso": "picco volume 12.0x + holder +44% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 2,
+  "moneta": "$SPACEXLIFE",
+  "entrata": "07:28",
+  "uscita": "07:32",
+  "speso_usd": 13.7,
+  "incassato_usd": 1.34,
+  "risultato_usd": -12.36,
+  "capitale_dopo_usd": 25.61,
+  "motivo_ingresso": "picco volume 12.0x + acquisti 73% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 3,
+  "moneta": "$牛来",
+  "entrata": "07:06",
+  "uscita": "07:35",
+  "speso_usd": 18.11,
+  "incassato_usd": 1.77,
+  "risultato_usd": -16.34,
+  "capitale_dopo_usd": 9.28,
+  "motivo_ingresso": "acquisti 75% + holder +19% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 4,
+  "moneta": "$Santa",
+  "entrata": "07:34",
+  "uscita": "07:37",
+  "speso_usd": 5.04,
+  "incassato_usd": 0.48,
+  "risultato_usd": -4.56,
+  "capitale_dopo_usd": 4.71,
+  "motivo_ingresso": "picco volume 12.0x + acquisti 78% + holder +9% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ }
+]

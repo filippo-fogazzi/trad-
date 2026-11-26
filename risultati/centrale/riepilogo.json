@@ -1,18 +1,18 @@
 [
  {
-  "notte": "2026-11-25-b",
-  "capitale_iniziale_usd": 54.77,
-  "capitale_usd": 57.49,
+  "notte": "2026-11-26-b",
+  "capitale_iniziale_usd": 54.87,
+  "capitale_usd": 4.71,
   "capitale_iniziale_eur": 50.0,
-  "capitale_eur": 52.49,
-  "variazione_pct": 4.98,
-  "operazioni": 2,
-  "vinte": 1,
-  "perse": 1,
+  "capitale_eur": 4.29,
+  "variazione_pct": -91.41,
+  "operazioni": 4,
+  "vinte": 0,
+  "perse": 4,
   "posizioni_aperte": 0,
-  "token_guardati": 11728,
-  "stato": "in corso",
-  "cambio_eur_usd": 1.0953,
-  "aggiornato": "26/11/2026 03:19"
+  "token_guardati": 7032,
+  "stato": "capitale sceso del 50% dalla partenza ($54.87 → $9.51)",
+  "cambio_eur_usd": 1.0975,
+  "aggiornato": "26/11/2026 15:51"
  }
 ]

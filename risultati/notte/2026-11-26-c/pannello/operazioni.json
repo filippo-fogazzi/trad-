@@ -1,0 +1,62 @@
+[
+ {
+  "n": 1,
+  "moneta": "$Cupseymas",
+  "entrata": "07:05",
+  "uscita": "07:16",
+  "speso_usd": 17.96,
+  "incassato_usd": 1.76,
+  "risultato_usd": -16.2,
+  "capitale_dopo_usd": 38.67,
+  "motivo_ingresso": "picco volume 5.2x + acquisti 75% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 2,
+  "moneta": "$牛来",
+  "entrata": "07:02",
+  "uscita": "07:27",
+  "speso_usd": 18.11,
+  "incassato_usd": 22.37,
+  "risultato_usd": 4.26,
+  "capitale_dopo_usd": 42.93,
+  "motivo_ingresso": "picco volume 5.4x + acquisti 75% · rug check PASS",
+  "motivo_uscita": "tempo scaduto (25 min)"
+ },
+ {
+  "n": 3,
+  "moneta": "$RING",
+  "entrata": "07:29",
+  "uscita": "07:32",
+  "speso_usd": 14.01,
+  "incassato_usd": 1.37,
+  "risultato_usd": -12.64,
+  "capitale_dopo_usd": 30.29,
+  "motivo_ingresso": "picco volume 12.0x + acquisti 74% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 4,
+  "moneta": "$Santa",
+  "entrata": "07:34",
+  "uscita": "07:37",
+  "speso_usd": 11.03,
+  "incassato_usd": 1.07,
+  "risultato_usd": -9.96,
+  "capitale_dopo_usd": 20.34,
+  "motivo_ingresso": "picco volume 11.1x + acquisti 79% + holder +8% · rug check PASS",
+  "motivo_uscita": "liquidità sparita (rug)"
+ },
+ {
+  "n": 5,
+  "moneta": "$英伟达",
+  "entrata": "07:27",
+  "uscita": "07:53",
+  "speso_usd": 14.22,
+  "incassato_usd": 20.79,
+  "risultato_usd": 6.57,
+  "capitale_dopo_usd": 26.9,
+  "motivo_ingresso": "picco volume 12.0x + acquisti 86% · rug check PASS",
+  "motivo_uscita": "tempo scaduto (25 min)"
+ }
+]

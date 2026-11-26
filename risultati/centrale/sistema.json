@@ -3,40 +3,40 @@
   "id": "notte_b",
   "attivita": "Bot B · Aggressiva",
   "stato": "in corso",
-  "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 52,49 €",
-  "ultimo": "26/11 03:19",
+  "dettaglio": "Giornata 2026-11-26: 4 operazioni, capitale 4,29 €",
+  "ultimo": "26/11 15:51",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "notte_c",
   "attivita": "Bot C · Grandi e protette",
   "stato": "in corso",
-  "dettaglio": "Giornata 2026-11-25: 2 operazioni, capitale 34,18 €",
-  "ultimo": "26/11 03:19",
+  "dettaglio": "Giornata 2026-11-26: 5 operazioni, capitale 24,51 €",
+  "ultimo": "26/11 15:51",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "notte_d",
   "attivita": "Bot D · Piccole e veloci",
   "stato": "in corso",
-  "dettaglio": "Giornata 2026-11-25: 1 operazioni, capitale 40,97 €",
-  "ultimo": "26/11 03:19",
+  "dettaglio": "Giornata 2026-11-26: 5 operazioni, capitale 23,81 €",
+  "ultimo": "26/11 15:51",
   "prossimo": "gira 24 ore su 24, nuova giornata alle 07:00"
  },
  {
   "id": "registratore",
   "attivita": "Registratore 24/7",
   "stato": "attivo",
-  "dettaglio": "3116 foto di 2099 memecoin",
-  "ultimo": "25/11 22:27",
+  "dettaglio": "5463 foto di 3600 memecoin",
+  "ultimo": "26/11 15:31",
   "prossimo": "foto caricate a fine turno, ogni 6 ore circa"
  },
  {
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "D: +441.2% su 586 operazioni · 32 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "26/11 03:24",
+  "dettaglio": "D: +552.7% su 777 operazioni · 36 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "26/11 15:51",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -52,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "26/11 03:24",
-  "prossimo": "26/11 alle 07:08"
+  "ultimo": "26/11 15:51",
+  "prossimo": "domani alle 07:08"
  }
 ]

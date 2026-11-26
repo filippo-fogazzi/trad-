@@ -1,0 +1,18 @@
+[
+ {
+  "notte": "2026-11-26-d",
+  "capitale_iniziale_usd": 54.87,
+  "capitale_usd": 26.13,
+  "capitale_iniziale_eur": 50.0,
+  "capitale_eur": 23.81,
+  "variazione_pct": -52.39,
+  "operazioni": 5,
+  "vinte": 2,
+  "perse": 3,
+  "posizioni_aperte": 0,
+  "token_guardati": 6256,
+  "stato": "capitale sceso del 50% dalla partenza ($54.87 → $23.08)",
+  "cambio_eur_usd": 1.0975,
+  "aggiornato": "26/11/2026 15:51"
+ }
+]

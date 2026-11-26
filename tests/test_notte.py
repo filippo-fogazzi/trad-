@@ -198,14 +198,12 @@ def test_un_giro_dello_scanner_compra_e_conta(tmp_path):
     assert "ENTRA" in (tmp_path / "diario.log").read_text()
 
 
-def test_varianti_b_c_d_coincidono_con_la_griglia_del_laboratorio():
+def test_varianti_b_c_d_hanno_tutte_il_controllo_sulla_liquidita_bloccata():
     from bot.notte.__main__ import unisci
-    from bot.notte.laboratorio import varianti
     tutte = carica_regole()
-    b = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["b"])
-    assert b["controllo_truffe"]["no_mint_authority"] and b["dimensione"]["max_posizioni"] == 2
-    assert "descrizione" not in b
-    griglia = dict(varianti(tutte))
-    assert griglia["B · Pazienti"] == griglia["liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min"]
-    assert griglia["C · Stop stretto"] == griglia["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min"]
-    assert griglia["D · Piccole e veloci"] == griglia["liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min"]
+    for v in "bcd":
+        r = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"][v])
+        assert r["controllo_truffe"]["lp_bloccata_min_pct"] == 90 and r["controllo_truffe"]["no_rischi_gravi"]
+        assert r["universo"]["liquidita_min_usd"] == 15000 and "descrizione" not in r
+    d = unisci(tutte["notte_meme"], tutte["notte_meme_varianti"]["d"])
+    assert d["dimensione"]["pct_capitale"] == 20 and d["uscite"]["stop_pct"] == 10

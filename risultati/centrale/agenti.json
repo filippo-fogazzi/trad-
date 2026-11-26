@@ -3,66 +3,66 @@
   "id": "scanner",
   "agente": "Scanner",
   "ruolo": "Cerca memecoin nuove e i loro segnali",
-  "numero": 11728,
+  "numero": 7032,
   "unita": "",
   "etichetta": "token guardati",
-  "dettaglio": "2729 nel perimetro · 696 senza 2 segnali",
-  "ultima": "03:18",
-  "stato": "attivo"
+  "dettaglio": "2071 nel perimetro · 844 senza 2 segnali",
+  "ultima": "15:40",
+  "stato": "fermo"
  },
  {
   "id": "controllo",
   "agente": "Controllo truffe",
   "ruolo": "Boccia i token sospetti con RugCheck",
-  "numero": 1520,
+  "numero": 651,
   "unita": "",
   "etichetta": "token bocciati",
-  "dettaglio": "774 superati su 2294 controllati",
-  "ultima": "03:18",
-  "stato": "attivo"
+  "dettaglio": "1269 superati su 1920 controllati",
+  "ultima": "15:40",
+  "stato": "fermo"
  },
  {
   "id": "dimensione",
   "agente": "Dimensione",
   "ruolo": "Decide quanto puntare su ogni operazione",
-  "numero": 17.32,
+  "numero": 0.71,
   "unita": "€",
   "etichetta": "prossima puntata",
-  "dettaglio": "33% del capitale · max 2 posizioni",
-  "ultima": "18:59",
-  "stato": "pronto"
+  "dettaglio": "33% del capitale · dimezzata dopo 2 perdite · max 2 posizioni",
+  "ultima": "07:34",
+  "stato": "fermo"
  },
  {
   "id": "esecutore",
   "agente": "Esecutore",
   "ruolo": "Compra e vende su carta, con stop e scala di vendita",
-  "numero": 7,
+  "numero": 12,
   "unita": "",
   "etichetta": "ordini su carta",
   "dettaglio": "0 posizioni aperte",
-  "ultima": "19:06",
-  "stato": "in attesa"
+  "ultima": "07:37",
+  "stato": "fermo"
  },
  {
   "id": "diario",
   "agente": "Diario",
   "ruolo": "Scrive ogni decisione con il suo motivo",
-  "numero": 938,
+  "numero": 1037,
   "unita": "",
   "etichetta": "righe scritte",
-  "dettaglio": "923 scarti spiegati",
-  "ultima": "03:18",
-  "stato": "attivo"
+  "dettaglio": "1007 scarti spiegati",
+  "ultima": "15:40",
+  "stato": "fermo"
  },
  {
   "id": "capitale",
   "agente": "Capitale",
   "ruolo": "Tiene il saldo e ferma tutto a −30%",
-  "numero": 52.49,
+  "numero": 4.29,
   "unita": "€",
   "etichetta": "capitale attuale",
-  "dettaglio": "massimo della notte 68,07 €",
-  "ultima": "03:19",
-  "stato": "attivo"
+  "dettaglio": "massimo della notte 51,74 €",
+  "ultima": "15:51",
+  "stato": "fermo"
  }
 ]
