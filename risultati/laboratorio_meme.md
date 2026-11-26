@@ -1,10 +1,10 @@
-# Laboratorio meme — 26/11/2026 15:02 UTC
+# Laboratorio meme — 26/11/2026 21:46 UTC
 
 **Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.
 
-**PROVVISORIO:** poche foto seguite dal registratore, le truffe sono stimate e possono mancare. Nessuna promozione.
+**Truffe vere:** solo foto di monete seguite dal registratore per 2,5 ore, con il minuto esatto del rug.
 
-Foto usate: **5463** di **3600** token · con prezzi successivi: **3982**.
+Foto usate: **637** di **470** token · con prezzi successivi: **635**.
 
 ## Strategie promosse (0)
 
@@ -16,25 +16,22 @@ Nessuna.
 
 | Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |
 |---|---|---|---|---|---|
-| B · Aggressiva | 39 | 17.9% | -9.5% | 0.49 | -83.8% |
-| C · Lascia correre | 39 | 12.8% | -16.3% | 0.34 | -95.3% |
-| D · Puntate piccole | 39 | 10.3% | -11.8% | 0.32 | -62.7% |
-| Compra tutto (senza filtri né controlli) | 2556 | 47.0% | +8.9% | 1.37 | -98.2% |
+| Compra tutto (senza filtri né controlli) | 464 | 18.5% | -34.5% | 0.34 | -100.0% |
 
 ## Le 10 varianti con la media per operazione migliore (almeno 20 operazioni)
 
 | Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |
 |---|---|---|---|---|---|
-| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min | 777 | 54.8% | +18.1% | 1.8 | -78.5% |
-| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min | 777 | 51.7% | +16.8% | 1.78 | -64.1% |
-| liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min | 613 | 56.9% | +15.6% | 1.84 | -50.3% |
-| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min | 777 | 58.2% | +15.6% | 1.74 | +316.6% |
-| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min | 777 | 48.5% | +14.6% | 1.7 | +224.0% |
-| liq ≥5k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min | 613 | 53.3% | +14.5% | 1.84 | +9.4% |
-| liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min | 441 | 54.6% | +14.3% | 1.75 | +32.9% |
-| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min | 777 | 54.8% | +13.9% | 1.7 | +558.6% |
-| liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min | 529 | 51.2% | +13.8% | 1.57 | -91.0% |
-| liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min | 101 | 55.4% | +13.5% | 2.31 | +139.0% |
+| liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min | 60 | 35.0% | -2.5% | 0.92 | -84.4% |
+| liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min | 77 | 44.2% | -2.6% | 0.91 | -52.7% |
+| liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min | 105 | 48.6% | -2.8% | 0.9 | -91.9% |
+| liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min | 56 | 33.9% | -3.4% | 0.89 | -85.9% |
+| liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min | 60 | 25.0% | -7.6% | 0.83 | -93.6% |
+| liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min | 105 | 40.0% | -7.9% | 0.69 | -92.7% |
+| liq ≥5k · vol5m ≥5k · truffe senza LP · stop -12% · max 10 min | 105 | 41.9% | -8.4% | 0.69 | -97.9% |
+| liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min | 60 | 28.3% | -8.8% | 0.79 | -95.7% |
+| liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min | 77 | 33.8% | -8.9% | 0.65 | -86.0% |
+| liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min | 139 | 48.9% | -9.4% | 0.71 | -98.6% |
 
 ## Come leggerlo
 
