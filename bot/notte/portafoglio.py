@@ -60,12 +60,14 @@ class Portafoglio:
         return self.contanti + sum(p.quantita * p.ultimo_prezzo for p in self.posizioni.values())
 
     def aggiorna_picco(self) -> str | None:
-        """Ritorna un messaggio se scatta lo stop della notte."""
+        """Ritorna un messaggio se scatta lo stop della giornata.
+        Lo stop si misura dal capitale di PARTENZA, non dal massimo: misurato dal massimo (con i guadagni
+        non ancora incassati) bastava una moneta salita e poi scesa per fermare il bot tutto il giorno."""
         valore = self.capitale()
         self.picco = max(self.picco, valore)
-        limite = self.regole["uscite"]["stop_notte_pct"]
-        if not self.fermo and valore <= self.picco * (1 - limite / 100):
-            self.fermo = f"capitale sceso del {limite}% dal massimo (${self.picco:.2f} → ${valore:.2f})"
+        limite = self.regole["uscite"]["stop_giornata_pct"]
+        if not self.fermo and valore <= self.capitale_iniziale * (1 - limite / 100):
+            self.fermo = f"capitale sceso del {limite}% dalla partenza (${self.capitale_iniziale:.2f} → ${valore:.2f})"
             return self.fermo
         return None
 

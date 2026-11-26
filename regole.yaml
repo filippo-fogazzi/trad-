@@ -93,7 +93,8 @@ notte_meme:
     trailing_resto_pct: 25     # Il 30% rimasto esce se scende del 25% dal suo massimo.
     tempo_max_minuti: 25       # Se dopo 25 minuti non ha raddoppiato, vende tutto.
     no_inseguire_pct_1h: 300   # Salta i token già saliti del 300% nell'ultima ora senza ritracciamento.
-    stop_notte_pct: 30         # Se il capitale scende del 30% dal suo massimo, il bot si ferma fino alla giornata dopo.
+    stop_giornata_pct: 50      # Se il capitale scende del 50% rispetto alla PARTENZA (sotto 25 €), il bot si ferma
+                               # fino alla giornata dopo. Non -30%: con puntate del 33% una sola truffa costa già ~30%.
 
   costi:                       # STIME, non costi misurati
     slippage_ritardo_pct: 1.0  # Il prezzo si muove tra quando il bot vede e quando compra.

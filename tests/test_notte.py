@@ -144,9 +144,11 @@ def test_dimezza_dopo_2_perdite_e_max_2_posizioni():
     assert not p.puo_aprire()[0]
 
 
-def test_stop_della_notte_al_30_percento():
+def test_stop_della_giornata_si_misura_dalla_partenza():
     p = portafoglio()
-    p.picco = 80
+    p.picco = 80                       # un massimo alto non basta più a fermare il bot
+    assert p.aggiorna_picco() is None and p.puo_aprire()[0]
+    p.contanti = 55.0 * 0.49           # sotto il 50% della partenza: fermo
     assert p.aggiorna_picco()
     assert not p.puo_aprire()[0]
 
