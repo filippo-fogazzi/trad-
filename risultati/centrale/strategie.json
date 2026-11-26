@@ -1,11 +1,11 @@
 [
  {
   "id": "B",
-  "nome": "Pazienti",
-  "frase": "Solo monete molto scambiate; stop largo e le tiene fino a un'ora, per lasciarle salire.",
-  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
-  "vende": "A −20%, oppure dopo 60 minuti se non è raddoppiata",
-  "punta": "33% del capitale per operazione",
+  "nome": "Aggressiva",
+  "frase": "Filtri larghi ma controllo anti-truffa severo (liquidità bloccata). L'unica ad aver chiuso una notte in guadagno.",
+  "compra": "Monete con almeno 15k $ di liquidità e 150 holder, controllo anti-truffa severo",
+  "vende": "A −15%, oppure dopo 20 minuti se non è raddoppiata",
+  "punta": "40% del capitale per operazione",
   "notti": 3,
   "notte": "2026-11-26",
   "capitale_eur": 4.29,
@@ -15,17 +15,17 @@
   "perse": 4,
   "totale_pct": -43.8,
   "in_corso": true,
-  "lab_operazioni": 613,
-  "lab_variazione_pct": -2.1,
-  "lab_media_pct": 16.83
+  "lab_operazioni": 39,
+  "lab_variazione_pct": -83.8,
+  "lab_media_pct": -9.47
  },
  {
   "id": "C",
-  "nome": "Stop stretto",
-  "frase": "Monete piccole; vende presto se scendono (−12%) ed esce comunque entro 25 minuti.",
-  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
-  "vende": "A −12%, oppure dopo 25 minuti se non è raddoppiata",
-  "punta": "33% del capitale per operazione",
+  "nome": "Lascia correre",
+  "frase": "Come la B, ma tiene le monete fino a un'ora con uno stop più largo, per prendere le salite lunghe.",
+  "compra": "Monete con almeno 15k $ di liquidità e 150 holder, controllo anti-truffa severo",
+  "vende": "A −20%, oppure dopo 60 minuti se non è raddoppiata",
+  "punta": "40% del capitale per operazione",
   "notti": 2,
   "notte": "2026-11-26",
   "capitale_eur": 24.51,
@@ -35,17 +35,17 @@
   "perse": 3,
   "totale_pct": -47.9,
   "in_corso": true,
-  "lab_operazioni": 777,
-  "lab_variazione_pct": 932.0,
-  "lab_media_pct": 14.77
+  "lab_operazioni": 39,
+  "lab_variazione_pct": -95.3,
+  "lab_media_pct": -16.27
  },
  {
   "id": "D",
-  "nome": "Piccole e veloci",
-  "frase": "Monete piccole; stop largo (−20%) per non uscire troppo presto, esce entro 25 minuti.",
-  "compra": "Monete con almeno 5k $ di liquidità e 150 holder, controllo anti-truffa senza guardare se la liquidità è bloccata",
-  "vende": "A −20%, oppure dopo 25 minuti se non è raddoppiata",
-  "punta": "33% del capitale per operazione",
+  "nome": "Puntate piccole",
+  "frase": "Come la B, ma punta solo il 20% ed esce presto (−10%): perde meno quando va male.",
+  "compra": "Monete con almeno 15k $ di liquidità e 150 holder, controllo anti-truffa severo",
+  "vende": "A −10%, oppure dopo 20 minuti se non è raddoppiata",
+  "punta": "20% del capitale per operazione",
   "notti": 2,
   "notte": "2026-11-26",
   "capitale_eur": 23.81,
@@ -55,8 +55,8 @@
   "perse": 3,
   "totale_pct": -70.3,
   "in_corso": true,
-  "lab_operazioni": 777,
-  "lab_variazione_pct": 552.7,
-  "lab_media_pct": 16.64
+  "lab_operazioni": 39,
+  "lab_variazione_pct": -62.7,
+  "lab_media_pct": -11.85
  }
 ]

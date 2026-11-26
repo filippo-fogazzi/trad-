@@ -35,8 +35,8 @@
   "id": "lab_meme",
   "attivita": "Laboratorio meme",
   "stato": "pronto",
-  "dettaglio": "D: +552.7% su 777 operazioni · 36 varianti su 162 in positivo (con almeno 20 operazioni)",
-  "ultimo": "26/11 15:51",
+  "dettaglio": "D: -62.7% su 39 operazioni · 24 varianti su 162 in positivo (con almeno 20 operazioni)",
+  "ultimo": "26/11 15:55",
   "prossimo": "dopo ogni turno del registratore"
  },
  {
@@ -52,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "26/11 15:51",
+  "ultimo": "26/11 15:55",
   "prossimo": "domani alle 07:08"
  }
 ]
