@@ -1120,3 +1120,52 @@
 05:17:29 FILTRATO  $OKKO non comprato · motivo: liquidità bloccata solo al 0%; 67 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked
 05:18:13 FILTRATO  $PUMPCHAN non comprato · motivo: segnali 0/2 (nessuno)
 05:18:16 FILTRATO  $MONEY non comprato · motivo: segnali 1/2 (acquisti 74%)
+05:20:53 FILTRATO  $coin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership
+05:21:33 FILTRATO  $RASMR non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:21:39 FILTRATO  $FEDORA non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+05:23:50 ENTRA     $ccat $5.63 (20% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 7.0x + acquisti 76% · rug check PASS · https://dexscreener.com/solana/e4bkvrut7rhe2njs4hqsa7z2kqpjyb58nmphj2vbtgbp
+05:23:51 FILTRATO  $wocket non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:23:54 PARZIALE  $ccat seconda metà comprata a $4.523e-05
+05:26:15 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+05:26:16 FILTRATO  $SPACEXLIFE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:29:35 ENTRA     $PUMPCHAN $5.55 (20% del capitale), 1ª metà a slippage 1.0% · motivo: acquisti 74% + holder +6% · rug check PASS · https://dexscreener.com/solana/ddcyemq9bkyqtc93djkwah6vamkcjvsocuvgv29q7teb
+05:29:36 FILTRATO  $大A non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:29:42 PARZIALE  $PUMPCHAN seconda metà comprata a $0.001319
+05:29:42 FERMO     capitale sceso del 50% dalla partenza ($54.77 → $27.23)
+05:35:01 FILTRATO  $TEEETHY non comprato · motivo: segnali 1/2 (holder +945%)
+05:36:28 FILTRATO  $TEEETHY non comprato · motivo: segnali 0/2 (nessuno)
+05:41:12 FILTRATO  $UHI non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.77 → $27.23)
+05:41:15 ESCE      $ccat -1.31$ motivo: stop -15% (prezzo -16%)
+05:43:27 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 81%)
+05:43:28 FILTRATO  $shares non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:43:30 FILTRATO  $DOG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:43:33 FILTRATO  $MONEY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.77 → $27.23)
+05:46:18 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 100 holder
+05:48:06 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 101 holder
+05:48:07 FILTRATO  $call.fun non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:50:05 ESCE      $PUMPCHAN -0.25$ motivo: tempo scaduto (20 min)
+05:51:27 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 82%)
+05:51:29 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 102 holder
+05:52:51 FILTRATO  $PUMPCHAN non comprato · motivo: segnali 1/2 (holder +11%)
+05:55:04 FILTRATO  $PUMPCHAN non comprato · motivo: segnali 0/2 (nessuno)
+05:55:05 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 103 holder
+05:57:28 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 83%)
+06:00:15 FILTRATO  $FRITZ non comprato · motivo: segnali 0/2 (nessuno)
+06:00:18 FILTRATO  $GOTF non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 104 holder
+06:00:18 FILTRATO  $call.fun non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+06:03:06 FILTRATO  $FRITZ non comprato · motivo: segnali 1/2 (holder +13%)
+06:04:52 FILTRATO  $APED non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+06:06:27 FILTRATO  $FRITZ non comprato · motivo: 16 portafogli insider collegati
+06:08:41 FILTRATO  $FRITZ non comprato · motivo: 50 portafogli insider collegati
+06:08:44 FILTRATO  $PUMPCHAN non comprato · motivo: segnali 0/2 (nessuno)
+06:08:45 FILTRATO  $BABYSPACEX non comprato · motivo: RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership
+06:10:06 FILTRATO  $FRITZ non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+06:10:06 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+06:12:49 FILTRATO  $FRITZ non comprato · motivo: 50 portafogli insider collegati
+06:12:54 FILTRATO  $MONEY non comprato · motivo: segnali 1/2 (acquisti 71%)
+06:15:16 FILTRATO  $TEEETHY non comprato · motivo: segnali 0/2 (nessuno)
+06:15:18 FILTRATO  $Elonmas non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+06:15:25 FILTRATO  $Elonmas non comprato · motivo: 14 portafogli insider collegati
+06:16:41 FILTRATO  $FOMOGIVING non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+06:16:42 FILTRATO  $SpaceXCoin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+06:18:53 FILTRATO  $Bin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked

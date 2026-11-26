@@ -513,3 +513,19 @@
 05:13:04 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 39%
 05:19:42 FILTRATO  $SPACEXLIFE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
 05:19:48 FILTRATO  $FEDORA non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+05:24:40 ENTRA     $FEDORA $5.30 (17% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 5.1x + acquisti 70% · rug check PASS · https://dexscreener.com/solana/69bfbxmmi1d24xxpieyrzy7ulfllh84azslnomczumoo
+05:24:43 PARZIALE  $FEDORA seconda metà comprata a $0.0001235
+05:26:18 FILTRATO  $SPACEXLIFE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:26:19 FILTRATO  $wocket non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:29:51 ESCE      $FEDORA -0.99$ motivo: stop -8% (prezzo -11%)
+05:31:36 ENTRA     $FEDORA $5.14 (17% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 5.6x + holder +6% · rug check PASS · https://dexscreener.com/solana/69bfbxmmi1d24xxpieyrzy7ulfllh84azslnomczumoo
+05:31:37 PARZIALE  $FEDORA seconda metà comprata a $9.742e-05
+05:33:49 FILTRATO  $OKKO non comprato · motivo: liquidità bloccata solo al 0%; 67 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked
+05:44:57 FILTRATO  $shares non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:44:59 FILTRATO  $DOG non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:58:42 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 38%
+06:00:53 ESCE      $FEDORA -0.89$ motivo: stop -8% (prezzo -9%)
+06:03:15 FILTRATO  $UHI non comprato · motivo: segnali 0/2 (nessuno)
+06:10:40 FILTRATO  $GOTF non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+06:11:46 FILTRATO  $HORBAR non comprato · motivo: liquidità bloccata solo al 1%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 49 holder
+06:17:04 FILTRATO  $Ofgmet non comprato · motivo: liquidità bloccata solo al 1%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership; solo 56 holder
