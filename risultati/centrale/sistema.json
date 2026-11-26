@@ -27,8 +27,8 @@
   "id": "registratore",
   "attivita": "Registratore 24/7",
   "stato": "attivo",
-  "dettaglio": "5463 foto di 3600 memecoin",
-  "ultimo": "26/11 15:31",
+  "dettaglio": "5611 foto di 3689 memecoin",
+  "ultimo": "26/11 16:04",
   "prossimo": "foto caricate a fine turno, ogni 6 ore circa"
  },
  {
@@ -52,7 +52,7 @@
   "attivita": "Aggiornamento del pannello",
   "stato": "programmato",
   "dettaglio": "Claude aggiorna questa centrale e ti manda una notifica.",
-  "ultimo": "26/11 16:04",
+  "ultimo": "26/11 16:05",
   "prossimo": "domani alle 07:08"
  }
 ]

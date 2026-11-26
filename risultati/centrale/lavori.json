@@ -1,104 +1,110 @@
 [
  {
   "n": 1,
+  "quando": "26/11 16:05",
+  "chi": "Registratore",
+  "cosa": "Registro: foto 2026-11-26T15:04Z"
+ },
+ {
+  "n": 2,
+  "quando": "26/11 16:04",
+  "chi": "Claude",
+  "cosa": "Prima il test, poi i bot: i bot giocano solo le strategie promosse dal laboratorio"
+ },
+ {
+  "n": 3,
   "quando": "26/11 15:56",
   "chi": "Claude",
   "cosa": "Sala comando: B, C e D con il controllo sulla liquidità bloccata"
  },
  {
-  "n": 2,
+  "n": 4,
   "quando": "26/11 15:55",
   "chi": "Claude",
   "cosa": "Le truffe nel test sul passato e controllo sulla liquidità bloccata per tutti i bot"
  },
  {
-  "n": 3,
+  "n": 5,
   "quando": "26/11 15:32",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-26T14:32Z"
  },
  {
-  "n": 4,
+  "n": 6,
   "quando": "26/11 12:42",
   "chi": "Bot notturno",
   "cosa": "Risultati bot su carta 2026-11-26T11:42Z"
  },
  {
-  "n": 5,
+  "n": 7,
   "quando": "26/11 10:21",
   "chi": "Registratore",
   "cosa": "Laboratorio meme 2026-11-26T09:21Z"
  },
  {
-  "n": 6,
+  "n": 8,
   "quando": "26/11 09:51",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-26T08:51Z"
  },
  {
-  "n": 7,
+  "n": 9,
   "quando": "26/11 07:00",
   "chi": "Bot notturno",
   "cosa": "Risultati bot su carta 2026-11-26T06:00Z"
  },
  {
-  "n": 8,
-  "quando": "26/11 04:29",
-  "chi": "Registratore",
-  "cosa": "Laboratorio meme 2026-11-26T03:29Z"
- },
- {
-  "n": 9,
-  "quando": "26/11 04:29",
-  "chi": "Registratore",
-  "cosa": "Laboratorio meme 2026-11-26T03:29Z"
- },
- {
   "n": 10,
+  "quando": "26/11 04:29",
+  "chi": "Registratore",
+  "cosa": "Laboratorio meme 2026-11-26T03:29Z"
+ },
+ {
+  "n": 11,
+  "quando": "26/11 04:29",
+  "chi": "Registratore",
+  "cosa": "Laboratorio meme 2026-11-26T03:29Z"
+ },
+ {
+  "n": 12,
   "quando": "26/11 04:10",
   "chi": "Registratore",
   "cosa": "Registro: foto 2026-11-26T03:10Z"
  },
  {
-  "n": 11,
+  "n": 13,
   "quando": "26/11 03:25",
   "chi": "Claude",
   "cosa": "Sala comando: nuove strategie B, C e D"
  },
  {
-  "n": 12,
+  "n": 14,
   "quando": "26/11 03:24",
   "chi": "Claude",
   "cosa": "Obiettivo: far crescere il capitale. B, C e D sostituite con le regole più solide del test sul passato"
  },
  {
-  "n": 13,
+  "n": 15,
   "quando": "26/11 03:19",
   "chi": "Claude",
   "cosa": "Bot B, C e D sbloccati: con la nuova regola nessuno è sotto il 50% della partenza"
  },
  {
-  "n": 14,
+  "n": 16,
   "quando": "26/11 03:19",
   "chi": "Bot notturno",
   "cosa": "Risultati bot su carta 2026-11-26T02:19Z"
  },
  {
-  "n": 15,
+  "n": 17,
   "quando": "26/11 03:19",
   "chi": "Claude",
   "cosa": "Stop giornaliero misurato dalla partenza (-50%), non dal massimo"
  },
  {
-  "n": 16,
+  "n": 18,
   "quando": "26/11 03:10",
   "chi": "Claude",
   "cosa": "Sala comando: dati aggiornati (giornata del 25/11 in corso)"
- },
- {
-  "n": 17,
-  "quando": "26/11 00:34",
-  "chi": "Bot notturno",
-  "cosa": "Risultati bot su carta 2026-11-25T23:34Z"
  }
 ]
