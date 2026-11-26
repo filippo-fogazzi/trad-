@@ -223,3 +223,153 @@
 08:59:39 FILTRATO  $ISABELLE non comprato · motivo: 17 portafogli insider collegati
 08:59:39 FILTRATO  $猫猫币 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
 08:59:39 FILTRATO  $GUMBO non comprato · motivo: segnali 1/2 (picco volume 5.0x)
+09:01:54 FILTRATO  $ISABELLE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:01:55 FILTRATO  $DARKCAT non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:01:58 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+09:02:00 FILTRATO  $ISABELLE non comprato · motivo: top 10 holder hanno il 41%
+09:02:03 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 8.4x)
+09:04:21 FILTRATO  $JIMMY non comprato · motivo: solo 138 holder
+09:04:22 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:04:25 FILTRATO  $猫猫币 non comprato · motivo: top 10 holder hanno il 86%
+09:05:25 FILTRATO  $TURKEY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:05:27 FILTRATO  $Claws non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:07:49 FILTRATO  $xmascoin non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:07:49 FILTRATO  $BULL non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:07:51 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:07:52 FILTRATO  $STMCWN non comprato · motivo: solo 63 holder
+09:07:54 FILTRATO  $SPACEXLIFE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:08:49 ERRORE    ReadTimeout: HTTPSConnectionPool(host='api.rugcheck.xyz', port=443): Read timed out. (read timeout=20)
+09:10:24 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:10:24 FILTRATO  $STMCWN non comprato · motivo: solo 104 holder
+09:10:26 FILTRATO  $SPACEXLIFE non comprato · motivo: 37 portafogli insider collegati
+09:10:27 FILTRATO  $ACE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:10:27 FILTRATO  $ISABELLE non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:10:49 FILTRATO  $DARKCAT non comprato · motivo: segnali 1/2 (acquisti 83%)
+09:10:49 FILTRATO  $猫猫币 non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:11:51 FILTRATO  $Sae non comprato · motivo: segnali 0/2 (nessuno)
+09:11:55 FILTRATO  $DARKPOOL non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:11:57 FILTRATO  $DARKPOOL non comprato · motivo: 8 portafogli insider collegati
+09:12:05 FILTRATO  $SPACEXLIFE non comprato · motivo: 67 portafogli insider collegati
+09:13:29 FILTRATO  $DARKCAT non comprato · motivo: top 10 holder hanno il 44%
+09:15:02 FILTRATO  $Fug non comprato · motivo: 13 portafogli insider collegati
+09:15:05 FILTRATO  $ANSEM non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:15:07 FILTRATO  $BLOCK0 non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:15:08 FILTRATO  $Jensen non comprato · motivo: solo 72 holder
+09:15:10 FILTRATO  $WIENER non comprato · motivo: top 10 holder hanno il 37%
+09:15:11 FILTRATO  $DARKPOOL non comprato · motivo: 23 portafogli insider collegati
+09:15:15 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:15:15 FILTRATO  $DARKPOOL non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:15:48 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/94vaT6GnuWmpX2CrwqGu7H96XHULsZozqU9p1V8ZaUTF/report
+09:17:24 FILTRATO  $Sae non comprato · motivo: segnali 0/2 (nessuno)
+09:17:30 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+09:17:31 FILTRATO  $WIENER non comprato · motivo: top 10 holder hanno il 35%
+09:18:56 FILTRATO  $Claws non comprato · motivo: solo 127 holder
+09:18:58 FILTRATO  $DSI non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:19:02 FILTRATO  $TEXEL non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:19:02 FILTRATO  $SpaceXCoin non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:22:25 FILTRATO  $OG non comprato · motivo: segnali 1/2 (acquisti 79%)
+09:22:27 FILTRATO  $Fug non comprato · motivo: 14 portafogli insider collegati
+09:22:33 FILTRATO  $大A non comprato · motivo: segnali 0/2 (nessuno)
+09:22:34 FILTRATO  $ANSEM non comprato · motivo: segnali 0/2 (nessuno)
+09:22:36 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+09:23:32 FILTRATO  $fair non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:23:34 FILTRATO  $JIMMY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:23:35 FILTRATO  $FOMO non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:23:37 FILTRATO  $DARKCAT non comprato · motivo: top 10 holder hanno il 42%
+09:23:39 FILTRATO  $FUND non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:23:40 FILTRATO  $fair non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:23:43 FILTRATO  $Opus 5.6 non comprato · motivo: segnali 1/2 (picco volume 5.9x)
+09:23:43 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:26:23 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+09:26:26 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:26:27 FILTRATO  $大A non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:26:29 FILTRATO  $fair non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:26:32 FILTRATO  $DIGS non comprato · motivo: 118 portafogli insider collegati; solo 97 holder
+09:26:46 FILTRATO  $JIMMY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:26:47 FILTRATO  $WIENER non comprato · motivo: segnali 1/2 (acquisti 83%)
+09:28:30 FILTRATO  $幕场Movie non comprato · motivo: solo 149 holder
+09:28:31 FILTRATO  $BASKET non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:28:36 FILTRATO  $DARKCAT non comprato · motivo: top 10 holder hanno il 42%
+09:30:51 FILTRATO  $JIMMY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:30:52 FILTRATO  $GTA6 non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:30:54 FILTRATO  $Sol non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:30:55 FILTRATO  $Elonmas non comprato · motivo: sviluppatore ha il 20.5%
+09:31:00 FILTRATO  $JIMMY non comprato · motivo: segnali 1/2 (holder +7%)
+09:33:43 FILTRATO  $Sol non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:34:39 FILTRATO  $Gambit non comprato · motivo: solo 27 holder
+09:34:40 FILTRATO  $BASKET non comprato · motivo: top 10 holder hanno il 39%
+09:34:42 FILTRATO  $Sol non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:34:51 FILTRATO  $SUN non comprato · motivo: segnali 1/2 (picco volume 10.5x)
+09:34:51 FILTRATO  $Sol non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:36:03 FILTRATO  $Elonmas non comprato · motivo: solo 97 holder
+09:36:05 FILTRATO  $GTA$ non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:36:06 FILTRATO  $Gambit non comprato · motivo: solo 44 holder
+09:36:15 FILTRATO  $JIMMY non comprato · motivo: segnali 0/2 (nessuno)
+09:36:19 FILTRATO  $SUN non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:37:50 FILTRATO  $Elonmas non comprato · motivo: 99 portafogli insider collegati
+09:37:51 FILTRATO  $SPACEXLIFE non comprato · motivo: solo 144 holder
+09:37:54 FILTRATO  $Zero non comprato · motivo: solo 115 holder
+09:37:54 FILTRATO  $ANSEM non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:37:56 FILTRATO  $BASKET non comprato · motivo: top 10 holder hanno il 40%
+09:37:59 FILTRATO  $BLOCKSIDE non comprato · motivo: top 10 holder hanno il 39%
+09:40:01 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+09:40:04 FILTRATO  $WIENER non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:40:06 FILTRATO  $GTA$ non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:40:09 FILTRATO  $WIENER non comprato · motivo: solo 47 holder
+09:40:13 FILTRATO  $BLOCKSIDE non comprato · motivo: top 10 holder hanno il 80%
+09:40:15 FILTRATO  $PENGUIN non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:40:57 FILTRATO  $大A non comprato · motivo: segnali 1/2 (picco volume 7.4x)
+09:42:39 FILTRATO  $Elonmas non comprato · motivo: solo 58 holder
+09:42:40 FILTRATO  $Claws non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:42:42 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:42:52 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:42:53 FILTRATO  $CiCi non comprato · motivo: segnali 1/2 (picco volume 8.5x)
+09:43:56 FILTRATO  $CiCi non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:43:57 FILTRATO  $ACE non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:43:58 FILTRATO  $Opus 5.6 non comprato · motivo: segnali 0/2 (nessuno)
+09:44:01 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:45:46 FILTRATO  $Opus 5.6 non comprato · motivo: segnali 1/2 (holder +5%)
+09:45:50 FILTRATO  $ANSEM non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:45:52 FILTRATO  $JIMMY non comprato · motivo: sviluppatore ha il 78.0%
+09:45:55 FILTRATO  $BASKET non comprato · motivo: top 10 holder hanno il 38%
+09:47:56 FILTRATO  $IShowSpace non comprato · motivo: 5 portafogli insider collegati
+09:47:58 FILTRATO  $Basket non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:48:06 FILTRATO  $大A non comprato · motivo: segnali 1/2 (picco volume 8.3x)
+09:49:28 FILTRATO  $Elonmas non comprato · motivo: 100 portafogli insider collegati
+09:49:29 FILTRATO  $ANSEM non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:49:31 FILTRATO  $Opus 5.6 non comprato · motivo: segnali 0/2 (nessuno)
+09:50:34 FILTRATO  $DOG non comprato · motivo: solo 86 holder
+09:50:36 FILTRATO  $JIMMY non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:50:37 FILTRATO  $ELVISR non comprato · motivo: solo 55 holder
+09:50:48 FILTRATO  $MOONCOIN non comprato · motivo: segnali 1/2 (picco volume 6.4x)
+09:50:48 FILTRATO  $SPCXHolder non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:50:49 FILTRATO  $SPACEXLIFE non comprato · motivo: 59 portafogli insider collegati
+09:50:49 FILTRATO  $BASKET non comprato · motivo: top 10 holder hanno il 39%
+09:52:31 FILTRATO  $CiCi non comprato · motivo: segnali 0/2 (nessuno)
+09:52:37 FILTRATO  $MOONCOIN non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:55:01 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:55:05 FILTRATO  $ANSEM non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:55:07 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+09:56:17 FILTRATO  $IShowSpace non comprato · motivo: 5 portafogli insider collegati
+09:56:19 FILTRATO  $OG non comprato · motivo: segnali 0/2 (nessuno)
+09:56:22 FILTRATO  $月球币 non comprato · motivo: top 10 holder hanno il 92%
+09:56:23 FILTRATO  $capmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:58:39 FILTRATO  $Sae non comprato · motivo: segnali 1/2 (acquisti 71%)
+09:58:41 FILTRATO  $Fug non comprato · motivo: 14 portafogli insider collegati
+09:58:42 FILTRATO  $Elonmas non comprato · motivo: 101 portafogli insider collegati
+09:58:44 FILTRATO  $WIENER non comprato · motivo: top 10 holder hanno il 69%; 12 portafogli insider collegati; solo 40 holder
+09:58:45 FILTRATO  $月球币 non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+09:58:47 FILTRATO  $ATX non comprato · motivo: solo 2 holder
+09:58:48 FILTRATO  $STUFFER non comprato · motivo: segnali 1/2 (picco volume 5.7x)
+09:58:50 FILTRATO  $Sol non comprato · motivo: segnali 1/2 (holder +9%)
+09:58:53 FILTRATO  $DOG non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+09:59:53 FILTRATO  $Sae non comprato · motivo: segnali 0/2 (nessuno)
+10:00:00 FILTRATO  $Elonmas non comprato · motivo: solo 106 holder
+10:00:00 FILTRATO  $JENSEN non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+10:00:02 FILTRATO  $火星币 non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+10:00:05 FILTRATO  $Sol non comprato · motivo: segnali 0/2 (nessuno)
+10:00:06 FILTRATO  $SPCXHolder non comprato · motivo: top 10 holder hanno il 86%; 74 portafogli insider collegati
+10:00:08 FILTRATO  $CiCi non comprato · motivo: segnali 1/2 (acquisti 82%)
+10:00:11 FILTRATO  $capmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $24.68)
+10:00:14 FILTRATO  $BASKET non comprato · motivo: segnali 0/2 (nessuno)
+10:00:16 FILTRATO  $Opus 5.6 non comprato · motivo: sviluppatore ha il 96.8%; 35 portafogli insider collegati; solo 16 holder
