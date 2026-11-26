@@ -4,7 +4,7 @@
   "capitale_iniziale": 54.765,
   "picco": 55.5016289855066,
   "perdite_di_fila": 2,
-  "fermo": "capitale sceso del 30% dal massimo ($55.50 \u2192 $37.44)",
+  "fermo": null,
   "posizioni": [],
   "chiusure": [
    {
@@ -14,7 +14,7 @@
     "chiusa_ms": 1795609023022,
     "speso_usd": 9.036225,
     "incassato_usd": 7.58512030774658,
-    "motivo_ingresso": "picco volume 9.0x + holder +25% \u00b7 rug check PASS",
+    "motivo_ingresso": "picco volume 9.0x + holder +25% · rug check PASS",
     "motivo_uscita": "stop -8% (prezzo -11%)"
    },
    {
@@ -24,8 +24,8 @@
     "chiusa_ms": 1795610179758,
     "speso_usd": 17.593585451556372,
     "incassato_usd": 1.7217649597040803,
-    "motivo_ingresso": "picco volume 5.9x + holder +18% \u00b7 rug check PASS",
-    "motivo_uscita": "liquidit\u00e0 sparita (rug)"
+    "motivo_ingresso": "picco volume 5.9x + holder +18% · rug check PASS",
+    "motivo_uscita": "liquidità sparita (rug)"
    }
   ]
  },
@@ -165,7 +165,7 @@
   "Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1514
  },
  "conteggio_filtri": {
-  "liquidit\u00e0 troppo bassa": 11521,
+  "liquidità troppo bassa": 11521,
   "coppia troppo vecchia": 426,
   "nessun prezzo disponibile": 641,
   "DEX non previsto": 67,
@@ -176,7 +176,7 @@
   "solo 63 holder": 2,
   "solo 79 holder": 2,
   "sviluppatore ha il 26.8%": 1,
-  "gi\u00e0 +300% nell'ultima ora, niente inseguimento": 91,
+  "già +300% nell'ultima ora, niente inseguimento": 91,
   "4 portafogli insider collegati": 3,
   "top 10 holder hanno il 99%; solo 147 holder": 1,
   "top 10 holder hanno il 90%; solo 94 holder": 1,
@@ -241,20 +241,20 @@
   "solo 127 holder": 1,
   "sviluppatore ha il 15.9%": 1,
   "22 portafogli insider collegati": 2,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked": 14,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked": 14,
   "30 portafogli insider collegati": 1,
   "60 portafogli insider collegati": 4,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 31 holder": 1,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 4 holder": 1,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 79 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 31 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 4 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 79 holder": 1,
   "11 portafogli insider collegati": 2,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 43 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 43 holder": 1,
   "34 portafogli insider collegati": 3,
   "sviluppatore ha il 96.2%; 85 portafogli insider collegati; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership": 1,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 120 holder": 1,
-  "liquidit\u00e0 bloccata solo al 0%; 69 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked": 1,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 98 holder": 1,
-  "liquidit\u00e0 bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 132 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 120 holder": 1,
+  "liquidità bloccata solo al 0%; 69 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 98 holder": 1,
+  "liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 132 holder": 1,
   "sviluppatore ha il 79.9%; RugCheck: Low Liquidity": 1,
   "sviluppatore ha il 86.6%; RugCheck: Low Liquidity": 1
  },

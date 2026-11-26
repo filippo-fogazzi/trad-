@@ -4,7 +4,7 @@
   "capitale_iniziale": 54.945,
   "picco": 65.21102963477324,
   "perdite_di_fila": 1,
-  "fermo": "capitale sceso del 30% dal massimo ($65.21 \u2192 $45.02)",
+  "fermo": null,
   "posizioni": [],
   "chiusure": [
    {
@@ -14,7 +14,7 @@
     "chiusa_ms": 1795651020791,
     "speso_usd": 18.13185,
     "incassato_usd": 8.209994938880984,
-    "motivo_ingresso": "acquisti 77% + holder +9% \u00b7 rug check PASS",
+    "motivo_ingresso": "acquisti 77% + holder +9% · rug check PASS",
     "motivo_uscita": "stop -20% (prezzo -52%)"
    }
   ]
@@ -130,12 +130,12 @@
   "Gekfmop4PMTGMCqDqXe25SKEmf2auBUAvDYzkER9ckSJ": 1306
  },
  "conteggio_filtri": {
-  "liquidit\u00e0 troppo bassa": 1250,
+  "liquidità troppo bassa": 1250,
   "12 portafogli insider collegati": 1,
   "segnali 1/2": 91,
   "22 portafogli insider collegati": 1,
   "segnali 0/2": 72,
-  "gi\u00e0 +300% nell'ultima ora, niente inseguimento": 32,
+  "già +300% nell'ultima ora, niente inseguimento": 32,
   "volume 5 min troppo basso": 16,
   "nessun prezzo disponibile": 75,
   "coppia troppo vecchia": 88,
