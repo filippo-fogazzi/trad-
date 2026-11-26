@@ -490,3 +490,26 @@
 04:00:37 ESCE      $Pumpcat -1.04$ motivo: stop -8% (prezzo -11%)
 04:11:33 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
 04:18:52 FILTRATO  $UHI non comprato · motivo: segnali 0/2 (nessuno)
+04:22:05 FILTRATO  $UHI non comprato · motivo: segnali 1/2 (acquisti 73%)
+04:23:42 FILTRATO  $RUPEAK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 54 holder
+04:25:30 FILTRATO  $MCAP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:25:31 FILTRATO  $MCAP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:25:33 FILTRATO  $RUPEAK non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 83 holder
+04:25:34 FILTRATO  $MCAP non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:27:12 FILTRATO  $Zero non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; solo 112 holder
+04:27:15 FILTRATO  $MCAP non comprato · motivo: top 10 holder hanno il 96%; liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked; RugCheck: Top 10 holders high ownership; RugCheck: Single holder ownership; RugCheck: Low Liquidity; RugCheck: High ownership
+04:28:56 FILTRATO  $Zero non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:35:32 FILTRATO  $Grodia non comprato · motivo: segnali 1/2 (acquisti 72%)
+04:39:45 FILTRATO  $coin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:40:56 FILTRATO  $coin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:44:28 FILTRATO  $Grodia non comprato · motivo: segnali 0/2 (nessuno)
+04:50:20 FILTRATO  $Harlod non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+04:50:21 FILTRATO  $Grok Bot non comprato · motivo: sviluppatore ha il 74.9%; RugCheck: Low Liquidity
+04:56:18 FILTRATO  $ATX non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:03:08 FILTRATO  $MONEY non comprato · motivo: segnali 1/2 (acquisti 75%)
+05:07:36 FILTRATO  $coin non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:12:32 FILTRATO  $2 non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:12:32 FILTRATO  $OKKO non comprato · motivo: liquidità bloccata solo al 0%; 62 portafogli insider collegati; RugCheck: Large Amount of LP Unlocked
+05:13:04 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 39%
+05:19:42 FILTRATO  $SPACEXLIFE non comprato · motivo: liquidità bloccata solo al 0%; RugCheck: Large Amount of LP Unlocked
+05:19:48 FILTRATO  $FEDORA non comprato · motivo: segnali 1/2 (picco volume 12.0x)
