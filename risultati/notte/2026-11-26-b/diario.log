@@ -1,0 +1,93 @@
+07:01:22 AVVIO     capitale $54.87, fine alle 07:00, questo turno fino alle 12:41
+07:02:22 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:02:24 FILTRATO  $TEEETHY non comprato · motivo: segnali 0/2 (nessuno)
+07:02:25 FILTRATO  $KIRKEY non comprato · motivo: segnali 1/2 (acquisti 82%)
+07:02:25 FILTRATO  $Elonmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:02:26 FILTRATO  $miuu non comprato · motivo: segnali 0/2 (nessuno)
+07:02:28 FILTRATO  $4chanpump non comprato · motivo: segnali 0/2 (nessuno)
+07:04:08 FILTRATO  $BLOCK0 non comprato · motivo: 4 portafogli insider collegati
+07:04:11 FILTRATO  $Duvemas non comprato · motivo: 12 portafogli insider collegati
+07:04:13 FILTRATO  $牛来 non comprato · motivo: segnali 1/2 (acquisti 75%)
+07:04:16 FILTRATO  $Grok AI non comprato · motivo: segnali 0/2 (nessuno)
+07:04:19 FILTRATO  $SI non comprato · motivo: segnali 0/2 (nessuno)
+07:04:20 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+07:04:22 FILTRATO  $PARAGON non comprato · motivo: sviluppatore ha il 79.0%
+07:04:23 FILTRATO  $Santa Clau non comprato · motivo: segnali 0/2 (nessuno)
+07:04:25 FILTRATO  $DOG non comprato · motivo: segnali 0/2 (nessuno)
+07:06:29 FILTRATO  $Elonmas non comprato · motivo: 49 portafogli insider collegati
+07:06:30 FILTRATO  $Elonmas non comprato · motivo: 46 portafogli insider collegati
+07:06:35 FILTRATO  $Cupseymas non comprato · motivo: segnali 0/2 (nessuno)
+07:06:35 FILTRATO  $Cupseymas non comprato · motivo: segnali 1/2 (acquisti 75%)
+07:06:36 FILTRATO  $Duvemas non comprato · motivo: 17 portafogli insider collegati
+07:06:38 ENTRA     $牛来 $18.11 (33% del capitale), 1ª metà a slippage 1.0% · motivo: acquisti 75% + holder +19% · rug check PASS · https://dexscreener.com/solana/djwrdzymhvr872qqiq5j73m75nujpbrb4qzmrwaf48jy
+07:06:46 FILTRATO  $Santa Clau non comprato · motivo: segnali 1/2 (holder +12%)
+07:06:48 PARZIALE  $牛来 seconda metà comprata a $7.425e-05
+07:09:29 FILTRATO  $Elonmas non comprato · motivo: 55 portafogli insider collegati
+07:09:31 FILTRATO  $Elonmas non comprato · motivo: 47 portafogli insider collegati
+07:09:34 FILTRATO  $Cupseymas non comprato · motivo: segnali 1/2 (holder +23%)
+07:14:50 FILTRATO  $Cupseymas non comprato · motivo: segnali 0/2 (nessuno)
+07:17:32 FILTRATO  $Cupseymas non comprato · motivo: sviluppatore ha il 93.7%
+07:17:36 FILTRATO  $Zero non comprato · motivo: segnali 0/2 (nessuno)
+07:20:35 FILTRATO  $Santa Clau non comprato · motivo: segnali 0/2 (nessuno)
+07:21:33 FILTRATO  $Fug non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:22:55 FILTRATO  $Elonmas non comprato · motivo: solo 59 holder
+07:22:56 ENTRA     $Fug $18.73 (33% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 12.0x + holder +44% · rug check PASS · https://dexscreener.com/solana/2xqbdrf7s1w4kurc25d6chwjhrfqrkf1cvvnsi13f2tt
+07:23:42 PARZIALE  $Fug seconda metà comprata a $2.295e-05
+07:24:32 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/DMXm1gSmAZn1RV4fGXGG8Y1cXfKWXMDYaiKF4B6Cpump/report
+07:26:41 FILTRATO  $Elonmas non comprato · motivo: 48 portafogli insider collegati
+07:26:42 FILTRATO  $Jensen non comprato · motivo: solo 57 holder
+07:26:44 FILTRATO  $urcoin non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:26:45 FILTRATO  $SpaceXCoin non comprato · motivo: top 10 holder hanno il 44%
+07:26:48 FILTRATO  $Santa Clau non comprato · motivo: segnali 1/2 (holder +14%)
+07:26:53 ESCE      $Fug -16.90$ motivo: liquidità sparita (rug)
+07:28:58 ENTRA     $SPACEXLIFE $13.70 (33% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 12.0x + acquisti 73% · rug check PASS · https://dexscreener.com/solana/etzyddr85hxsicnnwkwjj3z6jx7cturqxcdgulisv1d
+07:28:59 FILTRATO  $Fug non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:29:01 FILTRATO  $Santa Clau non comprato · motivo: segnali 0/2 (nessuno)
+07:29:25 PARZIALE  $SPACEXLIFE seconda metà comprata a $1.518e-05
+07:30:20 FILTRATO  $SLEIGH non comprato · motivo: solo 52 holder
+07:30:22 FILTRATO  $RIZZCLAUS non comprato · motivo: già 2 posizioni aperte
+07:30:23 FILTRATO  $Elonmas non comprato · motivo: solo 34 holder
+07:30:23 FILTRATO  $SpaceXCoin non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:32:14 FILTRATO  $Elonmas non comprato · motivo: 52 portafogli insider collegati
+07:32:18 FILTRATO  $Santa non comprato · motivo: già 2 posizioni aperte
+07:32:20 FILTRATO  $Santa non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:32:21 FILTRATO  $김아현 non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:32:23 FILTRATO  $Jensen non comprato · motivo: solo 60 holder
+07:32:24 FILTRATO  $Jensenmas non comprato · motivo: già 2 posizioni aperte
+07:32:32 ESCE      $SPACEXLIFE -12.36$ motivo: liquidità sparita (rug)
+07:34:06 ENTRA     $Santa $5.04 (17% del capitale), 1ª metà a slippage 1.0% · motivo: picco volume 12.0x + acquisti 78% + holder +9% · rug check PASS · https://dexscreener.com/solana/8vh3tnb9g5nhufnwymyojdgu5t8bluezfw7em9zdrgcb
+07:34:08 FILTRATO  $Santa non comprato · motivo: già 2 posizioni aperte
+07:34:11 PARZIALE  $Santa seconda metà comprata a $1.084e-05
+07:35:36 ESCE      $牛来 -16.34$ motivo: liquidità sparita (rug)
+07:35:36 FERMO     capitale sceso del 50% dalla partenza ($54.87 → $9.51)
+07:37:00 FILTRATO  $TEEETHY non comprato · motivo: segnali 0/2 (nessuno)
+07:37:01 FILTRATO  $PUMPCHAN non comprato · motivo: top 10 holder hanno il 38%
+07:37:02 FILTRATO  $RUDOLPH non comprato · motivo: solo 73 holder
+07:37:03 FILTRATO  $urcoin non comprato · motivo: segnali 0/2 (nessuno)
+07:37:10 ESCE      $Santa -4.56$ motivo: liquidità sparita (rug)
+07:39:01 FILTRATO  $Elonmas non comprato · motivo: 81 portafogli insider collegati
+07:39:11 FILTRATO  $Elonmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $9.51)
+07:39:11 FILTRATO  $Xmas non comprato · motivo: segnali 1/2 (picco volume 12.0x)
+07:39:13 FILTRATO  $Fug non comprato · motivo: top 10 holder hanno il 69%
+07:40:59 FILTRATO  $Casgen non comprato · motivo: solo 66 holder
+07:41:03 FILTRATO  $urcoin non comprato · motivo: segnali 1/2 (holder +31%)
+07:41:03 FILTRATO  $Fug non comprato · motivo: top 10 holder hanno il 68%
+07:43:18 FILTRATO  $Xmas non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:43:19 FILTRATO  $莫达 non comprato · motivo: segnali 0/2 (nessuno)
+07:45:11 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/243w2EPM7MsycxqQRWRc8uANzM3ywF6wxpsjzXNFe1iA/report
+07:47:49 FILTRATO  $Fug non comprato · motivo: top 10 holder hanno il 64%
+07:47:52 FILTRATO  $Jensenmas non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $9.51)
+07:47:54 FILTRATO  $SPACEXLIFE non comprato · motivo: 62 portafogli insider collegati
+07:49:19 FILTRATO  $Fug non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:49:19 FILTRATO  $RUDOLPH non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:49:20 FILTRATO  $JENSEN non comprato · motivo: segnali 0/2 (nessuno)
+07:50:50 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (holder +2829%)
+07:56:15 FILTRATO  $SI non comprato · motivo: bot fermo: capitale sceso del 50% dalla partenza ($54.87 → $9.51)
+07:57:52 ERRORE    HTTPError: 400 Client Error: Bad Request for url: https://api.rugcheck.xyz/v1/tokens/EPEjajbZzxBUQVaEeu1xqXWkytztRcc5zEKMWxFScvRf/report
+07:59:08 FILTRATO  $Elonmas non comprato · motivo: 97 portafogli insider collegati
+07:59:11 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (acquisti 75%)
+07:59:11 FILTRATO  $ELONCOIN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:59:11 FILTRATO  $ELONCOIN non comprato · motivo: già +300% nell'ultima ora, niente inseguimento
+07:59:12 FILTRATO  $Elonmas non comprato · motivo: segnali 0/2 (nessuno)
+07:59:14 FILTRATO  $Jensenmas non comprato · motivo: segnali 0/2 (nessuno)
+07:59:15 FILTRATO  $Elonmas non comprato · motivo: segnali 1/2 (picco volume 5.8x)
