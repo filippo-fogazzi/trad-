@@ -1,4 +1,4 @@
-# Tendenza sulle criptovalute grandi — 27/11/2026 13:26 UTC
+# Tendenza sulle criptovalute grandi — 27/11/2026 13:30 UTC
 
 **Soldi finti, solo test.** Candele giornaliere Binance, decisione a fine giornata ed esecuzione all'apertura dopo, commissione 0,1% + slippage 0,05% a ogni compravendita.
 
