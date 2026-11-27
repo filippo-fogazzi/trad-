@@ -10,7 +10,7 @@ from bot.regole import RADICE
 
 FONTE = "https://data-api.binance.vision/api/v3/klines"
 CARTELLA = RADICE / "dati"
-MS_PER_INTERVALLO = {"1m": 60_000, "15m": 900_000, "1h": 3_600_000}
+MS_PER_INTERVALLO = {"1m": 60_000, "15m": 900_000, "1h": 3_600_000, "1d": 86_400_000}
 ORE_VALIDITA_CACHE = 12
 
 

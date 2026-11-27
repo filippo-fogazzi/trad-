@@ -1,0 +1,37 @@
+# Studi su anni di dati (solo test, soldi finti): tendenza sulle criptovalute grandi e funding dei perpetui.
+# Gira ogni lunedì e su richiesta; il verdetto arriva in pochi minuti.
+name: Studi su anni di dati
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  studi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Tendenza
+        run: python -m bot.tendenza
+      - name: Funding
+        if: always()
+        run: python -m bot.funding
+      - name: Salva i risultati
+        if: always()
+        run: |
+          git config user.name "studi-bot"
+          git config user.email "studi-bot@users.noreply.github.com"
+          git add risultati/tendenza.* risultati/funding.*
+          git diff --cached --quiet && exit 0
+          git commit -m "Studi su anni di dati $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep $((RANDOM % 20 + 5)); done
