@@ -1,10 +1,10 @@
-# Laboratorio meme — 27/11/2026 03:10 UTC
+# Laboratorio meme — 27/11/2026 03:19 UTC
 
 **Soldi finti.** Foto salvate dal Registratore + prezzi al minuto da GeckoTerminal nelle 2,5 ore dopo ogni foto. Commissioni, slippage e perdita in caso di rug sono stime da `regole.yaml`.
 
 **Truffe vere:** solo foto di monete seguite dal registratore per 2,5 ore, con il minuto esatto del rug.
 
-Foto usate: **1584** di **1164** token · con prezzi successivi: **1583**.
+Foto usate: **1584** di **1164** token · con prezzi successivi: **1584**.
 
 ## Strategie promosse (0)
 
@@ -16,7 +16,7 @@ Nessuna.
 
 | Strategia | Operazioni | Vincenti | Media per operazione | Profit factor | Capitale (50€) |
 |---|---|---|---|---|---|
-| Compra tutto (senza filtri né controlli) | 1156 | 17.5% | -38.8% | 0.28 | -100.0% |
+| Compra tutto (senza filtri né controlli) | 1157 | 17.5% | -38.7% | 0.28 | -100.0% |
 
 ## Le 10 varianti con la media per operazione migliore (almeno 20 operazioni)
 
