@@ -11,7 +11,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
+  "n": 52,
+  "eseguite": 51,
+  "vincenti_pct": 21.2,
+  "ritorno_medio_pct": -18.54,
+  "profit_factor": 0.21,
+  "capitale_finale_usd": 1.4,
+  "variazione_pct": -97.5,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
+  "n": 52,
+  "eseguite": 50,
+  "vincenti_pct": 7.7,
+  "ritorno_medio_pct": -26.07,
+  "profit_factor": 0.07,
+  "capitale_finale_usd": 0.38,
+  "variazione_pct": -99.3,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
   "n": 52,
   "eseguite": 50,
   "vincenti_pct": 5.8,
@@ -22,7 +44,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
   "n": 52,
   "eseguite": 50,
   "vincenti_pct": 3.8,
@@ -33,7 +55,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
   "n": 52,
   "eseguite": 50,
   "vincenti_pct": 3.8,
@@ -44,40 +66,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
   "n": 52,
-  "eseguite": 50,
-  "vincenti_pct": 7.7,
-  "ritorno_medio_pct": -27.38,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 0.29,
-  "variazione_pct": -99.5,
+  "eseguite": 51,
+  "vincenti_pct": 30.8,
+  "ritorno_medio_pct": -18.34,
+  "profit_factor": 0.29,
+  "capitale_finale_usd": 1.42,
+  "variazione_pct": -97.4,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
   "n": 52,
-  "eseguite": 50,
-  "vincenti_pct": 5.8,
-  "ritorno_medio_pct": -30.03,
-  "profit_factor": 0.1,
-  "capitale_finale_usd": 0.17,
-  "variazione_pct": -99.7,
+  "eseguite": 49,
+  "vincenti_pct": 13.5,
+  "ritorno_medio_pct": -30.69,
+  "profit_factor": 0.13,
+  "capitale_finale_usd": 0.21,
+  "variazione_pct": -99.6,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -12% · max 60 min",
-  "n": 52,
-  "eseguite": 50,
-  "vincenti_pct": 3.8,
-  "ritorno_medio_pct": -30.56,
-  "profit_factor": 0.09,
-  "capitale_finale_usd": 0.16,
-  "variazione_pct": -99.7,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
   "n": 52,
   "eseguite": 49,
   "vincenti_pct": 13.5,
@@ -88,7 +99,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
   "n": 52,
   "eseguite": 49,
   "vincenti_pct": 9.6,
@@ -99,7 +110,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
   "n": 52,
   "eseguite": 49,
   "vincenti_pct": 7.7,
@@ -110,7 +121,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 590,
+  "eseguite": 433,
+  "vincenti_pct": 42.0,
+  "ritorno_medio_pct": -6.57,
+  "profit_factor": 0.61,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 590,
+  "eseguite": 353,
+  "vincenti_pct": 40.0,
+  "ritorno_medio_pct": -14.3,
+  "profit_factor": 0.46,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
   "n": 590,
   "eseguite": 276,
   "vincenti_pct": 33.4,
@@ -121,7 +154,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
   "n": 590,
   "eseguite": 175,
   "vincenti_pct": 20.2,
@@ -132,7 +165,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
   "n": 590,
   "eseguite": 124,
   "vincenti_pct": 13.7,
@@ -143,40 +176,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
   "n": 590,
-  "eseguite": 272,
-  "vincenti_pct": 34.7,
-  "ritorno_medio_pct": -21.49,
-  "profit_factor": 0.41,
+  "eseguite": 422,
+  "vincenti_pct": 46.4,
+  "ritorno_medio_pct": -5.3,
+  "profit_factor": 0.69,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
   "n": 590,
-  "eseguite": 170,
-  "vincenti_pct": 21.5,
-  "ritorno_medio_pct": -33.95,
-  "profit_factor": 0.32,
+  "eseguite": 335,
+  "vincenti_pct": 44.2,
+  "ritorno_medio_pct": -14.34,
+  "profit_factor": 0.51,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min",
-  "n": 590,
-  "eseguite": 122,
-  "vincenti_pct": 14.9,
-  "ritorno_medio_pct": -37.8,
-  "profit_factor": 0.29,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
   "n": 590,
   "eseguite": 264,
   "vincenti_pct": 36.9,
@@ -187,7 +209,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
   "n": 590,
   "eseguite": 164,
   "vincenti_pct": 23.4,
@@ -198,7 +220,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
   "n": 590,
   "eseguite": 113,
   "vincenti_pct": 16.6,
@@ -209,73 +231,84 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
   "n": 49,
-  "eseguite": 47,
-  "vincenti_pct": 4.1,
-  "ritorno_medio_pct": -23.03,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.89,
-  "variazione_pct": -98.4,
+  "eseguite": 48,
+  "vincenti_pct": 18.4,
+  "ritorno_medio_pct": -18.1,
+  "profit_factor": 0.22,
+  "capitale_finale_usd": 1.91,
+  "variazione_pct": -96.5,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
-  "n": 49,
-  "eseguite": 47,
-  "vincenti_pct": 4.1,
-  "ritorno_medio_pct": -23.03,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.89,
-  "variazione_pct": -98.4,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
-  "n": 49,
-  "eseguite": 47,
-  "vincenti_pct": 4.1,
-  "ritorno_medio_pct": -23.03,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.89,
-  "variazione_pct": -98.4,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
   "n": 49,
   "eseguite": 47,
   "vincenti_pct": 6.1,
-  "ritorno_medio_pct": -26.33,
-  "profit_factor": 0.12,
-  "capitale_finale_usd": 0.5,
-  "variazione_pct": -99.1,
+  "ritorno_medio_pct": -24.39,
+  "profit_factor": 0.07,
+  "capitale_finale_usd": 0.73,
+  "variazione_pct": -98.7,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -12% · max 25 min",
-  "n": 49,
-  "eseguite": 47,
-  "vincenti_pct": 6.1,
-  "ritorno_medio_pct": -26.35,
-  "profit_factor": 0.12,
-  "capitale_finale_usd": 0.5,
-  "variazione_pct": -99.1,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -12% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
   "n": 49,
   "eseguite": 47,
   "vincenti_pct": 4.1,
-  "ritorno_medio_pct": -26.91,
-  "profit_factor": 0.11,
-  "capitale_finale_usd": 0.45,
-  "variazione_pct": -99.2,
+  "ritorno_medio_pct": -23.03,
+  "profit_factor": 0.13,
+  "capitale_finale_usd": 0.89,
+  "variazione_pct": -98.4,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "n": 49,
+  "eseguite": 47,
+  "vincenti_pct": 4.1,
+  "ritorno_medio_pct": -23.03,
+  "profit_factor": 0.13,
+  "capitale_finale_usd": 0.89,
+  "variazione_pct": -98.4,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "n": 49,
+  "eseguite": 47,
+  "vincenti_pct": 4.1,
+  "ritorno_medio_pct": -23.03,
+  "profit_factor": 0.13,
+  "capitale_finale_usd": 0.89,
+  "variazione_pct": -98.4,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
+  "n": 49,
+  "eseguite": 48,
+  "vincenti_pct": 28.6,
+  "ritorno_medio_pct": -17.88,
+  "profit_factor": 0.3,
+  "capitale_finale_usd": 1.94,
+  "variazione_pct": -96.5,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
+  "n": 49,
+  "eseguite": 46,
+  "vincenti_pct": 12.2,
+  "ritorno_medio_pct": -29.29,
+  "profit_factor": 0.13,
+  "capitale_finale_usd": 0.4,
+  "variazione_pct": -99.3,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
   "n": 49,
   "eseguite": 46,
   "vincenti_pct": 12.2,
@@ -286,7 +319,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
   "n": 49,
   "eseguite": 46,
   "vincenti_pct": 10.2,
@@ -297,7 +330,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
   "n": 49,
   "eseguite": 46,
   "vincenti_pct": 8.2,
@@ -308,7 +341,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 477,
+  "eseguite": 375,
+  "vincenti_pct": 38.4,
+  "ritorno_medio_pct": -6.09,
+  "profit_factor": 0.65,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 477,
+  "eseguite": 307,
+  "vincenti_pct": 33.5,
+  "ritorno_medio_pct": -13.74,
+  "profit_factor": 0.48,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
   "n": 477,
   "eseguite": 245,
   "vincenti_pct": 28.3,
@@ -319,7 +374,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
   "n": 477,
   "eseguite": 184,
   "vincenti_pct": 19.5,
@@ -330,7 +385,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
   "n": 477,
   "eseguite": 138,
   "vincenti_pct": 14.5,
@@ -341,40 +396,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
   "n": 477,
-  "eseguite": 241,
-  "vincenti_pct": 30.0,
-  "ritorno_medio_pct": -20.99,
-  "profit_factor": 0.41,
+  "eseguite": 366,
+  "vincenti_pct": 43.4,
+  "ritorno_medio_pct": -4.63,
+  "profit_factor": 0.75,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
   "n": 477,
-  "eseguite": 181,
-  "vincenti_pct": 21.0,
-  "ritorno_medio_pct": -30.57,
-  "profit_factor": 0.34,
+  "eseguite": 290,
+  "vincenti_pct": 38.4,
+  "ritorno_medio_pct": -14.0,
+  "profit_factor": 0.52,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min",
-  "n": 477,
-  "eseguite": 118,
-  "vincenti_pct": 15.7,
-  "ritorno_medio_pct": -33.34,
-  "profit_factor": 0.32,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
   "n": 477,
   "eseguite": 233,
   "vincenti_pct": 32.7,
@@ -385,7 +429,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
   "n": 477,
   "eseguite": 169,
   "vincenti_pct": 23.1,
@@ -396,7 +440,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
   "n": 477,
   "eseguite": 115,
   "vincenti_pct": 17.8,
@@ -407,7 +451,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 36,
+  "eseguite": 35,
+  "vincenti_pct": 13.9,
+  "ritorno_medio_pct": -23.29,
+  "profit_factor": 0.17,
+  "capitale_finale_usd": 2.34,
+  "variazione_pct": -95.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
+  "n": 36,
+  "eseguite": 35,
+  "vincenti_pct": 5.6,
+  "ritorno_medio_pct": -29.11,
+  "profit_factor": 0.07,
+  "capitale_finale_usd": 1.16,
+  "variazione_pct": -97.9,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 5.6,
@@ -418,7 +484,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 5.6,
@@ -429,7 +495,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 5.6,
@@ -440,40 +506,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
   "n": 36,
   "eseguite": 35,
-  "vincenti_pct": 5.6,
-  "ritorno_medio_pct": -30.69,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.9,
-  "variazione_pct": -98.4,
+  "vincenti_pct": 25.0,
+  "ritorno_medio_pct": -21.95,
+  "profit_factor": 0.26,
+  "capitale_finale_usd": 2.76,
+  "variazione_pct": -95.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
   "n": 36,
   "eseguite": 35,
-  "vincenti_pct": 5.6,
-  "ritorno_medio_pct": -30.69,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.9,
-  "variazione_pct": -98.4,
+  "vincenti_pct": 11.1,
+  "ritorno_medio_pct": -34.8,
+  "profit_factor": 0.1,
+  "capitale_finale_usd": 0.51,
+  "variazione_pct": -99.1,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -12% · max 60 min",
-  "n": 36,
-  "eseguite": 35,
-  "vincenti_pct": 5.6,
-  "ritorno_medio_pct": -30.69,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 0.9,
-  "variazione_pct": -98.4,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 8.3,
@@ -484,7 +539,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 8.3,
@@ -495,7 +550,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
   "n": 36,
   "eseguite": 35,
   "vincenti_pct": 8.3,
@@ -506,7 +561,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 318,
+  "eseguite": 291,
+  "vincenti_pct": 27.0,
+  "ritorno_medio_pct": -10.66,
+  "profit_factor": 0.52,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 318,
+  "eseguite": 262,
+  "vincenti_pct": 19.2,
+  "ritorno_medio_pct": -19.44,
+  "profit_factor": 0.37,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
   "n": 318,
   "eseguite": 242,
   "vincenti_pct": 17.6,
@@ -517,7 +594,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
   "n": 318,
   "eseguite": 201,
   "vincenti_pct": 19.2,
@@ -528,7 +605,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
   "n": 318,
   "eseguite": 131,
   "vincenti_pct": 15.4,
@@ -539,40 +616,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
   "n": 318,
-  "eseguite": 216,
-  "vincenti_pct": 19.5,
-  "ritorno_medio_pct": -26.02,
-  "profit_factor": 0.34,
+  "eseguite": 284,
+  "vincenti_pct": 33.3,
+  "ritorno_medio_pct": -8.74,
+  "profit_factor": 0.63,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
   "n": 318,
-  "eseguite": 173,
-  "vincenti_pct": 20.8,
-  "ritorno_medio_pct": -27.53,
-  "profit_factor": 0.36,
+  "eseguite": 251,
+  "vincenti_pct": 25.8,
+  "ritorno_medio_pct": -19.18,
+  "profit_factor": 0.44,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -12% · max 60 min",
-  "n": 318,
-  "eseguite": 109,
-  "vincenti_pct": 17.0,
-  "ritorno_medio_pct": -29.03,
-  "profit_factor": 0.38,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
   "n": 318,
   "eseguite": 209,
   "vincenti_pct": 23.0,
@@ -583,7 +649,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
   "n": 318,
   "eseguite": 167,
   "vincenti_pct": 23.6,
@@ -594,7 +660,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
   "n": 318,
   "eseguite": 108,
   "vincenti_pct": 19.8,
@@ -605,73 +671,84 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
   "n": 20,
   "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
+  "vincenti_pct": 15.0,
+  "ritorno_medio_pct": -25.14,
+  "profit_factor": 0.09,
+  "capitale_finale_usd": 8.14,
+  "variazione_pct": -85.2,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
-  "ritorno_medio_pct": -25.71,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 7.71,
-  "variazione_pct": -86.0,
+  "ritorno_medio_pct": -26.48,
+  "profit_factor": 0.06,
+  "capitale_finale_usd": 7.52,
+  "variazione_pct": -86.3,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -12% · max 25 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 10.0,
-  "ritorno_medio_pct": -25.76,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 7.71,
-  "variazione_pct": -86.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -12% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -27.12,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 6.97,
-  "variazione_pct": -87.3,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 5.0,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 5.0,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 15.0,
+  "ritorno_medio_pct": -28.86,
+  "profit_factor": 0.08,
+  "capitale_finale_usd": 6.27,
+  "variazione_pct": -88.6,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 10.0,
+  "ritorno_medio_pct": -32.23,
+  "profit_factor": 0.05,
+  "capitale_finale_usd": 5.04,
+  "variazione_pct": -90.8,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
@@ -682,7 +759,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
@@ -693,7 +770,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 5.0,
@@ -704,7 +781,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 493,
+  "eseguite": 402,
+  "vincenti_pct": 39.1,
+  "ritorno_medio_pct": -6.69,
+  "profit_factor": 0.61,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 493,
+  "eseguite": 319,
+  "vincenti_pct": 38.3,
+  "ritorno_medio_pct": -14.55,
+  "profit_factor": 0.46,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
   "n": 493,
   "eseguite": 258,
   "vincenti_pct": 31.8,
@@ -715,7 +814,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
   "n": 493,
   "eseguite": 169,
   "vincenti_pct": 22.7,
@@ -726,7 +825,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
   "n": 493,
   "eseguite": 105,
   "vincenti_pct": 15.0,
@@ -737,40 +836,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
   "n": 493,
-  "eseguite": 256,
-  "vincenti_pct": 33.3,
-  "ritorno_medio_pct": -22.57,
-  "profit_factor": 0.39,
+  "eseguite": 397,
+  "vincenti_pct": 43.0,
+  "ritorno_medio_pct": -5.61,
+  "profit_factor": 0.69,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
   "n": 493,
-  "eseguite": 166,
-  "vincenti_pct": 24.1,
-  "ritorno_medio_pct": -30.25,
-  "profit_factor": 0.36,
+  "eseguite": 309,
+  "vincenti_pct": 42.4,
+  "ritorno_medio_pct": -14.34,
+  "profit_factor": 0.51,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min",
-  "n": 493,
-  "eseguite": 101,
-  "vincenti_pct": 16.2,
-  "ritorno_medio_pct": -34.9,
-  "profit_factor": 0.32,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
   "n": 493,
   "eseguite": 250,
   "vincenti_pct": 35.3,
@@ -781,7 +869,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
   "n": 493,
   "eseguite": 168,
   "vincenti_pct": 26.0,
@@ -792,7 +880,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
   "n": 493,
   "eseguite": 109,
   "vincenti_pct": 17.8,
@@ -803,73 +891,84 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
   "n": 20,
   "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
+  "vincenti_pct": 15.0,
+  "ritorno_medio_pct": -25.14,
+  "profit_factor": 0.09,
+  "capitale_finale_usd": 8.14,
+  "variazione_pct": -85.2,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -24.81,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 8.19,
-  "variazione_pct": -85.1,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
-  "ritorno_medio_pct": -25.71,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 7.71,
-  "variazione_pct": -86.0,
+  "ritorno_medio_pct": -26.48,
+  "profit_factor": 0.06,
+  "capitale_finale_usd": 7.52,
+  "variazione_pct": -86.3,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -12% · max 25 min",
-  "n": 20,
-  "eseguite": 20,
-  "vincenti_pct": 10.0,
-  "ritorno_medio_pct": -25.76,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 7.71,
-  "variazione_pct": -86.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -12% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 5.0,
-  "ritorno_medio_pct": -27.12,
-  "profit_factor": 0.13,
-  "capitale_finale_usd": 6.97,
-  "variazione_pct": -87.3,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 5.0,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 5.0,
+  "ritorno_medio_pct": -24.81,
+  "profit_factor": 0.14,
+  "capitale_finale_usd": 8.19,
+  "variazione_pct": -85.1,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 15.0,
+  "ritorno_medio_pct": -28.86,
+  "profit_factor": 0.08,
+  "capitale_finale_usd": 6.27,
+  "variazione_pct": -88.6,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
+  "n": 20,
+  "eseguite": 20,
+  "vincenti_pct": 10.0,
+  "ritorno_medio_pct": -32.23,
+  "profit_factor": 0.05,
+  "capitale_finale_usd": 5.04,
+  "variazione_pct": -90.8,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
@@ -880,7 +979,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 10.0,
@@ -891,7 +990,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
   "n": 20,
   "eseguite": 20,
   "vincenti_pct": 5.0,
@@ -902,7 +1001,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 412,
+  "eseguite": 348,
+  "vincenti_pct": 37.1,
+  "ritorno_medio_pct": -6.27,
+  "profit_factor": 0.66,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 412,
+  "eseguite": 291,
+  "vincenti_pct": 32.5,
+  "ritorno_medio_pct": -13.86,
+  "profit_factor": 0.48,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
   "n": 412,
   "eseguite": 242,
   "vincenti_pct": 27.7,
@@ -913,7 +1034,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
   "n": 412,
   "eseguite": 177,
   "vincenti_pct": 21.6,
@@ -924,7 +1045,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
   "n": 412,
   "eseguite": 114,
   "vincenti_pct": 15.8,
@@ -935,40 +1056,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
   "n": 412,
-  "eseguite": 240,
-  "vincenti_pct": 29.4,
-  "ritorno_medio_pct": -21.23,
-  "profit_factor": 0.42,
+  "eseguite": 344,
+  "vincenti_pct": 41.5,
+  "ritorno_medio_pct": -5.02,
+  "profit_factor": 0.74,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
   "n": 412,
-  "eseguite": 155,
-  "vincenti_pct": 23.1,
-  "ritorno_medio_pct": -28.34,
-  "profit_factor": 0.36,
+  "eseguite": 282,
+  "vincenti_pct": 37.1,
+  "ritorno_medio_pct": -13.75,
+  "profit_factor": 0.53,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min",
-  "n": 412,
-  "eseguite": 105,
-  "vincenti_pct": 17.0,
-  "ritorno_medio_pct": -31.61,
-  "profit_factor": 0.35,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
   "n": 412,
   "eseguite": 233,
   "vincenti_pct": 31.8,
@@ -979,7 +1089,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
   "n": 412,
   "eseguite": 152,
   "vincenti_pct": 25.0,
@@ -990,7 +1100,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
   "n": 412,
   "eseguite": 108,
   "vincenti_pct": 18.9,
@@ -1001,7 +1111,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 15,
+  "eseguite": 15,
+  "vincenti_pct": 13.3,
+  "ritorno_medio_pct": -31.06,
+  "profit_factor": 0.08,
+  "capitale_finale_usd": 9.26,
+  "variazione_pct": -83.2,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
+  "n": 15,
+  "eseguite": 15,
+  "vincenti_pct": 6.7,
+  "ritorno_medio_pct": -32.61,
+  "profit_factor": 0.06,
+  "capitale_finale_usd": 8.58,
+  "variazione_pct": -84.4,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1012,7 +1144,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1023,7 +1155,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1034,40 +1166,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
   "n": 15,
   "eseguite": 15,
-  "vincenti_pct": 6.7,
-  "ritorno_medio_pct": -30.91,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 9.05,
-  "variazione_pct": -83.5,
+  "vincenti_pct": 13.3,
+  "ritorno_medio_pct": -33.18,
+  "profit_factor": 0.08,
+  "capitale_finale_usd": 8.27,
+  "variazione_pct": -85.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
-  "ritorno_medio_pct": -30.91,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 9.05,
-  "variazione_pct": -83.5,
+  "ritorno_medio_pct": -37.2,
+  "profit_factor": 0.05,
+  "capitale_finale_usd": 6.73,
+  "variazione_pct": -87.8,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -12% · max 60 min",
-  "n": 15,
-  "eseguite": 15,
-  "vincenti_pct": 6.7,
-  "ritorno_medio_pct": -30.91,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 9.05,
-  "variazione_pct": -83.5,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1078,7 +1199,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1089,7 +1210,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
   "n": 15,
   "eseguite": 15,
   "vincenti_pct": 6.7,
@@ -1100,7 +1221,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 294,
+  "eseguite": 270,
+  "vincenti_pct": 27.6,
+  "ritorno_medio_pct": -10.3,
+  "profit_factor": 0.54,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 294,
+  "eseguite": 247,
+  "vincenti_pct": 20.1,
+  "ritorno_medio_pct": -18.88,
+  "profit_factor": 0.39,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
   "n": 294,
   "eseguite": 228,
   "vincenti_pct": 18.4,
@@ -1111,7 +1254,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
   "n": 294,
   "eseguite": 196,
   "vincenti_pct": 20.1,
@@ -1122,7 +1265,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
   "n": 294,
   "eseguite": 129,
   "vincenti_pct": 16.0,
@@ -1133,40 +1276,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
   "n": 294,
-  "eseguite": 206,
-  "vincenti_pct": 20.1,
-  "ritorno_medio_pct": -26.09,
-  "profit_factor": 0.34,
+  "eseguite": 266,
+  "vincenti_pct": 33.0,
+  "ritorno_medio_pct": -8.53,
+  "profit_factor": 0.64,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
   "n": 294,
-  "eseguite": 172,
-  "vincenti_pct": 21.4,
-  "ritorno_medio_pct": -29.16,
-  "profit_factor": 0.34,
+  "eseguite": 238,
+  "vincenti_pct": 26.2,
+  "ritorno_medio_pct": -18.25,
+  "profit_factor": 0.46,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -12% · max 60 min",
-  "n": 294,
-  "eseguite": 117,
-  "vincenti_pct": 17.3,
-  "ritorno_medio_pct": -30.88,
-  "profit_factor": 0.35,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
   "n": 294,
   "eseguite": 201,
   "vincenti_pct": 23.5,
@@ -1177,7 +1309,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
   "n": 294,
   "eseguite": 168,
   "vincenti_pct": 24.1,
@@ -1188,7 +1320,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
   "n": 294,
   "eseguite": 116,
   "vincenti_pct": 20.1,
@@ -1199,7 +1331,18 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
+  "n": 3,
+  "eseguite": 3,
+  "vincenti_pct": 33.3,
+  "ritorno_medio_pct": 2.49,
+  "profit_factor": 1.32,
+  "capitale_finale_usd": 56.01,
+  "variazione_pct": 1.8,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1210,7 +1353,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1221,7 +1364,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1232,40 +1375,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
+  "ritorno_medio_pct": -11.85,
   "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
+  "capitale_finale_usd": 48.8,
+  "variazione_pct": -11.3,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
   "n": 3,
   "eseguite": 3,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
+  "vincenti_pct": 33.3,
+  "ritorno_medio_pct": -4.03,
+  "profit_factor": 0.72,
+  "capitale_finale_usd": 52.31,
+  "variazione_pct": -4.9,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -12% · max 60 min",
-  "n": 3,
-  "eseguite": 3,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1276,7 +1408,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1287,7 +1419,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1298,7 +1430,40 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "n": 3,
+  "eseguite": 3,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": -23.41,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 43.21,
+  "variazione_pct": -21.4,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 113,
+  "eseguite": 109,
+  "vincenti_pct": 15.9,
+  "ritorno_medio_pct": -13.68,
+  "profit_factor": 0.21,
+  "capitale_finale_usd": 0.15,
+  "variazione_pct": -99.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 113,
+  "eseguite": 102,
+  "vincenti_pct": 12.4,
+  "ritorno_medio_pct": -28.08,
+  "profit_factor": 0.06,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
   "n": 113,
   "eseguite": 96,
   "vincenti_pct": 19.5,
@@ -1309,7 +1474,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
   "n": 113,
   "eseguite": 80,
   "vincenti_pct": 26.5,
@@ -1320,7 +1485,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
   "n": 113,
   "eseguite": 64,
   "vincenti_pct": 13.3,
@@ -1331,40 +1496,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
   "n": 113,
-  "eseguite": 96,
-  "vincenti_pct": 21.2,
-  "ritorno_medio_pct": -31.75,
-  "profit_factor": 0.09,
+  "eseguite": 109,
+  "vincenti_pct": 19.5,
+  "ritorno_medio_pct": -13.11,
+  "profit_factor": 0.3,
+  "capitale_finale_usd": 0.17,
+  "variazione_pct": -99.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
+  "n": 113,
+  "eseguite": 102,
+  "vincenti_pct": 16.8,
+  "ritorno_medio_pct": -28.67,
+  "profit_factor": 0.11,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -12% · max 25 min",
-  "n": 113,
-  "eseguite": 80,
-  "vincenti_pct": 27.4,
-  "ritorno_medio_pct": -35.32,
-  "profit_factor": 0.16,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -12% · max 60 min",
-  "n": 113,
-  "eseguite": 64,
-  "vincenti_pct": 14.2,
-  "ritorno_medio_pct": -45.83,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
   "n": 113,
   "eseguite": 96,
   "vincenti_pct": 23.9,
@@ -1375,7 +1529,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
   "n": 113,
   "eseguite": 80,
   "vincenti_pct": 30.1,
@@ -1386,7 +1540,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
   "n": 113,
   "eseguite": 64,
   "vincenti_pct": 16.8,
@@ -1397,7 +1551,18 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
+  "n": 3,
+  "eseguite": 3,
+  "vincenti_pct": 33.3,
+  "ritorno_medio_pct": 2.49,
+  "profit_factor": 1.32,
+  "capitale_finale_usd": 56.01,
+  "variazione_pct": 1.8,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1408,7 +1573,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1419,7 +1584,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1430,40 +1595,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
+  "ritorno_medio_pct": -11.85,
   "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
+  "capitale_finale_usd": 48.8,
+  "variazione_pct": -11.3,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
   "n": 3,
   "eseguite": 3,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
+  "vincenti_pct": 33.3,
+  "ritorno_medio_pct": -4.03,
+  "profit_factor": 0.72,
+  "capitale_finale_usd": 52.31,
+  "variazione_pct": -4.9,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -12% · max 60 min",
-  "n": 3,
-  "eseguite": 3,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.7,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 46.88,
-  "variazione_pct": -14.8,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1474,7 +1628,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1485,7 +1639,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
   "n": 3,
   "eseguite": 3,
   "vincenti_pct": 0.0,
@@ -1496,7 +1650,40 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "n": 3,
+  "eseguite": 3,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": -23.41,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 43.21,
+  "variazione_pct": -21.4,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 113,
+  "eseguite": 109,
+  "vincenti_pct": 15.9,
+  "ritorno_medio_pct": -13.68,
+  "profit_factor": 0.21,
+  "capitale_finale_usd": 0.15,
+  "variazione_pct": -99.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 113,
+  "eseguite": 102,
+  "vincenti_pct": 12.4,
+  "ritorno_medio_pct": -28.08,
+  "profit_factor": 0.06,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
   "n": 113,
   "eseguite": 96,
   "vincenti_pct": 19.5,
@@ -1507,7 +1694,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
   "n": 113,
   "eseguite": 80,
   "vincenti_pct": 26.5,
@@ -1518,7 +1705,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
   "n": 113,
   "eseguite": 64,
   "vincenti_pct": 13.3,
@@ -1529,40 +1716,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
   "n": 113,
-  "eseguite": 96,
-  "vincenti_pct": 21.2,
-  "ritorno_medio_pct": -31.75,
-  "profit_factor": 0.09,
+  "eseguite": 109,
+  "vincenti_pct": 19.5,
+  "ritorno_medio_pct": -13.11,
+  "profit_factor": 0.3,
+  "capitale_finale_usd": 0.17,
+  "variazione_pct": -99.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
+  "n": 113,
+  "eseguite": 102,
+  "vincenti_pct": 16.8,
+  "ritorno_medio_pct": -28.67,
+  "profit_factor": 0.11,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -12% · max 25 min",
-  "n": 113,
-  "eseguite": 80,
-  "vincenti_pct": 27.4,
-  "ritorno_medio_pct": -35.32,
-  "profit_factor": 0.16,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -12% · max 60 min",
-  "n": 113,
-  "eseguite": 64,
-  "vincenti_pct": 14.2,
-  "ritorno_medio_pct": -45.83,
-  "profit_factor": 0.15,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
   "n": 113,
   "eseguite": 96,
   "vincenti_pct": 23.9,
@@ -1573,7 +1749,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
   "n": 113,
   "eseguite": 80,
   "vincenti_pct": 30.1,
@@ -1584,7 +1760,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
   "n": 113,
   "eseguite": 64,
   "vincenti_pct": 16.8,
@@ -1595,7 +1771,18 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 1,
+  "eseguite": 1,
+  "vincenti_pct": 100.0,
+  "ritorno_medio_pct": 31.16,
+  "profit_factor": 99.0,
+  "capitale_finale_usd": 60.66,
+  "variazione_pct": 10.3,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1606,7 +1793,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1617,7 +1804,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1628,40 +1815,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.71,
+  "ritorno_medio_pct": -11.86,
   "profit_factor": 0.0,
-  "capitale_finale_usd": 52.15,
-  "variazione_pct": -5.2,
+  "capitale_finale_usd": 52.85,
+  "variazione_pct": -3.9,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -12% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
   "n": 1,
   "eseguite": 1,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.71,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 52.15,
-  "variazione_pct": -5.2,
+  "vincenti_pct": 100.0,
+  "ritorno_medio_pct": 31.16,
+  "profit_factor": 99.0,
+  "capitale_finale_usd": 60.66,
+  "variazione_pct": 10.3,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -12% · max 60 min",
-  "n": 1,
-  "eseguite": 1,
-  "vincenti_pct": 0.0,
-  "ritorno_medio_pct": -15.71,
-  "profit_factor": 0.0,
-  "capitale_finale_usd": 52.15,
-  "variazione_pct": -5.2,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1672,7 +1848,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1683,7 +1859,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
   "n": 1,
   "eseguite": 1,
   "vincenti_pct": 0.0,
@@ -1694,7 +1870,40 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "n": 1,
+  "eseguite": 1,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": -23.42,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 50.75,
+  "variazione_pct": -7.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 103,
+  "eseguite": 100,
+  "vincenti_pct": 14.6,
+  "ritorno_medio_pct": -14.57,
+  "profit_factor": 0.22,
+  "capitale_finale_usd": 0.17,
+  "variazione_pct": -99.7,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 103,
+  "eseguite": 95,
+  "vincenti_pct": 10.7,
+  "ritorno_medio_pct": -28.24,
+  "profit_factor": 0.05,
+  "capitale_finale_usd": 0.0,
+  "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
   "n": 103,
   "eseguite": 92,
   "vincenti_pct": 18.4,
@@ -1705,7 +1914,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
   "n": 103,
   "eseguite": 82,
   "vincenti_pct": 26.2,
@@ -1716,7 +1925,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
   "n": 103,
   "eseguite": 65,
   "vincenti_pct": 14.6,
@@ -1727,40 +1936,29 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -12% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
   "n": 103,
-  "eseguite": 92,
-  "vincenti_pct": 19.4,
-  "ritorno_medio_pct": -32.92,
-  "profit_factor": 0.07,
+  "eseguite": 100,
+  "vincenti_pct": 18.4,
+  "ritorno_medio_pct": -13.78,
+  "profit_factor": 0.31,
+  "capitale_finale_usd": 0.21,
+  "variazione_pct": -99.6,
+  "promossa": false
+ },
+ {
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
+  "n": 103,
+  "eseguite": 95,
+  "vincenti_pct": 14.6,
+  "ritorno_medio_pct": -28.8,
+  "profit_factor": 0.11,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -12% · max 25 min",
-  "n": 103,
-  "eseguite": 81,
-  "vincenti_pct": 27.2,
-  "ritorno_medio_pct": -36.08,
-  "profit_factor": 0.14,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -12% · max 60 min",
-  "n": 103,
-  "eseguite": 65,
-  "vincenti_pct": 15.5,
-  "ritorno_medio_pct": -43.7,
-  "profit_factor": 0.17,
-  "capitale_finale_usd": 0.0,
-  "variazione_pct": -100.0,
-  "promossa": false
- },
- {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
   "n": 103,
   "eseguite": 92,
   "vincenti_pct": 22.3,
@@ -1771,7 +1969,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
   "n": 103,
   "eseguite": 81,
   "vincenti_pct": 30.1,
@@ -1782,7 +1980,7 @@
   "promossa": false
  },
  {
-  "nome": "liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "nome": "nuove · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
   "n": 103,
   "eseguite": 64,
   "vincenti_pct": 18.4,
@@ -1790,6 +1988,1986 @@
   "profit_factor": 0.19,
   "capitale_finale_usd": 0.0,
   "variazione_pct": -100.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥5k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥15k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥1k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥5k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe severo · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -8% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 2 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 5 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 10 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 25 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
+  "promossa": false
+ },
+ {
+  "nome": "sopravvissute · liq ≥40k · vol5m ≥25k · truffe senza LP · stop -20% · max 60 min",
+  "n": 0,
+  "eseguite": 0,
+  "vincenti_pct": 0.0,
+  "ritorno_medio_pct": 0.0,
+  "profit_factor": 0.0,
+  "capitale_finale_usd": 55.0,
+  "variazione_pct": 0.0,
   "promossa": false
  }
 ]

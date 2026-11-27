@@ -20,12 +20,14 @@ from bot.regole import RADICE
 
 CARTELLA = RADICE / "registro"
 LIQUIDITA_MIN = 5_000          # più bassa di ogni strategia, così il Laboratorio può provare filtri larghi
-ETA_MAX_ORE = 6
+ETA_MAX_ORE = 7 * 24          # dal 27/11 anche le monete "sopravvissute", fino a 7 giorni...
+ETA_NUOVE_ORE = 6
+LIQUIDITA_MIN_VECCHIE = 30_000  # ...ma oltre le 6 ore solo quelle con ancora almeno 30k $ di liquidità
 FOTO_PER_TOKEN = 3             # la stessa moneta viene rifotografata fino a 3 volte...
 MINUTI_TRA_FOTO = 5            # ...a distanza di almeno 5 minuti (serve per la crescita degli holder)
 RUGCHECK_PER_GIRO = 25         # RugCheck è lento: al massimo 25 controlli per giro, prima i più scambiati
 SEGUI_MINUTI = 150             # dopo la prima foto ogni moneta è seguita per 2,5 ore (la finestra del Laboratorio)...
-CONTROLLO_OGNI_MINUTI = 3      # ...controllando la liquidità ogni 3 minuti: se sparisce è un rug, e si scrive quando
+CONTROLLO_OGNI_MINUTI = 1      # ...controllando la liquidità ogni minuto: se sparisce è un rug, e si scrive quando
 
 
 def coppia_ridotta(c: dict) -> dict:
@@ -124,6 +126,7 @@ class Registratore:
             eta_ore = (adesso_ms - (c.get("pairCreatedAt") or 0)) / 3_600_000
             fatte = self.foto.get(token, [])
             if (prezzo(c) is None or liquidita(c) < LIQUIDITA_MIN or eta_ore > ETA_MAX_ORE
+                    or (eta_ore > ETA_NUOVE_ORE and liquidita(c) < LIQUIDITA_MIN_VECCHIE)
                     or len(fatte) >= FOTO_PER_TOKEN or (fatte and adesso_ms - fatte[-1] < MINUTI_TRA_FOTO * 60_000)):
                 continue
             candidati.append((float((c.get("volume") or {}).get("m5") or 0), token, c))

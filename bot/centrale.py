@@ -145,7 +145,9 @@ def _regole_in_parole(r: dict) -> tuple[str, str, str]:
     u, t, x, d = r["universo"], r["controllo_truffe"], r["uscite"], r["dimensione"]
     truffe = ("controllo anti-truffa severo" if t["lp_bloccata_min_pct"] >= 90
               else "controllo anti-truffa senza guardare se la liquidità è bloccata")
-    compra = f"Monete con almeno {u['liquidita_min_usd'] // 1000}k $ di liquidità e {u['holder_min']} holder, {truffe}"
+    eta = (f"nate da {u['eta_min_ore'] // 24} a {u['eta_max_ore'] // 24} giorni" if u.get("eta_min_ore")
+           else f"nate da meno di {u['eta_max_ore']} ore")
+    compra = f"Monete {eta}, con almeno {u['liquidita_min_usd'] // 1000}k $ di liquidità e {u['holder_min']} holder, {truffe}"
     vende = f"A −{x['stop_pct']}%, oppure dopo {x['tempo_max_minuti']} minuti se non è raddoppiata"
     punta = f"{d['pct_capitale']}% del capitale per operazione"
     return compra, vende, punta
@@ -221,7 +223,7 @@ def lab_meme() -> list[dict]:
     if not lab.exists():
         return []
     risultati = json.loads(lab.read_text())
-    fissi = sum(1 for r in risultati if not r["nome"].startswith("liq "))
+    fissi = sum(1 for r in risultati if not r["nome"].startswith(("nuove ", "sopravvissute ")))
     riferimento = [dict(r, gruppo="riferimento") for r in risultati[:fissi]]
     migliori = sorted([r for r in risultati[fissi:] if r["n"] >= 20], key=lambda r: -r["capitale_finale_usd"])[:10]
     return [dict(r, n_riga=i + 1, **({"gruppo": r.get("gruppo", "migliori")})) for i, r in enumerate(riferimento + migliori)]

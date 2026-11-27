@@ -360,13 +360,15 @@ def varianti(tutte: dict) -> list[tuple[str, dict]]:
                              "no_mint_authority": False, "no_freeze_authority": False, "no_rischi_gravi": False,
                              "no_insider_rilevati": False},
         "segnali": {"minimi_richiesti": 0}, "uscite": {"no_inseguire_pct_1h": 10**9}})))
-    griglia = itertools.product([5000, 15000, 40000], [1000, 5000, 25000], ["severo", "senza LP"], [8, 12, 20], [10, 25, 60])
-    for liq, vol, truffe, stop, minuti in griglia:
-        modifiche = {"universo": {"liquidita_min_usd": liq, "volume_5min_min_usd": vol, "holder_min": 150},
+    # età: "nuove" = nate da meno di 6 ore; "sopravvissute" = da 1 a 7 giorni (le truffe sono molto più rare)
+    eta = {"nuove": {"eta_max_ore": 6}, "sopravvissute": {"eta_min_ore": 24, "eta_max_ore": 168}}
+    griglia = itertools.product(eta, [5000, 15000, 40000], [1000, 5000, 25000], ["severo", "senza LP"], [8, 20], [2, 5, 10, 25, 60])
+    for chi, liq, vol, truffe, stop, minuti in griglia:
+        modifiche = {"universo": {"liquidita_min_usd": liq, "volume_5min_min_usd": vol, "holder_min": 150, **eta[chi]},
                      "uscite": {"stop_pct": stop, "tempo_max_minuti": minuti}}
         if truffe == "senza LP":
             modifiche["controllo_truffe"] = {"lp_bloccata_min_pct": 0, "no_rischi_gravi": False}
-        nome = f"liq ≥{liq // 1000}k · vol5m ≥{vol // 1000}k · truffe {truffe} · stop -{stop}% · max {minuti} min"
+        nome = f"{chi} · liq ≥{liq // 1000}k · vol5m ≥{vol // 1000}k · truffe {truffe} · stop -{stop}% · max {minuti} min"
         elenco.append((nome, unisci(base, modifiche)))
     return elenco
 
@@ -388,7 +390,7 @@ def promosse(file: Path | None = None) -> list[str]:
 
 def rapporto(risultati: list[dict], n_foto: int, n_token: int, n_candele: int, seguite: bool) -> str:
     adesso = datetime.now(timezone.utc)
-    n_fissi = sum(1 for r in risultati if not r["nome"].startswith("liq "))
+    n_fissi = sum(1 for r in risultati if not r["nome"].startswith(("nuove ", "sopravvissute ")))
     fissi = risultati[:n_fissi]
     promosse = sorted([r for r in risultati if r.get("promossa")], key=lambda r: -r["ritorno_medio_pct"])
     affidabili = sorted([r for r in risultati[n_fissi:] if r["n"] >= 20], key=lambda r: -r["ritorno_medio_pct"])

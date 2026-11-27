@@ -23,6 +23,8 @@ def universo(coppia: dict, regole: dict, adesso_ms: int) -> tuple[bool, str]:
         return False, f"DEX non previsto ({coppia.get('dexId')})"
     if eta_ore > u["eta_max_ore"]:
         return False, f"coppia troppo vecchia ({eta_ore:.0f} ore)"
+    if eta_ore < u.get("eta_min_ore", 0):
+        return False, f"coppia troppo giovane ({eta_ore:.0f} ore, minimo {u['eta_min_ore']})"
     if prezzo(coppia) is None:
         return False, "nessun prezzo disponibile"
     if liquidita(coppia) < u["liquidita_min_usd"]:
