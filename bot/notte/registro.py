@@ -23,6 +23,7 @@ LIQUIDITA_MIN = 5_000          # più bassa di ogni strategia, così il Laborato
 ETA_MAX_ORE = 7 * 24          # dal 27/11 anche le monete "sopravvissute", fino a 7 giorni...
 ETA_NUOVE_ORE = 6
 LIQUIDITA_MIN_VECCHIE = 30_000  # ...ma oltre le 6 ore solo quelle con ancora almeno 30k $ di liquidità
+MINUTI_TRA_FOTO_VECCHIE = 60    # le sopravvissute si rifotografano ogni ora, senza limite: ogni foto è un'occasione nuova
 FOTO_PER_TOKEN = 3             # la stessa moneta viene rifotografata fino a 3 volte...
 MINUTI_TRA_FOTO = 5            # ...a distanza di almeno 5 minuti (serve per la crescita degli holder)
 RUGCHECK_PER_GIRO = 25         # RugCheck è lento: al massimo 25 controlli per giro, prima i più scambiati
@@ -125,9 +126,11 @@ class Registratore:
         for token, c in coppie.items():
             eta_ore = (adesso_ms - (c.get("pairCreatedAt") or 0)) / 3_600_000
             fatte = self.foto.get(token, [])
+            vecchia = eta_ore > ETA_NUOVE_ORE
             if (prezzo(c) is None or liquidita(c) < LIQUIDITA_MIN or eta_ore > ETA_MAX_ORE
-                    or (eta_ore > ETA_NUOVE_ORE and liquidita(c) < LIQUIDITA_MIN_VECCHIE)
-                    or len(fatte) >= FOTO_PER_TOKEN or (fatte and adesso_ms - fatte[-1] < MINUTI_TRA_FOTO * 60_000)):
+                    or (vecchia and liquidita(c) < LIQUIDITA_MIN_VECCHIE)
+                    or (not vecchia and len(fatte) >= FOTO_PER_TOKEN)
+                    or (fatte and adesso_ms - fatte[-1] < (MINUTI_TRA_FOTO_VECCHIE if vecchia else MINUTI_TRA_FOTO) * 60_000)):
                 continue
             candidati.append((float((c.get("volume") or {}).get("m5") or 0), token, c))
         scritte = 0
@@ -140,7 +143,7 @@ class Registratore:
                     "coppia": coppia_ridotta(c), "rugcheck": rapporto}
             self._scrivi(foto)
             self.foto.setdefault(token, []).append(adesso_ms)
-            self.seguiti.setdefault(token, (adesso_ms, liquidita(c)))
+            self.seguiti[token] = (adesso_ms, liquidita(c))  # seguita per 2,5 ore dopo OGNI foto
             scritte += 1
         return scritte
 

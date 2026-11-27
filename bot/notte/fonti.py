@@ -13,7 +13,8 @@ BINANCE = "https://data-api.binance.vision/api/v3"
 GECKOTERMINAL = "https://api.geckoterminal.com/api/v2/networks/solana"
 # GeckoTerminal: pool appena creati e pool di tendenza (gratis, circa 30 richieste al minuto).
 ELENCHI_POOL = ("/new_pools?page=1", "/new_pools?page=2", "/trending_pools?duration=5m", "/trending_pools?duration=1h",
-                "/trending_pools?duration=6h", "/trending_pools?duration=24h")  # le ultime due: monete già sopravvissute
+                "/trending_pools?duration=6h", "/trending_pools?duration=24h",   # monete già sopravvissute...
+                "/pools?page=1&sort=h24_volume_usd_desc", "/pools?page=2&sort=h24_volume_usd_desc")  # ...e le più scambiate
 
 # DexScreener non ha un elenco ufficiale di "tutte le coppie nuove": usiamo i token che
 # hanno appena creato un profilo, comprato visibilità o avuto un cambio di comunità.
