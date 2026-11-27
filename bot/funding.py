@@ -11,11 +11,12 @@ tra moneta e contratto ignorata.
 
 Promossa = rende più del 3% l'anno sia nella prima sia nella seconda metà degli anni.
 
-Uso: python -m bot.funding   (serve fapi.binance.com: gira su GitHub)
+Uso: python -m bot.funding   (serve data.binance.vision: gira su GitHub)
 Scrive: risultati/funding.md e risultati/funding.json
 """
+import io
 import json
-import time
+import zipfile
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -23,7 +24,7 @@ import requests
 
 from bot.regole import RADICE
 
-FONTE = "https://fapi.binance.com/fapi/v1/fundingRate"
+FONTE = "https://data.binance.vision/data/futures/um/monthly/fundingRate"  # archivio pubblico, un file per mese
 MONETE = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "DOGEUSDT"]
 ESPOSIZIONE = 0.5                 # quota del capitale coperta (l'altra metà è la garanzia del contratto)
 COSTO_GIRO = (0.15 + 0.10) / 100  # entrare (o uscire) costa questo, sulla parte esposta
@@ -33,21 +34,24 @@ ANNUO_MINIMO_PCT = 3.0
 
 
 def scarica(simbolo: str) -> pd.DataFrame:
-    righe, inizio = [], 0
-    while True:
-        r = requests.get(FONTE, params={"symbol": simbolo, "startTime": inizio, "limit": 1000}, timeout=30)
-        r.raise_for_status()
-        blocco = r.json()
-        if not blocco:
-            break
-        righe += blocco
-        inizio = blocco[-1]["fundingTime"] + 1
-        if len(blocco) < 1000:
-            break
-        time.sleep(0.3)
-    d = pd.DataFrame({"quando": pd.to_datetime([x["fundingTime"] for x in righe], unit="ms", utc=True),
-                      "tasso": [float(x["fundingRate"]) for x in righe]})
-    return d.drop_duplicates("quando").reset_index(drop=True)
+    """Funding storico dall'archivio pubblico di Binance (le API dei futures bloccano i server negli USA)."""
+    righe = []
+    mese = pd.Timestamp("2019-09-01")
+    ultimo = pd.Timestamp.now(tz="UTC").tz_localize(None).replace(day=1) - pd.DateOffset(months=1)
+    while mese <= ultimo:
+        nome = f"{simbolo}-fundingRate-{mese:%Y-%m}"
+        r = requests.get(f"{FONTE}/{simbolo}/{nome}.zip", timeout=30)
+        if r.status_code == 200:
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                tabella = pd.read_csv(z.open(z.namelist()[0]))
+            tempo = next(c for c in tabella.columns if "time" in c)
+            tasso = next(c for c in tabella.columns if "rate" in c)
+            righe.append(pd.DataFrame({"quando": pd.to_datetime(tabella[tempo], unit="ms", utc=True),
+                                       "tasso": tabella[tasso].astype(float)}))
+        mese += pd.DateOffset(months=1)
+    if not righe:
+        raise RuntimeError(f"nessun dato di funding per {simbolo}")
+    return pd.concat(righe).drop_duplicates("quando").sort_values("quando").reset_index(drop=True)
 
 
 def simula(f: pd.DataFrame, sempre: bool) -> pd.Series:
