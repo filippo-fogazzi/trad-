@@ -90,7 +90,7 @@ def valuta(simbolo: str, f: pd.DataFrame) -> list[dict]:
         for parte, pezzo in {"prima": f.iloc[:meta], "seconda": f.iloc[meta:]}.items():
             pezzo = pezzo.reset_index(drop=True)
             riga[f"{parte}_annuo_pct"] = misura(simula(pezzo, sempre), pezzo["quando"])["annuo_pct"]
-        riga["promossa"] = riga["prima_annuo_pct"] > ANNUO_MINIMO_PCT and riga["seconda_annuo_pct"] > ANNUO_MINIMO_PCT
+        riga["promossa"] = bool(riga["prima_annuo_pct"] > ANNUO_MINIMO_PCT and riga["seconda_annuo_pct"] > ANNUO_MINIMO_PCT)
         righe.append(riga)
     return righe
 
@@ -117,7 +117,7 @@ def main() -> None:
     for simbolo in MONETE:
         righe += valuta(simbolo, scarica(simbolo))
     cartella = RADICE / "risultati"
-    (cartella / "funding.json").write_text(json.dumps(righe, ensure_ascii=False, indent=1), encoding="utf-8")
+    (cartella / "funding.json").write_text(json.dumps(righe, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     (cartella / "funding.md").write_text(rapporto(righe), encoding="utf-8")
     print(f"{sum(r['promossa'] for r in righe)} promosse su {len(righe)} · risultati/funding.md")
 
